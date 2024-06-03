@@ -6,6 +6,7 @@ DSA solutions
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/paulranjan694/dsa/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 # Two Pointers
 |  |
 | ------- |
@@ -14,3 +15,16 @@ DSA solutions
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/paulranjan694/dsa/tree/master/0075-sort-colors) |
+| [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
+# Hash Table
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
+# Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
+# Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
