@@ -17,6 +17,7 @@ DSA solutions
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/paulranjan694/dsa/tree/master/0075-sort-colors) |
+| [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
 # Sorting
 |  |
 | ------- |
@@ -64,4 +65,5 @@ DSA solutions
 # String
 |  |
 | ------- |
+| [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
