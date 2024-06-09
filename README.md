@@ -10,6 +10,7 @@ DSA solutions
 | [0053-maximum-subarray](https://github.com/paulranjan694/dsa/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/paulranjan694/dsa/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/paulranjan694/dsa/tree/master/0075-sort-colors) |
+| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/paulranjan694/dsa/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/paulranjan694/dsa/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/paulranjan694/dsa/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
@@ -19,6 +20,7 @@ DSA solutions
 | ------- |
 | [0011-container-with-most-water](https://github.com/paulranjan694/dsa/tree/master/0011-container-with-most-water) |
 | [0075-sort-colors](https://github.com/paulranjan694/dsa/tree/master/0075-sort-colors) |
+| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/paulranjan694/dsa/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
 # Sorting
 |  |
