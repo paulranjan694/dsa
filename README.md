@@ -6,6 +6,7 @@ DSA solutions
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/paulranjan694/dsa/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/paulranjan694/dsa/tree/master/0015-3sum) |
 | [0048-rotate-image](https://github.com/paulranjan694/dsa/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/paulranjan694/dsa/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/paulranjan694/dsa/tree/master/0073-set-matrix-zeroes) |
@@ -19,12 +20,14 @@ DSA solutions
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/paulranjan694/dsa/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/paulranjan694/dsa/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/paulranjan694/dsa/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/paulranjan694/dsa/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
 # Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/paulranjan694/dsa/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/paulranjan694/dsa/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
