@@ -17,6 +17,7 @@ DSA solutions
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/paulranjan694/dsa/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0792-binary-search](https://github.com/paulranjan694/dsa/tree/master/0792-binary-search) |
+| [1019-squares-of-a-sorted-array](https://github.com/paulranjan694/dsa/tree/master/1019-squares-of-a-sorted-array) |
 # Two Pointers
 |  |
 | ------- |
@@ -26,6 +27,7 @@ DSA solutions
 | [0075-sort-colors](https://github.com/paulranjan694/dsa/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/paulranjan694/dsa/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
+| [1019-squares-of-a-sorted-array](https://github.com/paulranjan694/dsa/tree/master/1019-squares-of-a-sorted-array) |
 # Sorting
 |  |
 | ------- |
@@ -34,6 +36,7 @@ DSA solutions
 | [0075-sort-colors](https://github.com/paulranjan694/dsa/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
+| [1019-squares-of-a-sorted-array](https://github.com/paulranjan694/dsa/tree/master/1019-squares-of-a-sorted-array) |
 # Hash Table
 |  |
 | ------- |
