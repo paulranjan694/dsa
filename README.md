@@ -16,6 +16,7 @@ DSA solutions
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/paulranjan694/dsa/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/paulranjan694/dsa/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
+| [0525-contiguous-array](https://github.com/paulranjan694/dsa/tree/master/0525-contiguous-array) |
 | [0792-binary-search](https://github.com/paulranjan694/dsa/tree/master/0792-binary-search) |
 | [1019-squares-of-a-sorted-array](https://github.com/paulranjan694/dsa/tree/master/1019-squares-of-a-sorted-array) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/paulranjan694/dsa/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
@@ -44,6 +45,7 @@ DSA solutions
 | [0073-set-matrix-zeroes](https://github.com/paulranjan694/dsa/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
+| [0525-contiguous-array](https://github.com/paulranjan694/dsa/tree/master/0525-contiguous-array) |
 # Divide and Conquer
 |  |
 | ------- |
@@ -82,3 +84,7 @@ DSA solutions
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
+# Prefix Sum
+|  |
+| ------- |
+| [0525-contiguous-array](https://github.com/paulranjan694/dsa/tree/master/0525-contiguous-array) |
