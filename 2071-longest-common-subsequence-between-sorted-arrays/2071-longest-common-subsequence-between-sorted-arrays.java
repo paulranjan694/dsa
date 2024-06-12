@@ -1,20 +1,20 @@
 class Solution {
     public List<Integer> longestCommonSubsequence(int[][] arrays) {
-        Map<Integer,Integer> hm = new HashMap<>();
-        List<Integer> res = new ArrayList<>();
+        int[] arr = new int[101];
         int n = arrays.length;
         for(int i=0;i<n;i++){
             for(int j=0;j<arrays[i].length;j++){
-                int f = hm.getOrDefault(arrays[i][j],0);
-                hm.put(arrays[i][j],f+1);
+                arr[arrays[i][j]]++;
             }
         }
 
-        for(Integer k : hm.keySet()){
-            if(hm.get(k) == n)
-                res.add(k);
+        List<Integer> ans=new ArrayList<>();
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]==n) ans.add(i);
         }
-        Collections.sort(res);
-        return res;
+
+        return ans;
+
+
     }
 }
