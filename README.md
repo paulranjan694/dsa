@@ -20,6 +20,7 @@ DSA solutions
 | [0792-binary-search](https://github.com/paulranjan694/dsa/tree/master/0792-binary-search) |
 | [1019-squares-of-a-sorted-array](https://github.com/paulranjan694/dsa/tree/master/1019-squares-of-a-sorted-array) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/paulranjan694/dsa/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
+| [2071-longest-common-subsequence-between-sorted-arrays](https://github.com/paulranjan694/dsa/tree/master/2071-longest-common-subsequence-between-sorted-arrays) |
 | [2714-left-and-right-sum-differences](https://github.com/paulranjan694/dsa/tree/master/2714-left-and-right-sum-differences) |
 # Two Pointers
 |  |
@@ -47,6 +48,7 @@ DSA solutions
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
 | [0525-contiguous-array](https://github.com/paulranjan694/dsa/tree/master/0525-contiguous-array) |
+| [2071-longest-common-subsequence-between-sorted-arrays](https://github.com/paulranjan694/dsa/tree/master/2071-longest-common-subsequence-between-sorted-arrays) |
 # Divide and Conquer
 |  |
 | ------- |
@@ -56,6 +58,7 @@ DSA solutions
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
+| [2071-longest-common-subsequence-between-sorted-arrays](https://github.com/paulranjan694/dsa/tree/master/2071-longest-common-subsequence-between-sorted-arrays) |
 # Binary Search
 |  |
 | ------- |
