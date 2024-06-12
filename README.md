@@ -49,6 +49,7 @@ DSA solutions
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
 | [0525-contiguous-array](https://github.com/paulranjan694/dsa/tree/master/0525-contiguous-array) |
 | [2071-longest-common-subsequence-between-sorted-arrays](https://github.com/paulranjan694/dsa/tree/master/2071-longest-common-subsequence-between-sorted-arrays) |
+| [2225-substrings-that-begin-and-end-with-the-same-letter](https://github.com/paulranjan694/dsa/tree/master/2225-substrings-that-begin-and-end-with-the-same-letter) |
 # Divide and Conquer
 |  |
 | ------- |
@@ -59,6 +60,7 @@ DSA solutions
 | ------- |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [2071-longest-common-subsequence-between-sorted-arrays](https://github.com/paulranjan694/dsa/tree/master/2071-longest-common-subsequence-between-sorted-arrays) |
+| [2225-substrings-that-begin-and-end-with-the-same-letter](https://github.com/paulranjan694/dsa/tree/master/2225-substrings-that-begin-and-end-with-the-same-letter) |
 # Binary Search
 |  |
 | ------- |
@@ -83,13 +85,16 @@ DSA solutions
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/paulranjan694/dsa/tree/master/0048-rotate-image) |
+| [2225-substrings-that-begin-and-end-with-the-same-letter](https://github.com/paulranjan694/dsa/tree/master/2225-substrings-that-begin-and-end-with-the-same-letter) |
 # String
 |  |
 | ------- |
 | [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
+| [2225-substrings-that-begin-and-end-with-the-same-letter](https://github.com/paulranjan694/dsa/tree/master/2225-substrings-that-begin-and-end-with-the-same-letter) |
 # Prefix Sum
 |  |
 | ------- |
 | [0525-contiguous-array](https://github.com/paulranjan694/dsa/tree/master/0525-contiguous-array) |
+| [2225-substrings-that-begin-and-end-with-the-same-letter](https://github.com/paulranjan694/dsa/tree/master/2225-substrings-that-begin-and-end-with-the-same-letter) |
 | [2714-left-and-right-sum-differences](https://github.com/paulranjan694/dsa/tree/master/2714-left-and-right-sum-differences) |
