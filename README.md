@@ -46,6 +46,7 @@ DSA solutions
 # Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/paulranjan694/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0073-set-matrix-zeroes](https://github.com/paulranjan694/dsa/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
@@ -92,6 +93,7 @@ DSA solutions
 # String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/paulranjan694/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
 | [2225-substrings-that-begin-and-end-with-the-same-letter](https://github.com/paulranjan694/dsa/tree/master/2225-substrings-that-begin-and-end-with-the-same-letter) |
@@ -101,3 +103,7 @@ DSA solutions
 | [0525-contiguous-array](https://github.com/paulranjan694/dsa/tree/master/0525-contiguous-array) |
 | [2225-substrings-that-begin-and-end-with-the-same-letter](https://github.com/paulranjan694/dsa/tree/master/2225-substrings-that-begin-and-end-with-the-same-letter) |
 | [2714-left-and-right-sum-differences](https://github.com/paulranjan694/dsa/tree/master/2714-left-and-right-sum-differences) |
+# Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/paulranjan694/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
