@@ -17,6 +17,7 @@ DSA solutions
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/paulranjan694/dsa/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0525-contiguous-array](https://github.com/paulranjan694/dsa/tree/master/0525-contiguous-array) |
+| [0713-subarray-product-less-than-k](https://github.com/paulranjan694/dsa/tree/master/0713-subarray-product-less-than-k) |
 | [0792-binary-search](https://github.com/paulranjan694/dsa/tree/master/0792-binary-search) |
 | [1019-squares-of-a-sorted-array](https://github.com/paulranjan694/dsa/tree/master/1019-squares-of-a-sorted-array) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/paulranjan694/dsa/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
@@ -107,3 +108,4 @@ DSA solutions
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/paulranjan694/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0713-subarray-product-less-than-k](https://github.com/paulranjan694/dsa/tree/master/0713-subarray-product-less-than-k) |
