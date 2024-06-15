@@ -24,6 +24,7 @@ DSA solutions
 | [2071-longest-common-subsequence-between-sorted-arrays](https://github.com/paulranjan694/dsa/tree/master/2071-longest-common-subsequence-between-sorted-arrays) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/paulranjan694/dsa/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2714-left-and-right-sum-differences](https://github.com/paulranjan694/dsa/tree/master/2714-left-and-right-sum-differences) |
+| [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/paulranjan694/dsa/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 # Two Pointers
 |  |
 | ------- |
@@ -109,3 +110,4 @@ DSA solutions
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/paulranjan694/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0713-subarray-product-less-than-k](https://github.com/paulranjan694/dsa/tree/master/0713-subarray-product-less-than-k) |
+| [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/paulranjan694/dsa/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
