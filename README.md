@@ -16,6 +16,7 @@ DSA solutions
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/paulranjan694/dsa/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/paulranjan694/dsa/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
+| [0238-product-of-array-except-self](https://github.com/paulranjan694/dsa/tree/master/0238-product-of-array-except-self) |
 | [0525-contiguous-array](https://github.com/paulranjan694/dsa/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/paulranjan694/dsa/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/paulranjan694/dsa/tree/master/0713-subarray-product-less-than-k) |
@@ -104,6 +105,7 @@ DSA solutions
 # Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/paulranjan694/dsa/tree/master/0238-product-of-array-except-self) |
 | [0525-contiguous-array](https://github.com/paulranjan694/dsa/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/paulranjan694/dsa/tree/master/0560-subarray-sum-equals-k) |
 | [2225-substrings-that-begin-and-end-with-the-same-letter](https://github.com/paulranjan694/dsa/tree/master/2225-substrings-that-begin-and-end-with-the-same-letter) |
