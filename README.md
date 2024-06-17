@@ -36,6 +36,7 @@ DSA solutions
 | [0018-4sum](https://github.com/paulranjan694/dsa/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/paulranjan694/dsa/tree/master/0075-sort-colors) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/paulranjan694/dsa/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0125-valid-palindrome](https://github.com/paulranjan694/dsa/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0392-is-subsequence](https://github.com/paulranjan694/dsa/tree/master/0392-is-subsequence) |
 | [1019-squares-of-a-sorted-array](https://github.com/paulranjan694/dsa/tree/master/1019-squares-of-a-sorted-array) |
@@ -103,6 +104,7 @@ DSA solutions
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/paulranjan694/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0058-length-of-last-word](https://github.com/paulranjan694/dsa/tree/master/0058-length-of-last-word) |
+| [0125-valid-palindrome](https://github.com/paulranjan694/dsa/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/paulranjan694/dsa/tree/master/0392-is-subsequence) |
