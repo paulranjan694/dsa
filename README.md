@@ -23,6 +23,7 @@ DSA solutions
 | [0792-binary-search](https://github.com/paulranjan694/dsa/tree/master/0792-binary-search) |
 | [1019-squares-of-a-sorted-array](https://github.com/paulranjan694/dsa/tree/master/1019-squares-of-a-sorted-array) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/paulranjan694/dsa/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/paulranjan694/dsa/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2058-concatenation-of-array](https://github.com/paulranjan694/dsa/tree/master/2058-concatenation-of-array) |
 | [2071-longest-common-subsequence-between-sorted-arrays](https://github.com/paulranjan694/dsa/tree/master/2071-longest-common-subsequence-between-sorted-arrays) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/paulranjan694/dsa/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
@@ -41,6 +42,7 @@ DSA solutions
 | [0392-is-subsequence](https://github.com/paulranjan694/dsa/tree/master/0392-is-subsequence) |
 | [0680-valid-palindrome-ii](https://github.com/paulranjan694/dsa/tree/master/0680-valid-palindrome-ii) |
 | [1019-squares-of-a-sorted-array](https://github.com/paulranjan694/dsa/tree/master/1019-squares-of-a-sorted-array) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/paulranjan694/dsa/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 # Sorting
 |  |
 | ------- |
@@ -50,6 +52,7 @@ DSA solutions
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
 | [1019-squares-of-a-sorted-array](https://github.com/paulranjan694/dsa/tree/master/1019-squares-of-a-sorted-array) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/paulranjan694/dsa/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/paulranjan694/dsa/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Hash Table
 |  |
@@ -77,6 +80,7 @@ DSA solutions
 |  |
 | ------- |
 | [0792-binary-search](https://github.com/paulranjan694/dsa/tree/master/0792-binary-search) |
+| [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/paulranjan694/dsa/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 # Dynamic Programming
 |  |
 | ------- |
