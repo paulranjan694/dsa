@@ -39,6 +39,7 @@ DSA solutions
 | [0125-valid-palindrome](https://github.com/paulranjan694/dsa/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0392-is-subsequence](https://github.com/paulranjan694/dsa/tree/master/0392-is-subsequence) |
+| [0680-valid-palindrome-ii](https://github.com/paulranjan694/dsa/tree/master/0680-valid-palindrome-ii) |
 | [1019-squares-of-a-sorted-array](https://github.com/paulranjan694/dsa/tree/master/1019-squares-of-a-sorted-array) |
 # Sorting
 |  |
@@ -88,6 +89,7 @@ DSA solutions
 | ------- |
 | [0011-container-with-most-water](https://github.com/paulranjan694/dsa/tree/master/0011-container-with-most-water) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/paulranjan694/dsa/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0680-valid-palindrome-ii](https://github.com/paulranjan694/dsa/tree/master/0680-valid-palindrome-ii) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/paulranjan694/dsa/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Matrix
 |  |
@@ -108,6 +110,7 @@ DSA solutions
 | [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/paulranjan694/dsa/tree/master/0392-is-subsequence) |
+| [0680-valid-palindrome-ii](https://github.com/paulranjan694/dsa/tree/master/0680-valid-palindrome-ii) |
 | [2225-substrings-that-begin-and-end-with-the-same-letter](https://github.com/paulranjan694/dsa/tree/master/2225-substrings-that-begin-and-end-with-the-same-letter) |
 # Prefix Sum
 |  |
