@@ -4,10 +4,10 @@ class Solution {
         int ans=0,l=0,r=n-1;
         Arrays.sort(people);
         while(l<=r){
-            if(people[l] + people[r] > limit){
-                r--;
-            }else if(people[l] + people[r] <= limit){
+            if(people[l] + people[r] <= limit){
                 l++;r--;
+            }else{
+                r--;
             }
             ans++;
         }
