@@ -102,6 +102,7 @@ DSA solutions
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/paulranjan694/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0058-length-of-last-word](https://github.com/paulranjan694/dsa/tree/master/0058-length-of-last-word) |
 | [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/paulranjan694/dsa/tree/master/0392-is-subsequence) |
