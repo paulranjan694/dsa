@@ -5,9 +5,10 @@ class Solution {
         Arrays.sort(people);
         while(l<=r){
             if(people[l] + people[r] <= limit){
-                l++;
+                l++;r--;
+            }else{
+                r--;
             }
-            r--;
             ans++;
         }
         return ans;
