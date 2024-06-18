@@ -3,15 +3,14 @@ class Solution {
         Arrays.sort(g);
         Arrays.sort(s);
 
-        int i=0,j=0,ans=0;
+        int idx=0;
 
-        while(i<g.length && j<s.length){
-            if(g[i]<=s[j]){
-                ans++;
-                i++;
+        for(int i=0;i<s.length;i++){
+            if(idx < g.length && g[idx]<=s[i]){
+                idx++;
             }
-            j++;
         }
-        return ans;
+
+        return idx;
     }
 }
