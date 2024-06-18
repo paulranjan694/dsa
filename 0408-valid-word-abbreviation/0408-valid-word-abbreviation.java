@@ -3,11 +3,12 @@ class Solution {
         int i=0,j=0,m=w.length(),n=a.length();
         
         while(i<m && j<n){
-            String s="";
+            int num=0;
             int temp=j;
+
             while(temp<n && isNum(a.charAt(temp))){
-                if(s.equals("") && a.charAt(temp)=='0') return false;
-                s+=a.charAt(temp);
+                if(num==0 && a.charAt(temp)=='0') return false;
+                num=num*10+a.charAt(temp)-'0';
                 temp++;
             }
 
@@ -15,9 +16,8 @@ class Solution {
                 j+=temp-j;
             }
 
-            if(!s.equals("")){
-                i += Integer.parseInt(s);
-            }
+           i+=num;
+           num=0;
 
             if(i<m && j<n){
                 if(w.charAt(i)!=a.charAt(j)){
