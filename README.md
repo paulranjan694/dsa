@@ -43,6 +43,7 @@ DSA solutions
 | [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0283-move-zeroes](https://github.com/paulranjan694/dsa/tree/master/0283-move-zeroes) |
 | [0392-is-subsequence](https://github.com/paulranjan694/dsa/tree/master/0392-is-subsequence) |
+| [0408-valid-word-abbreviation](https://github.com/paulranjan694/dsa/tree/master/0408-valid-word-abbreviation) |
 | [0680-valid-palindrome-ii](https://github.com/paulranjan694/dsa/tree/master/0680-valid-palindrome-ii) |
 | [0917-boats-to-save-people](https://github.com/paulranjan694/dsa/tree/master/0917-boats-to-save-people) |
 | [1019-squares-of-a-sorted-array](https://github.com/paulranjan694/dsa/tree/master/1019-squares-of-a-sorted-array) |
@@ -120,6 +121,7 @@ DSA solutions
 | [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/paulranjan694/dsa/tree/master/0392-is-subsequence) |
+| [0408-valid-word-abbreviation](https://github.com/paulranjan694/dsa/tree/master/0408-valid-word-abbreviation) |
 | [0680-valid-palindrome-ii](https://github.com/paulranjan694/dsa/tree/master/0680-valid-palindrome-ii) |
 | [2225-substrings-that-begin-and-end-with-the-same-letter](https://github.com/paulranjan694/dsa/tree/master/2225-substrings-that-begin-and-end-with-the-same-letter) |
 # Prefix Sum
