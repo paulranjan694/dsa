@@ -17,6 +17,7 @@ DSA solutions
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/paulranjan694/dsa/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0238-product-of-array-except-self](https://github.com/paulranjan694/dsa/tree/master/0238-product-of-array-except-self) |
+| [0252-meeting-rooms](https://github.com/paulranjan694/dsa/tree/master/0252-meeting-rooms) |
 | [0283-move-zeroes](https://github.com/paulranjan694/dsa/tree/master/0283-move-zeroes) |
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
 | [0525-contiguous-array](https://github.com/paulranjan694/dsa/tree/master/0525-contiguous-array) |
@@ -59,6 +60,7 @@ DSA solutions
 | [0075-sort-colors](https://github.com/paulranjan694/dsa/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
+| [0252-meeting-rooms](https://github.com/paulranjan694/dsa/tree/master/0252-meeting-rooms) |
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
 | [0917-boats-to-save-people](https://github.com/paulranjan694/dsa/tree/master/0917-boats-to-save-people) |
 | [1019-squares-of-a-sorted-array](https://github.com/paulranjan694/dsa/tree/master/1019-squares-of-a-sorted-array) |
