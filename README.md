@@ -18,6 +18,7 @@ DSA solutions
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0238-product-of-array-except-self](https://github.com/paulranjan694/dsa/tree/master/0238-product-of-array-except-self) |
 | [0252-meeting-rooms](https://github.com/paulranjan694/dsa/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0283-move-zeroes](https://github.com/paulranjan694/dsa/tree/master/0283-move-zeroes) |
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
 | [0525-contiguous-array](https://github.com/paulranjan694/dsa/tree/master/0525-contiguous-array) |
@@ -43,6 +44,7 @@ DSA solutions
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/paulranjan694/dsa/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0125-valid-palindrome](https://github.com/paulranjan694/dsa/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
+| [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0283-move-zeroes](https://github.com/paulranjan694/dsa/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/paulranjan694/dsa/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/paulranjan694/dsa/tree/master/0392-is-subsequence) |
@@ -61,6 +63,7 @@ DSA solutions
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
 | [0252-meeting-rooms](https://github.com/paulranjan694/dsa/tree/master/0252-meeting-rooms) |
+| [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
 | [0917-boats-to-save-people](https://github.com/paulranjan694/dsa/tree/master/0917-boats-to-save-people) |
 | [1019-squares-of-a-sorted-array](https://github.com/paulranjan694/dsa/tree/master/1019-squares-of-a-sorted-array) |
@@ -105,6 +108,7 @@ DSA solutions
 | ------- |
 | [0011-container-with-most-water](https://github.com/paulranjan694/dsa/tree/master/0011-container-with-most-water) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/paulranjan694/dsa/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
 | [0680-valid-palindrome-ii](https://github.com/paulranjan694/dsa/tree/master/0680-valid-palindrome-ii) |
 | [0917-boats-to-save-people](https://github.com/paulranjan694/dsa/tree/master/0917-boats-to-save-people) |
@@ -136,6 +140,7 @@ DSA solutions
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/paulranjan694/dsa/tree/master/0238-product-of-array-except-self) |
+| [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0525-contiguous-array](https://github.com/paulranjan694/dsa/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/paulranjan694/dsa/tree/master/0560-subarray-sum-equals-k) |
 | [2225-substrings-that-begin-and-end-with-the-same-letter](https://github.com/paulranjan694/dsa/tree/master/2225-substrings-that-begin-and-end-with-the-same-letter) |
@@ -150,3 +155,7 @@ DSA solutions
 |  |
 | ------- |
 | [2058-concatenation-of-array](https://github.com/paulranjan694/dsa/tree/master/2058-concatenation-of-array) |
+# Heap (Priority Queue)
+|  |
+| ------- |
+| [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
