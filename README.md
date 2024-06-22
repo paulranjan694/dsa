@@ -41,6 +41,7 @@ DSA solutions
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/paulranjan694/dsa/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2714-left-and-right-sum-differences](https://github.com/paulranjan694/dsa/tree/master/2714-left-and-right-sum-differences) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/paulranjan694/dsa/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
+| [3221-find-the-peaks](https://github.com/paulranjan694/dsa/tree/master/3221-find-the-peaks) |
 # Two Pointers
 |  |
 | ------- |
@@ -176,3 +177,7 @@ DSA solutions
 |  |
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
+# Enumeration
+|  |
+| ------- |
+| [3221-find-the-peaks](https://github.com/paulranjan694/dsa/tree/master/3221-find-the-peaks) |
