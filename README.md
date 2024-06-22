@@ -8,6 +8,7 @@ DSA solutions
 | [0011-container-with-most-water](https://github.com/paulranjan694/dsa/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/paulranjan694/dsa/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/paulranjan694/dsa/tree/master/0018-4sum) |
+| [0033-search-in-rotated-sorted-array](https://github.com/paulranjan694/dsa/tree/master/0033-search-in-rotated-sorted-array) |
 | [0048-rotate-image](https://github.com/paulranjan694/dsa/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/paulranjan694/dsa/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/paulranjan694/dsa/tree/master/0056-merge-intervals) |
@@ -96,6 +97,7 @@ DSA solutions
 # Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/paulranjan694/dsa/tree/master/0033-search-in-rotated-sorted-array) |
 | [0792-binary-search](https://github.com/paulranjan694/dsa/tree/master/0792-binary-search) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/paulranjan694/dsa/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 # Dynamic Programming
