@@ -22,6 +22,7 @@ DSA solutions
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/paulranjan694/dsa/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0238-product-of-array-except-self](https://github.com/paulranjan694/dsa/tree/master/0238-product-of-array-except-self) |
+| [0240-search-a-2d-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0240-search-a-2d-matrix-ii) |
 | [0252-meeting-rooms](https://github.com/paulranjan694/dsa/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0283-move-zeroes](https://github.com/paulranjan694/dsa/tree/master/0283-move-zeroes) |
@@ -91,6 +92,7 @@ DSA solutions
 | ------- |
 | [0053-maximum-subarray](https://github.com/paulranjan694/dsa/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
+| [0240-search-a-2d-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0240-search-a-2d-matrix-ii) |
 # Counting
 |  |
 | ------- |
@@ -104,6 +106,7 @@ DSA solutions
 | [0074-search-a-2d-matrix](https://github.com/paulranjan694/dsa/tree/master/0074-search-a-2d-matrix) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/paulranjan694/dsa/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/paulranjan694/dsa/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0240-search-a-2d-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0240-search-a-2d-matrix-ii) |
 | [0792-binary-search](https://github.com/paulranjan694/dsa/tree/master/0792-binary-search) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/paulranjan694/dsa/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 # Dynamic Programming
@@ -129,6 +132,7 @@ DSA solutions
 | [0048-rotate-image](https://github.com/paulranjan694/dsa/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/paulranjan694/dsa/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/paulranjan694/dsa/tree/master/0074-search-a-2d-matrix) |
+| [0240-search-a-2d-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0240-search-a-2d-matrix-ii) |
 # Math
 |  |
 | ------- |
