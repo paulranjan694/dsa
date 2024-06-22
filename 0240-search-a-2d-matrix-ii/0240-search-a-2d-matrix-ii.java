@@ -7,12 +7,12 @@ class Solution {
             if(target == matrix[i][j]){
                 return true;
             }else if(ans == false && target > matrix[i][j]){
-                ans = ans || bsearch(matrix[i], j+1,m-1,target);
+                //ans = ans || bsearch(matrix[i], j+1,m-1,target);
                 j++;
-            }
+            }else
             i--;
         }
-        return ans;
+        return false;
     }
 
     public boolean bsearch(int[] arr,int s,int e,int k){
