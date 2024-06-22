@@ -8,6 +8,7 @@ class Solution {
                 return true;
             }else if(ans == false && target > matrix[i][j]){
                 ans = ans || bsearch(matrix[i], j+1,m-1,target);
+                j++;
             }
             i--;
         }
