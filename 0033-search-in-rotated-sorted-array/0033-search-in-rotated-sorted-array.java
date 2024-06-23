@@ -12,7 +12,7 @@ class Solution {
                     s=mid+1;
                 }
             }else{//right array sorted
-                if(nums[mid] <= target && target >= nums[e]){
+                if(nums[mid] <= target && target <= nums[e]){
                     s=mid+1;
                 }else{
                     e=mid-1;
