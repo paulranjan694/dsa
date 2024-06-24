@@ -33,6 +33,7 @@ DSA solutions
 | [0560-subarray-sum-equals-k](https://github.com/paulranjan694/dsa/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/paulranjan694/dsa/tree/master/0713-subarray-product-less-than-k) |
 | [0792-binary-search](https://github.com/paulranjan694/dsa/tree/master/0792-binary-search) |
+| [0907-koko-eating-bananas](https://github.com/paulranjan694/dsa/tree/master/0907-koko-eating-bananas) |
 | [0917-boats-to-save-people](https://github.com/paulranjan694/dsa/tree/master/0917-boats-to-save-people) |
 | [1019-squares-of-a-sorted-array](https://github.com/paulranjan694/dsa/tree/master/1019-squares-of-a-sorted-array) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/paulranjan694/dsa/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
@@ -113,6 +114,7 @@ DSA solutions
 | [0162-find-peak-element](https://github.com/paulranjan694/dsa/tree/master/0162-find-peak-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0240-search-a-2d-matrix-ii) |
 | [0792-binary-search](https://github.com/paulranjan694/dsa/tree/master/0792-binary-search) |
+| [0907-koko-eating-bananas](https://github.com/paulranjan694/dsa/tree/master/0907-koko-eating-bananas) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/paulranjan694/dsa/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 # Dynamic Programming
 |  |
