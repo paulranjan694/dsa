@@ -23,6 +23,7 @@ DSA solutions
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/paulranjan694/dsa/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/paulranjan694/dsa/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
+| [0179-largest-number](https://github.com/paulranjan694/dsa/tree/master/0179-largest-number) |
 | [0238-product-of-array-except-self](https://github.com/paulranjan694/dsa/tree/master/0238-product-of-array-except-self) |
 | [0240-search-a-2d-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0240-search-a-2d-matrix-ii) |
 | [0252-meeting-rooms](https://github.com/paulranjan694/dsa/tree/master/0252-meeting-rooms) |
@@ -72,6 +73,7 @@ DSA solutions
 | [0056-merge-intervals](https://github.com/paulranjan694/dsa/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/paulranjan694/dsa/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
+| [0179-largest-number](https://github.com/paulranjan694/dsa/tree/master/0179-largest-number) |
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
 | [0252-meeting-rooms](https://github.com/paulranjan694/dsa/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
@@ -128,6 +130,7 @@ DSA solutions
 | ------- |
 | [0011-container-with-most-water](https://github.com/paulranjan694/dsa/tree/master/0011-container-with-most-water) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/paulranjan694/dsa/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0179-largest-number](https://github.com/paulranjan694/dsa/tree/master/0179-largest-number) |
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
 | [0680-valid-palindrome-ii](https://github.com/paulranjan694/dsa/tree/master/0680-valid-palindrome-ii) |
@@ -152,6 +155,7 @@ DSA solutions
 | [0058-length-of-last-word](https://github.com/paulranjan694/dsa/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/paulranjan694/dsa/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
+| [0179-largest-number](https://github.com/paulranjan694/dsa/tree/master/0179-largest-number) |
 | [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/paulranjan694/dsa/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/paulranjan694/dsa/tree/master/0392-is-subsequence) |
