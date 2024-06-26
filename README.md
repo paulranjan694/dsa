@@ -61,6 +61,7 @@ DSA solutions
 | [0392-is-subsequence](https://github.com/paulranjan694/dsa/tree/master/0392-is-subsequence) |
 | [0408-valid-word-abbreviation](https://github.com/paulranjan694/dsa/tree/master/0408-valid-word-abbreviation) |
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
+| [0556-next-greater-element-iii](https://github.com/paulranjan694/dsa/tree/master/0556-next-greater-element-iii) |
 | [0680-valid-palindrome-ii](https://github.com/paulranjan694/dsa/tree/master/0680-valid-palindrome-ii) |
 | [0917-boats-to-save-people](https://github.com/paulranjan694/dsa/tree/master/0917-boats-to-save-people) |
 | [1019-squares-of-a-sorted-array](https://github.com/paulranjan694/dsa/tree/master/1019-squares-of-a-sorted-array) |
@@ -147,6 +148,7 @@ DSA solutions
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/paulranjan694/dsa/tree/master/0048-rotate-image) |
+| [0556-next-greater-element-iii](https://github.com/paulranjan694/dsa/tree/master/0556-next-greater-element-iii) |
 | [2225-substrings-that-begin-and-end-with-the-same-letter](https://github.com/paulranjan694/dsa/tree/master/2225-substrings-that-begin-and-end-with-the-same-letter) |
 # String
 |  |
@@ -160,6 +162,7 @@ DSA solutions
 | [0344-reverse-string](https://github.com/paulranjan694/dsa/tree/master/0344-reverse-string) |
 | [0392-is-subsequence](https://github.com/paulranjan694/dsa/tree/master/0392-is-subsequence) |
 | [0408-valid-word-abbreviation](https://github.com/paulranjan694/dsa/tree/master/0408-valid-word-abbreviation) |
+| [0556-next-greater-element-iii](https://github.com/paulranjan694/dsa/tree/master/0556-next-greater-element-iii) |
 | [0680-valid-palindrome-ii](https://github.com/paulranjan694/dsa/tree/master/0680-valid-palindrome-ii) |
 | [2225-substrings-that-begin-and-end-with-the-same-letter](https://github.com/paulranjan694/dsa/tree/master/2225-substrings-that-begin-and-end-with-the-same-letter) |
 # Prefix Sum
