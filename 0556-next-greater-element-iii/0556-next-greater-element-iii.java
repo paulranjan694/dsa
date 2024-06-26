@@ -9,10 +9,8 @@ class Solution {
         if(i<0){
             return -1;
         }
-        int min=Integer.MAX_VALUE;
         int j=ar.length-1;
         while(j>=0 && ar[j]<=ar[i]){
-            min=Math.min(min,ar[j]);
             j--;
         }
 
