@@ -202,6 +202,7 @@ DSA solutions
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
 | [0724-find-pivot-index](https://github.com/paulranjan694/dsa/tree/master/0724-find-pivot-index) |
+| [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -212,6 +213,7 @@ DSA solutions
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
 | [1297-maximum-number-of-balloons](https://github.com/paulranjan694/dsa/tree/master/1297-maximum-number-of-balloons) |
+| [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
 ## Stack
 |  |
 | ------- |
@@ -233,8 +235,13 @@ DSA solutions
 | ------- |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [1297-maximum-number-of-balloons](https://github.com/paulranjan694/dsa/tree/master/1297-maximum-number-of-balloons) |
+| [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
 ## String
 |  |
 | ------- |
 | [1297-maximum-number-of-balloons](https://github.com/paulranjan694/dsa/tree/master/1297-maximum-number-of-balloons) |
+## Math
+|  |
+| ------- |
+| [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
 <!---LeetCode Topics End-->
