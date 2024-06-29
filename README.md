@@ -194,3 +194,14 @@ DSA solutions
 |  |
 | ------- |
 | [3221-find-the-peaks](https://github.com/paulranjan694/dsa/tree/master/3221-find-the-peaks) |
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0724-find-pivot-index](https://github.com/paulranjan694/dsa/tree/master/0724-find-pivot-index) |
+## Prefix Sum
+|  |
+| ------- |
+| [0724-find-pivot-index](https://github.com/paulranjan694/dsa/tree/master/0724-find-pivot-index) |
+<!---LeetCode Topics End-->
