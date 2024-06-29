@@ -199,6 +199,7 @@ DSA solutions
 ## Array
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
 | [0724-find-pivot-index](https://github.com/paulranjan694/dsa/tree/master/0724-find-pivot-index) |
 ## Prefix Sum
@@ -208,6 +209,7 @@ DSA solutions
 ## Hash Table
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
 ## Stack
 |  |
@@ -217,4 +219,16 @@ DSA solutions
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
+## Sorting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
