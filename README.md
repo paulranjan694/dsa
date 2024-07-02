@@ -204,6 +204,7 @@ DSA solutions
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
 | [0605-can-place-flowers](https://github.com/paulranjan694/dsa/tree/master/0605-can-place-flowers) |
 | [0724-find-pivot-index](https://github.com/paulranjan694/dsa/tree/master/0724-find-pivot-index) |
+| [0932-monotonic-array](https://github.com/paulranjan694/dsa/tree/master/0932-monotonic-array) |
 | [1547-destination-city](https://github.com/paulranjan694/dsa/tree/master/1547-destination-city) |
 | [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/paulranjan694/dsa/tree/master/2042-maximum-product-difference-between-two-pairs) |
