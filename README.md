@@ -203,6 +203,7 @@ DSA solutions
 | [0303-range-sum-query-immutable](https://github.com/paulranjan694/dsa/tree/master/0303-range-sum-query-immutable) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
 | [0605-can-place-flowers](https://github.com/paulranjan694/dsa/tree/master/0605-can-place-flowers) |
+| [0682-baseball-game](https://github.com/paulranjan694/dsa/tree/master/0682-baseball-game) |
 | [0724-find-pivot-index](https://github.com/paulranjan694/dsa/tree/master/0724-find-pivot-index) |
 | [0932-monotonic-array](https://github.com/paulranjan694/dsa/tree/master/0932-monotonic-array) |
 | [1547-destination-city](https://github.com/paulranjan694/dsa/tree/master/1547-destination-city) |
@@ -227,6 +228,7 @@ DSA solutions
 | ------- |
 | [0155-min-stack](https://github.com/paulranjan694/dsa/tree/master/0155-min-stack) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
+| [0682-baseball-game](https://github.com/paulranjan694/dsa/tree/master/0682-baseball-game) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -263,6 +265,7 @@ DSA solutions
 ## Simulation
 |  |
 | ------- |
+| [0682-baseball-game](https://github.com/paulranjan694/dsa/tree/master/0682-baseball-game) |
 | [2195-time-needed-to-buy-tickets](https://github.com/paulranjan694/dsa/tree/master/2195-time-needed-to-buy-tickets) |
 ## Greedy
 |  |
