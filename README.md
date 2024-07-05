@@ -225,6 +225,7 @@ DSA solutions
 ## Stack
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/paulranjan694/dsa/tree/master/0155-min-stack) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
 ## Monotonic Stack
 |  |
@@ -270,5 +271,6 @@ DSA solutions
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/paulranjan694/dsa/tree/master/0155-min-stack) |
 | [0303-range-sum-query-immutable](https://github.com/paulranjan694/dsa/tree/master/0303-range-sum-query-immutable) |
 <!---LeetCode Topics End-->
