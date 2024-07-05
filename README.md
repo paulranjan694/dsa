@@ -206,6 +206,7 @@ DSA solutions
 | [0682-baseball-game](https://github.com/paulranjan694/dsa/tree/master/0682-baseball-game) |
 | [0724-find-pivot-index](https://github.com/paulranjan694/dsa/tree/master/0724-find-pivot-index) |
 | [0932-monotonic-array](https://github.com/paulranjan694/dsa/tree/master/0932-monotonic-array) |
+| [0983-validate-stack-sequences](https://github.com/paulranjan694/dsa/tree/master/0983-validate-stack-sequences) |
 | [1547-destination-city](https://github.com/paulranjan694/dsa/tree/master/1547-destination-city) |
 | [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/paulranjan694/dsa/tree/master/2042-maximum-product-difference-between-two-pairs) |
@@ -229,6 +230,7 @@ DSA solutions
 | [0155-min-stack](https://github.com/paulranjan694/dsa/tree/master/0155-min-stack) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
 | [0682-baseball-game](https://github.com/paulranjan694/dsa/tree/master/0682-baseball-game) |
+| [0983-validate-stack-sequences](https://github.com/paulranjan694/dsa/tree/master/0983-validate-stack-sequences) |
 | [2470-removing-stars-from-a-string](https://github.com/paulranjan694/dsa/tree/master/2470-removing-stars-from-a-string) |
 ## Monotonic Stack
 |  |
@@ -268,6 +270,7 @@ DSA solutions
 |  |
 | ------- |
 | [0682-baseball-game](https://github.com/paulranjan694/dsa/tree/master/0682-baseball-game) |
+| [0983-validate-stack-sequences](https://github.com/paulranjan694/dsa/tree/master/0983-validate-stack-sequences) |
 | [2195-time-needed-to-buy-tickets](https://github.com/paulranjan694/dsa/tree/master/2195-time-needed-to-buy-tickets) |
 | [2470-removing-stars-from-a-string](https://github.com/paulranjan694/dsa/tree/master/2470-removing-stars-from-a-string) |
 ## Greedy
