@@ -17,9 +17,8 @@ class Solution {
         }
 
         int[] ans = new int[st.size()];
-        int idx=ans.length-1;
-        while(!st.empty()){
-            ans[idx--] = st.pop();
+        for(int i=ans.length-1;i>=0;i--){
+            ans[i] = st.pop();
         }
 
         return ans;
