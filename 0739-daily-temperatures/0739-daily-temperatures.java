@@ -11,10 +11,10 @@ class Solution {
             st.push(i);
         }
 
-        while(!st.empty()){
-            int idx = st.pop();
-            ans[idx] = 0; 
-        }
+        // while(!st.empty()){
+        //     int idx = st.pop();
+        //     ans[idx] = 0; 
+        // }
 
         return ans;
     }
