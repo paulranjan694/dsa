@@ -254,6 +254,7 @@ DSA solutions
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/paulranjan694/dsa/tree/master/0022-generate-parentheses) |
 | [1297-maximum-number-of-balloons](https://github.com/paulranjan694/dsa/tree/master/1297-maximum-number-of-balloons) |
 | [1547-destination-city](https://github.com/paulranjan694/dsa/tree/master/1547-destination-city) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/paulranjan694/dsa/tree/master/2346-largest-3-same-digit-number-in-string) |
@@ -282,4 +283,12 @@ DSA solutions
 | ------- |
 | [0155-min-stack](https://github.com/paulranjan694/dsa/tree/master/0155-min-stack) |
 | [0303-range-sum-query-immutable](https://github.com/paulranjan694/dsa/tree/master/0303-range-sum-query-immutable) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/paulranjan694/dsa/tree/master/0022-generate-parentheses) |
+## Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/paulranjan694/dsa/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
