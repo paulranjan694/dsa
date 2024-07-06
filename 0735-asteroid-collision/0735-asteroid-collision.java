@@ -17,15 +17,9 @@ class Solution {
         }
 
         int[] ans = new int[st.size()];
-        int idx=0;
+        int idx=ans.length-1;
         while(!st.empty()){
-            ans[idx++] = st.pop();
-        }
-
-        for(int i=0,j=ans.length-1;i<j;i++,j--){
-            ans[i] = ans[i]^ans[j];
-            ans[j] = ans[i]^ans[j];
-            ans[i] = ans[i]^ans[j];
+            ans[idx--] = st.pop();
         }
 
         return ans;
