@@ -13,7 +13,7 @@ class Solution {
             if(val % 2 == 0){
                 ans+=val;
             }else{
-                ans+=((val/2)*2);
+                ans+= val-1;
                 oddCount++;
             }
         }
