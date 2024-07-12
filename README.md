@@ -326,4 +326,12 @@ DSA solutions
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/paulranjan694/dsa/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/paulranjan694/dsa/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
