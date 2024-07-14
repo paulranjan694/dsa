@@ -23,27 +23,26 @@ class Solution {
 
         ListNode fast = head;
         ListNode slow = head;
-        ListNode prevOfSlow = null;
 
         while(n-- > 0 && fast != null){
             fast = fast.next;
         }
 
-        while(fast != null){
-            prevOfSlow = slow;
+        while(fast != null && fast.next != null){
             slow = slow.next;
             fast = fast.next;
         }
 
-        if(slow != head){
-            prevOfSlow.next = slow.next;
-            slow.next = null;
-        }
-
-        if(slow==head && fast != head){
+        if(fast == null){
+            ListNode t = head;
             head = head.next;
+            t.next = null;
+            return head;
         }
-
+        
+        ListNode t = slow.next;
+        slow.next = slow.next.next;
+        t.next = null;
         return head;
     }
 }
