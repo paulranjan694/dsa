@@ -224,6 +224,7 @@ DSA solutions
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/paulranjan694/dsa/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/paulranjan694/dsa/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/paulranjan694/dsa/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0266-palindrome-permutation](https://github.com/paulranjan694/dsa/tree/master/0266-palindrome-permutation) |
@@ -336,6 +337,7 @@ DSA solutions
 | [0002-add-two-numbers](https://github.com/paulranjan694/dsa/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/paulranjan694/dsa/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/paulranjan694/dsa/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/paulranjan694/dsa/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/paulranjan694/dsa/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/paulranjan694/dsa/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/paulranjan694/dsa/tree/master/0234-palindrome-linked-list) |
@@ -353,6 +355,7 @@ DSA solutions
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/paulranjan694/dsa/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0141-linked-list-cycle](https://github.com/paulranjan694/dsa/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/paulranjan694/dsa/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/paulranjan694/dsa/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/paulranjan694/dsa/tree/master/0234-palindrome-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/paulranjan694/dsa/tree/master/0908-middle-of-the-linked-list) |
