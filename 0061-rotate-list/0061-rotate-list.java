@@ -30,18 +30,26 @@ class Solution {
             fast = fast.next;
         }
 
-        if(fast==null){
-            ListNode revHead = reverse(temp);
-            head = revHead;
-        }else{
-            ListNode nextNode = slow.next;
-            slow.next = null;
-            ListNode h1 = reverse(temp);
-            ListNode h2 = reverse(nextNode);
-            temp.next = h2;
-            ListNode h3 = reverse(h1);
-            head = h3;
-        }
+        ListNode nextNode = slow.next;
+        slow.next = null;
+        fast.next = temp;
+        head = nextNode;
+
+
+
+
+        // if(fast==null){
+        //     ListNode revHead = reverse(temp);
+        //     head = revHead;
+        // }else{
+        //     ListNode nextNode = slow.next;
+        //     slow.next = null;
+        //     ListNode h1 = reverse(temp);
+        //     ListNode h2 = reverse(nextNode);
+        //     temp.next = h2;
+        //     ListNode h3 = reverse(h1);
+        //     head = h3;
+        // }
         return head;
     }
 
