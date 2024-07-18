@@ -37,7 +37,7 @@ class Solution {
 
 
 
-
+    //reverse logic
         // if(fast==null){
         //     ListNode revHead = reverse(temp);
         //     head = revHead;
