@@ -8,9 +8,13 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
+ /**
+  * using dummy node concept
+  */
 class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
-        if(head == null || head.next == null || (left ==1 && right==1)) return head;
+        if(head == null || head.next == null) return head;
         
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
@@ -30,40 +34,15 @@ class Solution {
             temp = temp.next;
         }
         
-        // ListNode leftNext = null;
-        // if(leftPrev==null)
-        //     leftNext = head;
-        // else
-        //     leftNext = leftPrev.next;
         ListNode leftNext = leftPrev.next;
-
-        // ListNode rightNext = null;
-        // if(rightPrev == null){
-        //     rightNext = head;
-        // }else{
-        //     rightNext = rightPrev.next;
-        // }
-
         ListNode rightNext = rightPrev.next;
-
-        // if(leftPrev != null)
-        //     leftPrev.next = null;
-        
-        // if(rightPrev!=null)
-        //     rightPrev.next = null;
-
         leftPrev.next = null;
         rightPrev.next = null;
 
         ListNode revHead = reverse(leftNext);
-        // if(leftPrev != null)
-        //     leftPrev.next = revHead;
-        // else 
-        //     head = revHead;
-
         leftPrev.next = revHead;
-        
         leftNext.next = rightNext;
+
         return dummy.next;
     }
 
