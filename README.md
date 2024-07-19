@@ -255,11 +255,13 @@ DSA solutions
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/paulranjan694/dsa/tree/master/0023-merge-k-sorted-lists) |
+| [0148-sort-list](https://github.com/paulranjan694/dsa/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
 ## Sorting
 |  |
 | ------- |
+| [0148-sort-list](https://github.com/paulranjan694/dsa/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/paulranjan694/dsa/tree/master/2042-maximum-product-difference-between-two-pairs) |
@@ -346,6 +348,7 @@ DSA solutions
 | [0092-reverse-linked-list-ii](https://github.com/paulranjan694/dsa/tree/master/0092-reverse-linked-list-ii) |
 | [0141-linked-list-cycle](https://github.com/paulranjan694/dsa/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/paulranjan694/dsa/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/paulranjan694/dsa/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/paulranjan694/dsa/tree/master/0160-intersection-of-two-linked-lists) |
 | [0203-remove-linked-list-elements](https://github.com/paulranjan694/dsa/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/paulranjan694/dsa/tree/master/0206-reverse-linked-list) |
@@ -371,6 +374,7 @@ DSA solutions
 | [0061-rotate-list](https://github.com/paulranjan694/dsa/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/paulranjan694/dsa/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/paulranjan694/dsa/tree/master/0142-linked-list-cycle-ii) |
+| [0148-sort-list](https://github.com/paulranjan694/dsa/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/paulranjan694/dsa/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/paulranjan694/dsa/tree/master/0234-palindrome-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/paulranjan694/dsa/tree/master/0908-middle-of-the-linked-list) |
@@ -379,4 +383,5 @@ DSA solutions
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/paulranjan694/dsa/tree/master/0023-merge-k-sorted-lists) |
+| [0148-sort-list](https://github.com/paulranjan694/dsa/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
