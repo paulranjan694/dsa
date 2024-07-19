@@ -12,16 +12,15 @@ class Solution {
     public ListNode sortList(ListNode head) {
         if(head == null || head.next == null) return head;
         ListNode temp = head;
-        ListNode middle = findMiddle(temp);
+        ListNode middle = findMiddle(head);
 
-        ListNode leftHead = temp;
+        //ListNode leftHead = temp;
         ListNode rightHead = middle.next;
         middle.next = null;
 
-        leftHead = sortList(leftHead);
+        ListNode leftHead = sortList(head);
         rightHead = sortList(rightHead);
-        ListNode mergeHead = merge2LL(leftHead,rightHead);
-        return mergeHead;
+        return merge2LL(leftHead,rightHead);
     }
 
     public ListNode findMiddle(ListNode h){
