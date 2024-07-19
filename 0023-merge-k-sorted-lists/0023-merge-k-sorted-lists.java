@@ -11,8 +11,15 @@
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         int len = lists.length;
-        if(len == 0) return null;
-        return mergeHelper(lists[0],0,len,lists);
+        int interval = 1;
+        while(interval < len){
+            for(int i=0;i<len-interval;i += 2*interval){
+                lists[i] = merge2LL(lists[i], lists[i+interval]);
+            }
+            interval *= 2;
+        }
+        return len > 0 ? lists[0] : null;
+        //return mergeHelper(lists[0],0,len,lists);
     }
 
     public ListNode mergeHelper(ListNode h, int idx, int len, ListNode[] lists){
