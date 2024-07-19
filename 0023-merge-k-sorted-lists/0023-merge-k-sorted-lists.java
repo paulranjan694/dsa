@@ -8,6 +8,9 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
+ //tc - nlogk - divide and conquer , sc - o(1)
+//tc - nk - merge list one-by-one, sc - o(1)
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         int len = lists.length;
