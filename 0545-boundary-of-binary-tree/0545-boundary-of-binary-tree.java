@@ -21,24 +21,17 @@ class Solution {
         leftboundary(root.left, ans);
         addLeafNode(root.left,ans);
         addLeafNode(root.right,ans);
-        Stack<Integer> st = new Stack<>();
-        rightboundary(root.right, st);
-        while(!st.empty()){
-            int e = st.pop();
-            ans.add(e);
-        }
+        rightboundary(root.right, ans);
         return ans;
     }
 
     public void leftboundary(TreeNode root, List<Integer> res){
         if(root == null || root.left == null && root.right == null) return;
-        if(root.left !=null){
             res.add(root.val);
+        if(root.left !=null)
             leftboundary(root.left,res);
-        }else if(root.right!=null){
-            res.add(root.val);
+        else if(root.right!=null)
             leftboundary(root.right,res);
-        }
     }
 
     public void addLeafNode(TreeNode root, List<Integer> res){
@@ -51,14 +44,12 @@ class Solution {
         addLeafNode(root.right,res);
     }
 
-    public void rightboundary(TreeNode root, Stack<Integer> res){
+    public void rightboundary(TreeNode root, List<Integer> res){
         if(root == null || root.left == null && root.right == null) return;
-        if(root.right!=null){
-            res.push(root.val);
+        if(root.right!=null)
             rightboundary(root.right,res);
-        }else if(root.left !=null){
-            res.push(root.val);
+        else
             rightboundary(root.left,res);
-        }
+        res.add(root.val);
     }
 }
