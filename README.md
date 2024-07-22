@@ -232,6 +232,7 @@ DSA solutions
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0409-longest-palindrome](https://github.com/paulranjan694/dsa/tree/master/0409-longest-palindrome) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1297-maximum-number-of-balloons](https://github.com/paulranjan694/dsa/tree/master/1297-maximum-number-of-balloons) |
 | [1547-destination-city](https://github.com/paulranjan694/dsa/tree/master/1547-destination-city) |
 | [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
@@ -268,6 +269,7 @@ DSA solutions
 | [0148-sort-list](https://github.com/paulranjan694/dsa/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/paulranjan694/dsa/tree/master/2042-maximum-product-difference-between-two-pairs) |
 ## Counting
 |  |
@@ -406,6 +408,7 @@ DSA solutions
 | [0145-binary-tree-postorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0545-boundary-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -418,6 +421,7 @@ DSA solutions
 | [0145-binary-tree-postorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0545-boundary-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -432,6 +436,7 @@ DSA solutions
 | [0145-binary-tree-postorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0545-boundary-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -439,4 +444,5 @@ DSA solutions
 | [0102-binary-tree-level-order-traversal](https://github.com/paulranjan694/dsa/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/paulranjan694/dsa/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0104-maximum-depth-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 <!---LeetCode Topics End-->
