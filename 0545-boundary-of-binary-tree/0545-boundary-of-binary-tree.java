@@ -30,7 +30,7 @@ class Solution {
     }
 
     public void leftboundary(TreeNode root, List<Integer> res){
-        if(root == null) return;
+        if(root == null || root.left == null && root.right == null) return;
         if(root.left !=null){
             res.add(root.val);
             leftboundary(root.left,res);
@@ -51,7 +51,7 @@ class Solution {
     }
 
     public void rightboundary(TreeNode root, Stack<Integer> res){
-        if(root == null) return;
+        if(root == null || root.left == null && root.right == null) return;
         if(root.right!=null){
             res.push(root.val);
             rightboundary(root.right,res);
