@@ -16,14 +16,15 @@ class Solution {
 
     public boolean helper(TreeNode root, TreeNode p, TreeNode q){
         if(root == null) return false;
-
-        boolean left = helper(root.left, p, q);
-        boolean right = helper(root.right, p, q);
-
+        
         if(root == p || root == q){
             ans = root;
             return true;
         }
+
+        boolean left = helper(root.left, p, q);
+        boolean right = helper(root.right, p, q);
+
 
         if(left && right){
             ans = root;
