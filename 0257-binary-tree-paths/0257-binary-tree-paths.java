@@ -22,28 +22,24 @@ class Solution {
             ans.add(Integer.toString(root.val));
             return ans;
         }
-        List<Integer> path = new ArrayList<>();
-        path.add(root.val);
-        dfsPath(root.left, path);
-        dfsPath(root.right, path);
+        StringBuilder path = new StringBuilder();
+        dfsPath(root, path);
         return ans;
     }
 
-    public void dfsPath(TreeNode root,  List<Integer> path){
+    public void dfsPath(TreeNode root,  StringBuilder path){
         if(root == null) return;
+        int size = path.length();
         if(root.left==null && root.right == null){
-            StringBuilder sb = new StringBuilder();
-            for(int e : path){
-                sb.append(e+"->");
-            }
-            sb.append(root.val);
-            ans.add(sb.toString());
+            path.append(root.val);
+            ans.add(path.toString());
+            path.setLength(size);
             return;
         }
-        path.add(root.val);
+        path.append(root.val+"->");
         dfsPath(root.left, path);
         dfsPath(root.right, path);
-        path.remove(path.size()-1);
+        path.setLength(size);
 
     }
 }
