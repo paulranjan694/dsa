@@ -17,10 +17,7 @@ class Solution {
 
     public boolean helper(TreeNode root, TreeNode p, TreeNode q){
         if(root == null) return false;
-        // if(root == p || root == q){
-        //     lca=root;
-        //     return true;
-        // }
+     
         boolean left = false;
         boolean right = false;
         if(p.val < root.val && q.val < root.val)
