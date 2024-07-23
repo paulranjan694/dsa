@@ -18,10 +18,6 @@ class Solution {
     public List<String> binaryTreePaths(TreeNode root) {
         ans = new ArrayList<>();
         if(root == null) return ans;
-        if(root.left==null && root.right == null){
-            ans.add(Integer.toString(root.val));
-            return ans;
-        }
         StringBuilder path = new StringBuilder();
         dfsPath(root, path);
         return ans;
