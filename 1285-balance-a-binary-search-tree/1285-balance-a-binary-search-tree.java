@@ -18,7 +18,7 @@ class Solution {
         List<Integer> nodeVal = new ArrayList<>();
         inorder(root, nodeVal);
 
-        Collections.sort(nodeVal);
+       // Collections.sort(nodeVal);
         //Map<Integer,Integer> map = new HashMap<>();
         int start = 0;
         int end = nodeVal.size()-1;
