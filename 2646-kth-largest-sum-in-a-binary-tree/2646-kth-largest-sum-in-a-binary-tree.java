@@ -34,10 +34,13 @@ class Solution {
                 if(node.right != null)
                     queue.offer(node.right);
             }
-            
-            pq.add(sum);
-            if(pq.size() >k) pq.poll();
-            
+            if(pq.size()>=k && pq.peek() < sum){
+                pq.poll();
+                pq.add(sum);
+            }
+            if(pq.size() < k){
+                pq.add(sum);
+            }
             level++;
 
         }
