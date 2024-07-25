@@ -372,6 +372,7 @@ DSA solutions
 | [0234-palindrome-linked-list](https://github.com/paulranjan694/dsa/tree/master/0234-palindrome-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/paulranjan694/dsa/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/paulranjan694/dsa/tree/master/0328-odd-even-linked-list) |
+| [0850-insert-into-a-sorted-circular-linked-list](https://github.com/paulranjan694/dsa/tree/master/0850-insert-into-a-sorted-circular-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/paulranjan694/dsa/tree/master/0908-middle-of-the-linked-list) |
 | [1765-merge-in-between-linked-lists](https://github.com/paulranjan694/dsa/tree/master/1765-merge-in-between-linked-lists) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/paulranjan694/dsa/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
