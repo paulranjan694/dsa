@@ -17,9 +17,6 @@ class Solution {
     public TreeNode balanceBST(TreeNode root) {
         List<Integer> nodeVal = new ArrayList<>();
         inorder(root, nodeVal);
-
-       // Collections.sort(nodeVal);
-        //Map<Integer,Integer> map = new HashMap<>();
         int start = 0;
         int end = nodeVal.size()-1;
         int mid = (start+end)/2;
