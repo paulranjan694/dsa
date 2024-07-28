@@ -24,7 +24,7 @@ class Solution {
     //     return res;
     // }
 
-    //Moris Preorder Traversal
+    //Moris Inorder Traversal
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
 
