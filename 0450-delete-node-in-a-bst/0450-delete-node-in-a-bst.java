@@ -21,22 +21,22 @@ class Solution {
 
         while(curr!=null){
             if(curr.val==key){
-                if(prev==null){
+                if(prev==null){//delete root node
                     TreeNode temp = curr.left;
                     if(temp==null){
                         root=root.right;
                         return root;
                     }
                     TreeNode prev1 = null;
-                    while(temp!=null && temp.right!=null){
+                    while(temp!=null && temp.right!=null){//search for rightmost node of left sub-tree
                         prev1=temp;
                         temp=temp.right;
                     }
-                    if(prev1==null){
-                        if(temp.left==null){
+                    if(prev1==null){//if no rightmost node in left sub-tree
+                        if(temp.left==null){//check if no left child of the root of left sub-tree
                             root.val = temp.val;
                             root.left=null;
-                        }else{
+                        }else{ // make root->right to left subtree right and new root is the left subtree root
                             temp.right = root.right;
                             root.right=null;
                             root=temp;
