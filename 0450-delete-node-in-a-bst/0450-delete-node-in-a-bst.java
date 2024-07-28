@@ -41,7 +41,7 @@ class Solution {
                             root.right=null;
                             root=temp;
                         }
-                    }else{
+                    }else{//if rightmost nod in left subtree present, make it root
                         root.val = temp.val;
                         prev1.right = null;
                     }
