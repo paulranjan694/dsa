@@ -10,7 +10,7 @@ class Solution {
 
         while(k > 0 && !pq.isEmpty()){
             int ele = pq.poll();
-            if(ele < k)
+            if(ele <k)
                 k-=ele;
             else{
                 if(ele==k){
