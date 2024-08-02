@@ -19,22 +19,22 @@ class Solution {
             }
         }
 
-        int czeros=Integer.MAX_VALUE;
-        count=0;
-        for(int i=0,j=0;i<2*nums.length;i++){
-            if(nums[i % nums.length]==0)
-                count++;
-            if(i - j + 1==zeros){
-                czeros=Math.min(czeros,zeros-count);
-                if(nums[j % nums.length]==0)
-                    count--;
-                j++;
-            }
-        }
-        // if(cones==Integer.MAX_VALUE)
-        //     return 0;
-        // return cones;
-        return Math.min(cones,czeros);
+        // int czeros=Integer.MAX_VALUE;
+        // count=0;
+        // for(int i=0,j=0;i<2*nums.length;i++){
+        //     if(nums[i % nums.length]==0)
+        //         count++;
+        //     if(i - j + 1==zeros){
+        //         czeros=Math.min(czeros,zeros-count);
+        //         if(nums[j % nums.length]==0)
+        //             count--;
+        //         j++;
+        //     }
+        // }
+      
+        // return Math.min(cones,czeros);
+
+        return cones == Integer.MAX_VALUE ? 0 : cones;
 
     }
 }
