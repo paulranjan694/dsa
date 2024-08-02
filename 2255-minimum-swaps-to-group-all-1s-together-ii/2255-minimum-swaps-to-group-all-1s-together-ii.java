@@ -1,0 +1,40 @@
+class Solution {
+    public int minSwaps(int[] nums) {
+        int ones = 0,zeros=0;
+        for(int e : nums){
+            if(e==1)
+                ones++;
+            if(e==0)
+                zeros++;
+        }
+        int count=0,cones=Integer.MAX_VALUE;
+        for(int i=0,j=0;i<2*nums.length;i++){
+            if(nums[i % nums.length]==1)
+                count++;
+            if(i - j + 1==ones){
+                cones=Math.min(cones,ones-count);
+                if(nums[j % nums.length]==1)
+                    count--;
+                j++;
+            }
+        }
+
+        int czeros=Integer.MAX_VALUE;
+        count=0;
+        for(int i=0,j=0;i<2*nums.length;i++){
+            if(nums[i % nums.length]==0)
+                count++;
+            if(i - j + 1==zeros){
+                czeros=Math.min(czeros,zeros-count);
+                if(nums[j % nums.length]==0)
+                    count--;
+                j++;
+            }
+        }
+        // if(cones==Integer.MAX_VALUE)
+        //     return 0;
+        // return cones;
+        return Math.min(cones,czeros);
+
+    }
+}
