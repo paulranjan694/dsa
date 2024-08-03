@@ -5,8 +5,12 @@ class Solution {
         Arrays.sort(s);
         int j=0,ans=0;
         for(int i=0;i<g.length;i++){
-            if(s[j]>=g[i]){
+            if(j<s.length && s[j]>=g[i]){
                 ans++;j++;
+            }
+
+            if(j>=s.length){
+                break;
             }
         }
         return ans;
