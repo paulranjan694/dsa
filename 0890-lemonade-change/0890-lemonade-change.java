@@ -7,7 +7,7 @@ class Solution {
                 count++;
             }
             else if(bills[i] == 10){
-                if(count < 1)
+                if(count == 0)
                     return false;
                 count -= 1;
                 count10++;
