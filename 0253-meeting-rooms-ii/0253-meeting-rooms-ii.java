@@ -11,17 +11,15 @@ class Solution {
 
         Arrays.sort(start);
         Arrays.sort(end);
-        int rooms=0,ans=0;
-        for(int i=0,j=0;i<n && j<n;){
+        int rooms=0;
+        int j=0;
+        for(int i=0;i<n && j<n;i++){
             if(start[i]<end[j]){
-                i++;
                 rooms++;
             }else{
                 j++;
-                rooms--;
             }
-            ans=Math.max(ans,rooms);
         }
-        return ans;
+        return rooms;
     }
 }
