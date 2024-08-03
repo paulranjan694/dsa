@@ -1,5 +1,6 @@
 class Solution {
     public boolean canBeEqual(int[] target, int[] arr) {
+        if(target.length != arr.length) return false;
        int[] frequency = new int[1001];
 
         for(int i=0;i<target.length;i++){
