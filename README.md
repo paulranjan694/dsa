@@ -216,6 +216,7 @@ DSA solutions
 | [0724-find-pivot-index](https://github.com/paulranjan694/dsa/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/paulranjan694/dsa/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/paulranjan694/dsa/tree/master/0739-daily-temperatures) |
+| [0890-lemonade-change](https://github.com/paulranjan694/dsa/tree/master/0890-lemonade-change) |
 | [0932-monotonic-array](https://github.com/paulranjan694/dsa/tree/master/0932-monotonic-array) |
 | [0983-validate-stack-sequences](https://github.com/paulranjan694/dsa/tree/master/0983-validate-stack-sequences) |
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
@@ -365,6 +366,7 @@ DSA solutions
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/paulranjan694/dsa/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
+| [0890-lemonade-change](https://github.com/paulranjan694/dsa/tree/master/0890-lemonade-change) |
 | [1285-balance-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/1285-balance-a-binary-search-tree) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/paulranjan694/dsa/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1762-furthest-building-you-can-reach](https://github.com/paulranjan694/dsa/tree/master/1762-furthest-building-you-can-reach) |
