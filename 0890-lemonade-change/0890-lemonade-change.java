@@ -12,17 +12,12 @@ class Solution {
                 count -= 1;
                 count10++;
             }else if(bills[i] == 20){
-                if(count10 > 0){
+                if(count10 > 0 && count > 0){
                     count10--;
-                    if(count < 1)
-                        return false;
                     count--;
-                }else{
-                    if(count >= 3 )
+                }else if(count >= 3){
                         count -= 3;
-                    else
-                        return false;
-                }
+                }else return false;
             } 
         }
 
