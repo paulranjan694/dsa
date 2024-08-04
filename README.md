@@ -274,6 +274,7 @@ DSA solutions
 | [0155-min-stack](https://github.com/paulranjan694/dsa/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/paulranjan694/dsa/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
+| [0678-valid-parenthesis-string](https://github.com/paulranjan694/dsa/tree/master/0678-valid-parenthesis-string) |
 | [0682-baseball-game](https://github.com/paulranjan694/dsa/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/paulranjan694/dsa/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/paulranjan694/dsa/tree/master/0739-daily-temperatures) |
@@ -334,6 +335,7 @@ DSA solutions
 | [0266-palindrome-permutation](https://github.com/paulranjan694/dsa/tree/master/0266-palindrome-permutation) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0409-longest-palindrome](https://github.com/paulranjan694/dsa/tree/master/0409-longest-palindrome) |
+| [0678-valid-parenthesis-string](https://github.com/paulranjan694/dsa/tree/master/0678-valid-parenthesis-string) |
 | [1297-maximum-number-of-balloons](https://github.com/paulranjan694/dsa/tree/master/1297-maximum-number-of-balloons) |
 | [1547-destination-city](https://github.com/paulranjan694/dsa/tree/master/1547-destination-city) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/paulranjan694/dsa/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
@@ -368,6 +370,7 @@ DSA solutions
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/paulranjan694/dsa/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
+| [0678-valid-parenthesis-string](https://github.com/paulranjan694/dsa/tree/master/0678-valid-parenthesis-string) |
 | [0890-lemonade-change](https://github.com/paulranjan694/dsa/tree/master/0890-lemonade-change) |
 | [1285-balance-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/1285-balance-a-binary-search-tree) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/paulranjan694/dsa/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
@@ -384,6 +387,7 @@ DSA solutions
 | ------- |
 | [0022-generate-parentheses](https://github.com/paulranjan694/dsa/tree/master/0022-generate-parentheses) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/paulranjan694/dsa/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0678-valid-parenthesis-string](https://github.com/paulranjan694/dsa/tree/master/0678-valid-parenthesis-string) |
 ## Backtracking
 |  |
 | ------- |
