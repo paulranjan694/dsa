@@ -199,6 +199,7 @@ DSA solutions
 ## Array
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/paulranjan694/dsa/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/paulranjan694/dsa/tree/master/0055-jump-game) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -365,6 +366,7 @@ DSA solutions
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/paulranjan694/dsa/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/paulranjan694/dsa/tree/master/0055-jump-game) |
 | [0134-gas-station](https://github.com/paulranjan694/dsa/tree/master/0134-gas-station) |
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
@@ -388,6 +390,7 @@ DSA solutions
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/paulranjan694/dsa/tree/master/0022-generate-parentheses) |
+| [0045-jump-game-ii](https://github.com/paulranjan694/dsa/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/paulranjan694/dsa/tree/master/0055-jump-game) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/paulranjan694/dsa/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0678-valid-parenthesis-string](https://github.com/paulranjan694/dsa/tree/master/0678-valid-parenthesis-string) |
