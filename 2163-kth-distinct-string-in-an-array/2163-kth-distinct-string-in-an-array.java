@@ -9,8 +9,6 @@ class Solution {
        for(String s:arr){
             if(map.get(s) == 1){
                 count++;
-            }else{
-                map.put(s,-1);
             }
             if(count==k)
                 return s;
