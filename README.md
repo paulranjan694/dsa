@@ -356,6 +356,7 @@ DSA solutions
 | [2346-largest-3-same-digit-number-in-string](https://github.com/paulranjan694/dsa/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [2470-removing-stars-from-a-string](https://github.com/paulranjan694/dsa/tree/master/2470-removing-stars-from-a-string) |
 | [2727-number-of-senior-citizens](https://github.com/paulranjan694/dsa/tree/master/2727-number-of-senior-citizens) |
+| [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/paulranjan694/dsa/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/paulranjan694/dsa/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Math
 |  |
@@ -364,6 +365,7 @@ DSA solutions
 | [0150-evaluate-reverse-polish-notation](https://github.com/paulranjan694/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
+| [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/paulranjan694/dsa/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 ## Queue
 |  |
 | ------- |
@@ -392,6 +394,7 @@ DSA solutions
 | [1285-balance-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/1285-balance-a-binary-search-tree) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/paulranjan694/dsa/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1762-furthest-building-you-can-reach](https://github.com/paulranjan694/dsa/tree/master/1762-furthest-building-you-can-reach) |
+| [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/paulranjan694/dsa/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/paulranjan694/dsa/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Design
 |  |
