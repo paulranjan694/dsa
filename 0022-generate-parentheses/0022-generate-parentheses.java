@@ -15,12 +15,12 @@ class Solution {
         if(open<=n){
             sb.append("(");
             utils(open+1,close,ans,sb,n);
-            sb.delete(sb.length()-1,sb.length());
+            sb.deleteCharAt(sb.length()-1);
         }
         if(open>close){
             sb.append(")");
             utils(open,close+1,ans,sb,n);
-            sb.delete(sb.length()-1,sb.length());
+            sb.deleteCharAt(sb.length()-1);
         }
       
     }
