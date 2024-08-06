@@ -12,7 +12,7 @@ class Solution {
             ans.add(sb.toString());
             return;
         }
-        if(open<=n){
+        if(open<n){
             sb.append("(");
             utils(open+1,close,ans,sb,n);
             sb.deleteCharAt(sb.length()-1);
