@@ -15,15 +15,7 @@ class Solution {
         Collections.sort(list,Collections.reverseOrder());
         int sum=0;
         for(int i=0;i<list.size();i++){
-            if( i>=0 && i<=7){
-                sum+= list.get(i);
-            }else if(i>=7 && i<=15){
-                sum+= (list.get(i)*2);
-            }else if(i>=16 && i<=23){
-                sum+= (list.get(i)*3);
-            }else {
-                sum+= (list.get(i)*4);
-            }
+           sum+= (((i/8)+1 )* list.get(i));
         }
         return sum;
     }
