@@ -1,10 +1,4 @@
 class Solution {
-    static class SortHelper implements Comparator<Integer> {
-        @Override
-        public int compare(Integer a, Integer b){
-                return Integer.compare(b,a);
-        }
-    }
     public int minimumPushes(String word) {
        int[] freq = new int[26];
 
