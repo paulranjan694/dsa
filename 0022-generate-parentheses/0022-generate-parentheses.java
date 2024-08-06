@@ -1,28 +1,27 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
-        List<String> ans = new ArrayList<>();
-        backtrackSol(n,0,0, ans,new StringBuilder());
+        int open=0,close=0;
+        List<String> ans= new ArrayList<>();
+        StringBuilder sb = new StringBuilder();
+        utils(open,close,ans,sb,n);
         return ans;
     }
 
-    public void backtrackSol(int n, int open, int close, List<String> ans, StringBuilder s){
-        if(s.length() == 2*n){
-            ans.add(s.toString());
+    public void utils(int open, int close, List<String> ans, StringBuilder sb, int n){
+        if(open==n && close == n){
+            ans.add(sb.toString());
             return;
         }
-
-        if(open<n){
-            s.append("(");
-            backtrackSol(n, open+1,close,ans,s);
-            s.deleteCharAt(s.length()-1);
+        if(open<=n){
+            sb.append("(");
+            utils(open+1,close,ans,sb,n);
+            sb.delete(sb.length()-1,sb.length());
         }
-
-         if(open>close){
-            s.append(")");
-            backtrackSol(n, open,close+1,ans,s);
-            s.deleteCharAt(s.length()-1);
+        if(open>close){
+            sb.append(")");
+            utils(open,close+1,ans,sb,n);
+            sb.delete(sb.length()-1,sb.length());
         }
-
-
+      
     }
 }
