@@ -7,15 +7,22 @@ class Solution {
             freq[ch-'a']++;
         }
 
-        List<Integer> list = new ArrayList<>();
-        for(int i : freq){
-            if(i!=0) list.add(i);
+        Arrays.sort(freq);
+        int[] sortedFreq = new int[26];
+
+        for(int i=0;i<26;i++){
+            sortedFreq[i] = freq[25-i];
         }
 
-        Collections.sort(list,Collections.reverseOrder());
+        // List<Integer> list = new ArrayList<>();
+        // for(int i : freq){
+        //     if(i!=0) list.add(i);
+        // }
+
+        // Collections.sort(list,Collections.reverseOrder());
         int sum=0;
-        for(int i=0;i<list.size();i++){
-           sum+= (((i/8)+1 )* list.get(i));
+        for(int i=0;i<sortedFreq.length;i++){
+           sum+= (((i/8)+1 )* sortedFreq[i]);
         }
         return sum;
     }
