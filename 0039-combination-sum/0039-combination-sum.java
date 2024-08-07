@@ -8,11 +8,7 @@ class Solution {
 
     public void utils(int[] arr, int t,  List<List<Integer>> res,List<Integer> sum, int totalSum,int idx){
         if(idx==arr.length && totalSum==t){
-            List<Integer> temp = new ArrayList<>();
-            for(int e:sum){
-                temp.add(e);
-            }
-
+            List<Integer> temp = new ArrayList<>(sum);
             res.add(temp);
             return ;
         }
