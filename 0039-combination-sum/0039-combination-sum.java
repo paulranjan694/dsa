@@ -16,9 +16,11 @@ class Solution {
             return;
         }
 
-        sum.add(arr[idx]);
-        utils(arr,t,res,sum,totalSum+arr[idx],idx);
-        sum.remove(sum.size()-1);
+        if(arr[idx] <= t){
+            sum.add(arr[idx]);
+            utils(arr,t,res,sum,totalSum+arr[idx],idx);
+            sum.remove(sum.size()-1);
+        }
        
         utils(arr,t,res,sum,totalSum,idx+1);
     }
