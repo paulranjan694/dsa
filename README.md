@@ -201,6 +201,7 @@ DSA solutions
 | ------- |
 | [0039-combination-sum](https://github.com/paulranjan694/dsa/tree/master/0039-combination-sum) |
 | [0045-jump-game-ii](https://github.com/paulranjan694/dsa/tree/master/0045-jump-game-ii) |
+| [0054-spiral-matrix](https://github.com/paulranjan694/dsa/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/paulranjan694/dsa/tree/master/0055-jump-game) |
 | [0078-subsets](https://github.com/paulranjan694/dsa/tree/master/0078-subsets) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -375,6 +376,7 @@ DSA solutions
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/paulranjan694/dsa/tree/master/0054-spiral-matrix) |
 | [0682-baseball-game](https://github.com/paulranjan694/dsa/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/paulranjan694/dsa/tree/master/0735-asteroid-collision) |
 | [0983-validate-stack-sequences](https://github.com/paulranjan694/dsa/tree/master/0983-validate-stack-sequences) |
@@ -663,5 +665,6 @@ DSA solutions
 ## Matrix
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/paulranjan694/dsa/tree/master/0054-spiral-matrix) |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/paulranjan694/dsa/tree/master/3415-check-if-grid-satisfies-conditions) |
 <!---LeetCode Topics End-->
