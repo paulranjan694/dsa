@@ -224,6 +224,7 @@ DSA solutions
 | [0735-asteroid-collision](https://github.com/paulranjan694/dsa/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/paulranjan694/dsa/tree/master/0739-daily-temperatures) |
 | [0890-lemonade-change](https://github.com/paulranjan694/dsa/tree/master/0890-lemonade-change) |
+| [0921-spiral-matrix-iii](https://github.com/paulranjan694/dsa/tree/master/0921-spiral-matrix-iii) |
 | [0932-monotonic-array](https://github.com/paulranjan694/dsa/tree/master/0932-monotonic-array) |
 | [0983-validate-stack-sequences](https://github.com/paulranjan694/dsa/tree/master/0983-validate-stack-sequences) |
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
@@ -381,6 +382,7 @@ DSA solutions
 | [0059-spiral-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0059-spiral-matrix-ii) |
 | [0682-baseball-game](https://github.com/paulranjan694/dsa/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/paulranjan694/dsa/tree/master/0735-asteroid-collision) |
+| [0921-spiral-matrix-iii](https://github.com/paulranjan694/dsa/tree/master/0921-spiral-matrix-iii) |
 | [0983-validate-stack-sequences](https://github.com/paulranjan694/dsa/tree/master/0983-validate-stack-sequences) |
 | [2195-time-needed-to-buy-tickets](https://github.com/paulranjan694/dsa/tree/master/2195-time-needed-to-buy-tickets) |
 | [2470-removing-stars-from-a-string](https://github.com/paulranjan694/dsa/tree/master/2470-removing-stars-from-a-string) |
@@ -669,5 +671,6 @@ DSA solutions
 | ------- |
 | [0054-spiral-matrix](https://github.com/paulranjan694/dsa/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0059-spiral-matrix-ii) |
+| [0921-spiral-matrix-iii](https://github.com/paulranjan694/dsa/tree/master/0921-spiral-matrix-iii) |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/paulranjan694/dsa/tree/master/3415-check-if-grid-satisfies-conditions) |
 <!---LeetCode Topics End-->
