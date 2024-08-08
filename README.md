@@ -203,6 +203,7 @@ DSA solutions
 | [0045-jump-game-ii](https://github.com/paulranjan694/dsa/tree/master/0045-jump-game-ii) |
 | [0054-spiral-matrix](https://github.com/paulranjan694/dsa/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/paulranjan694/dsa/tree/master/0055-jump-game) |
+| [0059-spiral-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0059-spiral-matrix-ii) |
 | [0078-subsets](https://github.com/paulranjan694/dsa/tree/master/0078-subsets) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -377,6 +378,7 @@ DSA solutions
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/paulranjan694/dsa/tree/master/0054-spiral-matrix) |
+| [0059-spiral-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0059-spiral-matrix-ii) |
 | [0682-baseball-game](https://github.com/paulranjan694/dsa/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/paulranjan694/dsa/tree/master/0735-asteroid-collision) |
 | [0983-validate-stack-sequences](https://github.com/paulranjan694/dsa/tree/master/0983-validate-stack-sequences) |
@@ -666,5 +668,6 @@ DSA solutions
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/paulranjan694/dsa/tree/master/0054-spiral-matrix) |
+| [0059-spiral-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0059-spiral-matrix-ii) |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/paulranjan694/dsa/tree/master/3415-check-if-grid-satisfies-conditions) |
 <!---LeetCode Topics End-->
