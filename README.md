@@ -214,6 +214,7 @@ DSA solutions
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0303-range-sum-query-immutable](https://github.com/paulranjan694/dsa/tree/master/0303-range-sum-query-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
+| [0442-find-all-duplicates-in-an-array](https://github.com/paulranjan694/dsa/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
 | [0575-distribute-candies](https://github.com/paulranjan694/dsa/tree/master/0575-distribute-candies) |
@@ -266,6 +267,7 @@ DSA solutions
 | [0266-palindrome-permutation](https://github.com/paulranjan694/dsa/tree/master/0266-palindrome-permutation) |
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0409-longest-palindrome](https://github.com/paulranjan694/dsa/tree/master/0409-longest-palindrome) |
+| [0442-find-all-duplicates-in-an-array](https://github.com/paulranjan694/dsa/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
 | [0575-distribute-candies](https://github.com/paulranjan694/dsa/tree/master/0575-distribute-candies) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
