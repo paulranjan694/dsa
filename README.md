@@ -206,6 +206,7 @@ DSA solutions
 | [0055-jump-game](https://github.com/paulranjan694/dsa/tree/master/0055-jump-game) |
 | [0059-spiral-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0059-spiral-matrix-ii) |
 | [0078-subsets](https://github.com/paulranjan694/dsa/tree/master/0078-subsets) |
+| [0090-subsets-ii](https://github.com/paulranjan694/dsa/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0134-gas-station](https://github.com/paulranjan694/dsa/tree/master/0134-gas-station) |
@@ -439,11 +440,13 @@ DSA solutions
 | [0039-combination-sum](https://github.com/paulranjan694/dsa/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/paulranjan694/dsa/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/paulranjan694/dsa/tree/master/0078-subsets) |
+| [0090-subsets-ii](https://github.com/paulranjan694/dsa/tree/master/0090-subsets-ii) |
 | [0257-binary-tree-paths](https://github.com/paulranjan694/dsa/tree/master/0257-binary-tree-paths) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0078-subsets](https://github.com/paulranjan694/dsa/tree/master/0078-subsets) |
+| [0090-subsets-ii](https://github.com/paulranjan694/dsa/tree/master/0090-subsets-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/paulranjan694/dsa/tree/master/0222-count-complete-tree-nodes) |
 | [0266-palindrome-permutation](https://github.com/paulranjan694/dsa/tree/master/0266-palindrome-permutation) |
 ## Heap (Priority Queue)
