@@ -213,6 +213,7 @@ DSA solutions
 | [0150-evaluate-reverse-polish-notation](https://github.com/paulranjan694/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/paulranjan694/dsa/tree/master/0215-kth-largest-element-in-an-array) |
+| [0216-combination-sum-iii](https://github.com/paulranjan694/dsa/tree/master/0216-combination-sum-iii) |
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0303-range-sum-query-immutable](https://github.com/paulranjan694/dsa/tree/master/0303-range-sum-query-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
@@ -441,6 +442,7 @@ DSA solutions
 | [0040-combination-sum-ii](https://github.com/paulranjan694/dsa/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/paulranjan694/dsa/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/paulranjan694/dsa/tree/master/0090-subsets-ii) |
+| [0216-combination-sum-iii](https://github.com/paulranjan694/dsa/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/paulranjan694/dsa/tree/master/0257-binary-tree-paths) |
 ## Bit Manipulation
 |  |
