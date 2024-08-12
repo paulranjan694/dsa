@@ -1,5 +1,4 @@
 class Solution {
-    public static Set<String> set = new HashSet<>(); 
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> ans= new ArrayList<>();
         Arrays.sort(nums);
