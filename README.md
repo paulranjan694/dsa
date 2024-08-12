@@ -206,6 +206,7 @@ DSA solutions
 | [0055-jump-game](https://github.com/paulranjan694/dsa/tree/master/0055-jump-game) |
 | [0059-spiral-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0059-spiral-matrix-ii) |
 | [0078-subsets](https://github.com/paulranjan694/dsa/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/paulranjan694/dsa/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/paulranjan694/dsa/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -361,6 +362,7 @@ DSA solutions
 | [0003-longest-substring-without-repeating-characters](https://github.com/paulranjan694/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/paulranjan694/dsa/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/paulranjan694/dsa/tree/master/0022-generate-parentheses) |
+| [0079-word-search](https://github.com/paulranjan694/dsa/tree/master/0079-word-search) |
 | [0205-isomorphic-strings](https://github.com/paulranjan694/dsa/tree/master/0205-isomorphic-strings) |
 | [0257-binary-tree-paths](https://github.com/paulranjan694/dsa/tree/master/0257-binary-tree-paths) |
 | [0266-palindrome-permutation](https://github.com/paulranjan694/dsa/tree/master/0266-palindrome-permutation) |
@@ -441,6 +443,7 @@ DSA solutions
 | [0039-combination-sum](https://github.com/paulranjan694/dsa/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/paulranjan694/dsa/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/paulranjan694/dsa/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/paulranjan694/dsa/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/paulranjan694/dsa/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/paulranjan694/dsa/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/paulranjan694/dsa/tree/master/0257-binary-tree-paths) |
@@ -690,6 +693,7 @@ DSA solutions
 | ------- |
 | [0054-spiral-matrix](https://github.com/paulranjan694/dsa/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0059-spiral-matrix-ii) |
+| [0079-word-search](https://github.com/paulranjan694/dsa/tree/master/0079-word-search) |
 | [0870-magic-squares-in-grid](https://github.com/paulranjan694/dsa/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/paulranjan694/dsa/tree/master/0921-spiral-matrix-iii) |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/paulranjan694/dsa/tree/master/3415-check-if-grid-satisfies-conditions) |
