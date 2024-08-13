@@ -7,12 +7,12 @@ class Solution {
 
     public void utils(int n, int k, int curr, List<List<Integer>> ans, List<Integer> ds){
 
-        if(curr > n){
-            if(ds.size() == k){
-                ans.add(new ArrayList<>(ds));
-            }
-            return;
-        }
+        // if(curr > n){
+        //     if(ds.size() == k){
+        //         ans.add(new ArrayList<>(ds));
+        //     }
+        //     return;
+        // }
 
         if(ds.size() == k){
             ans.add(new ArrayList<>(ds));
