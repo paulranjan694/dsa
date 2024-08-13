@@ -387,6 +387,7 @@ DSA solutions
 | [0870-magic-squares-in-grid](https://github.com/paulranjan694/dsa/tree/master/0870-magic-squares-in-grid) |
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
+| [2050-count-good-numbers](https://github.com/paulranjan694/dsa/tree/master/2050-count-good-numbers) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/paulranjan694/dsa/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 ## Queue
 |  |
@@ -516,6 +517,7 @@ DSA solutions
 | [0203-remove-linked-list-elements](https://github.com/paulranjan694/dsa/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/paulranjan694/dsa/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/paulranjan694/dsa/tree/master/0234-palindrome-linked-list) |
+| [2050-count-good-numbers](https://github.com/paulranjan694/dsa/tree/master/2050-count-good-numbers) |
 ## Two Pointers
 |  |
 | ------- |
