@@ -19,10 +19,12 @@ class Solution {
             return;
         }
 
-        ds.add(curr);
-        utils(n,k,curr+1,ans,ds);
-        ds.remove(ds.size()-1);
+        for(int i = curr;i<=n;i++){
+            ds.add(i);
+            utils(n,k,i+1,ans,ds);
+            ds.remove(ds.size()-1);
+        }
 
-         utils(n,k,curr+1,ans,ds);
+         //utils(n,k,curr+1,ans,ds);
     }  
 }
