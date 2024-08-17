@@ -202,6 +202,7 @@ DSA solutions
 | [0039-combination-sum](https://github.com/paulranjan694/dsa/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/paulranjan694/dsa/tree/master/0040-combination-sum-ii) |
 | [0045-jump-game-ii](https://github.com/paulranjan694/dsa/tree/master/0045-jump-game-ii) |
+| [0046-permutations](https://github.com/paulranjan694/dsa/tree/master/0046-permutations) |
 | [0054-spiral-matrix](https://github.com/paulranjan694/dsa/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/paulranjan694/dsa/tree/master/0055-jump-game) |
 | [0059-spiral-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0059-spiral-matrix-ii) |
@@ -444,6 +445,7 @@ DSA solutions
 | [0022-generate-parentheses](https://github.com/paulranjan694/dsa/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/paulranjan694/dsa/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/paulranjan694/dsa/tree/master/0040-combination-sum-ii) |
+| [0046-permutations](https://github.com/paulranjan694/dsa/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/paulranjan694/dsa/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/paulranjan694/dsa/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/paulranjan694/dsa/tree/master/0079-word-search) |
