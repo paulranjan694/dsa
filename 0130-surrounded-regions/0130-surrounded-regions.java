@@ -45,7 +45,9 @@ class Solution {
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
                 if(visited[i][j] == 0 && board[i][j]=='O'){
-                    dfs(board,visited,i,j,n,m,true);
+                    //dfs(board,visited,i,j,n,m,true);
+                    board[i][j]='X';
+                    visited[i][j]=1;
                 }else{
                     visited[i][j]=1;
                 }
