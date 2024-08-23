@@ -618,6 +618,7 @@ DSA solutions
 | [0662-maximum-width-of-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0662-maximum-width-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/paulranjan694/dsa/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/paulranjan694/dsa/tree/master/0733-flood-fill) |
+| [0801-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0801-is-graph-bipartite) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -680,6 +681,7 @@ DSA solutions
 | [0662-maximum-width-of-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0662-maximum-width-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/paulranjan694/dsa/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/paulranjan694/dsa/tree/master/0733-flood-fill) |
+| [0801-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0801-is-graph-bipartite) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/paulranjan694/dsa/tree/master/1036-rotting-oranges) |
@@ -736,8 +738,10 @@ DSA solutions
 | [0200-number-of-islands](https://github.com/paulranjan694/dsa/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/paulranjan694/dsa/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/paulranjan694/dsa/tree/master/0695-max-area-of-island) |
+| [0801-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0801-is-graph-bipartite) |
 ## Graph
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/paulranjan694/dsa/tree/master/0547-number-of-provinces) |
+| [0801-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0801-is-graph-bipartite) |
 <!---LeetCode Topics End-->
