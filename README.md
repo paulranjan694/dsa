@@ -243,6 +243,7 @@ DSA solutions
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/paulranjan694/dsa/tree/master/1036-rotting-oranges) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/paulranjan694/dsa/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1073-number-of-enclaves](https://github.com/paulranjan694/dsa/tree/master/1073-number-of-enclaves) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/paulranjan694/dsa/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1127-last-stone-weight](https://github.com/paulranjan694/dsa/tree/master/1127-last-stone-weight) |
 | [1293-three-consecutive-odds](https://github.com/paulranjan694/dsa/tree/master/1293-three-consecutive-odds) |
@@ -621,6 +622,7 @@ DSA solutions
 | [0801-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0801-is-graph-bipartite) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1073-number-of-enclaves](https://github.com/paulranjan694/dsa/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/1285-balance-a-binary-search-tree) |
 ## Binary Tree
@@ -685,6 +687,7 @@ DSA solutions
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/paulranjan694/dsa/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/paulranjan694/dsa/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Binary Search Tree
@@ -730,6 +733,7 @@ DSA solutions
 | [0870-magic-squares-in-grid](https://github.com/paulranjan694/dsa/tree/master/0870-magic-squares-in-grid) |
 | [0921-spiral-matrix-iii](https://github.com/paulranjan694/dsa/tree/master/0921-spiral-matrix-iii) |
 | [1036-rotting-oranges](https://github.com/paulranjan694/dsa/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/paulranjan694/dsa/tree/master/1073-number-of-enclaves) |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/paulranjan694/dsa/tree/master/3415-check-if-grid-satisfies-conditions) |
 ## Union Find
 |  |
@@ -739,6 +743,7 @@ DSA solutions
 | [0547-number-of-provinces](https://github.com/paulranjan694/dsa/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/paulranjan694/dsa/tree/master/0695-max-area-of-island) |
 | [0801-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0801-is-graph-bipartite) |
+| [1073-number-of-enclaves](https://github.com/paulranjan694/dsa/tree/master/1073-number-of-enclaves) |
 ## Graph
 |  |
 | ------- |
