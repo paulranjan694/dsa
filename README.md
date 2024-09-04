@@ -397,6 +397,7 @@ DSA solutions
 | [0070-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/paulranjan694/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0870-magic-squares-in-grid](https://github.com/paulranjan694/dsa/tree/master/0870-magic-squares-in-grid) |
+| [1013-fibonacci-number](https://github.com/paulranjan694/dsa/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
 | [2050-count-good-numbers](https://github.com/paulranjan694/dsa/tree/master/2050-count-good-numbers) |
@@ -451,6 +452,7 @@ DSA solutions
 | [0124-binary-tree-maximum-path-sum](https://github.com/paulranjan694/dsa/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0542-01-matrix](https://github.com/paulranjan694/dsa/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/paulranjan694/dsa/tree/master/0678-valid-parenthesis-string) |
+| [1013-fibonacci-number](https://github.com/paulranjan694/dsa/tree/master/1013-fibonacci-number) |
 ## Backtracking
 |  |
 | ------- |
@@ -533,6 +535,7 @@ DSA solutions
 | [0203-remove-linked-list-elements](https://github.com/paulranjan694/dsa/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/paulranjan694/dsa/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/paulranjan694/dsa/tree/master/0234-palindrome-linked-list) |
+| [1013-fibonacci-number](https://github.com/paulranjan694/dsa/tree/master/1013-fibonacci-number) |
 | [2050-count-good-numbers](https://github.com/paulranjan694/dsa/tree/master/2050-count-good-numbers) |
 ## Two Pointers
 |  |
@@ -788,4 +791,5 @@ DSA solutions
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0070-climbing-stairs) |
+| [1013-fibonacci-number](https://github.com/paulranjan694/dsa/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
