@@ -394,6 +394,7 @@ DSA solutions
 | ------- |
 | [0002-add-two-numbers](https://github.com/paulranjan694/dsa/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/paulranjan694/dsa/tree/master/0050-powx-n) |
+| [0070-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/paulranjan694/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0870-magic-squares-in-grid](https://github.com/paulranjan694/dsa/tree/master/0870-magic-squares-in-grid) |
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
@@ -446,6 +447,7 @@ DSA solutions
 | [0022-generate-parentheses](https://github.com/paulranjan694/dsa/tree/master/0022-generate-parentheses) |
 | [0045-jump-game-ii](https://github.com/paulranjan694/dsa/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/paulranjan694/dsa/tree/master/0055-jump-game) |
+| [0070-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0070-climbing-stairs) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/paulranjan694/dsa/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0542-01-matrix](https://github.com/paulranjan694/dsa/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/paulranjan694/dsa/tree/master/0678-valid-parenthesis-string) |
@@ -782,4 +784,8 @@ DSA solutions
 | [0210-course-schedule-ii](https://github.com/paulranjan694/dsa/tree/master/0210-course-schedule-ii) |
 | [0269-alien-dictionary](https://github.com/paulranjan694/dsa/tree/master/0269-alien-dictionary) |
 | [0820-find-eventual-safe-states](https://github.com/paulranjan694/dsa/tree/master/0820-find-eventual-safe-states) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
