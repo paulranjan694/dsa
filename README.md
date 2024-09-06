@@ -396,6 +396,7 @@ DSA solutions
 | ------- |
 | [0002-add-two-numbers](https://github.com/paulranjan694/dsa/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/paulranjan694/dsa/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/paulranjan694/dsa/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/paulranjan694/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0870-magic-squares-in-grid](https://github.com/paulranjan694/dsa/tree/master/0870-magic-squares-in-grid) |
@@ -450,6 +451,7 @@ DSA solutions
 | [0022-generate-parentheses](https://github.com/paulranjan694/dsa/tree/master/0022-generate-parentheses) |
 | [0045-jump-game-ii](https://github.com/paulranjan694/dsa/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/paulranjan694/dsa/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/paulranjan694/dsa/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0070-climbing-stairs) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/paulranjan694/dsa/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/paulranjan694/dsa/tree/master/0198-house-robber) |
@@ -796,4 +798,8 @@ DSA solutions
 | ------- |
 | [0070-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0070-climbing-stairs) |
 | [1013-fibonacci-number](https://github.com/paulranjan694/dsa/tree/master/1013-fibonacci-number) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/paulranjan694/dsa/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
