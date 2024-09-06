@@ -2,16 +2,19 @@ class Solution {
 
     public int rob(int[] nums) {
         int n = nums.length;
-        int[] dp = new int[n];
-        Arrays.fill(dp,-1);
-        dp[0] = nums[0];
+        //int[] dp = new int[n];
+        //Arrays.fill(dp,-1);
+        //dp[0] = nums[0];
+        int prev1=nums[0],prev2=0,curr=0;
         for(int i=1;i<n;i++){
             int take = nums[i];
-            if(i>1) take += dp[i-2];
-            int notTake = dp[i-1];
-            dp[i] = Math.max(take,notTake);
+            if(i>1) take += prev2;
+            int notTake =prev1;
+            curr = Math.max(take,notTake);
+            prev2=prev1;
+            prev1=curr;
         }
-        return dp[n-1];
+        return prev1;
 
     }
 
