@@ -5,7 +5,22 @@ class Solution {
         int[][] dp = new int[n][n];
         for(int i=0;i<n;i++)
             Arrays.fill(dp[i],-1);
-       return utils(triangle, 0,0,dp);
+
+        for(int i=0;i<triangle.get(n-1).size();i++){
+            dp[n-1][i] = triangle.get(n-1).get(i);
+        }
+
+        for(int i = n-2;i>=0;i--){
+            for(int j = i;j >= 0;j--){
+                int down = triangle.get(i).get(j) + dp[i+1][j];
+                int diagonal = triangle.get(i).get(j) + dp[i+1][j+1];
+
+                int min = Math.min(down,diagonal);
+                dp[i][j] = min;
+            }
+        }
+
+        return dp[0][0];
     }
 
     public int minimumTotal_memoization(List<List<Integer>> triangle) {
