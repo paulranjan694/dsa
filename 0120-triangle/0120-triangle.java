@@ -1,5 +1,14 @@
 class Solution {
+
     public int minimumTotal(List<List<Integer>> triangle) {
+        int n = triangle.size();
+        int[][] dp = new int[n][n];
+        for(int i=0;i<n;i++)
+            Arrays.fill(dp[i],-1);
+       return utils(triangle, 0,0,dp);
+    }
+
+    public int minimumTotal_memoization(List<List<Integer>> triangle) {
         int n = triangle.size();
         int[][] dp = new int[n][n];
         for(int i=0;i<n;i++)
@@ -20,6 +29,6 @@ class Solution {
 
         int min = Math.min(down,diagonal);
         dp[r][c] = min;
-        return min;
+        return dp[r][c];
     }
 }
