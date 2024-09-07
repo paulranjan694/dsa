@@ -213,6 +213,7 @@ DSA solutions
 | [0090-subsets-ii](https://github.com/paulranjan694/dsa/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0120-triangle](https://github.com/paulranjan694/dsa/tree/master/0120-triangle) |
 | [0130-surrounded-regions](https://github.com/paulranjan694/dsa/tree/master/0130-surrounded-regions) |
 | [0134-gas-station](https://github.com/paulranjan694/dsa/tree/master/0134-gas-station) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/paulranjan694/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -457,6 +458,7 @@ DSA solutions
 | [0063-unique-paths-ii](https://github.com/paulranjan694/dsa/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/paulranjan694/dsa/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0070-climbing-stairs) |
+| [0120-triangle](https://github.com/paulranjan694/dsa/tree/master/0120-triangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/paulranjan694/dsa/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/paulranjan694/dsa/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/paulranjan694/dsa/tree/master/0213-house-robber-ii) |
