@@ -12,7 +12,7 @@ class Solution {
                 if(i==0 && j==0) temp[j]=grid[i][j];
                 else{
                     int up = Integer.MAX_VALUE, left = Integer.MAX_VALUE;
-                    if(i> 0) up = dp[j] + grid[i][j];
+                    if(i > 0) up = dp[j] + grid[i][j];
                     if(j > 0) left = temp[j-1] + grid[i][j];
                     temp[j] = Math.min(up,left);
                 }
