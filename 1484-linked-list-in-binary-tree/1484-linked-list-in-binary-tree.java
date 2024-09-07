@@ -44,11 +44,6 @@ class Solution {
 
     private boolean findPath(ListNode head, TreeNode root){
         if(root == null) return false;
-
         return isPath(root,head) || findPath(head,root.left) ||  findPath(head,root.right);
-       
-       
-
-
     }
 }
