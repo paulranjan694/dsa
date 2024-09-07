@@ -1,26 +1,29 @@
 class Solution {
 
+    //tab
     public int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
-        int[][] dp = new int[n][n];
-        for(int i=0;i<n;i++)
-            Arrays.fill(dp[i],-1);
+        int[] prev = new int[n];
+        Arrays.fill(prev,-1);
 
         for(int i=0;i<triangle.get(n-1).size();i++){
-            dp[n-1][i] = triangle.get(n-1).get(i);
+            prev[i] = triangle.get(n-1).get(i);
         }
 
         for(int i = n-2;i>=0;i--){
+            int[] curr = new int[n];
+            Arrays.fill(curr,-1);
             for(int j = i;j >= 0;j--){
-                int down = triangle.get(i).get(j) + dp[i+1][j];
-                int diagonal = triangle.get(i).get(j) + dp[i+1][j+1];
+                int down = triangle.get(i).get(j) + prev[j];
+                int diagonal = triangle.get(i).get(j) + prev[j+1];
 
                 int min = Math.min(down,diagonal);
-                dp[i][j] = min;
+                curr[j] = min;
             }
+            prev=curr;
         }
 
-        return dp[0][0];
+        return prev[0];
     }
 
     public int minimumTotal_memoization(List<List<Integer>> triangle) {
