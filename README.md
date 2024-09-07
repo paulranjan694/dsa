@@ -535,6 +535,7 @@ DSA solutions
 | [0328-odd-even-linked-list](https://github.com/paulranjan694/dsa/tree/master/0328-odd-even-linked-list) |
 | [0850-insert-into-a-sorted-circular-linked-list](https://github.com/paulranjan694/dsa/tree/master/0850-insert-into-a-sorted-circular-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/paulranjan694/dsa/tree/master/0908-middle-of-the-linked-list) |
+| [1484-linked-list-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1484-linked-list-in-binary-tree) |
 | [1765-merge-in-between-linked-lists](https://github.com/paulranjan694/dsa/tree/master/1765-merge-in-between-linked-lists) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/paulranjan694/dsa/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 ## Recursion
@@ -608,6 +609,7 @@ DSA solutions
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/paulranjan694/dsa/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/1285-balance-a-binary-search-tree) |
+| [1484-linked-list-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1484-linked-list-in-binary-tree) |
 | [2384-root-equals-sum-of-children](https://github.com/paulranjan694/dsa/tree/master/2384-root-equals-sum-of-children) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Depth-First Search
@@ -651,6 +653,7 @@ DSA solutions
 | [1073-number-of-enclaves](https://github.com/paulranjan694/dsa/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/1285-balance-a-binary-search-tree) |
+| [1484-linked-list-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1484-linked-list-in-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -689,6 +692,7 @@ DSA solutions
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/paulranjan694/dsa/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/1285-balance-a-binary-search-tree) |
+| [1484-linked-list-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1484-linked-list-in-binary-tree) |
 | [2384-root-equals-sum-of-children](https://github.com/paulranjan694/dsa/tree/master/2384-root-equals-sum-of-children) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Breadth-First Search
@@ -721,6 +725,7 @@ DSA solutions
 | [1036-rotting-oranges](https://github.com/paulranjan694/dsa/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/paulranjan694/dsa/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1484-linked-list-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1484-linked-list-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Binary Search Tree
 |  |
