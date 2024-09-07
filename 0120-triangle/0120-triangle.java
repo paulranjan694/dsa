@@ -1,38 +1,25 @@
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
-        int[][] dp = new int[n][n+1];
+        int[][] dp = new int[n][n];
         for(int i=0;i<n;i++)
             Arrays.fill(dp[i],-1);
-        int min = Integer.MAX_VALUE;
-        for(int i=0;i<triangle.get(n-1).size();i++){
-            int p = minTotal(triangle, n-1,i,dp);
-            min = Math.min(min,p);
-        }
-        return min;
+        return utils(triangle, 0,0,dp);
     }
 
-    private int minTotal(List<List<Integer>> triangle, int n, int idx, int[][] dp){
-        if(n==0){
-            dp[n][idx] = triangle.get(n).get(0);
-            return triangle.get(n).get(0);
+    private int utils(List<List<Integer>> triangle, int r, int c,int[][] dp){
+        if(r == triangle.size()-1){
+             dp[r][c] = triangle.get(r).get(c);
+            return triangle.get(r).get(c);
         }
 
-        int min = Integer.MAX_VALUE;
-        if(idx >= 0 && dp[n][idx] != -1) return dp[n][idx];
+        if(dp[r][c] != -1) return dp[r][c];
 
-        int path1 = Integer.MAX_VALUE ,path2 = Integer.MAX_VALUE;
-        if(idx < triangle.get(n-1).size())
-            path1 = minTotal(triangle,n-1,idx,dp) + triangle.get(n).get(idx);
+        int down = triangle.get(r).get(c) + utils(triangle, r+1, c,dp);
+        int diagonal = triangle.get(r).get(c) + utils(triangle, r+1, c+1,dp);
 
-        if(idx - 1 >= 0 && idx-1 < triangle.get(n-1).size())
-            path2 = minTotal(triangle,n-1,idx-1,dp) + triangle.get(n).get(idx);
-
-        min = Math.min(min,path1);
-        min = Math.min(min,path2);
-        
-        
-        dp[n][idx] = min;
+        int min = Math.min(down,diagonal);
+        dp[r][c] = min;
         return min;
     }
 }
