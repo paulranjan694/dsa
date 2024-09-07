@@ -17,7 +17,7 @@ class Solution {
                     temp[j] = Math.min(up,left);
                 }
             }
-            dp = temp;
+            dp = temp.clone();
         }
         return dp[m-1];
     }
