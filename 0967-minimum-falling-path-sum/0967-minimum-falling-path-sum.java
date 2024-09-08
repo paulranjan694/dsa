@@ -1,4 +1,5 @@
 class Solution {
+    //tabulation
     public int minFallingPathSum(int[][] matrix) {
         int n = matrix.length;
         int[][] dp = new int[n][n];
@@ -28,6 +29,7 @@ class Solution {
         return min;
     }
 
+    //Memoization gives TLE for n = 100 (idk the reason)
     public int minFallingPathSum2(int[][] matrix) {
         int n = matrix.length;
         int m = matrix[0].length;
@@ -50,8 +52,10 @@ class Solution {
         if( c < 0 || c == n) return Integer.MAX_VALUE;
 
         if(r==n-1){
+            if(c>=0 && c< n )
+                return matrix[r][c];
+                else return 0;
             //dp[r][c] = matrix[r][c];
-            return matrix[r][c];
         }
 
         if(dp[r][c] != -1) return dp[r][c];
