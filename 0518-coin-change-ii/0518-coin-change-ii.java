@@ -7,13 +7,14 @@ class Solution {
     }
 
     private int utils(int amount, int[] coins, int idx, int[][] dp){
-        if(amount == 0) return 1;
-        if(amount < 0) return 0;
+        if(idx==0){
+            return amount % coins[0] == 0 ? 1 : 0;
+        }
         int pick=0,notpick=0;
-        if(idx>=0 && dp[idx][amount] != -1) return dp[idx][amount];
-        if(idx>=0 && amount>= coins[idx]) pick = utils(amount - coins[idx], coins,idx,dp);
-        if(idx>=0) notpick = utils(amount, coins,idx-1,dp);
-        if(idx>=0) dp[idx][amount] = pick + notpick;
+        if(dp[idx][amount] != -1) return dp[idx][amount];
+        if(amount>= coins[idx]) pick = utils(amount - coins[idx], coins,idx,dp);
+        notpick = utils(amount, coins,idx-1,dp);
+        dp[idx][amount] = pick + notpick;
         return pick + notpick;
     }
 }
