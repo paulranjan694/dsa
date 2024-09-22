@@ -2,7 +2,7 @@ class Solution {
     public int minInsertions(String s) {
         StringBuilder temp = new StringBuilder(s);
         String t = temp.reverse().toString();
-        int lcsLen = lcs(s,t);
+        int lcsLen = lcs(s,t);//longest palindromic subsequence
         return s.length() - lcsLen;
     }
 
