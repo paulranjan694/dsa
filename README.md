@@ -384,6 +384,7 @@ DSA solutions
 | [0022-generate-parentheses](https://github.com/paulranjan694/dsa/tree/master/0022-generate-parentheses) |
 | [0079-word-search](https://github.com/paulranjan694/dsa/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/paulranjan694/dsa/tree/master/0091-decode-ways) |
+| [0115-distinct-subsequences](https://github.com/paulranjan694/dsa/tree/master/0115-distinct-subsequences) |
 | [0205-isomorphic-strings](https://github.com/paulranjan694/dsa/tree/master/0205-isomorphic-strings) |
 | [0257-binary-tree-paths](https://github.com/paulranjan694/dsa/tree/master/0257-binary-tree-paths) |
 | [0266-palindrome-permutation](https://github.com/paulranjan694/dsa/tree/master/0266-palindrome-permutation) |
@@ -470,6 +471,7 @@ DSA solutions
 | [0064-minimum-path-sum](https://github.com/paulranjan694/dsa/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/paulranjan694/dsa/tree/master/0091-decode-ways) |
+| [0115-distinct-subsequences](https://github.com/paulranjan694/dsa/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/paulranjan694/dsa/tree/master/0120-triangle) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/paulranjan694/dsa/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/paulranjan694/dsa/tree/master/0198-house-robber) |
