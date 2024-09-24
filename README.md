@@ -382,6 +382,7 @@ DSA solutions
 | [0003-longest-substring-without-repeating-characters](https://github.com/paulranjan694/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/paulranjan694/dsa/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/paulranjan694/dsa/tree/master/0022-generate-parentheses) |
+| [0072-edit-distance](https://github.com/paulranjan694/dsa/tree/master/0072-edit-distance) |
 | [0079-word-search](https://github.com/paulranjan694/dsa/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/paulranjan694/dsa/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/paulranjan694/dsa/tree/master/0115-distinct-subsequences) |
@@ -470,6 +471,7 @@ DSA solutions
 | [0063-unique-paths-ii](https://github.com/paulranjan694/dsa/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/paulranjan694/dsa/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/paulranjan694/dsa/tree/master/0072-edit-distance) |
 | [0091-decode-ways](https://github.com/paulranjan694/dsa/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/paulranjan694/dsa/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/paulranjan694/dsa/tree/master/0120-triangle) |
