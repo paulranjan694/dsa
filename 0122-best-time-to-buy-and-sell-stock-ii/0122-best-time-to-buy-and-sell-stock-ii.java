@@ -32,9 +32,9 @@ class Solution {
         if(dp[day][buy] != -1) return dp[day][buy];
         int profit = 0;
         if(buy==1){
-            profit = Math.max(-prices[day] + utils(prices,day+1,0,dp), utils(prices,day+1,1,dp));
+            profit = Math.max(-prices[day] + utils(prices,day+1,0,dp)/*buy*/, utils(prices,day+1,1,dp)/**not buy */);
         }else{
-            profit = Math.max(prices[day] + utils(prices,day+1,1,dp), utils(prices,day+1,0,dp));
+            profit = Math.max(prices[day] + utils(prices,day+1,1,dp)/**sell */, utils(prices,day+1,0,dp)/**don't sell */);
         }
         return dp[day][buy] = profit;
     }
