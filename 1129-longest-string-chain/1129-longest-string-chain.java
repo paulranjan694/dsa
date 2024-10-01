@@ -16,7 +16,8 @@ class Solution {
         return false;
 
     }
-    public int longestStrChain(String[] words) {
+    //TC  - n^2 * L + nlogn -> n(nL+logn) || L = length of bigger String
+    public int longestStrChain2(String[] words) {
         int n = words.length,max=1;
 
         Arrays.sort(words,(String s1,String s2) -> Integer.compare(s1.length(), s2.length()));
@@ -30,6 +31,27 @@ class Solution {
             }
             max=Math.max(max,dp[i]);
         }
+        return max;
+    }
+
+    //TC - n(L^2 + logn) 
+    public int longestStrChain(String[] words) {
+        int max=1;
+        HashMap<String,Integer> dp = new HashMap<>();
+        Arrays.sort(words,(String s1,String s2) -> Integer.compare(s1.length(), s2.length()));
+        for(String word : words){
+            int currMax = 1;
+            for(int i=0;i<word.length(); i++){
+                StringBuilder temp = new StringBuilder(word);
+                temp.deleteCharAt(i);
+                String tempWord = temp.toString();
+                int prevMax = dp.getOrDefault(tempWord, 0);
+                currMax = Math.max(currMax,prevMax+1);
+            }
+            dp.put(word, currMax);
+            max = Math.max(currMax,max);
+        }
+        
         return max;
     }
 }
