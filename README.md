@@ -208,6 +208,7 @@ DSA solutions
 | [0059-spiral-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0059-spiral-matrix-ii) |
 | [0063-unique-paths-ii](https://github.com/paulranjan694/dsa/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/paulranjan694/dsa/tree/master/0064-minimum-path-sum) |
+| [0075-sort-colors](https://github.com/paulranjan694/dsa/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/paulranjan694/dsa/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/paulranjan694/dsa/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/paulranjan694/dsa/tree/master/0090-subsets-ii) |
@@ -370,6 +371,7 @@ DSA solutions
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/paulranjan694/dsa/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/paulranjan694/dsa/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/paulranjan694/dsa/tree/master/0215-kth-largest-element-in-an-array) |
@@ -624,6 +626,7 @@ DSA solutions
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/paulranjan694/dsa/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0061-rotate-list](https://github.com/paulranjan694/dsa/tree/master/0061-rotate-list) |
+| [0075-sort-colors](https://github.com/paulranjan694/dsa/tree/master/0075-sort-colors) |
 | [0086-partition-list](https://github.com/paulranjan694/dsa/tree/master/0086-partition-list) |
 | [0141-linked-list-cycle](https://github.com/paulranjan694/dsa/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/paulranjan694/dsa/tree/master/0142-linked-list-cycle-ii) |
