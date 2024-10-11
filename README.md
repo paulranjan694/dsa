@@ -247,6 +247,7 @@ DSA solutions
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/paulranjan694/dsa/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/paulranjan694/dsa/tree/master/0542-01-matrix) |
+| [0554-brick-wall](https://github.com/paulranjan694/dsa/tree/master/0554-brick-wall) |
 | [0575-distribute-candies](https://github.com/paulranjan694/dsa/tree/master/0575-distribute-candies) |
 | [0605-can-place-flowers](https://github.com/paulranjan694/dsa/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
@@ -314,6 +315,7 @@ DSA solutions
 | [0442-find-all-duplicates-in-an-array](https://github.com/paulranjan694/dsa/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/paulranjan694/dsa/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
+| [0554-brick-wall](https://github.com/paulranjan694/dsa/tree/master/0554-brick-wall) |
 | [0575-distribute-candies](https://github.com/paulranjan694/dsa/tree/master/0575-distribute-candies) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
 | [0694-number-of-distinct-islands](https://github.com/paulranjan694/dsa/tree/master/0694-number-of-distinct-islands) |
