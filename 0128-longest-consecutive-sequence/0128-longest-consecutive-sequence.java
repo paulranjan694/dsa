@@ -10,8 +10,8 @@ class Solution {
         for(int i=0;i<nums.length;i++){
             int curr = nums[i];
             if(!set.contains(curr-1)){
-                int tempLongest = 0;
-                while(set.contains(curr)){
+                int tempLongest = 1;
+                while(set.contains(curr+1)){
                     tempLongest++;
                     curr++;
                 }
