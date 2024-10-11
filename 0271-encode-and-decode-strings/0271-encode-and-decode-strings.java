@@ -22,8 +22,8 @@ public class Codec {
                 int len = Integer.parseInt(newStr);
                 newStr = getString(s, i+1, i+1+len);
                 decodedStr.add(newStr);
-                prev = i+1+len;
-                i = i+len+1;
+                i = i+1+len;
+                prev=i;
             }
         }
         return decodedStr;
