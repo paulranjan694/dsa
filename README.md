@@ -241,6 +241,7 @@ DSA solutions
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/paulranjan694/dsa/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/paulranjan694/dsa/tree/master/0416-partition-equal-subset-sum) |
+| [0435-non-overlapping-intervals](https://github.com/paulranjan694/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/paulranjan694/dsa/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/paulranjan694/dsa/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
@@ -383,6 +384,7 @@ DSA solutions
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/paulranjan694/dsa/tree/master/0368-largest-divisible-subset) |
+| [0435-non-overlapping-intervals](https://github.com/paulranjan694/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
@@ -480,6 +482,7 @@ DSA solutions
 | [0134-gas-station](https://github.com/paulranjan694/dsa/tree/master/0134-gas-station) |
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0409-longest-palindrome](https://github.com/paulranjan694/dsa/tree/master/0409-longest-palindrome) |
+| [0435-non-overlapping-intervals](https://github.com/paulranjan694/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/paulranjan694/dsa/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
@@ -527,6 +530,7 @@ DSA solutions
 | [0322-coin-change](https://github.com/paulranjan694/dsa/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/paulranjan694/dsa/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/paulranjan694/dsa/tree/master/0416-partition-equal-subset-sum) |
+| [0435-non-overlapping-intervals](https://github.com/paulranjan694/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/paulranjan694/dsa/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/paulranjan694/dsa/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/paulranjan694/dsa/tree/master/0518-coin-change-ii) |
