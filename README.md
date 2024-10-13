@@ -441,6 +441,7 @@ DSA solutions
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/paulranjan694/dsa/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/paulranjan694/dsa/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/paulranjan694/dsa/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2243-check-if-all-as-appears-before-all-bs](https://github.com/paulranjan694/dsa/tree/master/2243-check-if-all-as-appears-before-all-bs) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/paulranjan694/dsa/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [2470-removing-stars-from-a-string](https://github.com/paulranjan694/dsa/tree/master/2470-removing-stars-from-a-string) |
 | [2727-number-of-senior-citizens](https://github.com/paulranjan694/dsa/tree/master/2727-number-of-senior-citizens) |
