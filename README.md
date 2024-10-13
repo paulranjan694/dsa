@@ -235,6 +235,7 @@ DSA solutions
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0269-alien-dictionary](https://github.com/paulranjan694/dsa/tree/master/0269-alien-dictionary) |
 | [0271-encode-and-decode-strings](https://github.com/paulranjan694/dsa/tree/master/0271-encode-and-decode-strings) |
+| [0283-move-zeroes](https://github.com/paulranjan694/dsa/tree/master/0283-move-zeroes) |
 | [0300-longest-increasing-subsequence](https://github.com/paulranjan694/dsa/tree/master/0300-longest-increasing-subsequence) |
 | [0303-range-sum-query-immutable](https://github.com/paulranjan694/dsa/tree/master/0303-range-sum-query-immutable) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/paulranjan694/dsa/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -655,6 +656,7 @@ DSA solutions
 | [0160-intersection-of-two-linked-lists](https://github.com/paulranjan694/dsa/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/paulranjan694/dsa/tree/master/0234-palindrome-linked-list) |
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
+| [0283-move-zeroes](https://github.com/paulranjan694/dsa/tree/master/0283-move-zeroes) |
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
 | [0908-middle-of-the-linked-list](https://github.com/paulranjan694/dsa/tree/master/0908-middle-of-the-linked-list) |
 | [1129-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1129-longest-string-chain) |
