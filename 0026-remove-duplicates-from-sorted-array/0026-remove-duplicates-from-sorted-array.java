@@ -1,3 +1,5 @@
+// tc- o(n)
+// sc-o(1)
 class Solution {
     public int removeDuplicates(int[] nums) {
         int idx=1, n = nums.length;
