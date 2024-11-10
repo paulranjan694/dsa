@@ -5,11 +5,10 @@ class Solution {
             if(e==1){
                 one++;
             }else{
-                max=Math.max(one,max);
                 one=0;
             }
+            max=Math.max(one,max);
         }
-        max=Math.max(one,max);
         return max;
     }
 }
