@@ -228,6 +228,7 @@ DSA solutions
 | [0152-maximum-product-subarray](https://github.com/paulranjan694/dsa/tree/master/0152-maximum-product-subarray) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/paulranjan694/dsa/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0189-rotate-array](https://github.com/paulranjan694/dsa/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/paulranjan694/dsa/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/paulranjan694/dsa/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/paulranjan694/dsa/tree/master/0213-house-robber-ii) |
@@ -461,6 +462,7 @@ DSA solutions
 | [0062-unique-paths](https://github.com/paulranjan694/dsa/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/paulranjan694/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0189-rotate-array](https://github.com/paulranjan694/dsa/tree/master/0189-rotate-array) |
 | [0368-largest-divisible-subset](https://github.com/paulranjan694/dsa/tree/master/0368-largest-divisible-subset) |
 | [0870-magic-squares-in-grid](https://github.com/paulranjan694/dsa/tree/master/0870-magic-squares-in-grid) |
 | [1013-fibonacci-number](https://github.com/paulranjan694/dsa/tree/master/1013-fibonacci-number) |
@@ -661,6 +663,7 @@ DSA solutions
 | [0142-linked-list-cycle-ii](https://github.com/paulranjan694/dsa/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/paulranjan694/dsa/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/paulranjan694/dsa/tree/master/0160-intersection-of-two-linked-lists) |
+| [0189-rotate-array](https://github.com/paulranjan694/dsa/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/paulranjan694/dsa/tree/master/0234-palindrome-linked-list) |
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0283-move-zeroes](https://github.com/paulranjan694/dsa/tree/master/0283-move-zeroes) |
