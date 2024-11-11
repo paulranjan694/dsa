@@ -12,16 +12,16 @@ class Solution {
 
         if(idx==-1){
             reverse(nums,0);
-            return;
+        }else{
+            for(int i = n-1;i>=0;i--){
+                if(nums[idx] < nums[i]){
+                swap(nums,idx,i);
+                break;
+                }
+            }
+            reverse(nums,idx+1);
         }
 
-        for(int i = n-1;i>=0;i--){
-            if(nums[idx] < nums[i]){
-               swap(nums,idx,i);
-               break;
-            }
-        }
-        reverse(nums,idx+1);
 
 
         // int i=n-2;
