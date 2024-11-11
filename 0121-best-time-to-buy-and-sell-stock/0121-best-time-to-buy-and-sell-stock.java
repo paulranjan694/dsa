@@ -17,6 +17,8 @@ class Solution {
         return maxProfit;
     }
 
+    // TC - O(n)
+    // SC - O(1)
     public int maxProfit(int[] prices) {
         int n = prices.length,maxProfit = 0,min=prices[0];
         
