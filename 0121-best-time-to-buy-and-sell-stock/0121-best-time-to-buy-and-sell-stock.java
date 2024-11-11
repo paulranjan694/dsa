@@ -1,5 +1,9 @@
 class Solution {
-    public int maxProfit(int[] prices) {
+
+    // TC - O(n)
+    // SC - O(n)
+    //lets optimise sc to O(1)
+    public int maxProfit2(int[] prices) {
         int n = prices.length,maxProfit = -1;
         int[] dp = new int[n];
         dp[n-1] = prices[n-1];
@@ -9,6 +13,17 @@ class Solution {
 
         for(int i=0;i<n;i++){
             maxProfit = Math.max(maxProfit, (dp[i]-prices[i]));
+        }
+        return maxProfit;
+    }
+
+    public int maxProfit(int[] prices) {
+        int n = prices.length,maxProfit = 0,min=prices[0];
+        
+        for(int i=1;i<n;i++){
+
+            maxProfit = Math.max(maxProfit, prices[i]-min);
+            min = Math.min(prices[i],min);
         }
         return maxProfit;
     }
