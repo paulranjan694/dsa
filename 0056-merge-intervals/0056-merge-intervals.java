@@ -1,3 +1,6 @@
+//tc - nlogn + n
+//sc - 1
+
 class Solution {
     public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals,(a,b) -> {
