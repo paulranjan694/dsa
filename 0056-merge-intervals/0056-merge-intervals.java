@@ -1,5 +1,5 @@
 //tc - nlogn + n
-//sc - 1
+//sc - n
 
 class Solution {
     public int[][] merge(int[][] intervals) {
