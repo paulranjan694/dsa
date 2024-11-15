@@ -1,26 +1,26 @@
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
-        int n=matrix.length ,m = matrix[0].length;
-        int i=0,j=m-1;
-        while(i<n){
-            if(target > matrix[i][j]){
-                i++;
-            }else if(target < matrix[i][j]){
-                return bsearch(matrix[i], 0,j-1,target);
-            }else{
+        int m = matrix.length, n = matrix[0].length;
+        for(int i = 0;i<m;i++){
+            if(matrix[i][n-1] >target){
+                if(bSearch(matrix[i], 0, n-1, target) == true){
+                    return true;
+                }else{
+                    return false;
+                }
+            }else if(matrix[i][n-1] == target){
                 return true;
             }
         }
         return false;
     }
 
-     public boolean bsearch(int[] arr,int s,int e,int k){
+    boolean bSearch(int[] arr, int s, int e, int target){
         while(s<=e){
             int mid = (s+e)/2;
-            if(arr[mid] == k){
-                return true;
-            }else if(arr[mid] > k){
-                e = mid-1;
+            if(arr[mid] == target) return true;
+            else if(arr[mid] > target){
+                e=mid-1;
             }else{
                 s=mid+1;
             }
