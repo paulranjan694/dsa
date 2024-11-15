@@ -3,11 +3,7 @@ class Solution {
         int m = matrix.length, n = matrix[0].length;
         for(int i = 0;i<m;i++){
             if(matrix[i][n-1] >target){
-                if(bSearch(matrix[i], 0, n-1, target) == true){
-                    return true;
-                }else{
-                    return false;
-                }
+                return bSearch(matrix[i], 0, n-1, target);
             }else if(matrix[i][n-1] == target){
                 return true;
             }
