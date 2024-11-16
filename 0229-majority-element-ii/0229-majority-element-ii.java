@@ -32,11 +32,11 @@ class Solution {
 
         List<Integer> ans = new ArrayList<>();
 
-        if(cnt1 > Math.floor(n/3)) {
+        if(cnt1 > n/3) {
             ans.add(ele1);
         }
 
-        if(cnt2 > Math.floor(n/3)) {
+        if(cnt2 > n/3) {
             ans.add(ele2);
         }
         return ans;
