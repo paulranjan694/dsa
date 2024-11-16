@@ -1,4 +1,6 @@
 class Solution {
+    //tc - O(n)
+    //sc - O(1)
     public List<Integer> majorityElement(int[] nums) {
         int ele1 = Integer.MIN_VALUE,ele2 = Integer.MIN_VALUE, cnt1 = 0, cnt2=0, n= nums.length;
 
