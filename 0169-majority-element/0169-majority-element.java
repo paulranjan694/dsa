@@ -6,9 +6,8 @@ class Solution {
             if(cnt==0){
                 ele=nums[i];
                 cnt=1;
-                continue;
             }
-            if(ele==nums[i]){
+            else if(ele==nums[i]){
                 cnt++;
             }else{
                 cnt--;
