@@ -1,5 +1,31 @@
 class Solution {
+    //tc - logn
+    // sc - 1
     public double myPow(double x, int n) {
+        long tempn = n;
+        if(tempn < 0) tempn *= -1;
+        double ans = 1.0;
+
+        while(tempn>0){
+            //odd case
+            if(tempn%2 != 0){
+                ans *= x;
+                tempn-=1;
+            }else{//even case
+                x *= x;
+                tempn/=2;
+            }
+        }
+
+        if(n<0) return ((double)1.0/(double)ans);
+        return ans;
+
+
+    }
+
+    //tc - logn
+    // sc - logn - recursive stack space
+    public double myPow2(double x, int n) {
         boolean isNegative = false;
 
         if(n < 0){
