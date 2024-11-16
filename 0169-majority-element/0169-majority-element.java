@@ -1,4 +1,7 @@
 class Solution {
+    //tc - O(n)
+    //sc - O(1)
+    //Moore’s Voting Algorithm
     public int majorityElement(int[] nums) {
         int ele = nums[0], cnt = 1, n= nums.length;
 
