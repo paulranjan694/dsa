@@ -199,6 +199,7 @@ DSA solutions
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/paulranjan694/dsa/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/paulranjan694/dsa/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/paulranjan694/dsa/tree/master/0031-next-permutation) |
 | [0039-combination-sum](https://github.com/paulranjan694/dsa/tree/master/0039-combination-sum) |
@@ -320,6 +321,7 @@ DSA solutions
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/paulranjan694/dsa/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/paulranjan694/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/paulranjan694/dsa/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0073-set-matrix-zeroes](https://github.com/paulranjan694/dsa/tree/master/0073-set-matrix-zeroes) |
