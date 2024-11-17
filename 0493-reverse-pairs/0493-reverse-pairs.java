@@ -1,3 +1,6 @@
+//tc - O(nlogn)
+//sc - O(n)
+
 class Solution {
     public int reversePairs(int[] nums) {
         int n = nums.length;
