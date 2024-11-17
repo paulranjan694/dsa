@@ -1,4 +1,6 @@
 class Solution {
+    //tc - O(m-1)
+    //sc - O(1)
     public int uniquePaths(int m, int n) {
         int tempN = m+n-2;
         return nCr(tempN,m-1);
