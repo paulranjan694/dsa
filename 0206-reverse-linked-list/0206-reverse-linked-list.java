@@ -9,7 +9,7 @@
  * }
  */
 class Solution {
-    public ListNode reverseList(ListNode head) {
+    public ListNode reverseList2(ListNode head) {
         if(head == null) return head;
 
         ListNode prev=null, curr = head,next=null;
@@ -22,4 +22,15 @@ class Solution {
         }
         return prev;
     }
+
+    public ListNode reverseList(ListNode head) {
+        if(head==null || head.next == null) return head;
+
+        ListNode rNode = reverseList(head.next);
+        ListNode f = head.next;
+        f.next = head;
+        head.next = null;
+        return rNode;
+    }
+
 }
