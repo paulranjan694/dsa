@@ -309,6 +309,7 @@ DSA solutions
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/paulranjan694/dsa/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/paulranjan694/dsa/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/paulranjan694/dsa/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/paulranjan694/dsa/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2727-number-of-senior-citizens](https://github.com/paulranjan694/dsa/tree/master/2727-number-of-senior-citizens) |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/paulranjan694/dsa/tree/master/3415-check-if-grid-satisfies-conditions) |
 ## Prefix Sum
@@ -356,6 +357,7 @@ DSA solutions
 | [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/paulranjan694/dsa/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/paulranjan694/dsa/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/paulranjan694/dsa/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/paulranjan694/dsa/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Stack
 |  |
@@ -896,6 +898,7 @@ DSA solutions
 | [0239-sliding-window-maximum](https://github.com/paulranjan694/dsa/tree/master/0239-sliding-window-maximum) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/paulranjan694/dsa/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/paulranjan694/dsa/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/paulranjan694/dsa/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Matrix
 |  |
 | ------- |
