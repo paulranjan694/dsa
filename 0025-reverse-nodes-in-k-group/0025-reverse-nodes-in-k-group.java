@@ -10,51 +10,41 @@
  */
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
-        if(head==null) return head;
+       ListNode prev=null, next =null, tempHead = head, temp = head;
 
-        ListNode temp = head;
-        ListNode prevNode = null;
-        ListNode nextNode = null;
-        while(temp!=null){
+       while(temp != null){
             ListNode kth = findKthNode(temp,k);
             if(kth != null){
-                nextNode = kth.next;
-                kth.next = null;
-                ListNode revHead = reverse(temp);
-                if(temp == head){
-                    head = revHead;
-                    prevNode = temp;
+                next = kth.next;
+                kth.next=null;
+                ListNode revhead = reverse(tempHead);
+
+                if(tempHead == head){
+                    head = revhead;  
                 }else{
-                prevNode.next = revHead;
-                prevNode = temp;
+                    prev.next = revhead;
                 }
+                prev = tempHead;
+                tempHead.next = next;
+                tempHead = next;
             }
-            if(kth!=null)
-                temp=nextNode;
-            else{
-                prevNode.next = temp;
-                prevNode = temp;
-                temp = temp.next;
-            }
-        }
-        return head;
+            temp = temp.next;
+       }
+       return head;
     }
 
-    public ListNode reverse(ListNode h){
-        if(h==null) return h;
+    public ListNode reverse(ListNode node){
+        ListNode prev=null, next =null, temp = node;
 
-        ListNode p = null;
-        ListNode t = h;
-
-        while(t!=null){
-            ListNode x = t.next;
-            t.next = p;
-            p=t;
-            t=x;
+        while(temp!=null){
+            next = temp.next;
+            temp.next = prev;
+            prev = temp;
+            temp = next;
         }
-        h=p;
-        return h;
-    }
+
+        return prev;
+    } 
 
     public ListNode findKthNode(ListNode h, int k){
         if(h == null || k==0) return h;
