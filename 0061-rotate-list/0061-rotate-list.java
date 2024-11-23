@@ -10,76 +10,55 @@
  */
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
-        if(head == null) return head;
-
+        if(head ==null || k==0) return head;
         ListNode temp = head;
-        int len = lengthOfLL(temp);
+        int len = getLength(temp);
+
         k = k % len;
 
-        if(k==0) return head;
+        ListNode kth = findKthNode(temp, len-k-1);
+        ListNode nextnode = kth.next;
+        kth.next = null;
+        ListNode rev = reverse(head);
+        ListNode prev= head;
+        head = rev;
+        rev = reverse(nextnode);
+        prev.next = rev;
 
-        ListNode fast = temp;
-        ListNode slow = temp;
-
-        while(k-- > 0 && fast != null){
-            fast = fast.next;
-        }
-
-        while(fast != null && fast.next != null){
-            slow = slow.next;
-            fast = fast.next;
-        }
-
-        ListNode nextNode = slow.next;
-        slow.next = null;
-        fast.next = temp;
-        head = nextNode;
-
-
-
-    //reverse logic
-        // if(fast==null){
-        //     ListNode revHead = reverse(temp);
-        //     head = revHead;
-        // }else{
-        //     ListNode nextNode = slow.next;
-        //     slow.next = null;
-        //     ListNode h1 = reverse(temp);
-        //     ListNode h2 = reverse(nextNode);
-        //     temp.next = h2;
-        //     ListNode h3 = reverse(h1);
-        //     head = h3;
-        // }
-        return head;
+        rev = reverse(head);
+        return rev;
     }
 
-    public ListNode reverse(ListNode h){
-        if(h==null) return h;
+    public ListNode reverse(ListNode node){
+        ListNode temp = node, next=null,prev=null;
 
-        ListNode p = null;
-        ListNode t = h;
-
-        while(t!=null){
-            ListNode x = t.next;
-            t.next = p;
-            p=t;
-            t=x;
+        while(temp != null){
+            next = temp.next;
+            temp.next=prev;
+            prev=temp;
+            temp=next;
         }
-        h=p;
-        return h;
+        return prev;
     }
 
+    public int getLength(ListNode tnode){
+        ListNode node = tnode;
+        int cnt = 0;
+        while(node != null){
+            cnt++;
+            node = node.next;
+        }
+        return cnt;
+    }
 
-    public int lengthOfLL(ListNode h){
-        if(h==null) return 0;
-
+    public ListNode findKthNode(ListNode h, int k){
+        if(h == null || k==0) return h;
         ListNode t = h;
-        int len=0;
-        while(t != null){
+        k--;
+        while(k >= 0 && t!=null){
             t=t.next;
-            len++;
+            k--;
         }
-
-        return len;
+        return t;
     }
 }
