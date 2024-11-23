@@ -3,8 +3,9 @@ class Solution {
         List<List<Integer>> res = new ArrayList<>();
         int n = nums.length;
         Arrays.sort(nums);
-        for(int i = 0; i< n-2; i++){
-           if(i-1 >= 0 && nums[i]==nums[i-1]) continue;
+        for(int i = 0; i< n; i++){
+           //if(i-1 >= 0 && nums[i]==nums[i-1]) continue;
+           while(i>0 && i<n && nums[i-1] == nums[i]) i++;
             int left = i+1, right = n-1;
             while(left < right){
                 if(nums[i]+nums[left]+nums[right] == 0){
