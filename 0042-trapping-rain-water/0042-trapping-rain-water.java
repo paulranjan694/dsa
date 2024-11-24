@@ -1,6 +1,6 @@
 class Solution {
     //optimise - TC - O(n) SC - O(1)
-    public int trap2(int[] height) {
+    public int trap(int[] height) {
         int n = height.length;
         int lmax=0,rmax=0, l=0,r=n-1, total = 0;
         while(l < r){
@@ -26,7 +26,7 @@ class Solution {
     }
 
     //TC - O(n). SC - O(n) => prefix and suffix arrays take n space
-    public int trap(int[] height) {
+    public int trap2(int[] height) {
         int n = height.length, total = 0;
         int[] prefixmax = new int[n];
         int[] suffixmax = new int[n];
