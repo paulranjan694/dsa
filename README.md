@@ -271,6 +271,7 @@ DSA solutions
 | [0518-coin-change-ii](https://github.com/paulranjan694/dsa/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/paulranjan694/dsa/tree/master/0542-01-matrix) |
 | [0554-brick-wall](https://github.com/paulranjan694/dsa/tree/master/0554-brick-wall) |
+| [0560-subarray-sum-equals-k](https://github.com/paulranjan694/dsa/tree/master/0560-subarray-sum-equals-k) |
 | [0575-distribute-candies](https://github.com/paulranjan694/dsa/tree/master/0575-distribute-candies) |
 | [0605-can-place-flowers](https://github.com/paulranjan694/dsa/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
@@ -321,6 +322,7 @@ DSA solutions
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0303-range-sum-query-immutable](https://github.com/paulranjan694/dsa/tree/master/0303-range-sum-query-immutable) |
+| [0560-subarray-sum-equals-k](https://github.com/paulranjan694/dsa/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/paulranjan694/dsa/tree/master/0724-find-pivot-index) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/paulranjan694/dsa/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 ## Hash Table
@@ -348,6 +350,7 @@ DSA solutions
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/paulranjan694/dsa/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
 | [0554-brick-wall](https://github.com/paulranjan694/dsa/tree/master/0554-brick-wall) |
+| [0560-subarray-sum-equals-k](https://github.com/paulranjan694/dsa/tree/master/0560-subarray-sum-equals-k) |
 | [0575-distribute-candies](https://github.com/paulranjan694/dsa/tree/master/0575-distribute-candies) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
 | [0694-number-of-distinct-islands](https://github.com/paulranjan694/dsa/tree/master/0694-number-of-distinct-islands) |
