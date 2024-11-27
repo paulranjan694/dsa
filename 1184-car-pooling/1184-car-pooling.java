@@ -1,5 +1,22 @@
 class Solution {
     public boolean carPooling(int[][] trips, int capacity) {
+        int[] prefixCapacity = new int[1001];
+
+        for(int[] arr: trips){
+            prefixCapacity[arr[1]] += arr[0];
+            prefixCapacity[arr[2]] -= arr[0];
+        }
+        int currPas = 0;
+        for(int i = 0; i < 1001; i++){
+            currPas += prefixCapacity[i];
+            if(currPas > capacity) return false;
+        }
+        return true;
+    }
+
+    //TC - O(nlogn(sorting) + nlogn(heap))
+    //SC - O(n)
+    public boolean carPooling2(int[][] trips, int capacity) {
         int n = trips.length;
 
         Arrays.sort(trips,new Comparator<int[]>(){
