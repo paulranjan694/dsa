@@ -1,4 +1,6 @@
 class Solution {
+    //TC - O(n)
+    //SC - O(n)
     public boolean carPooling(int[][] trips, int capacity) {
         int[] prefixCapacity = new int[1001];
 
