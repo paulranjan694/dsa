@@ -8,10 +8,10 @@ class Solution {
         while(s<=e){
             int mid = (s+e)/2;
             //min=Math.min(min,nums[mid]);
-            if(nums[mid] >= nums[s]){//left part
+            if(nums[mid] >= nums[s]){//left part sorted, so eliminate
                 min=Math.min(min,nums[s]);
                 s=mid+1;
-            }else{//right part
+            }else{//right part sorted, so eliminate right part
                 min=Math.min(min,nums[mid]);
                 e=mid-1;
             }
