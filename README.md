@@ -204,6 +204,7 @@ DSA solutions
 | [0018-4sum](https://github.com/paulranjan694/dsa/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/paulranjan694/dsa/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/paulranjan694/dsa/tree/master/0031-next-permutation) |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/paulranjan694/dsa/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0039-combination-sum](https://github.com/paulranjan694/dsa/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/paulranjan694/dsa/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/paulranjan694/dsa/tree/master/0041-first-missing-positive) |
@@ -905,6 +906,7 @@ DSA solutions
 ## Binary Search Tree
 |  |
 | ------- |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/paulranjan694/dsa/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/paulranjan694/dsa/tree/master/0074-search-a-2d-matrix) |
 | [0098-validate-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0098-validate-binary-search-tree) |
 | [0222-count-complete-tree-nodes](https://github.com/paulranjan694/dsa/tree/master/0222-count-complete-tree-nodes) |
