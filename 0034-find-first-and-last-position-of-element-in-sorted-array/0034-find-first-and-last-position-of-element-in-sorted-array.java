@@ -1,46 +1,41 @@
 class Solution {
     public int[] searchRange(int[] nums, int target) {
-        int s = 0,e = nums.length-1;
-        int firstOcr = bsearchFirstOcr(nums,target,s,e);
-        int secondOcr = bsearchSecondOcr(nums,target,s,e);
+        int n =nums.length;
+        int firstOccr = bsearch_firstOccur(nums,0,n-1,target);
+        int secOccr = bsearch_secOccur(nums,0,n-1,target);
 
-        int[] res = new int[2];
-        res[0] = firstOcr;
-        res[1] = secondOcr;
-
-        return res;
+        return new int[]{firstOccr,secOccr};
     }
 
-    public int bsearchFirstOcr(int[] nums, int target, int s, int e){
-        int ans=-1;
+    public int bsearch_firstOccur(int[] nums, int s, int e, int target){
+        int idx=-1;
         while(s<=e){
-            int mid = (s+e)/2;
-            if(nums[mid]==target){
-                ans=mid;
+            int mid= (s+e)/2;
+            if(nums[mid] == target){
+                idx=mid;
                 e=mid-1;
-            }else if(nums[s]<=target && target <= nums[mid]){
+            }else if(nums[mid] > target){
                 e=mid-1;
             }else{
                 s=mid+1;
             }
         }
-        return ans;
+        return idx;
     }
 
-    public int bsearchSecondOcr(int[] nums, int target, int s, int e){
-        int ans=-1;
+    public int bsearch_secOccur(int[] nums, int s, int e, int target){
+        int idx=-1;
         while(s<=e){
-            int mid = (s+e)/2;
-            if(nums[mid]==target){
-                ans=mid;
+            int mid= (s+e)/2;
+            if(nums[mid] == target){
+                idx=mid;
                 s=mid+1;
-            }else if(nums[s]<=target && target <= nums[mid]){
+            }else if(nums[mid] > target){
                 e=mid-1;
             }else{
-                 s=mid+1;
+                s=mid+1;
             }
         }
-        return ans;
+        return idx;
     }
-
 }
