@@ -241,6 +241,7 @@ DSA solutions
 | [0150-evaluate-reverse-polish-notation](https://github.com/paulranjan694/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/paulranjan694/dsa/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/paulranjan694/dsa/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/paulranjan694/dsa/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/paulranjan694/dsa/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/paulranjan694/dsa/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
@@ -918,6 +919,7 @@ DSA solutions
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/paulranjan694/dsa/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0098-validate-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0098-validate-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/paulranjan694/dsa/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/paulranjan694/dsa/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/paulranjan694/dsa/tree/master/0162-find-peak-element) |
 | [0222-count-complete-tree-nodes](https://github.com/paulranjan694/dsa/tree/master/0222-count-complete-tree-nodes) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/paulranjan694/dsa/tree/master/0230-kth-smallest-element-in-a-bst) |
