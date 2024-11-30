@@ -1,9 +1,9 @@
 class Solution {
     public int minDays(int[] bloomDay, int m, int k) {
         int max =Integer.MIN_VALUE,min=Integer.MAX_VALUE;
-        for(int e: bloomDay){
-            max=Math.max(max,e);
-            min=Math.min(min,e);
+        for(int i=0; i< bloomDay.length;i++){
+            max=Math.max(max,bloomDay[i]);
+            min=Math.min(min,bloomDay[i]);
         }
 
         int low = min,high = max,ans=-1;
