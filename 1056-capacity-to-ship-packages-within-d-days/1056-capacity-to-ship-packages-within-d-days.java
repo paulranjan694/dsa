@@ -20,18 +20,16 @@ class Solution {
     }
 
     private boolean isPossible(int[] weights, int capacity, int days){
-        int dayCap = 0,total=0;
+        int dayCap = 0,total=1;
         for(int i=0;i<weights.length;i++){
-            dayCap += weights[i];
-            if(dayCap > capacity){
+            if(dayCap + weights[i] > capacity){
                 total++;
                 dayCap=weights[i];
-            }else if(dayCap == capacity){
-                total++;
-                dayCap=0;
+            }else {
+                dayCap += weights[i];
             }
         }
-        if(dayCap != 0 && dayCap < capacity) total++;
+        //if(dayCap != 0 && dayCap < capacity) total++;
         return total <= days;
     }
 }
