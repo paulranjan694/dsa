@@ -9,7 +9,7 @@ class Solution {
         while(low <= high){
             int mid = low + (high - low) /2;
             if(findRequiredTime(piles,mid) <= h){
-                ans = Math.min(ans,mid);
+                ans = mid;
                 high = mid - 1;
             }else{
                 low = mid + 1;
