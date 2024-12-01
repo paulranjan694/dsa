@@ -9,15 +9,16 @@ class Solution {
         int low = max,high=sum;
         while(low<=high){
             int mid = low + (high-low)/2;
-            if(ispossible(nums,k,mid)){
-                high = mid - 1;
-            }else{
+            int partitions = ispossible(nums,mid);
+            if(partitions > k){
                 low = mid + 1;
+            }else{
+                high = mid - 1;
             }
         }
         return low;
     }
-    private boolean ispossible(int[] nums, int k, int maxsum){
+    private int ispossible(int[] nums,int maxsum){
         int partitions=1,partitionsum=0;
         for(int i =0;i<nums.length;i++){
             if(partitionsum+nums[i] <= maxsum){
@@ -28,6 +29,6 @@ class Solution {
             }
         }
 
-        return partitions <= k;
+        return partitions;
     }
 }
