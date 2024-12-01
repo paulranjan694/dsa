@@ -267,6 +267,7 @@ DSA solutions
 | [0322-coin-change](https://github.com/paulranjan694/dsa/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/paulranjan694/dsa/tree/master/0368-largest-divisible-subset) |
+| [0410-split-array-largest-sum](https://github.com/paulranjan694/dsa/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/paulranjan694/dsa/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/paulranjan694/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/paulranjan694/dsa/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -344,6 +345,7 @@ DSA solutions
 | [0238-product-of-array-except-self](https://github.com/paulranjan694/dsa/tree/master/0238-product-of-array-except-self) |
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0303-range-sum-query-immutable](https://github.com/paulranjan694/dsa/tree/master/0303-range-sum-query-immutable) |
+| [0410-split-array-largest-sum](https://github.com/paulranjan694/dsa/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/paulranjan694/dsa/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/paulranjan694/dsa/tree/master/0724-find-pivot-index) |
 | [1184-car-pooling](https://github.com/paulranjan694/dsa/tree/master/1184-car-pooling) |
@@ -569,6 +571,7 @@ DSA solutions
 | [0134-gas-station](https://github.com/paulranjan694/dsa/tree/master/0134-gas-station) |
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0409-longest-palindrome](https://github.com/paulranjan694/dsa/tree/master/0409-longest-palindrome) |
+| [0410-split-array-largest-sum](https://github.com/paulranjan694/dsa/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/paulranjan694/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
 | [0605-can-place-flowers](https://github.com/paulranjan694/dsa/tree/master/0605-can-place-flowers) |
@@ -621,6 +624,7 @@ DSA solutions
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/paulranjan694/dsa/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/paulranjan694/dsa/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/paulranjan694/dsa/tree/master/0368-largest-divisible-subset) |
+| [0410-split-array-largest-sum](https://github.com/paulranjan694/dsa/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/paulranjan694/dsa/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/paulranjan694/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0494-target-sum](https://github.com/paulranjan694/dsa/tree/master/0494-target-sum) |
@@ -944,6 +948,7 @@ DSA solutions
 | [0285-inorder-successor-in-bst](https://github.com/paulranjan694/dsa/tree/master/0285-inorder-successor-in-bst) |
 | [0287-find-the-duplicate-number](https://github.com/paulranjan694/dsa/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/paulranjan694/dsa/tree/master/0300-longest-increasing-subsequence) |
+| [0410-split-array-largest-sum](https://github.com/paulranjan694/dsa/tree/master/0410-split-array-largest-sum) |
 | [0450-delete-node-in-a-bst](https://github.com/paulranjan694/dsa/tree/master/0450-delete-node-in-a-bst) |
 | [0493-reverse-pairs](https://github.com/paulranjan694/dsa/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/paulranjan694/dsa/tree/master/0540-single-element-in-a-sorted-array) |
