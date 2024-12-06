@@ -6,7 +6,7 @@ class Solution {
             char ch = s.charAt(r);
             int fr = hm.getOrDefault(ch,0);
             hm.put(ch,fr+1);
-            if(hm.size() > k){
+            while(hm.size() > k){
                 char ch1 = s.charAt(l);
                 int f = hm.getOrDefault(ch1,0);
                 if(f>1){
