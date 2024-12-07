@@ -305,6 +305,7 @@ DSA solutions
 | [0983-validate-stack-sequences](https://github.com/paulranjan694/dsa/tree/master/0983-validate-stack-sequences) |
 | [1002-maximum-width-ramp](https://github.com/paulranjan694/dsa/tree/master/1002-maximum-width-ramp) |
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
+| [1034-subarrays-with-k-different-integers](https://github.com/paulranjan694/dsa/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/paulranjan694/dsa/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/paulranjan694/dsa/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/paulranjan694/dsa/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -394,6 +395,7 @@ DSA solutions
 | [0870-magic-squares-in-grid](https://github.com/paulranjan694/dsa/tree/master/0870-magic-squares-in-grid) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1034-subarrays-with-k-different-integers](https://github.com/paulranjan694/dsa/tree/master/1034-subarrays-with-k-different-integers) |
 | [1129-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1129-longest-string-chain) |
 | [1297-maximum-number-of-balloons](https://github.com/paulranjan694/dsa/tree/master/1297-maximum-number-of-balloons) |
 | [1370-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1370-count-number-of-nice-subarrays) |
@@ -493,6 +495,7 @@ DSA solutions
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0387-first-unique-character-in-a-string) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
+| [1034-subarrays-with-k-different-integers](https://github.com/paulranjan694/dsa/tree/master/1034-subarrays-with-k-different-integers) |
 | [1297-maximum-number-of-balloons](https://github.com/paulranjan694/dsa/tree/master/1297-maximum-number-of-balloons) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/paulranjan694/dsa/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
@@ -1007,6 +1010,7 @@ DSA solutions
 | [0239-sliding-window-maximum](https://github.com/paulranjan694/dsa/tree/master/0239-sliding-window-maximum) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/paulranjan694/dsa/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/paulranjan694/dsa/tree/master/0424-longest-repeating-character-replacement) |
+| [1034-subarrays-with-k-different-integers](https://github.com/paulranjan694/dsa/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/paulranjan694/dsa/tree/master/1046-max-consecutive-ones-iii) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/paulranjan694/dsa/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
 | [1370-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1370-count-number-of-nice-subarrays) |
