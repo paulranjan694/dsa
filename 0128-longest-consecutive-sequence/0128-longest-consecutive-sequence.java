@@ -7,13 +7,12 @@ class Solution {
         }
 
         int maxlen=0;
-        for(int i=0;i<n;i++){
-            int ele = nums[i];
-            if(!set.contains(ele-1)){
+        for(int it:set){
+            if(!set.contains(it-1)){
                 int len=0;
-                while(set.contains(ele)){
+                while(set.contains(it)){
+                    it++;
                     len++;
-                    ele++;
                 }
                 maxlen = Math.max(maxlen,len);
             }
