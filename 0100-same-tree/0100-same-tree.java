@@ -18,12 +18,12 @@ class Solution {
         if(p==null && q==null) return true;
         if(p==null || q==null) return false;
 
-        
+        if(p.val != q.val) return false;
 
         boolean lst = isSameTree(p.left,q.left);
         if(lst == false) return false;
         boolean rst = isSameTree(p.right,q.right);
         if(rst==false) return false;
-        return lst && rst && p.val == q.val;
+        return lst && rst;
     }
 }
