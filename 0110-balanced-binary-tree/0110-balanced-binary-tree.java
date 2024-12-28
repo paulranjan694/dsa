@@ -16,19 +16,17 @@
 class Solution {
     public boolean isBalanced(TreeNode root) {
         if(root == null) return true;
-        return height(root) != -1;
-        
-        
+        int height = height(root);
+        return height == -1 ? false : true;
     }
-
-    public int height(TreeNode root){
+    private int height(TreeNode root){
         if(root == null) return 0;
-
-        int l = height(root.left);
-        int r = height(root.right);
-        if(l == -1 || r == -1) return -1;
-        if(Math.abs(l-r) > 1) return -1;
-
-        return Math.max(l,r)+1;
+        int left = height(root.left);
+        int right = height(root.right);
+        if(left == -1 || right == -1) return -1;
+        if(Math.abs(left-right) > 1){
+            return -1;
+        }
+        return 1 + Math.max(left,right);
     }
 }
