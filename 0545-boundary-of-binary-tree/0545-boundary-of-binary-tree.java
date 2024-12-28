@@ -16,40 +16,61 @@
 class Solution {
     public List<Integer> boundaryOfBinaryTree(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
-        if(root == null) return ans;
+        List<Integer> lb = new ArrayList<>();
+        List<Integer> rb = new ArrayList<>();
+        List<Integer> l = new ArrayList<>();
+        leftBoundary(root.left,lb);
+        rightBoundary(root.right,rb);
+        if(root.left != null || root.right != null)
+            leaves(root,l);
         ans.add(root.val);
-        leftboundary(root.left, ans);
-        addLeafNode(root.left,ans);
-        addLeafNode(root.right,ans);
-        rightboundary(root.right, ans);
-        return ans;
-    }
 
-    public void leftboundary(TreeNode root, List<Integer> res){
-        if(root == null || root.left == null && root.right == null) return;
-            res.add(root.val);
-        if(root.left !=null)
-            leftboundary(root.left,res);
-        else if(root.right!=null)
-            leftboundary(root.right,res);
-    }
-
-    public void addLeafNode(TreeNode root, List<Integer> res){
-        if(root == null) return;
-        if(root.left == null && root.right == null){
-             res.add(root.val);
-             return;
+        for(int e:lb){
+            ans.add(e);
         }
-        addLeafNode(root.left,res);
-        addLeafNode(root.right,res);
+
+        for(int e:l){
+            ans.add(e);
+        }
+
+        Collections.reverse(rb);
+
+        for(int e:rb){
+            ans.add(e);
+        }
+        return ans;
+
     }
 
-    public void rightboundary(TreeNode root, List<Integer> res){
-        if(root == null || root.left == null && root.right == null) return;
-        if(root.right!=null)
-            rightboundary(root.right,res);
-        else
-            rightboundary(root.left,res);
-        res.add(root.val);
+    private void leftBoundary(TreeNode root, List<Integer> lb){
+        if(root==null) return;
+        if(root.left != null) {
+            lb.add(root.val);
+            leftBoundary(root.left,lb);
+        }else if(root.right != null){
+            lb.add(root.val);
+            leftBoundary(root.right,lb);
+        }
+    }
+
+    private void rightBoundary(TreeNode root, List<Integer> rb){
+        if(root == null) return;
+        if(root.right != null) {
+            rb.add(root.val);
+            rightBoundary(root.right,rb);
+        }else if(root.left != null){
+            rb.add(root.val);
+            rightBoundary(root.left,rb);
+        }
+    }
+
+    private void leaves(TreeNode root, List<Integer> l){
+        if(root==null) return;
+        if(root.left ==null && root.right == null) {
+            l.add(root.val);
+            return;
+        }
+        leaves(root.left,l);
+        leaves(root.right,l);
     }
 }
