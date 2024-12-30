@@ -9,41 +9,58 @@
  */
 class Solution {
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
-        Map<TreeNode,TreeNode> parents = new HashMap<>();
-        findParents(root,null,parents);
-        return bfsFindKthDistance(parents, target, k);
-    }
-
-    public List<Integer> bfsFindKthDistance(Map<TreeNode,TreeNode> parents,TreeNode target, int k){
-        List<Integer> ans= new ArrayList<>();
-        Queue<TreeNode> queue = new LinkedList<>();
-        Set<TreeNode> visited = new HashSet<>();
-        queue.offer(target);
-        while(k-- > 0){
-            int len = queue.size();
-            while(len-- > 0){
-                TreeNode node = queue.poll();
-                if(!visited.contains(node))
-                    visited.add(node);
-
-                TreeNode parent = parents.getOrDefault(node,null);
-
-                if(parent!=null && !visited.contains(parent)) queue.offer(parent);
-                if(node.left != null && !visited.contains(node.left)) queue.offer(node.left);
-                if(node.right != null && !visited.contains(node.right)) queue.offer(node.right);
-            }
-        }
-        while(!queue.isEmpty()){
-            int ele = queue.poll().val;
-            ans.add(ele);
-        }
+        Map<TreeNode,TreeNode> map = new HashMap<>();
+        map.put(root,null);
+        dfs(root,map);
+        TreeNode node = searchNode(root,target);
+        List<Integer> ans = new ArrayList<>();
+        Set<TreeNode> set = new HashSet<>();
+        bfs(node,k,map,ans,set);
         return ans;
     }
 
-    public void findParents(TreeNode root, TreeNode parentNode, Map<TreeNode,TreeNode> parents){
-        if(root == null) return;
-        parents.put(root,parentNode); 
-        findParents(root.left,root,parents);
-        findParents(root.right,root,parents);
+    private void bfs(TreeNode node, int k, Map<TreeNode,TreeNode> map,List<Integer> ans,Set<TreeNode> set){
+        if(node==null)return;
+        if(k==0){
+            ans.add(node.val);
+            return;
+        }
+        set.add(node);
+        if(node.left != null && !set.contains(node.left)){
+            bfs(node.left,k-1,map,ans,set);
+        }
+
+        if(node.right != null && !set.contains(node.right)){
+            bfs(node.right,k-1,map,ans,set);
+        }
+
+        TreeNode parentNode = map.get(node);
+        if(parentNode != null && !set.contains(parentNode)){
+            bfs(parentNode,k-1,map,ans,set);
+        }
+    }
+
+    private void dfs(TreeNode root, Map<TreeNode,TreeNode> map){
+        if(root==null) return;
+        dfs(root.left,map);
+        dfs(root.right,map);
+        if(root.left != null){
+            map.put(root.left,root);
+        }
+        if(root.right != null){
+            map.put(root.right,root);
+        }
+    }
+
+
+    private TreeNode searchNode(TreeNode root, TreeNode target){
+        if(root == null || root == target) return root;
+        TreeNode left = searchNode(root.left,target);
+        if(left==target)
+            return left;
+        TreeNode right = searchNode(root.right,target);
+        if(right==target)
+            return right;
+        return null;
     }
 }
