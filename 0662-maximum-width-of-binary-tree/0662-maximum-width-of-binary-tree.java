@@ -13,44 +13,49 @@
  *     }
  * }
  */
- class Pair{
-    int index;
-    TreeNode node;
 
-    Pair(TreeNode node,int index){
+class Pair{
+    int idx;
+    TreeNode node;
+    Pair(int idx,TreeNode node){
+        this.idx=idx;
         this.node=node;
-        this.index=index;
     }
- }
+}
+
 class Solution {
     public int widthOfBinaryTree(TreeNode root) {
-        if(root == null) return 0;
+        Queue<Pair> q = new LinkedList<>();
         int ans=0;
-        Queue<Pair> queue = new LinkedList<>();
-        queue.offer(new Pair(root,0));
+        q.offer(new Pair(0,root));
 
-        while(!queue.isEmpty()){
-            int len = queue.size();
-            int minIdx = queue.peek().index;
-            int first=0,last=0;
+        while(!q.isEmpty()){
+            int len = q.size();
+            int first=0,last=0,minIdx=Integer.MAX_VALUE,cnt=0,length=len;
+            while(len-- > 0){
+                Pair p = q.poll();
+                int idx = p.idx;
+                TreeNode node = p.node;
 
-            for(int i=0;i<len;i++){
-                int currIdx = queue.peek().index - minIdx;
-                TreeNode node = queue.peek().node;
-                queue.poll();
-                
-                if(i==0) first = currIdx;
-                if(i==len-1) last = currIdx;
+                minIdx = Math.min(idx,minIdx);
+
+                if(cnt==0){
+                    first = idx;
+                }
+                if(cnt == length-1){
+                    last = idx;
+                }
 
                 if(node.left != null){
-                    queue.offer(new Pair(node.left, currIdx*2+1));
+                    q.offer(new Pair((2*(idx-minIdx) + 1),node.left));
                 }
 
                 if(node.right != null){
-                    queue.offer(new Pair(node.right, currIdx*2+2));
+                    q.offer(new Pair((2*(idx-minIdx) + 2),node.right));
                 }
+                cnt++;
             }
-            ans=Math.max(ans,last-first+1);
+            ans = Math.max(ans, (last-first+1));
         }
         return ans;
     }
