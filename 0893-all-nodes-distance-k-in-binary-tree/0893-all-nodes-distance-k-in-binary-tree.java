@@ -12,10 +12,10 @@ class Solution {
         Map<TreeNode,TreeNode> map = new HashMap<>();
         map.put(root,null);
         dfs(root,map);
-        TreeNode node = searchNode(root,target);
+        //TreeNode node = searchNode(root,target);
         List<Integer> ans = new ArrayList<>();
         Set<TreeNode> set = new HashSet<>();
-        bfs(node,k,map,ans,set);
+        bfs(target,k,map,ans,set);
         return ans;
     }
 
