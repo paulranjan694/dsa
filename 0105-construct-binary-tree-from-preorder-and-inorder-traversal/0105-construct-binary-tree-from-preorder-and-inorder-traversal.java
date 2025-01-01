@@ -25,7 +25,7 @@ class Solution {
     }
 
     private TreeNode construct(int[] preorder,HashMap<Integer,Integer> map,int start,int end){
-        if(start>end || idx >= preorder.length)return null;
+        if(start>end)return null;
         TreeNode root = new TreeNode(preorder[idx]);
         int partitionIdx = map.get(preorder[idx]);
         idx++;
