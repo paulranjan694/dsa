@@ -15,29 +15,28 @@
  */
 class Solution {
     public int countNodes(TreeNode root) {
-        if(root == null) return 0;
-
+        if(root==null) return 0;
         int lh = leftHeight(root);
         int rh = rightHeight(root);
 
-        if(lh==rh){
-            return (1<<lh)-1;
-        }
-        return 1 + countNodes(root.left) + countNodes(root.right) ;
+        if(lh==rh) return ((int)Math.pow(2,lh))-1;
+        return 1 + countNodes(root.left) + countNodes(root.right);
     }
 
-    public int leftHeight(TreeNode root){
+    private int leftHeight(TreeNode root){
+        if(root == null) return 0;
         int count=0;
-        while(root!=null){
+        while(root != null){
             count++;
             root=root.left;
         }
         return count;
     }
 
-    public int rightHeight(TreeNode root){
+    private int rightHeight(TreeNode root){
+        if(root == null) return 0;
         int count=0;
-        while(root!=null){
+        while(root != null){
             count++;
             root=root.right;
         }
