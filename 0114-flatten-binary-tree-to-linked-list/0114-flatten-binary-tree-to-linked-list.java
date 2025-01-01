@@ -15,21 +15,26 @@
  */
 class Solution {
     public void flatten(TreeNode root) {
-        utils(root);
+        if(root == null) return;
+        TreeNode curr = root;
+        while(curr != null){
+            if(curr.left == null){
+                curr = curr.right;
+            }else{
+                TreeNode predecessor = findPredecessor(curr.left);
+                predecessor.right = curr.right;
+                curr.right=curr.left;
+                curr.left=null;
+                curr=curr.right;
+            }
+        }
     }
 
-    private TreeNode utils(TreeNode root){
-        if(root == null) return null;
-        TreeNode left = utils(root.left);
-        TreeNode right = utils(root.right);
-        if(left != null){
-            root.right=left;
-            root.left = null;
-            while(left.right != null){
-                left = left.right;
-            }
-            left.right = right;
+    private TreeNode findPredecessor(TreeNode node){
+        if(node==null) return node;
+        while(node.right != null){
+            node=node.right;
         }
-        return root;
+        return node;
     }
 }
