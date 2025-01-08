@@ -26,14 +26,14 @@ class Solution {
                 if(curr.right == null){
                     TreeNode node = new TreeNode(val);
                     curr.right = node;
-                    return root;
+                    break;
                 }else
                     curr = curr.right;
             }else{
                 if(curr.left == null){
                     TreeNode node = new TreeNode(val);
                     curr.left = node;
-                    return root;
+                    break;
                 }else
                     curr=curr.left;
             }
