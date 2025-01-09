@@ -9,28 +9,19 @@
  */
 
 class Solution {
-    TreeNode lca;
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        helper(root,p,q);
-        return lca;
-    }
-
-    public boolean helper(TreeNode root, TreeNode p, TreeNode q){
-        if(root == null) return false;
-     
-        boolean left = false;
-        boolean right = false;
-        if(p.val < root.val && q.val < root.val)
-            left = helper(root.left, p,q);
-        
-        if(root.val<p.val && root.val<q.val)
-            right = helper(root.right, p,q);
-
-        if(!left && !right){
-            lca=root;
-            return true;
+        if(root == null) return root;
+        TreeNode ans = null;
+        while(root != null){
+            if(p.val < root.val && q.val < root.val){//left sub-tree
+                root=root.left;
+            }else if(p.val > root.val && q.val > root.val){//right sub-tree
+                root = root.right;
+            }else{
+                ans=root;
+                break;
+            }
         }
-
-        return left || right;
+        return ans;
     }
 }
