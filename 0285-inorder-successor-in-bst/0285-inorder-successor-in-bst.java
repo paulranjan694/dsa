@@ -8,15 +8,15 @@
  * }
  */
 class Solution {
-    
     public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
-        TreeNode ans=null;
-        while(root!=null){
-            if(root.val <= p.val){
-                root = root.right;
-            }else{
+        TreeNode ans = null;
+
+        while(root != null){
+            if(root.val > p.val){
                 ans=root;
-                root = root.left;
+                root= root.left;
+            }else{
+                root=root.right;
             }
         }
         return ans;
