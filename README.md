@@ -824,6 +824,7 @@ DSA solutions
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0098-validate-binary-search-tree) |
+| [0099-recover-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0099-recover-binary-search-tree) |
 | [0100-same-tree](https://github.com/paulranjan694/dsa/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/paulranjan694/dsa/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/paulranjan694/dsa/tree/master/0102-binary-tree-level-order-traversal) |
@@ -867,6 +868,7 @@ DSA solutions
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0098-validate-binary-search-tree) |
+| [0099-recover-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0099-recover-binary-search-tree) |
 | [0100-same-tree](https://github.com/paulranjan694/dsa/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/paulranjan694/dsa/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -910,6 +912,7 @@ DSA solutions
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0098-validate-binary-search-tree) |
+| [0099-recover-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0099-recover-binary-search-tree) |
 | [0100-same-tree](https://github.com/paulranjan694/dsa/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/paulranjan694/dsa/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/paulranjan694/dsa/tree/master/0102-binary-tree-level-order-traversal) |
@@ -993,6 +996,7 @@ DSA solutions
 | [0074-search-a-2d-matrix](https://github.com/paulranjan694/dsa/tree/master/0074-search-a-2d-matrix) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/paulranjan694/dsa/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0098-validate-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0098-validate-binary-search-tree) |
+| [0099-recover-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0099-recover-binary-search-tree) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/paulranjan694/dsa/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/paulranjan694/dsa/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/paulranjan694/dsa/tree/master/0162-find-peak-element) |
