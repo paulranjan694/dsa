@@ -1,35 +1,37 @@
 class Solution {
     public int countComponents(int n, int[][] edges) {
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
-
-        for(int i=0; i<n;i++){
-            adj.add(new ArrayList<>());
+        for(int i=0;i<n;i++){
+            //Arraylist<Integer> al = new Arraylist<Integer>();
+            adj.add(new ArrayList<Integer>());
         }
 
-        for(int i = 0; i<edges.length;i++){
-            int u = edges[i][0];
-            int v = edges[i][1];
-
+        for(int[] edge : edges){
+            int u = edge[0];
+            int v = edge[1];
             adj.get(u).add(v);
             adj.get(v).add(u);
         }
 
         int[] visited = new int[n];
-        int count = 0;
-        for(int i=0; i<n;i++){
+        int ans=0;
+        for(int i=0;i<n;i++){
             if(visited[i]==0){
-                count++;
-                dfs(adj,visited,i);
+                dfs(i,visited,adj);
+                ans++;
+            }else{
+                visited[i]=1;
             }
         }
-        return count;
+        return ans;
     }
 
-    private void dfs(ArrayList<ArrayList<Integer>> adj,int[] visited, int node){
+    private void dfs(int node, int[] visited, ArrayList<ArrayList<Integer>> adj){
         visited[node] = 1;
-        for(int nbr : adj.get(node)){
-            if(visited[nbr] == 0){
-                dfs(adj,visited,nbr);
+        ArrayList<Integer> list = adj.get(node);
+        for(int nghbr : list){
+            if(visited[nghbr] != 1){
+                dfs(nghbr,visited,adj);
             }
         }
     }
