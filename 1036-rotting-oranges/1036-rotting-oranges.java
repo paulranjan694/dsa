@@ -1,57 +1,61 @@
+class Pair{
+    int r, c;
+    Pair(int r, int c){
+        this.r=r;
+        this.c=c;
+    }
+}
+
 class Solution {
     public int orangesRotting(int[][] grid) {
-        int n=grid.length;
-        int m=grid[0].length;
-        int count=0;
-        int ans = 0;
-        int[][] visited = new int[n][m];
-        Queue<Pair> q = new LinkedList<>();
-
-        for(int i = 0; i < n; i++){
-            for(int j = 0; j < m; j++){
-                if(grid[i][j] == 2){
-                    visited[i][j] = 2;
-                    q.add(new Pair(i,j,0));
-                }
-                if(grid[i][j] == 1){
-                    count++;
+        Queue<Pair> queue = new LinkedList<>();
+        int n = grid.length, m = grid[0].length;
+        boolean one = false, two=false;
+        for(int i=0;i < n; i++){
+            for(int j=0; j < m;j++){
+                if(grid[i][j]==2){
+                    queue.add(new Pair(i,j));
+                    two=true;
+                }else if(grid[i][j]==1){
+                    one=true;
                 }
             }
         }
 
-        int[] delRow = {1,0,-1,0};
-        int[] delCol = {0,-1,0,1};
+        if(one == false && two == false) return 0;
 
-        while(!q.isEmpty()){
-            int row = q.peek().row;
-            int col = q.peek().col;
-            int time = q.peek().time;
-            ans=Math.max(time,ans);
-            q.poll();
+        int[] dx = {0,1,0,-1};
+        int[] dy = {1,0,-1,0};
 
-            for(int i=0;i<4;i++){
-                int newRow = row + delRow[i];
-                int newCol = col + delCol[i];
+        int time=0;
+        while(!queue.isEmpty()){
+            int len = queue.size();
+            while(len-- > 0){
+                Pair p = queue.poll();
+                int row = p.r;
+                int col = p.c;
 
-                if(newRow >= 0 && newRow < n && newCol >= 0 && newCol < m && grid[newRow][newCol] == 1 && visited[newRow][newCol] != 2){
-                    q.add(new Pair(newRow, newCol, time+1));
-                    visited[newRow][newCol]=2;
-                    count--;
+                for(int i=0;i<4;i++){
+                    int newRow = row + dx[i];
+                    int newCol = col + dy[i];
+
+                    if(newRow >= 0 && newRow < n && newCol >= 0 && newCol < m && grid[newRow][newCol] == 1){
+                        queue.add(new Pair(newRow,newCol));
+                        grid[newRow][newCol] = 2;
+                    }
+                }
+            }
+            time++;
+        }
+
+        for(int i=0;i < n; i++){
+            for(int j=0; j < m;j++){
+                if(grid[i][j]==1){
+                    return -1;
                 }
             }
         }
 
-        return count == 0 ? ans : -1;
-
-
-    }
-
-    static class Pair{
-        int row,col,time;
-        Pair(int row, int col, int time){
-            this.row=row;
-            this.col=col;
-            this.time=time;
-        }
+        return time-1;
     }
 }
