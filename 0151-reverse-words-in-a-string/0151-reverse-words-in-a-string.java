@@ -7,7 +7,7 @@ class Solution {
         for(int i=n-1;i>=0;i--){
             while(i>=0 && s.charAt(i) == ' '){
                 i--;
-                j=i;
+                //j=i;
             }
             j=i;
             StringBuilder tsb = new StringBuilder();
