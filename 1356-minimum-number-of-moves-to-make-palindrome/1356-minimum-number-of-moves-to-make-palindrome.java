@@ -10,14 +10,6 @@ class Solution {
          //find arr[i] in backward direction of j
          while(i<k){
            if(arr[i]==arr[k]){
-             while(k < j){
-               char t = arr[k];
-               arr[k] = arr[k+1];
-               arr[k+1] = t;
-               k++;
-               move++;
-             }
-             j--;
              break;
            }
            k--;
@@ -27,6 +19,15 @@ class Solution {
          if(i==k){
            int mid = n/2;
            move += mid-i;
+         }else{
+             while(k < j){
+               char t = arr[k];
+               arr[k] = arr[k+1];
+               arr[k+1] = t;
+               k++;
+               move++;
+             }
+             j--;
          }
          i++;
        }
