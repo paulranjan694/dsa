@@ -9,7 +9,7 @@ class Solution {
                 i--;
                 //j=i;
             }
-            j=i;
+            //j=i;
             StringBuilder tsb = new StringBuilder();
             while(i>=0 && s.charAt(i) != ' '){
                 tsb.append(s.charAt(i));
