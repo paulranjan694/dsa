@@ -8,10 +8,10 @@ class Solution {
      
          int k = j;
          //find arr[i] in backward direction of j
-         while(i<k){
-           if(arr[i]==arr[k]){
-             break;
-           }
+         while(i<k && arr[i]!=arr[k]){
+        //    if(arr[i]==arr[k]){
+        //      break;
+        //    }
            k--;
          }
          
