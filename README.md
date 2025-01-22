@@ -551,6 +551,7 @@ DSA solutions
 | [1547-destination-city](https://github.com/paulranjan694/dsa/tree/master/1547-destination-city) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/paulranjan694/dsa/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/paulranjan694/dsa/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [1997-next-palindrome-using-same-digits](https://github.com/paulranjan694/dsa/tree/master/1997-next-palindrome-using-same-digits) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/paulranjan694/dsa/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/paulranjan694/dsa/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2232-adding-spaces-to-a-string](https://github.com/paulranjan694/dsa/tree/master/2232-adding-spaces-to-a-string) |
@@ -814,6 +815,7 @@ DSA solutions
 | [1468-check-if-n-and-its-double-exist](https://github.com/paulranjan694/dsa/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/paulranjan694/dsa/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/paulranjan694/dsa/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1997-next-palindrome-using-same-digits](https://github.com/paulranjan694/dsa/tree/master/1997-next-palindrome-using-same-digits) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/paulranjan694/dsa/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2232-adding-spaces-to-a-string](https://github.com/paulranjan694/dsa/tree/master/2232-adding-spaces-to-a-string) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/paulranjan694/dsa/tree/master/2265-partition-array-according-to-given-pivot) |
