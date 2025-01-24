@@ -774,6 +774,7 @@ DSA solutions
 | [1484-linked-list-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1484-linked-list-in-binary-tree) |
 | [1765-merge-in-between-linked-lists](https://github.com/paulranjan694/dsa/tree/master/1765-merge-in-between-linked-lists) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/paulranjan694/dsa/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [2835-split-a-circular-linked-list](https://github.com/paulranjan694/dsa/tree/master/2835-split-a-circular-linked-list) |
 ## Recursion
 |  |
 | ------- |
@@ -826,6 +827,7 @@ DSA solutions
 | [2265-partition-array-according-to-given-pivot](https://github.com/paulranjan694/dsa/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/paulranjan694/dsa/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/paulranjan694/dsa/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2835-split-a-circular-linked-list](https://github.com/paulranjan694/dsa/tree/master/2835-split-a-circular-linked-list) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/paulranjan694/dsa/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 ## Merge Sort
 |  |
