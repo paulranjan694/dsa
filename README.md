@@ -309,6 +309,7 @@ DSA solutions
 | [0983-validate-stack-sequences](https://github.com/paulranjan694/dsa/tree/master/0983-validate-stack-sequences) |
 | [1002-maximum-width-ramp](https://github.com/paulranjan694/dsa/tree/master/1002-maximum-width-ramp) |
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
+| [1028-interval-list-intersections](https://github.com/paulranjan694/dsa/tree/master/1028-interval-list-intersections) |
 | [1034-subarrays-with-k-different-integers](https://github.com/paulranjan694/dsa/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/paulranjan694/dsa/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/paulranjan694/dsa/tree/master/1046-max-consecutive-ones-iii) |
@@ -816,6 +817,7 @@ DSA solutions
 | [0567-permutation-in-string](https://github.com/paulranjan694/dsa/tree/master/0567-permutation-in-string) |
 | [0908-middle-of-the-linked-list](https://github.com/paulranjan694/dsa/tree/master/0908-middle-of-the-linked-list) |
 | [0958-sort-array-by-parity-ii](https://github.com/paulranjan694/dsa/tree/master/0958-sort-array-by-parity-ii) |
+| [1028-interval-list-intersections](https://github.com/paulranjan694/dsa/tree/master/1028-interval-list-intersections) |
 | [1129-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1129-longest-string-chain) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/paulranjan694/dsa/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/paulranjan694/dsa/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -1169,4 +1171,8 @@ DSA solutions
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/paulranjan694/dsa/tree/master/0173-binary-search-tree-iterator) |
+## Line Sweep
+|  |
+| ------- |
+| [1028-interval-list-intersections](https://github.com/paulranjan694/dsa/tree/master/1028-interval-list-intersections) |
 <!---LeetCode Topics End-->
