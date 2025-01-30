@@ -775,6 +775,7 @@ DSA solutions
 | [0850-insert-into-a-sorted-circular-linked-list](https://github.com/paulranjan694/dsa/tree/master/0850-insert-into-a-sorted-circular-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/paulranjan694/dsa/tree/master/0908-middle-of-the-linked-list) |
 | [1484-linked-list-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1484-linked-list-in-binary-tree) |
+| [1618-delete-n-nodes-after-m-nodes-of-a-linked-list](https://github.com/paulranjan694/dsa/tree/master/1618-delete-n-nodes-after-m-nodes-of-a-linked-list) |
 | [1765-merge-in-between-linked-lists](https://github.com/paulranjan694/dsa/tree/master/1765-merge-in-between-linked-lists) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/paulranjan694/dsa/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2835-split-a-circular-linked-list](https://github.com/paulranjan694/dsa/tree/master/2835-split-a-circular-linked-list) |
