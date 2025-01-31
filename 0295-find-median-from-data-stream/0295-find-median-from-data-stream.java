@@ -4,7 +4,7 @@ class MedianFinder {
     Queue<Integer> largeheap = null;
 
     public MedianFinder() {
-        smallheap = new PriorityQueue<>(Collections.reverseOrder());
+        smallheap = new PriorityQueue<>((a,b) -> b-a);
         largeheap = new PriorityQueue<>();
     }
     
