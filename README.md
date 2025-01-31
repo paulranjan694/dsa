@@ -277,6 +277,7 @@ DSA solutions
 | [0442-find-all-duplicates-in-an-array](https://github.com/paulranjan694/dsa/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/paulranjan694/dsa/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
+| [0480-sliding-window-median](https://github.com/paulranjan694/dsa/tree/master/0480-sliding-window-median) |
 | [0485-max-consecutive-ones](https://github.com/paulranjan694/dsa/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/paulranjan694/dsa/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/paulranjan694/dsa/tree/master/0494-target-sum) |
@@ -393,6 +394,7 @@ DSA solutions
 | [0424-longest-repeating-character-replacement](https://github.com/paulranjan694/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/paulranjan694/dsa/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/paulranjan694/dsa/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0480-sliding-window-median](https://github.com/paulranjan694/dsa/tree/master/0480-sliding-window-median) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
 | [0554-brick-wall](https://github.com/paulranjan694/dsa/tree/master/0554-brick-wall) |
 | [0560-subarray-sum-equals-k](https://github.com/paulranjan694/dsa/tree/master/0560-subarray-sum-equals-k) |
@@ -731,6 +733,7 @@ DSA solutions
 | [0295-find-median-from-data-stream](https://github.com/paulranjan694/dsa/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/paulranjan694/dsa/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0480-sliding-window-median](https://github.com/paulranjan694/dsa/tree/master/0480-sliding-window-median) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/paulranjan694/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
@@ -1079,6 +1082,7 @@ DSA solutions
 | [0239-sliding-window-maximum](https://github.com/paulranjan694/dsa/tree/master/0239-sliding-window-maximum) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/paulranjan694/dsa/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/paulranjan694/dsa/tree/master/0424-longest-repeating-character-replacement) |
+| [0480-sliding-window-median](https://github.com/paulranjan694/dsa/tree/master/0480-sliding-window-median) |
 | [0567-permutation-in-string](https://github.com/paulranjan694/dsa/tree/master/0567-permutation-in-string) |
 | [1034-subarrays-with-k-different-integers](https://github.com/paulranjan694/dsa/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/paulranjan694/dsa/tree/master/1046-max-consecutive-ones-iii) |
