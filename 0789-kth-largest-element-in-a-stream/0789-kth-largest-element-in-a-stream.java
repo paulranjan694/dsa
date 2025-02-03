@@ -1,33 +1,22 @@
 class KthLargest {
-    Queue<Integer> pq=null;
-    int kth=0;
+Queue<Integer> pq=null;
+  int k=0;
     public KthLargest(int k, int[] nums) {
         pq = new PriorityQueue<>();
-        kth=k;
-        for(int i=0;i<k;i++){
-            if(nums.length>i)
-                pq.add(nums[i]);
-        }
-
-        for(int i=k;i<nums.length;i++){
-            if(!pq.isEmpty() && pq.peek() <= nums[i]){
-                pq.poll();
-                pq.add(nums[i]);
-            }
+	    this.k = k;
+        for(int i=0;i<nums.length;i++){
+            add(nums[i]);
         }
     }
     
     public int add(int val) {
-        if(!pq.isEmpty() && pq.peek() <= val && pq.size()==kth){
-            pq.poll();
+       if(pq.size() < k || pq.peek() < val){
             pq.add(val);
-        }
-        if(pq.isEmpty() || pq.size() < kth){
-            pq.add(val);
-        }
-        
-        return pq.peek() ;
-
+            if(pq.size() > k){
+                pq.poll();
+            }
+       }
+       return pq.peek();
     }
 }
 
