@@ -9,16 +9,26 @@ class Solution {
       }
     }
     public String reorganizeString(String string1) {
-        Map<Character,Integer> freq = new HashMap<>();
+        // Map<Character,Integer> freq = new HashMap<>();
+        // for(int i=0;i<string1.length();i++){
+        //   char ch = string1.charAt(i);
+        //   freq.put(ch,freq.getOrDefault(ch,0)+1);
+        // }
+
+        int[] freq = new int[26];
+
         for(int i=0;i<string1.length();i++){
           char ch = string1.charAt(i);
-          freq.put(ch,freq.getOrDefault(ch,0)+1);
+          freq[ch-'a']++;
         }
         
         Queue<Pair> pq = new PriorityQueue<>((a,b) -> b.freq - a.freq);
         
-        for(Map.Entry<Character,Integer> entry : freq.entrySet()){
-          pq.add(new Pair(entry.getKey(),entry.getValue()));
+        for(int i=0;i<26;i++){
+            if(freq[i] > 0){
+                Pair temp = new Pair((char)(i+'a'),freq[i]);
+                pq.add(temp);
+            }
         }
         
         StringBuilder sb = new StringBuilder();
