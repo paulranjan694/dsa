@@ -405,6 +405,7 @@ DSA solutions
 | [0575-distribute-candies](https://github.com/paulranjan694/dsa/tree/master/0575-distribute-candies) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
 | [0694-number-of-distinct-islands](https://github.com/paulranjan694/dsa/tree/master/0694-number-of-distinct-islands) |
+| [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
 | [0870-magic-squares-in-grid](https://github.com/paulranjan694/dsa/tree/master/0870-magic-squares-in-grid) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -499,6 +500,7 @@ DSA solutions
 | [0436-find-right-interval](https://github.com/paulranjan694/dsa/tree/master/0436-find-right-interval) |
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
+| [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
 | [0958-sort-array-by-parity-ii](https://github.com/paulranjan694/dsa/tree/master/0958-sort-array-by-parity-ii) |
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -523,6 +525,7 @@ DSA solutions
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0387-first-unique-character-in-a-string) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
+| [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
 | [1034-subarrays-with-k-different-integers](https://github.com/paulranjan694/dsa/tree/master/1034-subarrays-with-k-different-integers) |
 | [1297-maximum-number-of-balloons](https://github.com/paulranjan694/dsa/tree/master/1297-maximum-number-of-balloons) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/paulranjan694/dsa/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
@@ -556,6 +559,7 @@ DSA solutions
 | [0567-permutation-in-string](https://github.com/paulranjan694/dsa/tree/master/0567-permutation-in-string) |
 | [0583-delete-operation-for-two-strings](https://github.com/paulranjan694/dsa/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/paulranjan694/dsa/tree/master/0678-valid-parenthesis-string) |
+| [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
 | [1129-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/paulranjan694/dsa/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/paulranjan694/dsa/tree/master/1250-longest-common-subsequence) |
@@ -639,6 +643,7 @@ DSA solutions
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
 | [0678-valid-parenthesis-string](https://github.com/paulranjan694/dsa/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/paulranjan694/dsa/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
 | [0890-lemonade-change](https://github.com/paulranjan694/dsa/tree/master/0890-lemonade-change) |
 | [1285-balance-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/1285-balance-a-binary-search-tree) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/paulranjan694/dsa/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
@@ -745,6 +750,7 @@ DSA solutions
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/paulranjan694/dsa/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0480-sliding-window-median](https://github.com/paulranjan694/dsa/tree/master/0480-sliding-window-median) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
+| [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/paulranjan694/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/paulranjan694/dsa/tree/master/1127-last-stone-weight) |
