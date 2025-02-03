@@ -9,17 +9,16 @@ class Solution {
       }
     }
     public String reorganizeString(String string1) {
-        // Map<Character,Integer> freq = new HashMap<>();
-        // for(int i=0;i<string1.length();i++){
-        //   char ch = string1.charAt(i);
-        //   freq.put(ch,freq.getOrDefault(ch,0)+1);
-        // }
-
         int[] freq = new int[26];
+        int maxfreq=-1, n=string1.length();
 
         for(int i=0;i<string1.length();i++){
           char ch = string1.charAt(i);
           freq[ch-'a']++;
+          maxfreq = Math.max(maxfreq,freq[ch-'a']);
+        }
+        if(maxfreq > (n+1)/2){
+            return "";
         }
         
         Queue<Pair> pq = new PriorityQueue<>((a,b) -> b.freq - a.freq);
@@ -34,30 +33,16 @@ class Solution {
         StringBuilder sb = new StringBuilder();
         
         Pair prev=null;
-        Pair carry = null;
         while(!pq.isEmpty()){
-          Pair p = pq.poll();
-          if(prev != null && prev.ch == p.ch){
-            return "";
-          }
-          sb.append(p.ch);
-          prev=p;
-          if(carry != null){
-            pq.add(carry);
-          }
-          if(p.freq-1 > 0){
-            p.freq = p.freq-1;
-            carry = p;
-          }else{
-            carry = null;
-          }
+            Pair p = pq.poll();
+            sb.append(p.ch);
+            if(prev!=null && prev.freq > 0){
+                pq.add(prev);
+            }   
+            p.freq--;
+            prev = p.freq > 0 ? p: null;
         }
         
-        if(carry != null && prev != null && carry.ch == prev.ch){
-          return "";
-        }
-        
-    
         return sb.toString();
     }
 }
