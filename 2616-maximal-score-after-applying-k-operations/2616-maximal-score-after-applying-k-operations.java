@@ -11,7 +11,7 @@ class Solution {
             int num = maxHeap.poll();
             score += num;
             num = (int)Math.ceil(num/3.0);
-            maxHeap.add(num);
+            maxHeap.offer(num);
         }
 
         return score;
