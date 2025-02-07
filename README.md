@@ -1071,6 +1071,7 @@ DSA solutions
 | [0230-kth-smallest-element-in-a-bst](https://github.com/paulranjan694/dsa/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0240-search-a-2d-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0240-search-a-2d-matrix-ii) |
+| [0278-first-bad-version](https://github.com/paulranjan694/dsa/tree/master/0278-first-bad-version) |
 | [0285-inorder-successor-in-bst](https://github.com/paulranjan694/dsa/tree/master/0285-inorder-successor-in-bst) |
 | [0287-find-the-duplicate-number](https://github.com/paulranjan694/dsa/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/paulranjan694/dsa/tree/master/0300-longest-increasing-subsequence) |
@@ -1220,4 +1221,8 @@ DSA solutions
 |  |
 | ------- |
 | [1028-interval-list-intersections](https://github.com/paulranjan694/dsa/tree/master/1028-interval-list-intersections) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/paulranjan694/dsa/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
