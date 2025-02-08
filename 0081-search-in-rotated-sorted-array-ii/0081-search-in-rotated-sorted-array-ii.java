@@ -1,26 +1,28 @@
 class Solution {
-    public boolean search(int[] nums, int target) {
-         int s=0,e=nums.length-1;
+    public boolean search(int[] arr, int target) {
+        int l=0,h=arr.length-1;
+        while(l<=h){
+            int mid = l+(h-l)/2;
+            if(arr[mid]==target) return true;
 
-        while(s<=e){
-            int mid=(s+e)/2;
-            if(nums[mid]==target) return true;
-            if(nums[mid]==nums[s] && nums[mid]==nums[e]){
-                s++;e--;
-                continue;
+            while(l<mid && arr[mid] == arr[l]){
+                l++;
             }
-
-            if(nums[s] <= nums[mid]){//left array sorted
-                if(nums[s] <= target && target <= nums[mid]){
-                    e=mid-1;
+            while(h > mid && arr[mid] == arr[h]){
+                h--;
+            }
+            
+            if(arr[l] <= arr[mid]){
+                if(target >= arr[l] && target <= arr[mid]){
+                    h=mid-1;
                 }else{
-                    s=mid+1;
+                    l=mid+1;
                 }
-            }else{//right array sorted
-                if(nums[mid] <= target && target <= nums[e]){
-                    s=mid+1;
+            }else{
+                if(target >= arr[mid] && target <= arr[h]){
+                    l=mid+1;
                 }else{
-                    e=mid-1;
+                    h=mid-1;
                 }
             }
         }
