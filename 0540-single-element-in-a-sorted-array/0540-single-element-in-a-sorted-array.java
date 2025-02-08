@@ -6,20 +6,20 @@ class Solution {
             int mid = l + (h-l) /2;
             if(mid-1 >= 0 && mid+1 < n &&( nums[mid-1] == nums[mid] || nums[mid+1] == nums[mid])){
             if(nums[mid-1] == nums[mid]){
-                if((mid-1) % 2 == 0 && mid % 2 != 0){
-                l=mid+1;
+                if(mid % 2 != 0){
+                    l=mid+1;
                 }else{
-                h=mid-1;
+                    h=mid-1;
                 }
             }else{
-                if((mid) % 2 != 0 && (mid+1) % 2 == 0){
-                h=mid-1;
+                if((mid) % 2 != 0){
+                    h=mid-1;
                 }else{
-                l=mid+1;
+                    l=mid+1;
                 }
             }
             }else{
-            return nums[mid];
+                return nums[mid];
             }
         }
         return -1;
