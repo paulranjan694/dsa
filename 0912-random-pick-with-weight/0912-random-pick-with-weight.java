@@ -1,6 +1,7 @@
 class Solution {
     List<Integer> prefixSum = new ArrayList<>();
     int totalSum=0;
+    Random random = null;
     public Solution(int[] w) {
         int tempSum=0,n=w.length;
         for(int i=0;i<n;i++){
@@ -8,11 +9,10 @@ class Solution {
             prefixSum.add(tempSum);
         }
         totalSum = tempSum;
-
+        random = new Random();
     }
     
     public int pickIndex() {
-        Random random = new Random();
         int target = random.nextInt(totalSum)+1;
         return upperBound(target);
     }
