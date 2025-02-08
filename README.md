@@ -294,6 +294,7 @@ DSA solutions
 | [0575-distribute-candies](https://github.com/paulranjan694/dsa/tree/master/0575-distribute-candies) |
 | [0605-can-place-flowers](https://github.com/paulranjan694/dsa/tree/master/0605-can-place-flowers) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
+| [0658-find-k-closest-elements](https://github.com/paulranjan694/dsa/tree/master/0658-find-k-closest-elements) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/paulranjan694/dsa/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0682-baseball-game](https://github.com/paulranjan694/dsa/tree/master/0682-baseball-game) |
 | [0695-max-area-of-island](https://github.com/paulranjan694/dsa/tree/master/0695-max-area-of-island) |
@@ -506,6 +507,7 @@ DSA solutions
 | [0436-find-right-interval](https://github.com/paulranjan694/dsa/tree/master/0436-find-right-interval) |
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
+| [0658-find-k-closest-elements](https://github.com/paulranjan694/dsa/tree/master/0658-find-k-closest-elements) |
 | [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
 | [0887-minimum-cost-to-hire-k-workers](https://github.com/paulranjan694/dsa/tree/master/0887-minimum-cost-to-hire-k-workers) |
 | [0958-sort-array-by-parity-ii](https://github.com/paulranjan694/dsa/tree/master/0958-sort-array-by-parity-ii) |
@@ -760,6 +762,7 @@ DSA solutions
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/paulranjan694/dsa/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0480-sliding-window-median](https://github.com/paulranjan694/dsa/tree/master/0480-sliding-window-median) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
+| [0658-find-k-closest-elements](https://github.com/paulranjan694/dsa/tree/master/0658-find-k-closest-elements) |
 | [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/paulranjan694/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0887-minimum-cost-to-hire-k-workers](https://github.com/paulranjan694/dsa/tree/master/0887-minimum-cost-to-hire-k-workers) |
@@ -860,6 +863,7 @@ DSA solutions
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/paulranjan694/dsa/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0567-permutation-in-string](https://github.com/paulranjan694/dsa/tree/master/0567-permutation-in-string) |
+| [0658-find-k-closest-elements](https://github.com/paulranjan694/dsa/tree/master/0658-find-k-closest-elements) |
 | [0908-middle-of-the-linked-list](https://github.com/paulranjan694/dsa/tree/master/0908-middle-of-the-linked-list) |
 | [0958-sort-array-by-parity-ii](https://github.com/paulranjan694/dsa/tree/master/0958-sort-array-by-parity-ii) |
 | [1028-interval-list-intersections](https://github.com/paulranjan694/dsa/tree/master/1028-interval-list-intersections) |
@@ -1085,6 +1089,7 @@ DSA solutions
 | [0450-delete-node-in-a-bst](https://github.com/paulranjan694/dsa/tree/master/0450-delete-node-in-a-bst) |
 | [0493-reverse-pairs](https://github.com/paulranjan694/dsa/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/paulranjan694/dsa/tree/master/0540-single-element-in-a-sorted-array) |
+| [0658-find-k-closest-elements](https://github.com/paulranjan694/dsa/tree/master/0658-find-k-closest-elements) |
 | [0783-search-in-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/paulranjan694/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -1120,6 +1125,7 @@ DSA solutions
 | [0424-longest-repeating-character-replacement](https://github.com/paulranjan694/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0480-sliding-window-median](https://github.com/paulranjan694/dsa/tree/master/0480-sliding-window-median) |
 | [0567-permutation-in-string](https://github.com/paulranjan694/dsa/tree/master/0567-permutation-in-string) |
+| [0658-find-k-closest-elements](https://github.com/paulranjan694/dsa/tree/master/0658-find-k-closest-elements) |
 | [1034-subarrays-with-k-different-integers](https://github.com/paulranjan694/dsa/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/paulranjan694/dsa/tree/master/1046-max-consecutive-ones-iii) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/paulranjan694/dsa/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
