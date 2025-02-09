@@ -1,25 +1,23 @@
 class Solution {
-    public int missingNumber(int[] arr) {
-        int n = arr.length;
-        boolean zeroexists = false;
-        int zero = n;
-        for(int i=0;i<n;i++){
-        if(arr[i]==0){
-            zeroexists=true;
-            arr[i]=zero++;
-        }
-        }
-        if(zeroexists==false) return 0;
-        
-        for(int i=0;i<n;i++){
-            int idx = Math.abs(arr[i])-1;
-            if(arr[idx] > 0 && idx>=0 && idx < n){
-            arr[idx] = -1 * Math.abs(arr[idx]);
+    public int missingNumber(int[] nums) {
+        int n = nums.length;
+        int index=0,val=0;
+        while(index<n){
+            val = nums[index];
+            if(val < n && index != val){
+                int t = nums[index];
+                nums[index] = nums[val];
+                nums[val] = t;
+            }else if(val>=n){
+                index++;
+            }else{
+                index++;
             }
         }
+
         for(int i=0;i<n;i++){
-            if(arr[i]>0){
-            return i+1;
+            if(i != nums[i]){
+                return i;
             }
         }
         return n;
