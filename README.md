@@ -260,6 +260,7 @@ DSA solutions
 | [0240-search-a-2d-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0240-search-a-2d-matrix-ii) |
 | [0252-meeting-rooms](https://github.com/paulranjan694/dsa/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
+| [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
 | [0269-alien-dictionary](https://github.com/paulranjan694/dsa/tree/master/0269-alien-dictionary) |
 | [0271-encode-and-decode-strings](https://github.com/paulranjan694/dsa/tree/master/0271-encode-and-decode-strings) |
 | [0283-move-zeroes](https://github.com/paulranjan694/dsa/tree/master/0283-move-zeroes) |
@@ -398,6 +399,7 @@ DSA solutions
 | [0205-isomorphic-strings](https://github.com/paulranjan694/dsa/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/paulranjan694/dsa/tree/master/0229-majority-element-ii) |
 | [0266-palindrome-permutation](https://github.com/paulranjan694/dsa/tree/master/0266-palindrome-permutation) |
+| [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/paulranjan694/dsa/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0387-first-unique-character-in-a-string) |
@@ -500,6 +502,7 @@ DSA solutions
 | [0229-majority-element-ii](https://github.com/paulranjan694/dsa/tree/master/0229-majority-element-ii) |
 | [0252-meeting-rooms](https://github.com/paulranjan694/dsa/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
+| [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/paulranjan694/dsa/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/paulranjan694/dsa/tree/master/0368-largest-divisible-subset) |
@@ -606,6 +609,7 @@ DSA solutions
 | [0150-evaluate-reverse-polish-notation](https://github.com/paulranjan694/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/paulranjan694/dsa/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/paulranjan694/dsa/tree/master/0202-happy-number) |
+| [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/paulranjan694/dsa/tree/master/0368-largest-divisible-subset) |
 | [0870-magic-squares-in-grid](https://github.com/paulranjan694/dsa/tree/master/0870-magic-squares-in-grid) |
 | [0912-random-pick-with-weight](https://github.com/paulranjan694/dsa/tree/master/0912-random-pick-with-weight) |
@@ -752,6 +756,7 @@ DSA solutions
 | [0090-subsets-ii](https://github.com/paulranjan694/dsa/tree/master/0090-subsets-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/paulranjan694/dsa/tree/master/0222-count-complete-tree-nodes) |
 | [0266-palindrome-permutation](https://github.com/paulranjan694/dsa/tree/master/0266-palindrome-permutation) |
+| [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/paulranjan694/dsa/tree/master/0287-find-the-duplicate-number) |
 ## Heap (Priority Queue)
 |  |
@@ -1084,6 +1089,7 @@ DSA solutions
 | [0230-kth-smallest-element-in-a-bst](https://github.com/paulranjan694/dsa/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0240-search-a-2d-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0240-search-a-2d-matrix-ii) |
+| [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
 | [0278-first-bad-version](https://github.com/paulranjan694/dsa/tree/master/0278-first-bad-version) |
 | [0285-inorder-successor-in-bst](https://github.com/paulranjan694/dsa/tree/master/0285-inorder-successor-in-bst) |
 | [0287-find-the-duplicate-number](https://github.com/paulranjan694/dsa/tree/master/0287-find-the-duplicate-number) |
