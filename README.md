@@ -394,6 +394,7 @@ DSA solutions
 | [0141-linked-list-cycle](https://github.com/paulranjan694/dsa/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/paulranjan694/dsa/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/paulranjan694/dsa/tree/master/0160-intersection-of-two-linked-lists) |
+| [0166-fraction-to-recurring-decimal](https://github.com/paulranjan694/dsa/tree/master/0166-fraction-to-recurring-decimal) |
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/paulranjan694/dsa/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/paulranjan694/dsa/tree/master/0205-isomorphic-strings) |
@@ -561,6 +562,7 @@ DSA solutions
 | [0091-decode-ways](https://github.com/paulranjan694/dsa/tree/master/0091-decode-ways) |
 | [0115-distinct-subsequences](https://github.com/paulranjan694/dsa/tree/master/0115-distinct-subsequences) |
 | [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
+| [0166-fraction-to-recurring-decimal](https://github.com/paulranjan694/dsa/tree/master/0166-fraction-to-recurring-decimal) |
 | [0205-isomorphic-strings](https://github.com/paulranjan694/dsa/tree/master/0205-isomorphic-strings) |
 | [0257-binary-tree-paths](https://github.com/paulranjan694/dsa/tree/master/0257-binary-tree-paths) |
 | [0266-palindrome-permutation](https://github.com/paulranjan694/dsa/tree/master/0266-palindrome-permutation) |
@@ -607,6 +609,7 @@ DSA solutions
 | [0069-sqrtx](https://github.com/paulranjan694/dsa/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/paulranjan694/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0166-fraction-to-recurring-decimal](https://github.com/paulranjan694/dsa/tree/master/0166-fraction-to-recurring-decimal) |
 | [0189-rotate-array](https://github.com/paulranjan694/dsa/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/paulranjan694/dsa/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
