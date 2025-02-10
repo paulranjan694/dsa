@@ -403,6 +403,7 @@ DSA solutions
 | [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/paulranjan694/dsa/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
+| [0359-logger-rate-limiter](https://github.com/paulranjan694/dsa/tree/master/0359-logger-rate-limiter) |
 | [0387-first-unique-character-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0387-first-unique-character-in-a-string) |
 | [0409-longest-palindrome](https://github.com/paulranjan694/dsa/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/paulranjan694/dsa/tree/master/0424-longest-repeating-character-replacement) |
@@ -687,6 +688,7 @@ DSA solutions
 | [0295-find-median-from-data-stream](https://github.com/paulranjan694/dsa/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0303-range-sum-query-immutable](https://github.com/paulranjan694/dsa/tree/master/0303-range-sum-query-immutable) |
+| [0359-logger-rate-limiter](https://github.com/paulranjan694/dsa/tree/master/0359-logger-rate-limiter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/paulranjan694/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1477-product-of-the-last-k-numbers](https://github.com/paulranjan694/dsa/tree/master/1477-product-of-the-last-k-numbers) |
 ## Dynamic Programming
@@ -1126,6 +1128,7 @@ DSA solutions
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/paulranjan694/dsa/tree/master/0295-find-median-from-data-stream) |
+| [0359-logger-rate-limiter](https://github.com/paulranjan694/dsa/tree/master/0359-logger-rate-limiter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/paulranjan694/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1477-product-of-the-last-k-numbers](https://github.com/paulranjan694/dsa/tree/master/1477-product-of-the-last-k-numbers) |
 ## Geometry
