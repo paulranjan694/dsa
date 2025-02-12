@@ -1,20 +1,12 @@
 class Solution {
     public String customSortString(String order, String s) {
-        Map<Character,Integer> map = new TreeMap<>();
+        Map<Character,Integer> map = new HashMap<>();
         for(int i=0;i<s.length();i++){
             char ch = s.charAt(i);
             map.put(ch,map.getOrDefault(ch,0)+1);
         }
         
         StringBuilder sb = new StringBuilder();
-        // for(int i=0;i<order.length();i++){
-        //     char c = order.charAt(i);
-        //     if(!map.containsKey(c)){
-        //       break;
-        //     }
-        //     map.put(c,map.getOrDefault(c,0)-1);
-        //     sb.append(c);
-        // }
 
         for(int i=0;i<order.length();i++){
             char c = order.charAt(i);
