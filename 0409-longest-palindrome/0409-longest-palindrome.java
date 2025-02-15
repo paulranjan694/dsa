@@ -1,23 +1,24 @@
 class Solution {
     public int longestPalindrome(String s) {
-        int[] chars = new int[128];
-        for (char c : s.toCharArray()) {
-            chars[c]++;
-        }
-        int ans=0;
-        int oddCount = 0;
-        for(int k : chars){
-            if(k % 2 == 0){
-                ans+=k;
-            }else{
-                ans+= k-1;
-                oddCount++;
-            }
+        int[] freq = new int[128];
+        char[] chars=s.toCharArray();
+
+        for(int i=0;i<chars.length;i++){
+            freq[chars[i]]++;
         }
 
-        if(oddCount > 0)
+        int ans=0,oddcount=0;
+        for(int i=0;i<128;i++){
+            if(freq[i] % 2 == 0){
+                ans+=freq[i];
+            }else{
+                oddcount++;
+                ans += freq[i]-1;
+            }
+        }
+        if(oddcount > 0){
             ans++;
-        
+        }
         return ans;
     }
 }
