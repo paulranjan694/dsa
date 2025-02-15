@@ -332,6 +332,7 @@ DSA solutions
 | [1129-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1129-longest-string-chain) |
 | [1184-car-pooling](https://github.com/paulranjan694/dsa/tree/master/1184-car-pooling) |
 | [1293-three-consecutive-odds](https://github.com/paulranjan694/dsa/tree/master/1293-three-consecutive-odds) |
+| [1319-unique-number-of-occurrences](https://github.com/paulranjan694/dsa/tree/master/1319-unique-number-of-occurrences) |
 | [1370-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1370-count-number-of-nice-subarrays) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/paulranjan694/dsa/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/paulranjan694/dsa/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
@@ -434,6 +435,7 @@ DSA solutions
 | [1074-high-five](https://github.com/paulranjan694/dsa/tree/master/1074-high-five) |
 | [1129-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1129-longest-string-chain) |
 | [1297-maximum-number-of-balloons](https://github.com/paulranjan694/dsa/tree/master/1297-maximum-number-of-balloons) |
+| [1319-unique-number-of-occurrences](https://github.com/paulranjan694/dsa/tree/master/1319-unique-number-of-occurrences) |
 | [1370-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/paulranjan694/dsa/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/paulranjan694/dsa/tree/master/1468-check-if-n-and-its-double-exist) |
