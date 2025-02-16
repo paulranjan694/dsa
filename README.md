@@ -468,6 +468,7 @@ DSA solutions
 | [0225-implement-stack-using-queues](https://github.com/paulranjan694/dsa/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/paulranjan694/dsa/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/paulranjan694/dsa/tree/master/0234-palindrome-linked-list) |
+| [0341-flatten-nested-list-iterator](https://github.com/paulranjan694/dsa/tree/master/0341-flatten-nested-list-iterator) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/paulranjan694/dsa/tree/master/0503-next-greater-element-ii) |
 | [0636-exclusive-time-of-functions](https://github.com/paulranjan694/dsa/tree/master/0636-exclusive-time-of-functions) |
@@ -656,6 +657,7 @@ DSA solutions
 | [0225-implement-stack-using-queues](https://github.com/paulranjan694/dsa/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/paulranjan694/dsa/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/paulranjan694/dsa/tree/master/0239-sliding-window-maximum) |
+| [0341-flatten-nested-list-iterator](https://github.com/paulranjan694/dsa/tree/master/0341-flatten-nested-list-iterator) |
 | [0387-first-unique-character-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0387-first-unique-character-in-a-string) |
 | [1477-product-of-the-last-k-numbers](https://github.com/paulranjan694/dsa/tree/master/1477-product-of-the-last-k-numbers) |
 | [2195-time-needed-to-buy-tickets](https://github.com/paulranjan694/dsa/tree/master/2195-time-needed-to-buy-tickets) |
@@ -714,6 +716,7 @@ DSA solutions
 | [0295-find-median-from-data-stream](https://github.com/paulranjan694/dsa/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0303-range-sum-query-immutable](https://github.com/paulranjan694/dsa/tree/master/0303-range-sum-query-immutable) |
+| [0341-flatten-nested-list-iterator](https://github.com/paulranjan694/dsa/tree/master/0341-flatten-nested-list-iterator) |
 | [0359-logger-rate-limiter](https://github.com/paulranjan694/dsa/tree/master/0359-logger-rate-limiter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/paulranjan694/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1477-product-of-the-last-k-numbers](https://github.com/paulranjan694/dsa/tree/master/1477-product-of-the-last-k-numbers) |
@@ -961,6 +964,7 @@ DSA solutions
 | [0285-inorder-successor-in-bst](https://github.com/paulranjan694/dsa/tree/master/0285-inorder-successor-in-bst) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0333-largest-bst-subtree](https://github.com/paulranjan694/dsa/tree/master/0333-largest-bst-subtree) |
+| [0341-flatten-nested-list-iterator](https://github.com/paulranjan694/dsa/tree/master/0341-flatten-nested-list-iterator) |
 | [0450-delete-node-in-a-bst](https://github.com/paulranjan694/dsa/tree/master/0450-delete-node-in-a-bst) |
 | [0513-find-bottom-left-tree-value](https://github.com/paulranjan694/dsa/tree/master/0513-find-bottom-left-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0543-diameter-of-binary-tree) |
@@ -1007,6 +1011,7 @@ DSA solutions
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/paulranjan694/dsa/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0333-largest-bst-subtree](https://github.com/paulranjan694/dsa/tree/master/0333-largest-bst-subtree) |
+| [0341-flatten-nested-list-iterator](https://github.com/paulranjan694/dsa/tree/master/0341-flatten-nested-list-iterator) |
 | [0513-find-bottom-left-tree-value](https://github.com/paulranjan694/dsa/tree/master/0513-find-bottom-left-tree-value) |
 | [0543-diameter-of-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0545-boundary-of-binary-tree) |
@@ -1277,6 +1282,7 @@ DSA solutions
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/paulranjan694/dsa/tree/master/0173-binary-search-tree-iterator) |
+| [0341-flatten-nested-list-iterator](https://github.com/paulranjan694/dsa/tree/master/0341-flatten-nested-list-iterator) |
 ## Line Sweep
 |  |
 | ------- |
