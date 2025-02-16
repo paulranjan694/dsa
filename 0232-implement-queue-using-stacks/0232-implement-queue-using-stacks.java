@@ -1,7 +1,6 @@
 class MyQueue {
-    Stack<Integer> ip=null;
-    Stack<Integer> op=null;
-
+    Stack<Integer> ip;
+    Stack<Integer> op;
     public MyQueue() {
         ip = new Stack<>();
         op = new Stack<>();
@@ -12,32 +11,29 @@ class MyQueue {
     }
     
     public int pop() {
-        if(op.empty()){
-            while(!ip.empty()){
+        if(op.isEmpty()){
+            while(!ip.isEmpty()){
                 op.push(ip.pop());
             }
-            return op.empty() ? -1 : op.pop();
+            return op.isEmpty() ? -1 : op.pop();
         }else{
             return op.pop();
         }
     }
     
     public int peek() {
-        if(op.empty()){
-            while(!ip.empty()){
+        if(op.isEmpty()){
+            while(!ip.isEmpty()){
                 op.push(ip.pop());
             }
-            return op.empty() ? -1 : op.peek();
+            return op.isEmpty() ? -1 : op.peek();
         }else{
             return op.peek();
         }
     }
     
     public boolean empty() {
-        if(op.empty() && ip.empty()){
-           return true;
-        }
-        return false;
+        return op.isEmpty() && ip.isEmpty();
     }
 }
 
