@@ -470,6 +470,7 @@ DSA solutions
 | [0232-implement-queue-using-stacks](https://github.com/paulranjan694/dsa/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/paulranjan694/dsa/tree/master/0234-palindrome-linked-list) |
 | [0341-flatten-nested-list-iterator](https://github.com/paulranjan694/dsa/tree/master/0341-flatten-nested-list-iterator) |
+| [0394-decode-string](https://github.com/paulranjan694/dsa/tree/master/0394-decode-string) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/paulranjan694/dsa/tree/master/0503-next-greater-element-ii) |
 | [0636-exclusive-time-of-functions](https://github.com/paulranjan694/dsa/tree/master/0636-exclusive-time-of-functions) |
@@ -596,6 +597,7 @@ DSA solutions
 | [0299-bulls-and-cows](https://github.com/paulranjan694/dsa/tree/master/0299-bulls-and-cows) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/paulranjan694/dsa/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0387-first-unique-character-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0387-first-unique-character-in-a-string) |
+| [0394-decode-string](https://github.com/paulranjan694/dsa/tree/master/0394-decode-string) |
 | [0409-longest-palindrome](https://github.com/paulranjan694/dsa/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/paulranjan694/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0516-longest-palindromic-subsequence](https://github.com/paulranjan694/dsa/tree/master/0516-longest-palindromic-subsequence) |
@@ -883,6 +885,7 @@ DSA solutions
 | [0203-remove-linked-list-elements](https://github.com/paulranjan694/dsa/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/paulranjan694/dsa/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/paulranjan694/dsa/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/paulranjan694/dsa/tree/master/0394-decode-string) |
 | [1013-fibonacci-number](https://github.com/paulranjan694/dsa/tree/master/1013-fibonacci-number) |
 | [2050-count-good-numbers](https://github.com/paulranjan694/dsa/tree/master/2050-count-good-numbers) |
 ## Two Pointers
