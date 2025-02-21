@@ -362,6 +362,7 @@ DSA solutions
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/paulranjan694/dsa/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/paulranjan694/dsa/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/paulranjan694/dsa/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2469-longest-subsequence-with-limited-sum](https://github.com/paulranjan694/dsa/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2479-meeting-rooms-iii](https://github.com/paulranjan694/dsa/tree/master/2479-meeting-rooms-iii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/paulranjan694/dsa/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/paulranjan694/dsa/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -385,6 +386,7 @@ DSA solutions
 | [1184-car-pooling](https://github.com/paulranjan694/dsa/tree/master/1184-car-pooling) |
 | [1370-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/paulranjan694/dsa/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [2469-longest-subsequence-with-limited-sum](https://github.com/paulranjan694/dsa/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/paulranjan694/dsa/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [3034-points-that-intersect-with-cars](https://github.com/paulranjan694/dsa/tree/master/3034-points-that-intersect-with-cars) |
 ## Hash Table
@@ -555,6 +557,7 @@ DSA solutions
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/paulranjan694/dsa/tree/master/2042-maximum-product-difference-between-two-pairs) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/paulranjan694/dsa/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2327-largest-number-after-digit-swaps-by-parity](https://github.com/paulranjan694/dsa/tree/master/2327-largest-number-after-digit-swaps-by-parity) |
+| [2469-longest-subsequence-with-limited-sum](https://github.com/paulranjan694/dsa/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2479-meeting-rooms-iii](https://github.com/paulranjan694/dsa/tree/master/2479-meeting-rooms-iii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/paulranjan694/dsa/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -709,6 +712,7 @@ DSA solutions
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/paulranjan694/dsa/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/paulranjan694/dsa/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1762-furthest-building-you-can-reach](https://github.com/paulranjan694/dsa/tree/master/1762-furthest-building-you-can-reach) |
+| [2469-longest-subsequence-with-limited-sum](https://github.com/paulranjan694/dsa/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/paulranjan694/dsa/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/paulranjan694/dsa/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/paulranjan694/dsa/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
@@ -1169,6 +1173,7 @@ DSA solutions
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/paulranjan694/dsa/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/paulranjan694/dsa/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1646-kth-missing-positive-number](https://github.com/paulranjan694/dsa/tree/master/1646-kth-missing-positive-number) |
+| [2469-longest-subsequence-with-limited-sum](https://github.com/paulranjan694/dsa/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/paulranjan694/dsa/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 ## Data Stream
 |  |
