@@ -1,7 +1,10 @@
 class Solution {
     public int findBestValue(int[] arr, int target) {
-        Arrays.sort(arr);
-        int left=0,right=arr[arr.length-1],minDif = Integer.MAX_VALUE,ans=0;
+        int max = Integer.MIN_VALUE;
+        for(int e : arr){
+            max= Math.max(max,e);
+        }
+        int left=0,right=max,minDif = Integer.MAX_VALUE,ans=0;
         while(left<=right){
             int mid = left + (right - left)/2;
             int sum = isPossible(arr,mid);
@@ -11,7 +14,7 @@ class Solution {
                 right = mid-1;
             }
 
-            if(Math.abs(sum-target) < minDif || (Math.abs(sum-target) == minDif && mid < ans)  ){
+            if(Math.abs(sum-target) < minDif || (Math.abs(sum-target) == minDif && mid < ans)){
                 minDif = Math.abs(sum-target);
                 ans=mid;
             }
