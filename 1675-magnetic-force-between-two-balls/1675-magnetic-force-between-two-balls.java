@@ -18,7 +18,7 @@ class Solution {
     private boolean isPossible(int[] position, int m, int minDist){
         int count=1,n=position.length,pos=position[0];
         for(int i=1;i<n;i++){
-            if(Math.abs(position[i] - pos) >= minDist){
+            if(position[i] - pos>= minDist){
                 count++;
                 pos=position[i];
             }
