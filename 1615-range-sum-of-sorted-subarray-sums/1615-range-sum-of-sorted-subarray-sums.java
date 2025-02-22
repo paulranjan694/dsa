@@ -1,7 +1,7 @@
 class Solution {
     private static final int MODULO = 1000000007;
     public int rangeSum(int[] nums, int n, int left, int right) {
-        int[] arr = new int[n*(n+1)/2+1];
+        int[] arr = new int[n*(n+1)/2];
         int[] pre = new int[n];
         pre[0] = nums[0];
         arr[0] = nums[0];
@@ -20,7 +20,7 @@ class Solution {
 
         Arrays.sort(arr);
         int ans=0;
-        for(int i=left;i<=right;i++){
+        for(int i=left-1;i<right;i++){
             ans += (arr[i] % MODULO);
             ans = ans % MODULO;
         }
