@@ -6,8 +6,9 @@ class Solution {
             int left = i+1,right=n-1;
             while(left<=right){
                 int mid = left + (right - left)/2;
-                if(nums[i] + nums[mid] < k){
-                    ans = Math.max(ans,nums[i]+nums[mid]);
+                int sum = nums[i] + nums[mid];
+                if(sum < k){
+                    ans = Math.max(ans,sum);
                     left = mid + 1;
                 }else{
                     right = mid -1;
