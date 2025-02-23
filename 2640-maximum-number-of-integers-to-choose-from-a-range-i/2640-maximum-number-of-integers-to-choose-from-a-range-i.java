@@ -1,15 +1,15 @@
 class Solution {
     public int maxCount(int[] banned, int n, int maxSum) {
         int count=0;
-        Arrays.sort(banned);
-        for(int num=1;num<=n;num++){
-            if(!isNumberBanned(banned,num)){
-                maxSum -= num;
-                if(maxSum<0){
-                    break;
-                }
-                count++;
-            }
+        Set<Integer> bannedNumbers = new HashSet<>();
+        for(int ele : banned){
+            bannedNumbers.add(ele);
+        }
+        for(int num =1;num<=n;num++){
+            if(bannedNumbers.contains(num)) continue;
+            maxSum -= num;
+            if(maxSum < 0) break;
+            count++;
         }
         return count;
     }
