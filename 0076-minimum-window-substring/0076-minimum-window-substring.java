@@ -1,38 +1,32 @@
 class Solution {
     public String minWindow(String s, String t) {
-        int n1=s.length(),n2=t.length();
-        if(n2 > n1) return "";
-
-        // HashMap<Character,Integer> hm = new HashMap<>();
         int[] hash = new int[256];
-        for(int i=0;i<n2;i++){
-            char ch = t.charAt(i);
-            hash[ch]++;
-            // hm.put(ch, hm.getOrDefault(ch,0)+1);
-        }
-        int minlen=Integer.MAX_VALUE, startIdx=-1, l=0,r=0,cnt=0;
-        while(r<n1){
-            char c = s.charAt(r);
-            //int f = hm.getOrDefault(c,0);
-            if(hash[c]>0) cnt++;
-            //hm.put(c,hm.getOrDefault(c,0)-1);
-            hash[c]--;
-            
-            while(cnt==n2){
-                if(minlen > (r-l+1)){
-                    minlen = (r-l+1);
-                    startIdx = l;
-                }
-                char cr = s.charAt(l);
-                // hm.put(cr,hm.getOrDefault(cr,0)+1);
-                hash[cr]++;
-                //int f1 = hm.getOrDefault(cr,0);
-                if(hash[cr]>0) cnt--;
-                l++;
-            }
-            r++;
+        String answer = "";
+        int left=0,right=0,startIndex=-1,minLength=Integer.MAX_VALUE,n=s.length(),m=t.length(),count=0;
+        if(n<m) return answer;
+
+        for(int i = 0;i<m;i++){
+            char ch1 = t.charAt(i);
+            hash[ch1]++;
         }
 
-        return startIdx == -1 ? "" : s.substring(startIdx,startIdx+minlen);
+        while(right < n){
+            char ch = s.charAt(right);
+            if(hash[ch] > 0) count++;
+            hash[ch]--;
+
+            while(count==m){
+                if(minLength > (right-left+1)){
+                    minLength = right - left + 1;
+                    startIndex=left;
+                }
+                char c = s.charAt(left);
+                hash[c]++;
+                if(hash[c] > 0) count--;
+                left++;
+            }
+            right++;
+        }
+        return startIndex == -1 ? "" : s.substring(startIndex,startIndex+minLength);
     }
 }
