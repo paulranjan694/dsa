@@ -6,7 +6,7 @@ class Solution {
             char ch = s.charAt(right);
             if(!hash.contains(ch)){
                 hash.add(ch);
-                maxlen = Math.max(maxlen,right-left+1);
+                //maxlen = Math.max(maxlen,right-left+1);
             }else{
                 while(hash.contains(ch)){
                     char c = s.charAt(left);
@@ -14,9 +14,9 @@ class Solution {
                     left++;
                 }
                 hash.add(ch);
-                maxlen = Math.max(maxlen,right-left+1);
+                //maxlen = Math.max(maxlen,right-left+1);
             }
-            //maxlen = Math.max(maxlen,right-left+1);
+            maxlen = Math.max(maxlen,right-left+1);
             right++;
         }
         return maxlen;
