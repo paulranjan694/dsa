@@ -301,6 +301,7 @@ DSA solutions
 | [0611-valid-triangle-number](https://github.com/paulranjan694/dsa/tree/master/0611-valid-triangle-number) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
 | [0636-exclusive-time-of-functions](https://github.com/paulranjan694/dsa/tree/master/0636-exclusive-time-of-functions) |
+| [0643-maximum-average-subarray-i](https://github.com/paulranjan694/dsa/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/paulranjan694/dsa/tree/master/0658-find-k-closest-elements) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/paulranjan694/dsa/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0682-baseball-game](https://github.com/paulranjan694/dsa/tree/master/0682-baseball-game) |
@@ -1237,6 +1238,7 @@ DSA solutions
 | [0424-longest-repeating-character-replacement](https://github.com/paulranjan694/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0480-sliding-window-median](https://github.com/paulranjan694/dsa/tree/master/0480-sliding-window-median) |
 | [0567-permutation-in-string](https://github.com/paulranjan694/dsa/tree/master/0567-permutation-in-string) |
+| [0643-maximum-average-subarray-i](https://github.com/paulranjan694/dsa/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/paulranjan694/dsa/tree/master/0658-find-k-closest-elements) |
 | [0727-minimum-window-subsequence](https://github.com/paulranjan694/dsa/tree/master/0727-minimum-window-subsequence) |
 | [1034-subarrays-with-k-different-integers](https://github.com/paulranjan694/dsa/tree/master/1034-subarrays-with-k-different-integers) |
