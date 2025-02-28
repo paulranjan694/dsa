@@ -251,6 +251,7 @@ DSA solutions
 | [0189-rotate-array](https://github.com/paulranjan694/dsa/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/paulranjan694/dsa/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/paulranjan694/dsa/tree/master/0200-number-of-islands) |
+| [0209-minimum-size-subarray-sum](https://github.com/paulranjan694/dsa/tree/master/0209-minimum-size-subarray-sum) |
 | [0213-house-robber-ii](https://github.com/paulranjan694/dsa/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/paulranjan694/dsa/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/paulranjan694/dsa/tree/master/0216-combination-sum-iii) |
@@ -383,6 +384,7 @@ DSA solutions
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/paulranjan694/dsa/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/paulranjan694/dsa/tree/master/0238-product-of-array-except-self) |
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0303-range-sum-query-immutable](https://github.com/paulranjan694/dsa/tree/master/0303-range-sum-query-immutable) |
@@ -1167,6 +1169,7 @@ DSA solutions
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/paulranjan694/dsa/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
 | [0162-find-peak-element](https://github.com/paulranjan694/dsa/tree/master/0162-find-peak-element) |
 | [0173-binary-search-tree-iterator](https://github.com/paulranjan694/dsa/tree/master/0173-binary-search-tree-iterator) |
+| [0209-minimum-size-subarray-sum](https://github.com/paulranjan694/dsa/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/paulranjan694/dsa/tree/master/0222-count-complete-tree-nodes) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/paulranjan694/dsa/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -1228,6 +1231,7 @@ DSA solutions
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/paulranjan694/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/paulranjan694/dsa/tree/master/0076-minimum-window-substring) |
+| [0209-minimum-size-subarray-sum](https://github.com/paulranjan694/dsa/tree/master/0209-minimum-size-subarray-sum) |
 | [0239-sliding-window-maximum](https://github.com/paulranjan694/dsa/tree/master/0239-sliding-window-maximum) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/paulranjan694/dsa/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/paulranjan694/dsa/tree/master/0424-longest-repeating-character-replacement) |
