@@ -255,6 +255,7 @@ DSA solutions
 | [0213-house-robber-ii](https://github.com/paulranjan694/dsa/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/paulranjan694/dsa/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/paulranjan694/dsa/tree/master/0216-combination-sum-iii) |
+| [0219-contains-duplicate-ii](https://github.com/paulranjan694/dsa/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/paulranjan694/dsa/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/paulranjan694/dsa/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/paulranjan694/dsa/tree/master/0239-sliding-window-maximum) |
@@ -423,6 +424,7 @@ DSA solutions
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/paulranjan694/dsa/tree/master/0202-happy-number) |
 | [0205-isomorphic-strings](https://github.com/paulranjan694/dsa/tree/master/0205-isomorphic-strings) |
+| [0219-contains-duplicate-ii](https://github.com/paulranjan694/dsa/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/paulranjan694/dsa/tree/master/0229-majority-element-ii) |
 | [0266-palindrome-permutation](https://github.com/paulranjan694/dsa/tree/master/0266-palindrome-permutation) |
 | [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
@@ -1235,6 +1237,7 @@ DSA solutions
 | [0003-longest-substring-without-repeating-characters](https://github.com/paulranjan694/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/paulranjan694/dsa/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/paulranjan694/dsa/tree/master/0209-minimum-size-subarray-sum) |
+| [0219-contains-duplicate-ii](https://github.com/paulranjan694/dsa/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/paulranjan694/dsa/tree/master/0239-sliding-window-maximum) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/paulranjan694/dsa/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/paulranjan694/dsa/tree/master/0424-longest-repeating-character-replacement) |
