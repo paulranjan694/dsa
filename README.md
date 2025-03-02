@@ -317,6 +317,7 @@ DSA solutions
 | [0882-peak-index-in-a-mountain-array](https://github.com/paulranjan694/dsa/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0887-minimum-cost-to-hire-k-workers](https://github.com/paulranjan694/dsa/tree/master/0887-minimum-cost-to-hire-k-workers) |
 | [0890-lemonade-change](https://github.com/paulranjan694/dsa/tree/master/0890-lemonade-change) |
+| [0898-transpose-matrix](https://github.com/paulranjan694/dsa/tree/master/0898-transpose-matrix) |
 | [0907-koko-eating-bananas](https://github.com/paulranjan694/dsa/tree/master/0907-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/paulranjan694/dsa/tree/master/0912-random-pick-with-weight) |
 | [0921-spiral-matrix-iii](https://github.com/paulranjan694/dsa/tree/master/0921-spiral-matrix-iii) |
@@ -708,6 +709,7 @@ DSA solutions
 | [0059-spiral-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0059-spiral-matrix-ii) |
 | [0682-baseball-game](https://github.com/paulranjan694/dsa/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/paulranjan694/dsa/tree/master/0735-asteroid-collision) |
+| [0898-transpose-matrix](https://github.com/paulranjan694/dsa/tree/master/0898-transpose-matrix) |
 | [0921-spiral-matrix-iii](https://github.com/paulranjan694/dsa/tree/master/0921-spiral-matrix-iii) |
 | [0983-validate-stack-sequences](https://github.com/paulranjan694/dsa/tree/master/0983-validate-stack-sequences) |
 | [1184-car-pooling](https://github.com/paulranjan694/dsa/tree/master/1184-car-pooling) |
@@ -1278,6 +1280,7 @@ DSA solutions
 | [0695-max-area-of-island](https://github.com/paulranjan694/dsa/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/paulranjan694/dsa/tree/master/0733-flood-fill) |
 | [0870-magic-squares-in-grid](https://github.com/paulranjan694/dsa/tree/master/0870-magic-squares-in-grid) |
+| [0898-transpose-matrix](https://github.com/paulranjan694/dsa/tree/master/0898-transpose-matrix) |
 | [0921-spiral-matrix-iii](https://github.com/paulranjan694/dsa/tree/master/0921-spiral-matrix-iii) |
 | [0967-minimum-falling-path-sum](https://github.com/paulranjan694/dsa/tree/master/0967-minimum-falling-path-sum) |
 | [1036-rotting-oranges](https://github.com/paulranjan694/dsa/tree/master/1036-rotting-oranges) |
