@@ -350,6 +350,7 @@ DSA solutions
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/paulranjan694/dsa/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/paulranjan694/dsa/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/paulranjan694/dsa/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/paulranjan694/dsa/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1477-product-of-the-last-k-numbers](https://github.com/paulranjan694/dsa/tree/master/1477-product-of-the-last-k-numbers) |
 | [1486-find-the-distance-value-between-two-arrays](https://github.com/paulranjan694/dsa/tree/master/1486-find-the-distance-value-between-two-arrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/paulranjan694/dsa/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -1214,6 +1215,7 @@ DSA solutions
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/paulranjan694/dsa/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/paulranjan694/dsa/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/paulranjan694/dsa/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/paulranjan694/dsa/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1486-find-the-distance-value-between-two-arrays](https://github.com/paulranjan694/dsa/tree/master/1486-find-the-distance-value-between-two-arrays) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/paulranjan694/dsa/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/paulranjan694/dsa/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -1287,6 +1289,7 @@ DSA solutions
 | [1073-number-of-enclaves](https://github.com/paulranjan694/dsa/tree/master/1073-number-of-enclaves) |
 | [1324-where-will-the-ball-fall](https://github.com/paulranjan694/dsa/tree/master/1324-where-will-the-ball-fall) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/paulranjan694/dsa/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
+| [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/paulranjan694/dsa/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/paulranjan694/dsa/tree/master/3415-check-if-grid-satisfies-conditions) |
 ## Union Find
 |  |
