@@ -1,45 +1,50 @@
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
-        int n=matrix.length,m=matrix[0].length;
-        int left=0,top=0,right=m-1,bottom=n-1;
-        List<Integer> ans = new ArrayList<>();
+        List<Integer> result = new ArrayList<>();
+        int n = matrix.length,m=matrix[0].length;
+        int top = 0, bottom=n-1,left=0,right=m-1, iteration=0;
+        while(iteration < (n*m)){
 
-        int itr = 0;
-
-        while(ans.size() < n*m){
             //top row
             for(int i=left;i<=right;i++){
-                if(ans.size() == n*m)
-                    return ans;
-                ans.add(matrix[top][i]);
+                result.add(matrix[top][i]);
+                iteration++;
+                if(iteration >= (n*m)){
+                    return result;
+                }
             }
             top++;
-           
 
-            //right col
+            //right
             for(int i=top;i<=bottom;i++){
-                if(ans.size() == n*m)
-                    return ans;
-                ans.add(matrix[i][right]);
+                result.add(matrix[i][right]);
+                iteration++;
+                 if(iteration >= (n*m)){
+                    return result;
+                }
             }
             right--;
-                        
-            //bottom row
+
+            //bottom
             for(int i=right;i>=left;i--){
-                if(ans.size() == n*m)
-                    return ans;
-                ans.add(matrix[bottom][i]);
+                result.add(matrix[bottom][i]);
+                iteration++;
+                 if(iteration >= (n*m)){
+                    return result;
+                }
             }
             bottom--;
-           
-            //left col
+
+            //left
             for(int i=bottom;i>=top;i--){
-                if(ans.size() == n*m)
-                    return ans;
-                ans.add(matrix[i][left]);
+                result.add(matrix[i][left]);
+                iteration++;
+                 if(iteration >= (n*m)){
+                    return result;
+                }
             }
             left++;
         }
-        return ans;
+        return result;
     }
 }
