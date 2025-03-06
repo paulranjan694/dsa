@@ -1,4 +1,5 @@
 class Solution {
+    //tc = 2^n X n
     public List<List<Integer>> subsets(int[] nums) {
         int n = nums.length;
         int numOfSubset = 1 << n;
