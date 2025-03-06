@@ -442,6 +442,7 @@ DSA solutions
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0359-logger-rate-limiter](https://github.com/paulranjan694/dsa/tree/master/0359-logger-rate-limiter) |
 | [0387-first-unique-character-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0387-first-unique-character-in-a-string) |
+| [0389-find-the-difference](https://github.com/paulranjan694/dsa/tree/master/0389-find-the-difference) |
 | [0409-longest-palindrome](https://github.com/paulranjan694/dsa/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/paulranjan694/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/paulranjan694/dsa/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -561,6 +562,7 @@ DSA solutions
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/paulranjan694/dsa/tree/master/0368-largest-divisible-subset) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/paulranjan694/dsa/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0389-find-the-difference](https://github.com/paulranjan694/dsa/tree/master/0389-find-the-difference) |
 | [0414-third-maximum-number](https://github.com/paulranjan694/dsa/tree/master/0414-third-maximum-number) |
 | [0435-non-overlapping-intervals](https://github.com/paulranjan694/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0436-find-right-interval](https://github.com/paulranjan694/dsa/tree/master/0436-find-right-interval) |
@@ -639,6 +641,7 @@ DSA solutions
 | [0299-bulls-and-cows](https://github.com/paulranjan694/dsa/tree/master/0299-bulls-and-cows) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/paulranjan694/dsa/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0387-first-unique-character-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0387-first-unique-character-in-a-string) |
+| [0389-find-the-difference](https://github.com/paulranjan694/dsa/tree/master/0389-find-the-difference) |
 | [0394-decode-string](https://github.com/paulranjan694/dsa/tree/master/0394-decode-string) |
 | [0409-longest-palindrome](https://github.com/paulranjan694/dsa/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/paulranjan694/dsa/tree/master/0424-longest-repeating-character-replacement) |
@@ -857,6 +860,7 @@ DSA solutions
 | [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/paulranjan694/dsa/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/paulranjan694/dsa/tree/master/0338-counting-bits) |
+| [0389-find-the-difference](https://github.com/paulranjan694/dsa/tree/master/0389-find-the-difference) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/paulranjan694/dsa/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Heap (Priority Queue)
 |  |
