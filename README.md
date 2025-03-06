@@ -851,6 +851,7 @@ DSA solutions
 | [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/paulranjan694/dsa/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/paulranjan694/dsa/tree/master/0338-counting-bits) |
+| [2323-minimum-bit-flips-to-convert-number](https://github.com/paulranjan694/dsa/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
