@@ -11,7 +11,7 @@ class Solution {
             return nums[n-1];
         }
 
-        for(int i=1;i<=n-3;i=i+3){
+        for(int i=1;i<n;i=i+3){
             if(nums[i]!= nums[i-1]){
                 return nums[i-1];
             }
