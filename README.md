@@ -264,6 +264,7 @@ DSA solutions
 | [0240-search-a-2d-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0240-search-a-2d-matrix-ii) |
 | [0252-meeting-rooms](https://github.com/paulranjan694/dsa/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
+| [0260-single-number-iii](https://github.com/paulranjan694/dsa/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
 | [0269-alien-dictionary](https://github.com/paulranjan694/dsa/tree/master/0269-alien-dictionary) |
 | [0271-encode-and-decode-strings](https://github.com/paulranjan694/dsa/tree/master/0271-encode-and-decode-strings) |
@@ -851,6 +852,7 @@ DSA solutions
 | [0137-single-number-ii](https://github.com/paulranjan694/dsa/tree/master/0137-single-number-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/paulranjan694/dsa/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/paulranjan694/dsa/tree/master/0231-power-of-two) |
+| [0260-single-number-iii](https://github.com/paulranjan694/dsa/tree/master/0260-single-number-iii) |
 | [0266-palindrome-permutation](https://github.com/paulranjan694/dsa/tree/master/0266-palindrome-permutation) |
 | [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/paulranjan694/dsa/tree/master/0287-find-the-duplicate-number) |
