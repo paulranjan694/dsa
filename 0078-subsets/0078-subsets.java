@@ -1,17 +1,21 @@
 class Solution {
-    //tc = 2^n X n
     public List<List<Integer>> subsets(int[] nums) {
-        int n = nums.length;
-        int numOfSubset = 1 << n;
-        List<List<Integer>> ans = new ArrayList<>();
-        for(int num=0;num<numOfSubset;num++){
-            List<Integer> sublist = new ArrayList<>();
-            for(int i=0;i<n;i++){
-                if((num & (1<<i)) != 0) sublist.add(nums[i]);
-            }
-            ans.add(sublist);
+        List<List<Integer>> setsList = new ArrayList<>();
+        findSubSets(nums,setsList,new ArrayList<>(),0);
+        return setsList;
+    }
 
+    private void findSubSets(int[] nums, List<List<Integer>> setsList, List<Integer> ds, int index ){
+        //base condition
+        if(index >= nums.length){
+            List<Integer> newds = new ArrayList<>(ds);
+            setsList.add(newds);
+            return;
         }
-        return ans;
+
+        findSubSets(nums, setsList, ds, index+1);
+        ds.add(nums[index]);
+        findSubSets(nums, setsList, ds, index+1);
+        ds.remove(ds.size()-1);
     }
 }
