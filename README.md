@@ -389,6 +389,7 @@ DSA solutions
 | [2469-longest-subsequence-with-limited-sum](https://github.com/paulranjan694/dsa/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2479-meeting-rooms-iii](https://github.com/paulranjan694/dsa/tree/master/2479-meeting-rooms-iii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/paulranjan694/dsa/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/paulranjan694/dsa/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/paulranjan694/dsa/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/paulranjan694/dsa/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/paulranjan694/dsa/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
@@ -894,6 +895,7 @@ DSA solutions
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/paulranjan694/dsa/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/paulranjan694/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/paulranjan694/dsa/tree/master/2323-minimum-bit-flips-to-convert-number) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/paulranjan694/dsa/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [3030-find-the-k-th-lucky-number](https://github.com/paulranjan694/dsa/tree/master/3030-find-the-k-th-lucky-number) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/paulranjan694/dsa/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Heap (Priority Queue)
@@ -1439,4 +1441,8 @@ DSA solutions
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/paulranjan694/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
+## Brainteaser
+|  |
+| ------- |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/paulranjan694/dsa/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 <!---LeetCode Topics End-->
