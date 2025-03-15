@@ -1,28 +1,24 @@
 class Solution {
     public int findTheLongestSubstring(String s) {
-        Map<Integer,Integer> bitmaskFreqMap = new HashMap<>();
+        int[] charmap = new int[26];
+        charmap['a'-'a']=1;
+        charmap['e'-'a']=2;
+        charmap['i'-'a']=4;
+        charmap['o'-'a']=8;
+        charmap['u'-'a']=16;
 
-        Map<Character,Integer> indexes = new HashMap<>();
-        indexes.put('a',0);
-        indexes.put('e',1);
-        indexes.put('i',2);
-        indexes.put('o',3);
-        indexes.put('u',4);
+        int[] mp = new int[32];
+        Arrays.fill(mp,-1);
 
-        int mask=0,maxlen=0;
-        
-        bitmaskFreqMap.put(mask,-1);
+        int maxlen=0,prefixXor=0;
 
         for(int i=0;i<s.length();i++){
-            int bit = indexes.getOrDefault(s.charAt(i), -1);
-            if(bit >=0){
-                mask = mask ^ (1<<bit);
-            }
-
-            if(bitmaskFreqMap.containsKey(mask)){
-                maxlen = Math.max(maxlen,i-bitmaskFreqMap.get(mask));
+            char ch = s.charAt(i);
+            prefixXor ^= charmap[ch-'a'];
+            if(mp[prefixXor] == -1 && prefixXor!=0){
+                mp[prefixXor]=i;
             }else{
-                bitmaskFreqMap.put(mask,i);
+                maxlen=Math.max(maxlen,i-mp[prefixXor]);
             }
         }
         return maxlen;
