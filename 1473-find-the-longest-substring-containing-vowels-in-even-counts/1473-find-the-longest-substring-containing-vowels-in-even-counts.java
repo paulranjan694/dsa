@@ -1,37 +1,30 @@
 class Solution {
     public int findTheLongestSubstring(String s) {
-        int length=s.length(), maxlen=0;
+        Map<Integer,Integer> bitmaskFreqMap = new HashMap<>();
+
         Map<Character,Integer> indexes = new HashMap<>();
-        Map<String,Integer> frequencies = new HashMap<>();
         indexes.put('a',0);
         indexes.put('e',1);
         indexes.put('i',2);
         indexes.put('o',3);
         indexes.put('u',4);
+
+        int mask=0,maxlen=0;
         
-        int[] bitmask = new int[5];
-        frequencies.put("00000",-1);
+        bitmaskFreqMap.put(mask,-1);
 
-        for(int i=0;i<length;i++){
-            int index = indexes.getOrDefault(s.charAt(i), -1);
-            if(index>=0){
-                bitmask[index] = (bitmask[index] + 1) % 2;
+        for(int i=0;i<s.length();i++){
+            int bit = indexes.getOrDefault(s.charAt(i), -1);
+            if(bit >=0){
+                mask = mask ^ (1<<bit);
             }
 
-            StringBuilder bitMasking = new StringBuilder();
-            for(int j=0;j<5;j++){
-                bitMasking.append(bitmask[j]);
-            }
-
-            String bit = bitMasking.toString();
-
-            if(frequencies.containsKey(bit)){
-                maxlen=Math.max(maxlen,i-frequencies.get(bit));
+            if(bitmaskFreqMap.containsKey(mask)){
+                maxlen = Math.max(maxlen,i-bitmaskFreqMap.get(mask));
             }else{
-                frequencies.put(bit,i);
+                bitmaskFreqMap.put(mask,i);
             }
         }
-        
         return maxlen;
     }
 }
