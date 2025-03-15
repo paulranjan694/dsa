@@ -361,6 +361,7 @@ DSA solutions
 | [1486-find-the-distance-value-between-two-arrays](https://github.com/paulranjan694/dsa/tree/master/1486-find-the-distance-value-between-two-arrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/paulranjan694/dsa/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1547-destination-city](https://github.com/paulranjan694/dsa/tree/master/1547-destination-city) |
+| [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/paulranjan694/dsa/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/paulranjan694/dsa/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/paulranjan694/dsa/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/paulranjan694/dsa/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -416,6 +417,7 @@ DSA solutions
 | [1370-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1370-count-number-of-nice-subarrays) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/paulranjan694/dsa/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/paulranjan694/dsa/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/paulranjan694/dsa/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/paulranjan694/dsa/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/paulranjan694/dsa/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/paulranjan694/dsa/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
@@ -482,6 +484,7 @@ DSA solutions
 | [1468-check-if-n-and-its-double-exist](https://github.com/paulranjan694/dsa/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/paulranjan694/dsa/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1547-destination-city](https://github.com/paulranjan694/dsa/tree/master/1547-destination-city) |
+| [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/paulranjan694/dsa/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/paulranjan694/dsa/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/paulranjan694/dsa/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
@@ -712,6 +715,7 @@ DSA solutions
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1370-count-number-of-nice-subarrays) |
 | [1477-product-of-the-last-k-numbers](https://github.com/paulranjan694/dsa/tree/master/1477-product-of-the-last-k-numbers) |
+| [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/paulranjan694/dsa/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/paulranjan694/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2050-count-good-numbers](https://github.com/paulranjan694/dsa/tree/master/2050-count-good-numbers) |
@@ -887,6 +891,7 @@ DSA solutions
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/paulranjan694/dsa/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1054-complement-of-base-10-integer](https://github.com/paulranjan694/dsa/tree/master/1054-complement-of-base-10-integer) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/paulranjan694/dsa/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/paulranjan694/dsa/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/paulranjan694/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/paulranjan694/dsa/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [3030-find-the-k-th-lucky-number](https://github.com/paulranjan694/dsa/tree/master/3030-find-the-k-th-lucky-number) |
