@@ -16,8 +16,12 @@ class Solution {
             return;
         }
 
+        Set<Integer> uniqueSet = new HashSet<>();
+
         for(int index = currIndex;index<nums.length;index++){
-            if(isDuplicate(nums,currIndex,index)) continue;
+            //if(isDuplicate(nums,currIndex,index)) continue;
+            if(uniqueSet.contains(nums[index])) continue;
+            uniqueSet.add(nums[index]);
             swap(nums,currIndex,index);
             permuteUtils(nums, result, currIndex+1);
             swap(nums,currIndex,index);
@@ -30,12 +34,12 @@ class Solution {
        nums[j]=t;
     }
 
-    private boolean isDuplicate(int[] nums,int start,int end){
-        for(int i=start;i<end;i++){
-            if(nums[i] == nums[end]){
-                return true;
-            }
-        }
-        return false;
-    }
+    // private boolean isDuplicate(int[] nums,int start,int end){
+    //     for(int i=start;i<end;i++){
+    //         if(nums[i] == nums[end]){
+    //             return true;
+    //         }
+    //     }
+    //     return false;
+    // }
 }
