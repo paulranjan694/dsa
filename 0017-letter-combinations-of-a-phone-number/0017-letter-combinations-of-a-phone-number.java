@@ -30,7 +30,6 @@ class Solution {
             ds.append(digitChars.charAt(j));
             solve(digits,digitMapping,result,ds,index+1);
             ds.deleteCharAt(ds.length()-1);
-
         }
         
     }
