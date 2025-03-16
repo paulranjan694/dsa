@@ -1,31 +1,25 @@
 class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
-        permuteUtils(nums,result,0, new HashSet<String>());
+        permuteUtils(nums,result,0);
         return result;
     }
 
-     private void permuteUtils(int[] nums, List<List<Integer>> result, int currIndex, Set<String> ds){
+     private void permuteUtils(int[] nums, List<List<Integer>> result, int currIndex){
         //base condition
         if(currIndex==nums.length){
             List<Integer> list= new ArrayList<>();
-            StringBuilder sb = new StringBuilder();
             for(int num : nums){
                 list.add(num);
-                sb.append(num);
             }
-
-            String permuateString = sb.toString();
-            if(!ds.contains(permuateString)){
-                result.add(list);
-                ds.add(permuateString);
-            }
+            result.add(list);
             return;
         }
 
         for(int index = currIndex;index<nums.length;index++){
+            if(isDuplicate(nums,currIndex,index)) continue;
             swap(nums,currIndex,index);
-            permuteUtils(nums, result, currIndex+1,ds);
+            permuteUtils(nums, result, currIndex+1);
             swap(nums,currIndex,index);
         }
     }
@@ -34,5 +28,14 @@ class Solution {
        int t = nums[i];
        nums[i]=nums[j];
        nums[j]=t;
+    }
+
+    private boolean isDuplicate(int[] nums,int start,int end){
+        for(int i=start;i<end;i++){
+            if(nums[i] == nums[end]){
+                return true;
+            }
+        }
+        return false;
     }
 }
