@@ -1,27 +1,34 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
-        int open=0,close=0;
-        List<String> ans= new ArrayList<>();
-        StringBuilder sb = new StringBuilder();
-        utils(open,close,ans,sb,n);
-        return ans;
+        List<String> result = new ArrayList<>();
+        StringBuilder sb = new StringBuilder("(");
+        solve(n,result,sb,1,0);
+        return result;
     }
 
-    public void utils(int open, int close, List<String> ans, StringBuilder sb, int n){
-        if(open==n && close == n){
-            ans.add(sb.toString());
+    private void solve(int n, List<String> result, StringBuilder sb, int openCount, int closeCount){
+        //base condn
+        if(sb.length()== 2*n){
+            result.add(sb.toString());
             return;
         }
-        if(open<n){
-            sb.append("(");
-            utils(open+1,close,ans,sb,n);
+
+        if(openCount < n){
+            sb.append('(');
+            openCount++;
+            solve(n,result,sb,openCount,closeCount);
             sb.deleteCharAt(sb.length()-1);
+            openCount--;
         }
-        if(open>close){
-            sb.append(")");
-            utils(open,close+1,ans,sb,n);
+
+
+        if(openCount > closeCount){
+            sb.append(')');
+            closeCount++;
+            solve(n,result,sb,openCount,closeCount);
             sb.deleteCharAt(sb.length()-1);
+            closeCount--;
         }
-      
+
     }
 }
