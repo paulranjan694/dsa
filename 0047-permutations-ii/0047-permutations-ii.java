@@ -1,38 +1,39 @@
 class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
-        permuteUtils(nums,result,0);
+        Map<Integer,Integer> uniqueNums = new HashMap<>();
+        for(int num : nums){
+            uniqueNums.put(num, uniqueNums.getOrDefault(num, 0)+1);
+        }
+        permuteUtils(uniqueNums,result, new ArrayList<Integer>(), nums.length);
         return result;
     }
 
-     private void permuteUtils(int[] nums, List<List<Integer>> result, int currIndex){
+     private void permuteUtils(Map<Integer,Integer> mp, List<List<Integer>> result, List<Integer> list, int len){
         //base condition
-        if(currIndex==nums.length){
-            List<Integer> list= new ArrayList<>();
-            for(int num : nums){
-                list.add(num);
-            }
-            result.add(list);
+        if(list.size()==len){
+            List<Integer> thelist= new ArrayList<>(list);
+            result.add(thelist);
             return;
         }
 
-        Set<Integer> uniqueSet = new HashSet<>();
-
-        for(int index = currIndex;index<nums.length;index++){
-            //if(isDuplicate(nums,currIndex,index)) continue;
-            if(uniqueSet.contains(nums[index])) continue;
-            uniqueSet.add(nums[index]);
-            swap(nums,currIndex,index);
-            permuteUtils(nums, result, currIndex+1);
-            swap(nums,currIndex,index);
+        for(Integer key : mp.keySet()){
+            if(mp.get(key)>0){
+                list.add(key);
+                mp.put(key,mp.get(key)-1);
+                permuteUtils(mp,result,list,len);
+                list.remove(list.size()-1);
+                mp.put(key,mp.get(key)+1);
+            }
         }
+
     }
 
-    private void swap(int[] nums, int i, int j){
-       int t = nums[i];
-       nums[i]=nums[j];
-       nums[j]=t;
-    }
+    // private void swap(int[] nums, int i, int j){
+    //    int t = nums[i];
+    //    nums[i]=nums[j];
+    //    nums[j]=t;
+    // }
 
     // private boolean isDuplicate(int[] nums,int start,int end){
     //     for(int i=start;i<end;i++){
