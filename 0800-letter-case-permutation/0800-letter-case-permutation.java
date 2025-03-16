@@ -13,19 +13,22 @@ class Solution {
             return;
         }
         char ch = s.charAt(curIndex);
-        char convertedch = ch;
-        if((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')){
-            if(ch >= 'A' && ch <= 'Z'){
-                convertedch = (char)(convertedch | 32);
-            }else{
-                convertedch = (char)(convertedch & ~32);
-            }
+        //char convertedch = ch;
+        //if((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')){
+        if(Character.isLetter(ch)){
+            // if(ch >= 'A' && ch <= 'Z'){
+            //     convertedch = (char)(convertedch | 32);
+            // }else{
+            //     convertedch = (char)(convertedch & ~32);
+            // }
+            char upperCase = Character.toUpperCase(ch);
+            char lowerCase = Character.toLowerCase(ch);
 
-            sb.append(ch);
+            sb.append(upperCase);
             solve(s,result,curIndex+1,sb);
             sb.deleteCharAt(sb.length()-1);
 
-            sb.append(convertedch);
+            sb.append(lowerCase);
             solve(s,result,curIndex+1,sb);
             sb.deleteCharAt(sb.length()-1);
         }else{
