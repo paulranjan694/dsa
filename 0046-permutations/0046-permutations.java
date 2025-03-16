@@ -1,24 +1,28 @@
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<>();
-        utils(nums,ans,new ArrayList<Integer>(),new HashSet<Integer>());
-        return ans;
+        List<List<Integer>> result = new ArrayList<>();
+        permuteUtils(nums,result,new ArrayList<>(), new HashSet<Integer>());
+        return result;
     }
 
-    public void utils(int[] nums, List<List<Integer>> ans, ArrayList<Integer> ds, HashSet<Integer> set){
-        if(ds.size() == nums.length){
-            ans.add(new ArrayList<>(ds));
+    private void permuteUtils(int[] nums, List<List<Integer>> result, List<Integer> ds, Set<Integer> set){
+        //base condition
+        if(ds.size()==nums.length){
+            List<Integer> newds = new ArrayList<>(ds);
+            result.add(newds);
             return;
         }
 
-        for(int num:nums){
-            if(!set.contains(num)){
-                ds.add(num);
-                set.add(num);
-                utils(nums,ans,ds,set);
-                ds.remove(ds.size()-1);
-                set.remove(num);
+        for(int num : nums){
+            if(set.contains(num)){
+                continue;
             }
+
+            ds.add(num);
+            set.add(num);
+            permuteUtils(nums, result, ds, set);
+            ds.remove(ds.size()-1);
+            set.remove(num);
         }
     }
 }
