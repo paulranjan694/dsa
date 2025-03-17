@@ -3,9 +3,12 @@ class Solution {
         int[] charsFreq = new int[26];
         if(s.length() != t.length()) return false;
 
+        char[] sarr = s.toCharArray();
+        char[] tarr = t.toCharArray();
+
         for(int i = 0;i<s.length();i++){
-            charsFreq[s.charAt(i) - 'a']++;
-            charsFreq[t.charAt(i) - 'a']--;
+            charsFreq[sarr[i] - 'a']++;
+            charsFreq[tarr[i] - 'a']--;
         }
 
         for(int i = 0;i<26;i++){
