@@ -1,29 +1,21 @@
 class Solution {
     public boolean canPermutePalindrome(String s) {
-        if(s.length()==1) return true;
-        int[] chars = new int[26];
-        for(char c : s.toCharArray()){
-            chars[c-'a']++;
+        int[] charsFreq = new int[26];
+
+        for(int i=0;i<s.length();i++){
+            char ch = s.charAt(i);
+            charsFreq[ch-'a']++;
         }
+        int oddCount=0;
         for(int i=0;i<26;i++){
-            if(chars[i]>0){
-                if(chars[i] % 2== 0){
-                    chars[i]=0;
-                }else{
-                    if(chars[i] > 1){
-                        chars[i] = 1;
-                    }
-                }
+            if((charsFreq[i] & 1 )== 1){
+                oddCount++;
+            }
+
+            if(oddCount > 1) {
+                return false;
             }
         }
-        int count = 0;
-        for(int i=0;i<26;i++){
-            if(chars[i]>0){
-                count++;
-            }
-        }
-
-
-        return count > 1 ? false : true;
+        return true;
     }
 }
