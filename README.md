@@ -277,6 +277,7 @@ DSA solutions
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/paulranjan694/dsa/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/paulranjan694/dsa/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
+| [0348-design-tic-tac-toe](https://github.com/paulranjan694/dsa/tree/master/0348-design-tic-tac-toe) |
 | [0368-largest-divisible-subset](https://github.com/paulranjan694/dsa/tree/master/0368-largest-divisible-subset) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/paulranjan694/dsa/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/paulranjan694/dsa/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -453,6 +454,7 @@ DSA solutions
 | [0299-bulls-and-cows](https://github.com/paulranjan694/dsa/tree/master/0299-bulls-and-cows) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/paulranjan694/dsa/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
+| [0348-design-tic-tac-toe](https://github.com/paulranjan694/dsa/tree/master/0348-design-tic-tac-toe) |
 | [0359-logger-rate-limiter](https://github.com/paulranjan694/dsa/tree/master/0359-logger-rate-limiter) |
 | [0387-first-unique-character-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/paulranjan694/dsa/tree/master/0389-find-the-difference) |
@@ -745,6 +747,7 @@ DSA solutions
 | ------- |
 | [0054-spiral-matrix](https://github.com/paulranjan694/dsa/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0059-spiral-matrix-ii) |
+| [0348-design-tic-tac-toe](https://github.com/paulranjan694/dsa/tree/master/0348-design-tic-tac-toe) |
 | [0682-baseball-game](https://github.com/paulranjan694/dsa/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/paulranjan694/dsa/tree/master/0735-asteroid-collision) |
 | [0861-flipping-an-image](https://github.com/paulranjan694/dsa/tree/master/0861-flipping-an-image) |
@@ -806,6 +809,7 @@ DSA solutions
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0303-range-sum-query-immutable](https://github.com/paulranjan694/dsa/tree/master/0303-range-sum-query-immutable) |
 | [0341-flatten-nested-list-iterator](https://github.com/paulranjan694/dsa/tree/master/0341-flatten-nested-list-iterator) |
+| [0348-design-tic-tac-toe](https://github.com/paulranjan694/dsa/tree/master/0348-design-tic-tac-toe) |
 | [0359-logger-rate-limiter](https://github.com/paulranjan694/dsa/tree/master/0359-logger-rate-limiter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/paulranjan694/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1477-product-of-the-last-k-numbers](https://github.com/paulranjan694/dsa/tree/master/1477-product-of-the-last-k-numbers) |
@@ -1345,6 +1349,7 @@ DSA solutions
 | [0130-surrounded-regions](https://github.com/paulranjan694/dsa/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/paulranjan694/dsa/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0240-search-a-2d-matrix-ii) |
+| [0348-design-tic-tac-toe](https://github.com/paulranjan694/dsa/tree/master/0348-design-tic-tac-toe) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/paulranjan694/dsa/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0542-01-matrix](https://github.com/paulranjan694/dsa/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/paulranjan694/dsa/tree/master/0695-max-area-of-island) |
