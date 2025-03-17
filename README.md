@@ -447,6 +447,7 @@ DSA solutions
 | [0205-isomorphic-strings](https://github.com/paulranjan694/dsa/tree/master/0205-isomorphic-strings) |
 | [0219-contains-duplicate-ii](https://github.com/paulranjan694/dsa/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/paulranjan694/dsa/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
 | [0266-palindrome-permutation](https://github.com/paulranjan694/dsa/tree/master/0266-palindrome-permutation) |
 | [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
 | [0299-bulls-and-cows](https://github.com/paulranjan694/dsa/tree/master/0299-bulls-and-cows) |
@@ -571,6 +572,7 @@ DSA solutions
 | [0169-majority-element](https://github.com/paulranjan694/dsa/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/paulranjan694/dsa/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/paulranjan694/dsa/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
 | [0252-meeting-rooms](https://github.com/paulranjan694/dsa/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
 | [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
@@ -649,6 +651,7 @@ DSA solutions
 | [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0166-fraction-to-recurring-decimal](https://github.com/paulranjan694/dsa/tree/master/0166-fraction-to-recurring-decimal) |
 | [0205-isomorphic-strings](https://github.com/paulranjan694/dsa/tree/master/0205-isomorphic-strings) |
+| [0242-valid-anagram](https://github.com/paulranjan694/dsa/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/paulranjan694/dsa/tree/master/0257-binary-tree-paths) |
 | [0266-palindrome-permutation](https://github.com/paulranjan694/dsa/tree/master/0266-palindrome-permutation) |
 | [0269-alien-dictionary](https://github.com/paulranjan694/dsa/tree/master/0269-alien-dictionary) |
