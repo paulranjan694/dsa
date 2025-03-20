@@ -216,6 +216,7 @@ DSA solutions
 | [0046-permutations](https://github.com/paulranjan694/dsa/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/paulranjan694/dsa/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/paulranjan694/dsa/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/paulranjan694/dsa/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/paulranjan694/dsa/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/paulranjan694/dsa/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/paulranjan694/dsa/tree/master/0055-jump-game) |
@@ -433,6 +434,7 @@ DSA solutions
 | [0003-longest-substring-without-repeating-characters](https://github.com/paulranjan694/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/paulranjan694/dsa/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0041-first-missing-positive](https://github.com/paulranjan694/dsa/tree/master/0041-first-missing-positive) |
+| [0049-group-anagrams](https://github.com/paulranjan694/dsa/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/paulranjan694/dsa/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/paulranjan694/dsa/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -567,6 +569,7 @@ DSA solutions
 | [0015-3sum](https://github.com/paulranjan694/dsa/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/paulranjan694/dsa/tree/master/0018-4sum) |
 | [0047-permutations-ii](https://github.com/paulranjan694/dsa/tree/master/0047-permutations-ii) |
+| [0049-group-anagrams](https://github.com/paulranjan694/dsa/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/paulranjan694/dsa/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/paulranjan694/dsa/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/paulranjan694/dsa/tree/master/0088-merge-sorted-array) |
@@ -645,6 +648,7 @@ DSA solutions
 | [0017-letter-combinations-of-a-phone-number](https://github.com/paulranjan694/dsa/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/paulranjan694/dsa/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/paulranjan694/dsa/tree/master/0022-generate-parentheses) |
+| [0049-group-anagrams](https://github.com/paulranjan694/dsa/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/paulranjan694/dsa/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/paulranjan694/dsa/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/paulranjan694/dsa/tree/master/0079-word-search) |
