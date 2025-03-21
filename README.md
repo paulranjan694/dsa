@@ -478,6 +478,7 @@ DSA solutions
 | [0807-custom-sort-string](https://github.com/paulranjan694/dsa/tree/master/0807-custom-sort-string) |
 | [0870-magic-squares-in-grid](https://github.com/paulranjan694/dsa/tree/master/0870-magic-squares-in-grid) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0931-maximum-frequency-stack](https://github.com/paulranjan694/dsa/tree/master/0931-maximum-frequency-stack) |
 | [0940-fruit-into-baskets](https://github.com/paulranjan694/dsa/tree/master/0940-fruit-into-baskets) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/paulranjan694/dsa/tree/master/1034-subarrays-with-k-different-integers) |
@@ -529,6 +530,7 @@ DSA solutions
 | [0682-baseball-game](https://github.com/paulranjan694/dsa/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/paulranjan694/dsa/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/paulranjan694/dsa/tree/master/0739-daily-temperatures) |
+| [0931-maximum-frequency-stack](https://github.com/paulranjan694/dsa/tree/master/0931-maximum-frequency-stack) |
 | [0983-validate-stack-sequences](https://github.com/paulranjan694/dsa/tree/master/0983-validate-stack-sequences) |
 | [1002-maximum-width-ramp](https://github.com/paulranjan694/dsa/tree/master/1002-maximum-width-ramp) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/paulranjan694/dsa/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -816,6 +818,7 @@ DSA solutions
 | [0348-design-tic-tac-toe](https://github.com/paulranjan694/dsa/tree/master/0348-design-tic-tac-toe) |
 | [0359-logger-rate-limiter](https://github.com/paulranjan694/dsa/tree/master/0359-logger-rate-limiter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/paulranjan694/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0931-maximum-frequency-stack](https://github.com/paulranjan694/dsa/tree/master/0931-maximum-frequency-stack) |
 | [1477-product-of-the-last-k-numbers](https://github.com/paulranjan694/dsa/tree/master/1477-product-of-the-last-k-numbers) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/paulranjan694/dsa/tree/master/1713-dot-product-of-two-sparse-vectors) |
 ## Dynamic Programming
@@ -1433,6 +1436,7 @@ DSA solutions
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/paulranjan694/dsa/tree/master/0493-reverse-pairs) |
+| [0931-maximum-frequency-stack](https://github.com/paulranjan694/dsa/tree/master/0931-maximum-frequency-stack) |
 ## String Matching
 |  |
 | ------- |
