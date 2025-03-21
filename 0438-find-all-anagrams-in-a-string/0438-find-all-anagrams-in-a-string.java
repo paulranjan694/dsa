@@ -14,7 +14,7 @@ class Solution {
         }
       
         for(int i=0;i<n;i++){
-            smap = new int[26];
+            Arrays.fill(smap,0);
             for(int j=i;j<i+k && j < n;j++){
                 char ch = s.charAt(j);
                 smap[ch-'a']++;
