@@ -1,15 +1,14 @@
 class Solution {
     public int firstUniqChar(String s) {
-        int[] charfreq = new int[27];
-        char [] chars = s.toCharArray();
-        for(int i = 0;i<chars.length;i++){
-            charfreq[chars[i]-'a']++;
-        }
-        
-        
+        int[] freq = new int[26];
+        Set<Character> set = new LinkedHashSet<>();
         for(int i=0;i<s.length();i++){
-            char ch = s.charAt(i);
-            if(charfreq[chars[i]-'a'] == 1) return i;
+            freq[s.charAt(i)-'a']++;
+            set.add(s.charAt(i));
+        }
+
+        for(char c : set){
+            if(freq[c-'a']==1) return s.indexOf(c);
         }
         return -1;
     }
