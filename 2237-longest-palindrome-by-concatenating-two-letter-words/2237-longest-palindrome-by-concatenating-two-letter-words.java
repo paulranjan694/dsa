@@ -9,36 +9,24 @@ class Solution {
 
         for(Map.Entry<String,Integer> entry : freq.entrySet()){
             String key = entry.getKey();
-            String rev = "";
-            for(int j=1;j>=0;j--){
-                rev+=key.charAt(j);
-            }
+            String rev = new StringBuilder(key).reverse().toString();
+            int count = entry.getValue();
             if(freq.containsKey(rev)){
                 if(rev.equals(key)){
-                    if((freq.get(key) & 1 )== 1){//odd
-                        if(oddPairCount > freq.get(key)){
-                           pair += freq.get(key)-1;
-                        }else{
-                            pair += oddPairCount > 0 ? oddPairCount-1: 0;
-                            oddPairCount = freq.get(key);
-                        }
+                    if((count & 1 )== 1){//odd
+                        pair += count - 1;
+                        oddPairCount = 1;
                     }else{//even
-                        pair += freq.get(key);
+                        pair += count;
                     }
                 }else{
-                    int f1 = freq.get(key);
-                    int f2 = freq.get(rev);
-                    int min = 0;
-                    if(f1<f2){
-                        min = f1;
-                        freq.put(key,0);
-                        freq.put(rev,f2-f1);
-                    }else{
-                        min = f2;
-                        freq.put(key,f1-f2);
-                        freq.put(rev,0);
-                    }
-                    pair += (2*min);
+                    int count1 = freq.get(key);
+                    int count2 = freq.get(rev);
+                    int minCount = Math.min(count1,count2);
+     
+                    freq.put(key,0);
+                    freq.put(rev,0);
+                    pair += (2*minCount);
                 }
             }
         }
