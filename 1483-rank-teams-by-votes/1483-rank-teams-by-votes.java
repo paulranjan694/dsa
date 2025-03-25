@@ -1,41 +1,39 @@
-// class Pair{
-//     char ch;
-//     int vote;
-//     Pair(char c, int v){
-//         this.ch =c;
-//         this.vote = v;
-//     }
-// }
-
 class Solution {
     public String rankTeams(String[] votes) {
-        Map<Character,int[]> map = new HashMap<>();
-        int n = votes.length,votelen = votes[0].length();
+        int n = votes.length, l = votes[0].length();
+        int[][] map = new int[26][l+1];
 
+        for(char c : votes[0].toCharArray()){
+            map[c-'A'][l] = c;
+        }
 
-        for(int i=0;i<n;i++){
-            for(int j=0;j<votelen;j++){
-                char ch = votes[i].charAt(j);
-                map.putIfAbsent(ch, new int[votelen]);
-                map.get(ch)[j]++;
+        for(String vote : votes){
+            for(int i=0;i<l;i++){
+                char c = vote.charAt(i);
+               map[c-'A'][i]++;
             }
         }
-        StringBuilder res = new StringBuilder();
-        
-        List<Character> list = new ArrayList<>(map.keySet());
-        Collections.sort(list, (a,b) -> {
-            for(int i = 0; i<votelen;i++){
-                if(map.get(a)[i] != map.get(b)[i]){
-                    return map.get(b)[i] - map.get(a)[i];
+
+        List<int[]> list = new ArrayList<>();
+        for(int[] arr : map){
+            if(arr[l] != 0){
+                list.add(arr);
+            }
+        }
+
+        list.sort((a,b)->{
+            for(int i=0;i<l;i++){
+                if(a[i]!=b[i]){
+                    return b[i]-a[i];
                 }
             }
-            return a-b;
+            return a[l]-b[l];
         });
 
-        for(char c : list){
-            res.append(c);
+        StringBuilder res = new StringBuilder();
+        for(int[] arr : list){
+            res.append((char)arr[l]);
         }
-        
         return res.toString();
     }
 }
