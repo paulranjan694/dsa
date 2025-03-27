@@ -461,6 +461,7 @@ DSA solutions
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/paulranjan694/dsa/tree/master/0348-design-tic-tac-toe) |
 | [0359-logger-rate-limiter](https://github.com/paulranjan694/dsa/tree/master/0359-logger-rate-limiter) |
+| [0383-ransom-note](https://github.com/paulranjan694/dsa/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/paulranjan694/dsa/tree/master/0389-find-the-difference) |
 | [0409-longest-palindrome](https://github.com/paulranjan694/dsa/tree/master/0409-longest-palindrome) |
@@ -642,6 +643,7 @@ DSA solutions
 | [0229-majority-element-ii](https://github.com/paulranjan694/dsa/tree/master/0229-majority-element-ii) |
 | [0299-bulls-and-cows](https://github.com/paulranjan694/dsa/tree/master/0299-bulls-and-cows) |
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
+| [0383-ransom-note](https://github.com/paulranjan694/dsa/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0387-first-unique-character-in-a-string) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
@@ -678,6 +680,7 @@ DSA solutions
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0299-bulls-and-cows](https://github.com/paulranjan694/dsa/tree/master/0299-bulls-and-cows) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/paulranjan694/dsa/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
+| [0383-ransom-note](https://github.com/paulranjan694/dsa/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/paulranjan694/dsa/tree/master/0389-find-the-difference) |
 | [0394-decode-string](https://github.com/paulranjan694/dsa/tree/master/0394-decode-string) |
