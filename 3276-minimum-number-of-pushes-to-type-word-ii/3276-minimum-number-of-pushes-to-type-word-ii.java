@@ -1,29 +1,20 @@
 class Solution {
     public int minimumPushes(String word) {
-       int[] freq = new int[26];
-
-        for(int i=0;i<word.length();i++){
-            char ch = word.charAt(i);
-            freq[ch-'a']++;
+        int len = word.length();
+        int[] map = new int[26];
+        for(char c : word.toCharArray()){
+           // System.out.println(c-'a');
+            map[c-'a']++;
         }
-
-        Arrays.sort(freq);
-        int[] sortedFreq = new int[26];
-
+        Arrays.sort(map);
+        int[] sortedMap = new int[26];
+         for(int i=0;i<26;i++){
+            sortedMap[i] = map[25-i];
+         }
+        int minpush=0;
         for(int i=0;i<26;i++){
-            sortedFreq[i] = freq[25-i];
+            minpush += (i/8 + 1)*sortedMap[i];
         }
-
-        // List<Integer> list = new ArrayList<>();
-        // for(int i : freq){
-        //     if(i!=0) list.add(i);
-        // }
-
-        // Collections.sort(list,Collections.reverseOrder());
-        int sum=0;
-        for(int i=0;i<sortedFreq.length;i++){
-           sum+= (((i/8)+1 )* sortedFreq[i]);
-        }
-        return sum;
+        return minpush;
     }
 }
