@@ -4,13 +4,13 @@ class Solution {
         int n=time.length;
         int[] map = new int[60];
        
-        for(int i=0;i<n;i++){
-            if(time[i] % 60 == 0){
+        for(int t : time){
+            if(t % 60 == 0){
                 count += map[0];
             }else{
-                count += map[60-time[i] % 60];
+                count += map[60-t % 60];
             }
-            map[time[i]%60]++;
+            map[t%60]++;
         }
 
         return count;
