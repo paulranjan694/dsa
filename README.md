@@ -341,6 +341,7 @@ DSA solutions
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/paulranjan694/dsa/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1046-max-consecutive-ones-iii](https://github.com/paulranjan694/dsa/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/paulranjan694/dsa/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/paulranjan694/dsa/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/paulranjan694/dsa/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1073-number-of-enclaves](https://github.com/paulranjan694/dsa/tree/master/1073-number-of-enclaves) |
 | [1074-high-five](https://github.com/paulranjan694/dsa/tree/master/1074-high-five) |
@@ -485,6 +486,7 @@ DSA solutions
 | [0940-fruit-into-baskets](https://github.com/paulranjan694/dsa/tree/master/0940-fruit-into-baskets) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/paulranjan694/dsa/tree/master/1034-subarrays-with-k-different-integers) |
+| [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/paulranjan694/dsa/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1074-high-five](https://github.com/paulranjan694/dsa/tree/master/1074-high-five) |
 | [1129-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1129-longest-string-chain) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/paulranjan694/dsa/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
@@ -644,6 +646,7 @@ DSA solutions
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
 | [1034-subarrays-with-k-different-integers](https://github.com/paulranjan694/dsa/tree/master/1034-subarrays-with-k-different-integers) |
+| [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/paulranjan694/dsa/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1297-maximum-number-of-balloons](https://github.com/paulranjan694/dsa/tree/master/1297-maximum-number-of-balloons) |
 | [1483-rank-teams-by-votes](https://github.com/paulranjan694/dsa/tree/master/1483-rank-teams-by-votes) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/paulranjan694/dsa/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
