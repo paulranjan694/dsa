@@ -1,36 +1,37 @@
 class Solution {
     public int minMovesToMakePalindrome(String s) {
-               int n = s.length();
-       int i = 0,j=n-1;
-       char[] arr = s.toCharArray();
-       int move=0;
-       while(i<=j){
-     
-         int k = j;
-         //find arr[i] in backward direction of j
-         while(i<k && arr[i]!=arr[k]){
-        //    if(arr[i]==arr[k]){
-        //      break;
-        //    }
-           k--;
-         }
-         
-         //if no match found for arr[i], move arr[i] to mid of arr as it is not paired or exists single
-         if(i==k){
-           int mid = n/2;
-           move += mid-i;
-         }else{
-             while(k < j){
-               char t = arr[k];
-               arr[k] = arr[k+1];
-               arr[k+1] = t;
-               k++;
-               move++;
-             }
-             j--;
-         }
-         i++;
-       }
-       return move;
+        int moves=0,n=s.length(),l=0,r=n-1;
+        char[] arr = s.toCharArray();
+
+        while(l<=r){
+            
+            int k = r;
+            while(k>l){
+                if(arr[k]==arr[l]){
+                    break;
+                }
+                k--;
+            }
+
+            if(l==k){
+                int mid = n/2;
+                moves += mid-l;
+            }else{
+                while(k<r){
+                    char c = arr[k];
+                    arr[k] = arr[k+1];
+                    arr[k+1]=c;
+                    k++;
+                    moves++;
+                }
+                r--;
+            }
+        
+            l++;
+            
+        }
+        return moves;
+
+        
     }
 }
