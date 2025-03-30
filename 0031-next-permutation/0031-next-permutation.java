@@ -1,41 +1,31 @@
-// TC - O(n)
-// SC - O(1)
 class Solution {
     public void nextPermutation(int[] nums) {
-        int n = nums.length;
-        int idx=-1;
+        int n =nums.length;
+        int i=n-1,j=n-2;
 
-        for(int i = n-2;i>=0;i--){
-            if(nums[i] < nums[i+1]){
-                idx=i;
-                break;
-            }
+        while(j>=0 && nums[j] >= nums[j+1]){
+            j--;
         }
 
-        if(idx==-1){
-            reverse(nums,0);
+        if(j==-1){
+            for(i=0,j=n-1;i<=j;i++,j--){
+                int t = nums[i];
+                nums[i]=nums[j];
+                nums[j]=t;
+            }
         }else{
-            for(int i = n-1;i>=0;i--){
-                if(nums[idx] < nums[i]){
-                    swap(nums,idx,i);
-                    break;
-                }
+            while(i>=0 && nums[i] <= nums[j]){
+                i--;
             }
-            reverse(nums,idx+1);
-        }
-    }
+            int t = nums[i];
+            nums[i]=nums[j];
+            nums[j]=t;
+            for(i=j+1,j=n-1;i<=j;i++,j--){
+                t = nums[i];
+                nums[i]=nums[j];
+                nums[j]=t;
+            }
 
-    private void reverse(int[] nums, int s){
-        int e = nums.length-1;
-        while(s<=e){
-            swap(nums,s,e);
-            s++;e--;
         }
-    }
-
-    private void swap(int[] nums, int i, int j){
-        int t = nums[i];
-        nums[i]=nums[j];
-        nums[j]=t;
     }
 }
