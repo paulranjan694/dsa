@@ -8,57 +8,56 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-
- /**
-  * using dummy node concept
-  */
 class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
-        if(head == null || head.next == null) return head;
-        
-        ListNode dummy = new ListNode(-1);
-        dummy.next = head;
-        ListNode temp = head;
-        ListNode leftPrev = dummy;
-        ListNode rightPrev = null;
+        ListNode leftNode = null, rightNode = null,leftPrev = null, rightNext = null, curr=head;
         int count=1;
-        while(temp!=null){
-            if(count < left){
-                leftPrev=temp;
+        while(curr != null){
+            if(count == left){
+                leftNode = curr;
             }
 
-            if(count<=right){
-                rightPrev=temp;
+            if(count == left-1){
+                leftPrev = curr;
             }
+
+            if(count==right){
+                rightNode = curr;
+            }
+            curr= curr.next;
             count++;
-            temp = temp.next;
         }
-        
-        ListNode leftNext = leftPrev.next;
-        ListNode rightNext = rightPrev.next;
-        leftPrev.next = null;
-        rightPrev.next = null;
 
-        ListNode revHead = reverse(leftNext);
-        leftPrev.next = revHead;
-        leftNext.next = rightNext;
-
-        return dummy.next;
+        if(rightNode != null){
+            rightNext = rightNode.next;
+            rightNode.next = null;
+        }
+        if(leftPrev != null)
+            leftPrev.next = null;
+        ListNode tempHead = reverse(leftNode);
+        if(leftPrev != null){
+            leftPrev.next=tempHead;
+        }else{
+            head=tempHead;
+        }
+        if(leftNode != null)
+            leftNode.next = rightNext;
+        return head;
     }
 
-    public ListNode reverse(ListNode h){
-        if(h==null) return h;
-
-        ListNode p = null;
-        ListNode t = h;
-
-        while(t!=null){
-            ListNode x = t.next;
-            t.next = p;
-            p=t;
-            t=x;
+    private ListNode reverse(ListNode h){
+        if(h == null || h.next == null){
+            return h;
         }
-        h=p;
-        return h;
+
+        ListNode prev = null,next=null;
+        while(h != null){
+            next = h.next;
+            h.next=prev;
+            prev = h;
+            h=next;
+        }
+
+        return prev;
     }
 }
