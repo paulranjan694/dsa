@@ -1002,6 +1002,7 @@ DSA solutions
 | [0237-delete-node-in-a-linked-list](https://github.com/paulranjan694/dsa/tree/master/0237-delete-node-in-a-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/paulranjan694/dsa/tree/master/0328-odd-even-linked-list) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/paulranjan694/dsa/tree/master/0528-swapping-nodes-in-a-linked-list) |
+| [0725-split-linked-list-in-parts](https://github.com/paulranjan694/dsa/tree/master/0725-split-linked-list-in-parts) |
 | [0850-insert-into-a-sorted-circular-linked-list](https://github.com/paulranjan694/dsa/tree/master/0850-insert-into-a-sorted-circular-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/paulranjan694/dsa/tree/master/0908-middle-of-the-linked-list) |
 | [1484-linked-list-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1484-linked-list-in-binary-tree) |
