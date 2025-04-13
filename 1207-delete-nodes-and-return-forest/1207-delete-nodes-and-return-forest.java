@@ -13,74 +13,37 @@
  *     }
  * }
  */
-class NodeInfo{
-    TreeNode parent,left,right;
-    String child;
-    NodeInfo(TreeNode p, String child,TreeNode left, TreeNode right){
-        this.parent=p;
-        this.child=child;
-        this.left=left;
-        this.right=right;
-    }
-}
-
 class Solution {
+    private static List<TreeNode> list=null;
     public List<TreeNode> delNodes(TreeNode root, int[] to_delete) {
-        Map<Integer,NodeInfo> map = new HashMap<>();
-        dfs(root,map,null,null);
-        List<TreeNode> list = new ArrayList<>();
-        Map<Integer,TreeNode> temp = new HashMap<>();
-        boolean isrootdeleted = false;
-        int[] deleteMap = new int[1001];
+        Set<Integer> toDelete = new HashSet<>();
         for(int val : to_delete){
-            deleteMap[val]++;
-            NodeInfo node = map.get(val);
+            toDelete.add(val);
+        }
+        list = new ArrayList<>();
 
-            if(temp.containsKey(val)){
-                temp.remove(val);
-            }
-            
-            if(node.left!=null){
-                temp.put(node.left.val,node.left);
+        root = dfs(root,toDelete);
+        if(root != null){
+            list.add(root);
+        }
+        return list;
+
+    }
+
+    private TreeNode dfs(TreeNode node, Set<Integer> toDelete){
+        if(node==null) return null;
+        node.left = dfs(node.left,toDelete);
+        node.right = dfs(node.right,toDelete);
+        if(toDelete.contains(node.val)){
+            if(node.left != null){
+                list.add(node.left);
             }
 
             if(node.right != null){
-                temp.put(node.right.val,node.right);
+                list.add(node.right);
             }
-
-            node.left=null;
-            node.right=null;
-        
-            if(node.parent != null){//deleting node other than root
-                TreeNode parent = node.parent;
-                if(node.child.equals("left")){
-                    parent.left=null;
-                }else{
-                    parent.right=null;
-                }
-            }else{//deleting root
-                isrootdeleted = true;
-            }
+            return null;
         }
-
-        if(!isrootdeleted){
-            list.add(root);
-        }
-
-        for(TreeNode node : temp.values()){
-            if(deleteMap[node.val] == 0)
-                list.add(node);
-        }
-        return list;
-    }
-
-    private void dfs(TreeNode root,  Map<Integer,NodeInfo> map,TreeNode parent,String child){
-        if(root==null){
-            return;
-        }
-        NodeInfo nodeInfo = new NodeInfo(parent, child, root.left, root.right);
-        map.put(root.val,nodeInfo);
-        dfs(root.left,map,root,"left");
-        dfs(root.right,map,root,"right");
+        return node;
     }
 }
