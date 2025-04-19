@@ -1,25 +1,36 @@
+/**
+tc -> "a@b$5!a8alskj234jasdf*()@$&%&#FJAvjjdaurNNMa8ASDF-0321jf?>{}L:fh"
+constraints - s contains all characters, lower, uper,digit,symbol
+ */
+
 class Solution {
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
-        int n = s.length(),l=0,r=0,maxlen=0;
-        HashMap<Character,Integer> hm = new HashMap<>();
+        int[] hash = new int[256];
+        int n = s.length(),l=0,r=0,max=0;
+        char[] arr = s.toCharArray();
+
         while(r<n){
-            char ch = s.charAt(r);
-            int fr = hm.getOrDefault(ch,0);
-            hm.put(ch,fr+1);
-            while(hm.size() > k){
-                char ch1 = s.charAt(l);
-                int f = hm.getOrDefault(ch1,0);
-                if(f>1){
-                    hm.put(ch1,f-1);
-                }else if(f==1){
-                    hm.remove(ch1);
-                }
+            hash[arr[r]]++;
+            while(containsMoreThanKDistinctChar(hash,k)){
+                hash[arr[l]]--;
                 l++;
             }
-            if(hm.size() <= k)
-                maxlen = Math.max(maxlen,(r-l+1));
+            max = Math.max(max,r-l+1);
             r++;
         }
-        return maxlen;
+        return max;
     }
+    private boolean containsMoreThanKDistinctChar(int[] hash, int k){
+        for(int i=0;i<256;i++){
+            if(hash[i] > 0){
+                k--;
+                if(k<0){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+
 }
