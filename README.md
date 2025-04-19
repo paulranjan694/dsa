@@ -332,6 +332,7 @@ DSA solutions
 | [0932-monotonic-array](https://github.com/paulranjan694/dsa/tree/master/0932-monotonic-array) |
 | [0940-fruit-into-baskets](https://github.com/paulranjan694/dsa/tree/master/0940-fruit-into-baskets) |
 | [0958-sort-array-by-parity-ii](https://github.com/paulranjan694/dsa/tree/master/0958-sort-array-by-parity-ii) |
+| [0966-binary-subarrays-with-sum](https://github.com/paulranjan694/dsa/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/paulranjan694/dsa/tree/master/0967-minimum-falling-path-sum) |
 | [0983-validate-stack-sequences](https://github.com/paulranjan694/dsa/tree/master/0983-validate-stack-sequences) |
 | [1002-maximum-width-ramp](https://github.com/paulranjan694/dsa/tree/master/1002-maximum-width-ramp) |
@@ -424,6 +425,7 @@ DSA solutions
 | [0560-subarray-sum-equals-k](https://github.com/paulranjan694/dsa/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/paulranjan694/dsa/tree/master/0724-find-pivot-index) |
 | [0912-random-pick-with-weight](https://github.com/paulranjan694/dsa/tree/master/0912-random-pick-with-weight) |
+| [0966-binary-subarrays-with-sum](https://github.com/paulranjan694/dsa/tree/master/0966-binary-subarrays-with-sum) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/paulranjan694/dsa/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1046-max-consecutive-ones-iii](https://github.com/paulranjan694/dsa/tree/master/1046-max-consecutive-ones-iii) |
 | [1184-car-pooling](https://github.com/paulranjan694/dsa/tree/master/1184-car-pooling) |
@@ -491,6 +493,7 @@ DSA solutions
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0931-maximum-frequency-stack](https://github.com/paulranjan694/dsa/tree/master/0931-maximum-frequency-stack) |
 | [0940-fruit-into-baskets](https://github.com/paulranjan694/dsa/tree/master/0940-fruit-into-baskets) |
+| [0966-binary-subarrays-with-sum](https://github.com/paulranjan694/dsa/tree/master/0966-binary-subarrays-with-sum) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/paulranjan694/dsa/tree/master/1034-subarrays-with-k-different-integers) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/paulranjan694/dsa/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
@@ -1386,6 +1389,7 @@ DSA solutions
 | [0658-find-k-closest-elements](https://github.com/paulranjan694/dsa/tree/master/0658-find-k-closest-elements) |
 | [0727-minimum-window-subsequence](https://github.com/paulranjan694/dsa/tree/master/0727-minimum-window-subsequence) |
 | [0940-fruit-into-baskets](https://github.com/paulranjan694/dsa/tree/master/0940-fruit-into-baskets) |
+| [0966-binary-subarrays-with-sum](https://github.com/paulranjan694/dsa/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/paulranjan694/dsa/tree/master/1034-subarrays-with-k-different-integers) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/paulranjan694/dsa/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1046-max-consecutive-ones-iii](https://github.com/paulranjan694/dsa/tree/master/1046-max-consecutive-ones-iii) |
