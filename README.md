@@ -293,6 +293,7 @@ DSA solutions
 | [0474-ones-and-zeroes](https://github.com/paulranjan694/dsa/tree/master/0474-ones-and-zeroes) |
 | [0480-sliding-window-median](https://github.com/paulranjan694/dsa/tree/master/0480-sliding-window-median) |
 | [0485-max-consecutive-ones](https://github.com/paulranjan694/dsa/tree/master/0485-max-consecutive-ones) |
+| [0487-max-consecutive-ones-ii](https://github.com/paulranjan694/dsa/tree/master/0487-max-consecutive-ones-ii) |
 | [0493-reverse-pairs](https://github.com/paulranjan694/dsa/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/paulranjan694/dsa/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
@@ -892,6 +893,7 @@ DSA solutions
 | [0416-partition-equal-subset-sum](https://github.com/paulranjan694/dsa/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/paulranjan694/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0474-ones-and-zeroes](https://github.com/paulranjan694/dsa/tree/master/0474-ones-and-zeroes) |
+| [0487-max-consecutive-ones-ii](https://github.com/paulranjan694/dsa/tree/master/0487-max-consecutive-ones-ii) |
 | [0494-target-sum](https://github.com/paulranjan694/dsa/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/paulranjan694/dsa/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/paulranjan694/dsa/tree/master/0518-coin-change-ii) |
@@ -1384,6 +1386,7 @@ DSA solutions
 | [0424-longest-repeating-character-replacement](https://github.com/paulranjan694/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0480-sliding-window-median](https://github.com/paulranjan694/dsa/tree/master/0480-sliding-window-median) |
+| [0487-max-consecutive-ones-ii](https://github.com/paulranjan694/dsa/tree/master/0487-max-consecutive-ones-ii) |
 | [0567-permutation-in-string](https://github.com/paulranjan694/dsa/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/paulranjan694/dsa/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/paulranjan694/dsa/tree/master/0658-find-k-closest-elements) |
