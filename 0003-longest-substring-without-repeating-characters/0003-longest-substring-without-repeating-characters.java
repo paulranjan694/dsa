@@ -9,13 +9,13 @@ class Solution {
             while(hash[arr[r]] > 0){
                 hash[arr[l]]--;
                 l++;
-                max = Math.max(max,r-l);
+                //max = Math.max(max,r-l);
             }
             hash[arr[r]]++;
             max = Math.max(max,r-l+1);
             r++;
         }
-        max = Math.max(max,r-l);
+        //max = Math.max(max,r-l);
         return max;
     }
 }
