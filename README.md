@@ -402,6 +402,7 @@ DSA solutions
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/paulranjan694/dsa/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/paulranjan694/dsa/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/paulranjan694/dsa/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/paulranjan694/dsa/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/paulranjan694/dsa/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 | [2727-number-of-senior-citizens](https://github.com/paulranjan694/dsa/tree/master/2727-number-of-senior-citizens) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/paulranjan694/dsa/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
@@ -637,6 +638,7 @@ DSA solutions
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/paulranjan694/dsa/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/paulranjan694/dsa/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/paulranjan694/dsa/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/paulranjan694/dsa/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/paulranjan694/dsa/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/paulranjan694/dsa/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -1090,6 +1092,7 @@ DSA solutions
 | [2265-partition-array-according-to-given-pivot](https://github.com/paulranjan694/dsa/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/paulranjan694/dsa/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/paulranjan694/dsa/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/paulranjan694/dsa/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2835-split-a-circular-linked-list](https://github.com/paulranjan694/dsa/tree/master/2835-split-a-circular-linked-list) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/paulranjan694/dsa/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/paulranjan694/dsa/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
@@ -1346,6 +1349,7 @@ DSA solutions
 | [2210-find-target-indices-after-sorting-array](https://github.com/paulranjan694/dsa/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/paulranjan694/dsa/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/paulranjan694/dsa/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/paulranjan694/dsa/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/paulranjan694/dsa/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/paulranjan694/dsa/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 ## Data Stream
