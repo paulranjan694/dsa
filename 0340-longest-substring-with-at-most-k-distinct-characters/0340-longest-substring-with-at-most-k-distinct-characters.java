@@ -5,7 +5,7 @@ constraints - s contains all characters, lower, uper,digit,symbol
 
 class Solution {
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
-        int[] hash = new int[256];
+        int[] hash = new int[128];
         int n = s.length(),l=0,r=0,max=0;
         char[] arr = s.toCharArray();
 
@@ -21,7 +21,7 @@ class Solution {
         return max;
     }
     private boolean containsMoreThanKDistinctChar(int[] hash, int k){
-        for(int i=0;i<256;i++){
+        for(int i=0;i<128;i++){
             if(hash[i] > 0){
                 k--;
                 if(k<0){
