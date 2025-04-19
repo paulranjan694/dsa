@@ -37,9 +37,9 @@ class Solution {
                 res[p.idx]=0;
                 sum+=list.get(i).b;
             }else{   
-                    res[p.idx] = sum;
-                    pq.add(list.get(i).b);
-                    sum += list.get(i).b;
+                res[p.idx] = sum;
+                pq.add(list.get(i).b);
+                sum += list.get(i).b;
                 if(list.get(i-1).a == p.a){
                     res[p.idx] = res[list.get(i-1).idx];
                 }
