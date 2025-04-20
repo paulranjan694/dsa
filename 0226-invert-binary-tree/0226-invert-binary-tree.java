@@ -15,23 +15,13 @@
  */
 class Solution {
     public TreeNode invertTree(TreeNode root) {
-        if(root == null) return root;
-        TreeNode node = new TreeNode(root.val);
-        helper(root.left, node,0);
-        helper(root.right, node,1);
-        return node;
+        if(root==null) return null;
+        TreeNode right = invertTree(root.left);
+        TreeNode left = invertTree(root.right);
+
+        root.left = left;
+        root.right = right;
+        return root;
+
     }
-
-    public void helper(TreeNode root, TreeNode node, int idx){
-        if(root == null) return;
-        TreeNode tempNode = new TreeNode(root.val);
-        if(idx==0)
-            node.right = tempNode;
-        if(idx==1)
-            node.left = tempNode;
-
-        helper(root.left, tempNode, 0);
-        helper(root.right, tempNode, 1);
-    }
-
 }
