@@ -14,27 +14,15 @@
  * }
  */
 class Solution {
+    TreeNode prev = null;
     public void flatten(TreeNode root) {
-        if(root == null) return;
-        TreeNode curr = root;
-        while(curr != null){
-            if(curr.left == null){
-                curr = curr.right;
-            }else{
-                TreeNode predecessor = findPredecessor(curr.left);
-                predecessor.right = curr.right;
-                curr.right=curr.left;
-                curr.left=null;
-                curr=curr.right;
-            }
-        }
-    }
+        if(root==null) return;
 
-    private TreeNode findPredecessor(TreeNode node){
-        if(node==null) return node;
-        while(node.right != null){
-            node=node.right;
-        }
-        return node;
+        flatten(root.right);
+        flatten(root.left);
+
+        root.right = prev;
+        root.left = null;
+        prev=root;
     }
 }
