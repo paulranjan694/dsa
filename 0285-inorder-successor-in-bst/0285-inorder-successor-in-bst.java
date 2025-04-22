@@ -11,12 +11,12 @@ class Solution {
     public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
         TreeNode ans = null;
 
-        while(root != null){
-            if(root.val > p.val){
-                ans=root;
-                root= root.left;
-            }else{
+        while(root!=null){
+            if(root.val <= p.val){
                 root=root.right;
+            }else{
+                ans=root;
+                root=root.left;
             }
         }
         return ans;
