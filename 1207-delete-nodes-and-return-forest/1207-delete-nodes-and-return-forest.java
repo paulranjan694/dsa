@@ -14,36 +14,43 @@
  * }
  */
 class Solution {
-    private static List<TreeNode> list=null;
+    List<TreeNode> result = null;
     public List<TreeNode> delNodes(TreeNode root, int[] to_delete) {
         Set<Integer> toDelete = new HashSet<>();
-        for(int val : to_delete){
-            toDelete.add(val);
-        }
-        list = new ArrayList<>();
 
-        root = dfs(root,toDelete);
-        if(root != null){
-            list.add(root);
+        for(int node : to_delete){
+            toDelete.add(node);
         }
-        return list;
+        result = new ArrayList<>();
+        TreeNode node = dfs(root,toDelete);
+        if(node != null){
+            result.add(node);
+        }
+        return result;
 
     }
 
-    private TreeNode dfs(TreeNode node, Set<Integer> toDelete){
-        if(node==null) return null;
-        node.left = dfs(node.left,toDelete);
-        node.right = dfs(node.right,toDelete);
-        if(toDelete.contains(node.val)){
-            if(node.left != null){
-                list.add(node.left);
+    private TreeNode dfs(TreeNode root, Set<Integer> toDelete){
+        if(root == null){
+            return root;
+        }
+
+        root.left = dfs(root.left,toDelete);
+        root.right = dfs(root.right,toDelete);
+
+        if(toDelete.contains(root.val)){
+            if(root.left != null){
+                result.add(root.left);
+                root.left = null;
             }
 
-            if(node.right != null){
-                list.add(node.right);
+            if(root.right != null){
+                result.add(root.right);
+                root.right = null;
             }
+
             return null;
         }
-        return node;
+        return root;
     }
 }
