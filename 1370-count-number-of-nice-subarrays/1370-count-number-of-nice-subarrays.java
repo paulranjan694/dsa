@@ -1,23 +1,14 @@
 class Solution {
     public int numberOfSubarrays(int[] nums, int k) {
-        return numberSubArr(nums,k)-numberSubArr(nums,k-1);
-    }
-
-    public int numberSubArr(int[] nums, int goal){
-        if(goal < 0) return 0;
-        int n = nums.length, l = 0, r=0, sum=0,count=0;
-
-        while(r<n){
-            sum += (nums[r] % 2);
-            while(sum > goal){
-                sum -= (nums[l] % 2);
-                l++;
-            }
-            if(sum <= goal){
-                count += (r-l+1);
-            }
-            r++;
+        Map<Integer,Integer> map = new HashMap<>();
+        map.put(0,1);
+        int n = nums.length,answer = 0,prefixSum=0;
+        for(int num:nums){
+            prefixSum += num % 2 == 1 ? 1 : 0;
+            answer += map.getOrDefault(prefixSum-k, 0);
+            map.put(prefixSum,map.getOrDefault(prefixSum, 0)+1);
         }
-        return count;
+
+        return answer;
     }
 }
