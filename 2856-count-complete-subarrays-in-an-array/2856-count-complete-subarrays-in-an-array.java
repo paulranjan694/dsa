@@ -1,25 +1,20 @@
 class Solution {
     public int countCompleteSubarrays(int[] nums) {
-        int answer=0,len=0;
-        int[] hash = new int[2001];
-        for(int num:nums){
-            hash[num]++;
-        }
+        int answer=0,l=0,r=0,n=nums.length;
+        Map<Integer,Integer> hash = new HashMap<>();
+        int k = (int)Arrays.stream(nums).distinct().count();
 
-        for(int i=0;i<2001;i++){
-            if(hash[i]>0){
-                len++;
-            }
-        }
-
-        for(int i=0;i<nums.length;i++){
-            Set<Integer> set = new HashSet<>();
-            for(int j=i;j<nums.length;j++){
-                set.add(nums[j]);
-                if(set.size() == len){
-                    answer++;
+        while(r<n){
+            hash.put(nums[r],hash.getOrDefault(nums[r],0)+1);
+            while(hash.size() == k){
+                answer += n-r;
+                hash.put(nums[l],hash.get(nums[l])-1);
+                if(hash.get(nums[l]) == 0){
+                    hash.remove(nums[l]);
                 }
+                l++;
             }
+            r++;
         }
         return answer;
 
