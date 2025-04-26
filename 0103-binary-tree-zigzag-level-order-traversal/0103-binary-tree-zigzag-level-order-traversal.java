@@ -26,7 +26,11 @@ class Solution {
             List<Integer> list = new ArrayList<>();
             while(len-- > 0){
                 TreeNode node = queue.poll();
-                list.add(node.val);
+                if(level %2 == 0){
+                    list.add(node.val);
+                }else{
+                    list.addFirst(node.val);
+                }
 
                 if(node.left!=null){
                     queue.add(node.left);
@@ -36,9 +40,7 @@ class Solution {
                     queue.add(node.right);
                 }
             }
-            if(level % 2 == 1){
-                Collections.reverse(list);
-            }
+            
             ans.add(list);
             level++;
         }
