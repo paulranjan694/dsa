@@ -404,6 +404,7 @@ DSA solutions
 | [2479-meeting-rooms-iii](https://github.com/paulranjan694/dsa/tree/master/2479-meeting-rooms-iii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/paulranjan694/dsa/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/paulranjan694/dsa/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/paulranjan694/dsa/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/paulranjan694/dsa/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/paulranjan694/dsa/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/paulranjan694/dsa/tree/master/2616-maximal-score-after-applying-k-operations) |
@@ -791,6 +792,7 @@ DSA solutions
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/paulranjan694/dsa/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1477-product-of-the-last-k-numbers](https://github.com/paulranjan694/dsa/tree/master/1477-product-of-the-last-k-numbers) |
 | [2195-time-needed-to-buy-tickets](https://github.com/paulranjan694/dsa/tree/master/2195-time-needed-to-buy-tickets) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/paulranjan694/dsa/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/paulranjan694/dsa/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Simulation
 |  |
@@ -1421,6 +1423,7 @@ DSA solutions
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/paulranjan694/dsa/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/paulranjan694/dsa/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/paulranjan694/dsa/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/paulranjan694/dsa/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/paulranjan694/dsa/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/paulranjan694/dsa/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/paulranjan694/dsa/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -1515,6 +1518,7 @@ DSA solutions
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/paulranjan694/dsa/tree/master/0239-sliding-window-maximum) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/paulranjan694/dsa/tree/master/2527-count-subarrays-with-fixed-bounds) |
 ## Ordered Set
 |  |
 | ------- |
