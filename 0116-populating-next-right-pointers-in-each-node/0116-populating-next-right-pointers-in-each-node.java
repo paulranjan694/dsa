@@ -33,7 +33,7 @@ class Solution {
             int len = queue.size();
             while(len-- > 0){
                 Node node = queue.poll();
-                if(!queue.isEmpty() && len > 0){
+                if(len > 0){
                     node.next = queue.peek();
                 }
                 
