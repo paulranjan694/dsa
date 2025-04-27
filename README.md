@@ -418,6 +418,7 @@ DSA solutions
 | [3415-check-if-grid-satisfies-conditions](https://github.com/paulranjan694/dsa/tree/master/3415-check-if-grid-satisfies-conditions) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/paulranjan694/dsa/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/paulranjan694/dsa/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
+| [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/paulranjan694/dsa/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/paulranjan694/dsa/tree/master/3759-choose-k-elements-with-maximum-sum) |
 | [3790-fruits-into-baskets-ii](https://github.com/paulranjan694/dsa/tree/master/3790-fruits-into-baskets-ii) |
 ## Prefix Sum
