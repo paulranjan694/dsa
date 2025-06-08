@@ -1,32 +1,25 @@
 class Solution {
-
+    private final int pow = (int)Math.pow(10,9);
     public int coinChange(int[] coins, int amount) {
         int n = coins.length;
-
+        if(amount==0) return 0;
         int[][] dp = new int[n+1][amount+1];
-
-        for(int i=0;i<=amount;i++){
-            dp[0][i] = Integer.MAX_VALUE-1;
+        for(int[] rows : dp){
+            Arrays.fill(rows,-1);
         }
+        int min = solve(coins,amount,n-1,dp);
+        return min >= pow ? -1 : min;
+    }
 
-        for(int i=0;i<=amount;i++){
-            if(i%coins[0] == 0){
-                dp[1][i] = i/coins[0];
-            }else{
-                dp[1][i] = Integer.MAX_VALUE-1;
-            }
+    private int solve(int[] coins, int amount, int idx, int[][] dp){
+        if(idx==0){
+            if(amount % coins[idx] == 0) return amount / coins[idx];
+            else return pow;
         }
-
-        for(int i=2;i<=n;i++){
-            for(int j=1;j<=amount;j++){
-                if(coins[i-1]<=j){
-                    dp[i][j] = Math.min(dp[i-1][j], 1 + dp[i][j-coins[i-1]]);
-                }else{
-                    dp[i][j] = dp[i-1][j];
-                }
-            }
-        }
-
-        return dp[n][amount] == Integer.MAX_VALUE-1 ? -1 : dp[n][amount];
+        if(dp[idx][amount] != -1) return dp[idx][amount];
+        int take = Integer.MAX_VALUE;
+        if(amount-coins[idx] >= 0) take = 1 + solve(coins,amount-coins[idx],idx,dp);
+        int nottake = solve(coins,amount,idx-1,dp);
+        return dp[idx][amount] = Math.min(take, nottake);
     }
 }
