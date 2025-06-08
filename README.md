@@ -724,6 +724,7 @@ DSA solutions
 | [0567-permutation-in-string](https://github.com/paulranjan694/dsa/tree/master/0567-permutation-in-string) |
 | [0583-delete-operation-for-two-strings](https://github.com/paulranjan694/dsa/tree/master/0583-delete-operation-for-two-strings) |
 | [0609-find-duplicate-file-in-system](https://github.com/paulranjan694/dsa/tree/master/0609-find-duplicate-file-in-system) |
+| [0647-palindromic-substrings](https://github.com/paulranjan694/dsa/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/paulranjan694/dsa/tree/master/0678-valid-parenthesis-string) |
 | [0727-minimum-window-subsequence](https://github.com/paulranjan694/dsa/tree/master/0727-minimum-window-subsequence) |
 | [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
@@ -922,6 +923,7 @@ DSA solutions
 | [0518-coin-change-ii](https://github.com/paulranjan694/dsa/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/paulranjan694/dsa/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/paulranjan694/dsa/tree/master/0583-delete-operation-for-two-strings) |
+| [0647-palindromic-substrings](https://github.com/paulranjan694/dsa/tree/master/0647-palindromic-substrings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/paulranjan694/dsa/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/paulranjan694/dsa/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/paulranjan694/dsa/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
@@ -1106,6 +1108,7 @@ DSA solutions
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/paulranjan694/dsa/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0567-permutation-in-string](https://github.com/paulranjan694/dsa/tree/master/0567-permutation-in-string) |
 | [0611-valid-triangle-number](https://github.com/paulranjan694/dsa/tree/master/0611-valid-triangle-number) |
+| [0647-palindromic-substrings](https://github.com/paulranjan694/dsa/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/paulranjan694/dsa/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/paulranjan694/dsa/tree/master/0658-find-k-closest-elements) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/paulranjan694/dsa/tree/master/0719-find-k-th-smallest-pair-distance) |
