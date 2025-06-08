@@ -18,11 +18,10 @@ class Solution {
     }
 
     private boolean isPalindrome(char[] arr, int s, int e){
-        while(s<=e && arr[s] == arr[e]){
-            s++;
-            e--;
+        if(s>=e) return true;
+        if(arr[s]==arr[e]){
+            return isPalindrome(arr, s+1, e-1);
         }
-
-        return s>=e;
+        else return false;
     }
 }
