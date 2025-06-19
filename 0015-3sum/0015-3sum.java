@@ -7,10 +7,6 @@ class Solution {
             if(i-1 >=0 && nums[i]==nums[i-1]) continue;
             int j=i+1,k=n-1;
             while(j<k){
-                if(j-1 >i && nums[j]==nums[j-1]){
-                    j++;
-                    continue;
-                }
 
                 if(k+1 < n && nums[k]==nums[k+1]){
                     k--;
@@ -21,6 +17,7 @@ class Solution {
                 if(sum==0){
                     result.add(new ArrayList(Arrays.asList(nums[i],nums[j],nums[k])));
                     k--;
+                    j++;
                 }else if(sum > 0){
                     k--;
                 }else{
