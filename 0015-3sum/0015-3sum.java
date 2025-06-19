@@ -1,75 +1,73 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<>();
-        int n = nums.length;
         Arrays.sort(nums);
-        for(int i=0;i<n-2;i++){
-            if(i>0 && nums[i]==nums[i-1]){
-                continue;
-            }
-            int left=i+1,right=n-1;
-            while(left<right){
-                if(right+1<n && nums[right]==nums[right+1]) {
-                    right--;
+        int n = nums.length;
+        List<List<Integer>> result = new ArrayList<>();
+        for(int i=0;i<n;i++){
+            if(i-1 >=0 && nums[i]==nums[i-1]) continue;
+            int j=i+1,k=n-1;
+            while(j<k){
+                if(j-1 >i && nums[j]==nums[j-1]){
+                    j++;
                     continue;
                 }
 
-                int sum = nums[i]+nums[left]+nums[right];
+                if(k+1 < n && nums[k]==nums[k+1]){
+                    k--;
+                    continue;
+                }
+
+                int sum = nums[i]+nums[j]+nums[k];
                 if(sum==0){
-                    List<Integer> triplet = new ArrayList<>();
-                    triplet.add(nums[i]);
-                    triplet.add(nums[left]);
-                    triplet.add(nums[right]);
-                    ans.add(triplet);
-                    left++;
-                    right--;
+                    result.add(new ArrayList(Arrays.asList(nums[i],nums[j],nums[k])));
+                    k--;
                 }else if(sum > 0){
-                    right--;
+                    k--;
                 }else{
-                    left++;
+                    j++;
                 }
             }
         }
-        return ans;
+        return result;
     }
 }
 
+/***
+TC - n3
 
-/**
+[-1,0,1,2,-1,-4]
 
--1,0,0,0,0,0,1,1
+Optimised one - 
+-4,-1,-1,0,1,2 - nlogn
+
+i,j,k - n2
+nums
+for(i->n){
+    if(nums[i]==nums[i-1]) continue;
+    j=i+1, k=n-1;
+    while(j<k){
+        if(nums[j]==nums[j-1] || nums[k]==nums[k+1]) continue;
+        sum = nums[i]+nums[j]+nums[k];
+        if(sum==0){
+            triplet(i,j,k);
+            k--;=
+        }else if(sum >0){
+            k--;
+        }else{
+            j++;
+        }
+    }
+}
+
+0,0,0,0,0,0,0
+0 1 2 3
+
+0,1,3
+0,1,2
 
 
 
-(0,1,5)
-
-i-> 0 - n-2
-j-> i+1 - n-1
-k-> j+1 - n
-
-cur != prev ==> duplicate
-
-
-t - n^3
-s - 1
-
-[-1,0,1,2,-1,-4] - > sort --> -1,-1,0,1,2,4
-
--1,-1,0,1,2,4
-
-i -> 0 - n-2
-left =i+1, right = n-1
-
--2,-1,-1,0,1,1,1,2,4
-
-(i,j,k)
-
--1,0,1
-n=4
-r=n-1=3
-r+1 < n
-
-arr[i]+arr[left] + arr[right] -> SummaryAPIListBuilder
-if(sum==0) store the triplrt
+tc - n2+nlogn ~ n2
+sc - 1
 
  */
