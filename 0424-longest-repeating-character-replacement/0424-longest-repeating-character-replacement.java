@@ -1,24 +1,32 @@
 class Solution {
     public int characterReplacement(String s, int k) {
-        int[] freq = new int[26];
-        int maxFreq = 0;
-        int maxLen = 0;
-        int i=0,j=0,n=s.length();
-        while(j<n){
-            freq[s.charAt(j) - 'A']++;
-            maxFreq = Math.max(maxFreq,freq[s.charAt(j) - 'A']);
-            if((j-i+1)-maxFreq > k){
-                freq[s.charAt(i) - 'A']--;
-                i++;
-                for(int l = 0;l<26;l++){
-                    maxFreq = Math.max(freq[l],maxFreq);
-                }
+        int[] hash = new int[26];
+
+        char[] arr = s.toCharArray();
+        int left=0,right=0,n=arr.length,maxLen=0;
+
+        while(right < n){
+            //System.out.println("char -->"+arr[right]+" -- "+"index -->"+right);
+            hash[arr[right]-'A']++;
+            while(right-left+1 - maxFreq(hash) > k){
+               // System.out.println("inside while");
+                //System.out.println("left char -->"+arr[left]+" -- "+"left index -->"+left);
+                hash[arr[left]-'A']--;
+                left++;
             }
-            if((j-i+1)-maxFreq <= k){
-                maxLen = Math.max(maxLen,(j-i+1));
-            }
-            j++;
-        }
+
+            maxLen = Math.max(maxLen, right-left+1);
+            right++;
+        }  
         return maxLen;
+    }
+
+    private int maxFreq(int[] hash){
+        int max=0,maxIdx=-1;
+        for(int i=0;i<26;i++){
+           max=Math.max(hash[i],max);
+        }
+        //System.out.println("max char freq -->"+(char)(maxIdx + 'A'));
+        return max;
     }
 }
