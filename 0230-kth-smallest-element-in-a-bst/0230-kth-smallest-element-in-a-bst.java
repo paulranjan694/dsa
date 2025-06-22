@@ -15,18 +15,19 @@
  */
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
-        return helper(root,new int[]{k});
+        int[] arr = new int[]{k};
+        return kthSmallestHelper(root,arr);
     }
 
-    private int helper(TreeNode root, int[] kth){
-        if(root==null) return -1;
+    public int kthSmallestHelper(TreeNode root, int[] kthArr) {
+        if(root == null) return -1;
        
-        int l = helper(root.left, kth);
-        if(l != -1) return l;
-        kth[0]--;
-        if(kth[0]==0) return root.val;
-        int r = helper(root.right, kth);
-        if(r != -1) return r;
+        int leftKth = kthSmallestHelper(root.left,kthArr);
+        if(leftKth >= 0) return leftKth;
+        kthArr[0]--;
+        if(kthArr[0]==0) return root.val;
+        int rightKth = kthSmallestHelper(root.right,kthArr);
+        if(rightKth >= 0) return rightKth;
         return -1;
     }
 }
