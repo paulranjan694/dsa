@@ -20,11 +20,12 @@ class Solution {
         return maxSoFar;
     }
     public int maxPathSumHelper(TreeNode root) {
-        if(root == null) return Integer.MIN_VALUE;
+        if(root == null) return 0;
         int left = maxPathSumHelper(root.left);
         int right = maxPathSumHelper(root.right);
 
-        maxSoFar = Math.max(maxSoFar, Math.max(root.val+Math.max(left,0)+Math.max(right,0), root.val+Math.max(Math.max(left,right),0)));
-        return root.val + Math.max(0,Math.max(left,right));
+        int pathSumToConsider = Math.max(root.val+Math.max(left,right),root.val);
+        maxSoFar = Math.max(maxSoFar, Math.max(root.val+left+right, pathSumToConsider));
+        return pathSumToConsider;
     }
 }
