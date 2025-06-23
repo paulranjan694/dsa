@@ -1,21 +1,22 @@
 class Solution {
     public List<List<String>> partition(String s) {
-        List<List<String>> res = new ArrayList<>();
-        List<String> partitions = new ArrayList<>();
-        solve(s,0,res,partitions);
-        return res;
+        List<List<String>> results = new ArrayList<>();
+        List<String> result = new ArrayList<>();
+        partitionHelper(s,results,result,0);
+        return results;
     }
 
-    private void solve(String s, int start, List<List<String>> res, List<String> partitions){
-        if(start >= s.length()){
-            res.add(new ArrayList<>(partitions));
+    private void partitionHelper(String s,List<List<String>> results, List<String> result, int startPos){
+        if(startPos >= s.length()){
+            results.add(new ArrayList<>(result));
             return;
         }
-        for(int end = start;end<s.length();end++){
-            if(isPalindrome(s,start,end)){
-                partitions.add(s.substring(start,end+1));
-                solve(s,end+1,res,partitions);
-                partitions.remove(partitions.size()-1);
+
+        for(int endPos = startPos; endPos < s.length();endPos++){
+            if(isPalindrome(s, startPos,endPos)){
+                result.add(s.substring(startPos,endPos+1));
+                partitionHelper(s,results,result,endPos+1);
+                result.remove(result.size()-1);
             }
         }
     }
