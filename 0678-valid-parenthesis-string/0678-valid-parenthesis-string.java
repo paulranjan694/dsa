@@ -1,28 +1,31 @@
 class Solution {
     public boolean checkValidString(String s) {
-        int op=0;
-        int cl=0;
-
-        int len = s.length()-1;
-        for(int i=0;i<s.length();i++){
-            if(s.charAt(i) == '(' || s.charAt(i) == '*'){
-                op++;
+        Stack<Integer> leftParenthesis = new Stack<>();
+        Stack<Integer> star = new Stack<>();
+       
+        for(int i = 0; i < s.length(); i++){
+            char c = s.charAt(i);
+            if(c == ')'){
+                if(leftParenthesis.empty() && star.empty()) return false;
+                if(!leftParenthesis.empty()){
+                    leftParenthesis.pop();
+                }else{
+                    star.pop();
+                }
+            }else if(c == '('){
+                leftParenthesis.push(i);
             }else{
-                op--;
+                star.push(i);
             }
+        }
 
-            if(op < 0)
+        while(!leftParenthesis.empty() && !star.empty()){
+            if(leftParenthesis.pop() > star.pop()){
                 return false;
-
-            if(s.charAt(len-i) == ')' || s.charAt(len-i) == '*'){
-                cl++;
-            }else{
-                cl--;
             }
+        }
+        
+        return leftParenthesis.empty();
 
-            if(cl < 0)
-                return false;
-        } 
-        return true;
     }
 }
