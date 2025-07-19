@@ -1015,6 +1015,7 @@ DSA solutions
 | [0480-sliding-window-median](https://github.com/paulranjan694/dsa/tree/master/0480-sliding-window-median) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/paulranjan694/dsa/tree/master/0658-find-k-closest-elements) |
+| [0744-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0744-network-delay-time) |
 | [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/paulranjan694/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0887-minimum-cost-to-hire-k-workers](https://github.com/paulranjan694/dsa/tree/master/0887-minimum-cost-to-hire-k-workers) |
@@ -1260,6 +1261,7 @@ DSA solutions
 | [0694-number-of-distinct-islands](https://github.com/paulranjan694/dsa/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/paulranjan694/dsa/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/paulranjan694/dsa/tree/master/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/paulranjan694/dsa/tree/master/0820-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -1353,6 +1355,7 @@ DSA solutions
 | [0694-number-of-distinct-islands](https://github.com/paulranjan694/dsa/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/paulranjan694/dsa/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/paulranjan694/dsa/tree/master/0733-flood-fill) |
+| [0744-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/paulranjan694/dsa/tree/master/0820-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -1529,6 +1532,7 @@ DSA solutions
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/paulranjan694/dsa/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0547-number-of-provinces](https://github.com/paulranjan694/dsa/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/paulranjan694/dsa/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/paulranjan694/dsa/tree/master/0820-find-eventual-safe-states) |
 ## Hash Function
@@ -1605,4 +1609,8 @@ DSA solutions
 |  |
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/paulranjan694/dsa/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Shortest Path
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0744-network-delay-time) |
 <!---LeetCode Topics End-->
