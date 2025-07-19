@@ -1,46 +1,49 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        int[] indegree = new int[numCourses];
-        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
+        List<List<Integer>> adj = new ArrayList<>();
         for(int i=0;i<numCourses;i++){
             adj.add(new ArrayList<>());
         }
-
+        
         for(int i=0;i<prerequisites.length;i++){
-            int v = prerequisites[i][0];
-            int u = prerequisites[i][1];
-
-            adj.get(u).add(v);
+           int u = prerequisites[i][0];
+           int v = prerequisites[i][1];
+           
+           adj.get(u).add(v);
         }
-
-        //indegree array 
-        for(int i=0;i<numCourses;i++){
-            for(int nbr : adj.get(i)){
-                indegree[nbr]++;
+        
+        int[] indegree = new int[numCourses];
+        for(List<Integer> list: adj){
+            for(int v: list){
+                indegree[v]++;
             }
         }
-
-        Queue<Integer> q = new LinkedList<>();
+        
+        boolean[] visited = new boolean[numCourses];
+        //ArrayList<Integer> res = new ArrayList<>();
         int count=0;
-
-        for(int i=0;i<numCourses;i++){
-            if(indegree[i] == 0){
-                q.add(i);
+        
+       Queue<Integer> queue = new LinkedList<>();
+        for(int i =0; i< numCourses;i++){
+            if(indegree[i]== 0){
+                queue.add(i);
+                count++;
             }
         }
-
-        while(!q.isEmpty()){
-            int curr = q.poll();
-            count++;
-
-            for(int nbr : adj.get(curr)){
-                indegree[nbr]--;
-                if(indegree[nbr] == 0){
-                    q.add(nbr);
+        
+        while(!queue.isEmpty()){
+            int node = queue.poll();
+            //res.add(node);
+            
+            for(int v: adj.get(node)){
+                indegree[v]--;
+                if(indegree[v] == 0){
+                    queue.add(v);
+                    count++;
                 }
             }
         }
-        // if count == V, that means topo sort is generated and no cycle detected or else cycle detected
-        return count == numCourses; 
+        
+        return count == numCourses;
     }
 }
