@@ -11,7 +11,7 @@ class Solution {
         cost[src]=0;
         //stop[src]=0;
 
-        PriorityQueue<int[]> minheap = new PriorityQueue<>((int[] a, int[] b) -> a[2]-b[2]); // 0 -> node,1 -> cost,2 -> stop
+        PriorityQueue<int[]> minheap = new PriorityQueue<>((int[] a, int[] b) -> a[2]-b[2]); // 0 -> node,1 -> cost,2 -> stop//give pref to stops
 
         minheap.add(new int[]{src,0,0});
 
