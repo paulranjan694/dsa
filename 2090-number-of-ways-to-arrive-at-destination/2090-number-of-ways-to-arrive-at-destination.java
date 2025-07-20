@@ -30,8 +30,8 @@ class Solution {
                
                 if(times[v] > newTime){
                     times[v] = newTime;
-                    minheap.add(new long[]{v,newTime});
                     count[v]=count[node];
+                    minheap.add(new long[]{v,newTime});
                 }else if(times[v] == newTime){
                     count[v]=(count[v]+count[node]) % MOD;
                 }
