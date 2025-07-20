@@ -1,5 +1,5 @@
 class Solution {
-    private static final int MOD = 1000000007;
+    private static final int MOD =  1_000_000_007;
     public int countPaths(int n, int[][] roads) {
         int[] count = new int[n];
         long[] times = new long[n];
