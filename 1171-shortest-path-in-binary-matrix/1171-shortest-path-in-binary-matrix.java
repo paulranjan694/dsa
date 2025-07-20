@@ -5,43 +5,46 @@ class Solution {
             return -1;
         }
 
-        int[] dx = new int[]{1,0,1,-1,0,-1,1,-1};
-        int[] dy = new int[]{1,1,0,0,-1,-1,-1,1};
+        int[][] directions = {
+            { 1, 1 },
+            { 0, 1 },
+            { 1, 0 },
+            { -1, 0 },
+            { -1, -1 },
+            { 1, -1 },
+            { 0, -1 },
+            { -1, 1 }
+        };
 
-        int[][] res = new int[n][m];
-        for(int[] r : res){
-            Arrays.fill(r,Integer.MAX_VALUE);
-        }
-        res[0][0] = 0;
+        Queue<int[]> minHeap = new LinkedList<>();
+        minHeap.add(new int[]{0,0});
 
-        PriorityQueue<int[]> minHeap = new PriorityQueue<>((int[] a, int[] b) -> a[0]-b[0]);
-
-        minHeap.add(new int[]{0,0,0});
-        grid[0][0]=1;
+        int level=0;
 
         while(!minHeap.isEmpty()){
-            int[] pair = minHeap.poll();
-            int d = pair[0];
-            int x = pair[1];
-            int y = pair[2];
+            int size = minHeap.size();
+            while(size-- > 0){
+                int[] pair = minHeap.poll();
+                int x = pair[0];
+                int y = pair[1];
+        
 
-            if(x==n-1 && y == m-1){
-                return d+1;
-            }
+                if(x==n-1 && y == m-1){
+                    return level+1;
+                }
 
-            for(int i=0;i<8;i++){
-                int x_ = x+dx[i];
-                int y_ = y+dy[i];
+                for(int[] dir : directions){
+                    int x_ = x+dir[0];
+                    int y_ = y+dir[1];
 
-                if(x_ >= 0 && x_ < n && y_>=0 && y_ < m && grid[x_][y_]==0){
-                    if(res[x_][y_] > d+1){
-                        res[x_][y_] = d+1;
-                        minHeap.add(new int[]{d+1, x_,y_});
+                    if(x_ >= 0 && x_ < n && y_>=0 && y_ < m && grid[x_][y_]==0){
+                        minHeap.add(new int[]{x_,y_});
+                        grid[x_][y_]=1;
                     }
-                    grid[x_][y_]=1;
                 }
             }
+            level++;
         }
-        return  -1;
+        return -1;
     }
 }
