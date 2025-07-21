@@ -32,6 +32,5 @@ class Solution {
         int totals = pathsEndingHere + left + right;
         map.put(sum, map.getOrDefault(sum, 0) - 1);
         return totals;
-
     }
 }
