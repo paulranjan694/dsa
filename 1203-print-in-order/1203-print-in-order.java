@@ -1,53 +1,28 @@
 class Foo {
+    private CountDownLatch latch1 = new CountDownLatch(1);
+    private CountDownLatch latch2 = new CountDownLatch(1);
 
-    private final ReentrantLock lock = new ReentrantLock();
-    private final Condition secondCond = lock.newCondition();
-    private final Condition thirdCond = lock.newCondition();
-
-    private int step=1;
     public Foo() {
+        
     }
 
     public void first(Runnable printFirst) throws InterruptedException {
-        lock.lock();
-        try{
-            // printFirst.run() outputs "first". Do not change or remove this line.
-            printFirst.run();
-            step=2;
-            secondCond.signal();
-        }finally{
-            lock.unlock();
-        }
+        
+        // printFirst.run() outputs "first". Do not change or remove this line.
+        printFirst.run();
+        latch1.countDown();
     }
 
     public void second(Runnable printSecond) throws InterruptedException {
-        lock.lock();
-        try{
-            while(step!=2){
-                secondCond.await();
-            }
-            // printSecond.run() outputs "second". Do not change or remove this line.
-            printSecond.run();
-            step=3;
-            thirdCond.signal();
-        }finally{
-            lock.unlock();
-        }
+        latch1.await();
+        // printSecond.run() outputs "second". Do not change or remove this line.
+        printSecond.run();
+        latch2.countDown();
     }
 
     public void third(Runnable printThird) throws InterruptedException {
-        lock.lock();
-        try{
-            while(step!=3){
-                thirdCond.await();
-            }
-            // printThird.run() outputs "third". Do not change or remove this line.
-            printThird.run();
-            step=3;
-            thirdCond.signal();
-        }finally{
-            lock.unlock();
-        }
-
+        latch2.await();
+        // printThird.run() outputs "third". Do not change or remove this line.
+        printThird.run();
     }
 }
