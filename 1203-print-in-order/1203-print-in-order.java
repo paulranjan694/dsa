@@ -1,28 +1,37 @@
 class Foo {
-    private CountDownLatch latch1 = new CountDownLatch(1);
-    private CountDownLatch latch2 = new CountDownLatch(1);
+
+
+    private int step=1;
 
     public Foo() {
         
     }
 
-    public void first(Runnable printFirst) throws InterruptedException {
+    public synchronized void first(Runnable printFirst) throws InterruptedException {
         
         // printFirst.run() outputs "first". Do not change or remove this line.
         printFirst.run();
-        latch1.countDown();
+        step=2;
+        notifyAll();
     }
 
-    public void second(Runnable printSecond) throws InterruptedException {
-        latch1.await();
+    public synchronized void second(Runnable printSecond) throws InterruptedException {
+        while(step<2){
+            wait();
+        }
         // printSecond.run() outputs "second". Do not change or remove this line.
         printSecond.run();
-        latch2.countDown();
+        step=3;
+        notifyAll();
     }
 
-    public void third(Runnable printThird) throws InterruptedException {
-        latch2.await();
+    public synchronized void third(Runnable printThird) throws InterruptedException {
+         while(step<3){
+            wait();
+        }
         // printThird.run() outputs "third". Do not change or remove this line.
         printThird.run();
+
+        
     }
 }
