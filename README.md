@@ -1636,5 +1636,6 @@ DSA solutions
 ## Concurrency
 |  |
 | ------- |
+| [1187-print-foobar-alternately](https://github.com/paulranjan694/dsa/tree/master/1187-print-foobar-alternately) |
 | [1203-print-in-order](https://github.com/paulranjan694/dsa/tree/master/1203-print-in-order) |
 <!---LeetCode Topics End-->
