@@ -1639,4 +1639,5 @@ DSA solutions
 | [1187-print-foobar-alternately](https://github.com/paulranjan694/dsa/tree/master/1187-print-foobar-alternately) |
 | [1203-print-in-order](https://github.com/paulranjan694/dsa/tree/master/1203-print-in-order) |
 | [1216-print-zero-even-odd](https://github.com/paulranjan694/dsa/tree/master/1216-print-zero-even-odd) |
+| [1316-fizz-buzz-multithreaded](https://github.com/paulranjan694/dsa/tree/master/1316-fizz-buzz-multithreaded) |
 <!---LeetCode Topics End-->
