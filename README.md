@@ -748,6 +748,7 @@ DSA solutions
 | [1129-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/paulranjan694/dsa/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/paulranjan694/dsa/tree/master/1250-longest-common-subsequence) |
+| [1271-web-crawler](https://github.com/paulranjan694/dsa/tree/master/1271-web-crawler) |
 | [1297-maximum-number-of-balloons](https://github.com/paulranjan694/dsa/tree/master/1297-maximum-number-of-balloons) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/paulranjan694/dsa/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/paulranjan694/dsa/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -1276,6 +1277,7 @@ DSA solutions
 | [1073-number-of-enclaves](https://github.com/paulranjan694/dsa/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/paulranjan694/dsa/tree/master/1207-delete-nodes-and-return-forest) |
+| [1271-web-crawler](https://github.com/paulranjan694/dsa/tree/master/1271-web-crawler) |
 | [1285-balance-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/1285-balance-a-binary-search-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1484-linked-list-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/paulranjan694/dsa/tree/master/1753-path-with-minimum-effort) |
@@ -1373,6 +1375,7 @@ DSA solutions
 | [1073-number-of-enclaves](https://github.com/paulranjan694/dsa/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/paulranjan694/dsa/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1271-web-crawler](https://github.com/paulranjan694/dsa/tree/master/1271-web-crawler) |
 | [1484-linked-list-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1484-linked-list-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/paulranjan694/dsa/tree/master/1753-path-with-minimum-effort) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/paulranjan694/dsa/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
@@ -1614,6 +1617,7 @@ DSA solutions
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/paulranjan694/dsa/tree/master/0278-first-bad-version) |
+| [1271-web-crawler](https://github.com/paulranjan694/dsa/tree/master/1271-web-crawler) |
 ## Randomized
 |  |
 | ------- |
