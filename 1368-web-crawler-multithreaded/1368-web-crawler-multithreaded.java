@@ -10,7 +10,7 @@ class Solution {
         Set<String> result = ConcurrentHashMap.newKeySet();
         String hostname = getHostname(startUrl);
 
-        ExecutorService executor = Executors.newFixedThreadPool(32);
+        ExecutorService executor = Executors.newFixedThreadPool(128);
         result.add(startUrl);
         crawl(result, startUrl, hostname, executor, htmlParser);
         executor.shutdown();
