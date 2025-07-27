@@ -1279,6 +1279,7 @@ DSA solutions
 | [1207-delete-nodes-and-return-forest](https://github.com/paulranjan694/dsa/tree/master/1207-delete-nodes-and-return-forest) |
 | [1271-web-crawler](https://github.com/paulranjan694/dsa/tree/master/1271-web-crawler) |
 | [1285-balance-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/1285-balance-a-binary-search-tree) |
+| [1368-web-crawler-multithreaded](https://github.com/paulranjan694/dsa/tree/master/1368-web-crawler-multithreaded) |
 | [1484-linked-list-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1484-linked-list-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/paulranjan694/dsa/tree/master/1753-path-with-minimum-effort) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/paulranjan694/dsa/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
@@ -1376,6 +1377,7 @@ DSA solutions
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/paulranjan694/dsa/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1271-web-crawler](https://github.com/paulranjan694/dsa/tree/master/1271-web-crawler) |
+| [1368-web-crawler-multithreaded](https://github.com/paulranjan694/dsa/tree/master/1368-web-crawler-multithreaded) |
 | [1484-linked-list-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1484-linked-list-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/paulranjan694/dsa/tree/master/1753-path-with-minimum-effort) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/paulranjan694/dsa/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
@@ -1645,4 +1647,5 @@ DSA solutions
 | [1209-design-bounded-blocking-queue](https://github.com/paulranjan694/dsa/tree/master/1209-design-bounded-blocking-queue) |
 | [1216-print-zero-even-odd](https://github.com/paulranjan694/dsa/tree/master/1216-print-zero-even-odd) |
 | [1316-fizz-buzz-multithreaded](https://github.com/paulranjan694/dsa/tree/master/1316-fizz-buzz-multithreaded) |
+| [1368-web-crawler-multithreaded](https://github.com/paulranjan694/dsa/tree/master/1368-web-crawler-multithreaded) |
 <!---LeetCode Topics End-->
