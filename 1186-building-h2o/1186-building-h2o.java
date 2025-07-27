@@ -24,14 +24,14 @@ class H2O {
 
     public void oxygen(Runnable releaseOxygen) throws InterruptedException {
         try {
-            oxySemaphore.acquire();
+            oxySemaphore.acquire(1);
             // releaseOxygen.run() outputs "O". Do not change or remove this line.
             releaseOxygen.run();
             cyclicBarrier.await();
         } catch (Exception e) {
             // TODO: handle exception
         }finally{
-            oxySemaphore.release();
+            oxySemaphore.release(1);
         }
     }
 }
