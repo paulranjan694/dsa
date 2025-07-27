@@ -1,27 +1,37 @@
 class H2O {
 
-    private volatile int count=0;
+    private CyclicBarrier cyclicBarrier;
+    private Semaphore hydSemaphore,oxySemaphore;
+
     public H2O() {
-        count=0;
+        cyclicBarrier = new CyclicBarrier(3);
+        hydSemaphore = new Semaphore(2);
+        oxySemaphore = new Semaphore(1);
     }
 
-    public synchronized void hydrogen(Runnable releaseHydrogen) throws InterruptedException {
-		while(count >= 2){
-            wait();
+    public void hydrogen(Runnable releaseHydrogen) throws InterruptedException {
+		try {
+            hydSemaphore.acquire();
+            // releaseHydrogen.run() outputs "H". Do not change or remove this line.
+            releaseHydrogen.run();
+            cyclicBarrier.await();
+        } catch (Exception e) {
+            // TODO: handle exception
+        }finally{
+            hydSemaphore.release();
         }
-        // releaseHydrogen.run() outputs "H". Do not change or remove this line.
-        releaseHydrogen.run();
-        count++;
-        notifyAll();
     }
 
-    public synchronized void oxygen(Runnable releaseOxygen) throws InterruptedException {
-        while(count < 2){
-            wait();
+    public void oxygen(Runnable releaseOxygen) throws InterruptedException {
+        try {
+            oxySemaphore.acquire();
+            // releaseOxygen.run() outputs "O". Do not change or remove this line.
+            releaseOxygen.run();
+            cyclicBarrier.await();
+        } catch (Exception e) {
+            // TODO: handle exception
+        }finally{
+            oxySemaphore.release();
         }
-        // releaseOxygen.run() outputs "O". Do not change or remove this line.
-		releaseOxygen.run();
-        count=0;
-        notify();
     }
 }
