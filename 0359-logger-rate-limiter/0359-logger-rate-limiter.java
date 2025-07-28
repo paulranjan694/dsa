@@ -1,26 +1,24 @@
 class Logger {
-    Map<String, Integer> map;
-    int timeLimit;
-
+    private int timer;
+    private Map<String, Integer> cache;
     public Logger() {
-        timeLimit = 10;
-	    map = new HashMap<>();
+        timer=10;
+        cache = new HashMap<>();
     }
     
     public boolean shouldPrintMessage(int timestamp, String message) {
-        //System.out.println("1......"+message+"...."+map);
-        if(map.containsKey(message)){
-		  int prevReqTime = map.get(message);
-		  if(prevReqTime+timeLimit <= timestamp){
-		    map.put(message,timestamp);
-		    return true;
-		  }else{
-		    return false;
-		  }
-		}
-        //System.out.println(message+"...."+map);
-		map.put(message,timestamp);
-		return true;
+        int nextPrint = cache.getOrDefault(message, 0);
+        //System.out.println("msg -> "+message+" times -> "+timestamp+ " next ->"+nextPrint);
+        boolean shouldPrint = false;
+        if(nextPrint == 0){
+            cache.put(message,timestamp+timer);
+            shouldPrint=true;
+        }else if(nextPrint <= timestamp){
+            cache.put(message,timestamp+timer);
+            shouldPrint=true;
+        }
+
+        return shouldPrint;
     }
 }
 
