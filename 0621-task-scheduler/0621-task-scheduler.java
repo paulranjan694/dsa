@@ -1,39 +1,48 @@
 class Solution {
     public int leastInterval(char[] tasks, int n) {
-        int[] chars = new int[26];
-        int t=0;
-        Queue<int[][]> queue = new LinkedList<>();
-        Queue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
-        for(char c : tasks){
-            chars[c-'A']++;
+        Map<Character,Integer> taskHash = new HashMap<>();
+        Queue<Task> maxHeap = new PriorityQueue<>((t1,t2) -> Integer.compare(t2.count, t1.count));
+
+        for(char task : tasks){
+            taskHash.put(task, taskHash.getOrDefault(task, 0) + 1);
         }
 
-        for(int i=0;i<26;i++){
-            if(chars[i] > 0){
-               maxHeap.add(chars[i]);
+        for (Map.Entry<Character, Integer> entry : taskHash.entrySet()){
+            maxHeap.offer(new Task(entry.getKey(), entry.getValue()));
+        }
+
+        Queue<Task> cooldown = new LinkedList<>();
+        int time = 0;
+        
+        while (!maxHeap.isEmpty() || !cooldown.isEmpty()) {
+            time++;
+
+            // Re-add ready tasks from cooldown queue
+            if (!cooldown.isEmpty() && cooldown.peek().nextAvailableTime <= time) {
+                maxHeap.offer(cooldown.poll());
             }
-        }
 
-
-
-        while(!queue.isEmpty() || !maxHeap.isEmpty()){
-            if(!maxHeap.isEmpty()){
-                int ele = maxHeap.poll();
-                if(ele -1 > 0){
-                    int[][] temp = new int[1][2];
-                    temp[0][0] = ele-1;
-                    temp[0][1] = t+n;
-                    queue.offer(temp);
+            if (!maxHeap.isEmpty()) {
+                Task current = maxHeap.poll();
+                current.count--;
+                if (current.count > 0) {
+                    current.nextAvailableTime = time + n + 1;
+                    cooldown.offer(current);
                 }
             }
-
-            if(!queue.isEmpty() && queue.peek()[0][1] == t){
-                maxHeap.add(queue.poll()[0][0]);
-            }
-
-            t++;
+            // else idle (if no task can be scheduled now)
         }
-        return t;
 
+        return time;
+    }
+
+    static class Task{
+        char task;
+        int nextAvailableTime=0;
+        int count;
+        Task(char t, int count){
+            this.task=t;
+            this.count=count;
+        }
     }
 }
