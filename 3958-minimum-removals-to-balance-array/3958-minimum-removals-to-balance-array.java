@@ -1,7 +1,6 @@
 class Solution {
     public int minRemoval(int[] nums, int k) {
         int n=nums.length;
-        //if(n==1) return 1;
 
         Arrays.sort(nums);
 
@@ -9,7 +8,6 @@ class Solution {
 
         while(i<n){
             int found = bsearch(nums, (long)nums[i] * k, i, n-1);
-            //System.out.println(nums[i] * k+" "+nums[i]+" "+found+ " "+i);
             if(found != -1){
                 int ans = i+(n-1-found);
                 min = Math.min(min, ans);
