@@ -1,24 +1,22 @@
 class Solution {
-    public String largestGoodInteger(String nums) {
-        int l=0,r=0,n=nums.length();
-        String ans="";
+    public String largestGoodInteger(String num) {
+        int l=0,r=0,n=num.length();
+        if(n<3) return "";
+        String res = "";
         while(r<n){
             r++;
-            String s = nums.substring(l,r);
-            if(s.length()==3){
-                if(s.charAt(0) == s.charAt(2) && s.charAt(0) == s.charAt(1)){
-                    if(ans==""){
-                        ans=s;
-                    }else{
-                       if(ans.charAt(0) < s.charAt(0)){
-                            ans=s;
-                       }
+            String temp = num.substring(l,r);
+            if(temp.length()==3){
+                if(temp.charAt(0) == temp.charAt(1) && temp.charAt(0) == temp.charAt(2)){
+                    if(res.length()==0){
+                        res=temp;
+                    }else if(res.charAt(0) < temp.charAt(0)){
+                        res = temp;
                     }
                 }
-
                 l++;
             }
         }
-        return ans;
+        return res;
     }
 }
