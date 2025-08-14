@@ -16,9 +16,9 @@
 class Solution {
     int count=0;
     public int goodNodes(TreeNode root) {
-        dfs(root.left, root.val);
-        dfs(root.right, root.val);
-        return 1+count;
+        dfs(root, root.val);
+        //dfs(root.right, root.val);
+        return count;
     }
 
     private void dfs(TreeNode node, int max){
