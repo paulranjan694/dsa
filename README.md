@@ -789,6 +789,7 @@ DSA solutions
 | [0202-happy-number](https://github.com/paulranjan694/dsa/tree/master/0202-happy-number) |
 | [0231-power-of-two](https://github.com/paulranjan694/dsa/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
+| [0326-power-of-three](https://github.com/paulranjan694/dsa/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/paulranjan694/dsa/tree/master/0342-power-of-four) |
 | [0368-largest-divisible-subset](https://github.com/paulranjan694/dsa/tree/master/0368-largest-divisible-subset) |
 | [0523-continuous-subarray-sum](https://github.com/paulranjan694/dsa/tree/master/0523-continuous-subarray-sum) |
@@ -1103,6 +1104,7 @@ DSA solutions
 | [0206-reverse-linked-list](https://github.com/paulranjan694/dsa/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/paulranjan694/dsa/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/paulranjan694/dsa/tree/master/0234-palindrome-linked-list) |
+| [0326-power-of-three](https://github.com/paulranjan694/dsa/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/paulranjan694/dsa/tree/master/0342-power-of-four) |
 | [0394-decode-string](https://github.com/paulranjan694/dsa/tree/master/0394-decode-string) |
 | [1013-fibonacci-number](https://github.com/paulranjan694/dsa/tree/master/1013-fibonacci-number) |
