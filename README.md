@@ -789,6 +789,7 @@ DSA solutions
 | [0202-happy-number](https://github.com/paulranjan694/dsa/tree/master/0202-happy-number) |
 | [0231-power-of-two](https://github.com/paulranjan694/dsa/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
+| [0342-power-of-four](https://github.com/paulranjan694/dsa/tree/master/0342-power-of-four) |
 | [0368-largest-divisible-subset](https://github.com/paulranjan694/dsa/tree/master/0368-largest-divisible-subset) |
 | [0523-continuous-subarray-sum](https://github.com/paulranjan694/dsa/tree/master/0523-continuous-subarray-sum) |
 | [0797-rabbits-in-forest](https://github.com/paulranjan694/dsa/tree/master/0797-rabbits-in-forest) |
@@ -995,6 +996,7 @@ DSA solutions
 | [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/paulranjan694/dsa/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/paulranjan694/dsa/tree/master/0338-counting-bits) |
+| [0342-power-of-four](https://github.com/paulranjan694/dsa/tree/master/0342-power-of-four) |
 | [0389-find-the-difference](https://github.com/paulranjan694/dsa/tree/master/0389-find-the-difference) |
 | [0476-number-complement](https://github.com/paulranjan694/dsa/tree/master/0476-number-complement) |
 | [0800-letter-case-permutation](https://github.com/paulranjan694/dsa/tree/master/0800-letter-case-permutation) |
@@ -1101,6 +1103,7 @@ DSA solutions
 | [0206-reverse-linked-list](https://github.com/paulranjan694/dsa/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/paulranjan694/dsa/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/paulranjan694/dsa/tree/master/0234-palindrome-linked-list) |
+| [0342-power-of-four](https://github.com/paulranjan694/dsa/tree/master/0342-power-of-four) |
 | [0394-decode-string](https://github.com/paulranjan694/dsa/tree/master/0394-decode-string) |
 | [1013-fibonacci-number](https://github.com/paulranjan694/dsa/tree/master/1013-fibonacci-number) |
 | [2050-count-good-numbers](https://github.com/paulranjan694/dsa/tree/master/2050-count-good-numbers) |
