@@ -384,6 +384,7 @@ DSA solutions
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/paulranjan694/dsa/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/paulranjan694/dsa/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/paulranjan694/dsa/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1628-count-submatrices-with-all-ones](https://github.com/paulranjan694/dsa/tree/master/1628-count-submatrices-with-all-ones) |
 | [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
 | [1646-kth-missing-positive-number](https://github.com/paulranjan694/dsa/tree/master/1646-kth-missing-positive-number) |
 | [1656-count-good-triplets](https://github.com/paulranjan694/dsa/tree/master/1656-count-good-triplets) |
@@ -581,6 +582,7 @@ DSA solutions
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/paulranjan694/dsa/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/paulranjan694/dsa/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/paulranjan694/dsa/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [1628-count-submatrices-with-all-ones](https://github.com/paulranjan694/dsa/tree/master/1628-count-submatrices-with-all-ones) |
 | [2470-removing-stars-from-a-string](https://github.com/paulranjan694/dsa/tree/master/2470-removing-stars-from-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/paulranjan694/dsa/tree/master/2800-minimum-string-length-after-removing-substrings) |
 ## Monotonic Stack
@@ -592,6 +594,7 @@ DSA solutions
 | [0739-daily-temperatures](https://github.com/paulranjan694/dsa/tree/master/0739-daily-temperatures) |
 | [1002-maximum-width-ramp](https://github.com/paulranjan694/dsa/tree/master/1002-maximum-width-ramp) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/paulranjan694/dsa/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1628-count-submatrices-with-all-ones](https://github.com/paulranjan694/dsa/tree/master/1628-count-submatrices-with-all-ones) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -959,6 +962,7 @@ DSA solutions
 | [1170-shortest-common-supersequence](https://github.com/paulranjan694/dsa/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/paulranjan694/dsa/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/paulranjan694/dsa/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1628-count-submatrices-with-all-ones](https://github.com/paulranjan694/dsa/tree/master/1628-count-submatrices-with-all-ones) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/paulranjan694/dsa/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/paulranjan694/dsa/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/paulranjan694/dsa/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
@@ -1538,6 +1542,7 @@ DSA solutions
 | [1324-where-will-the-ball-fall](https://github.com/paulranjan694/dsa/tree/master/1324-where-will-the-ball-fall) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/paulranjan694/dsa/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/paulranjan694/dsa/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
+| [1628-count-submatrices-with-all-ones](https://github.com/paulranjan694/dsa/tree/master/1628-count-submatrices-with-all-ones) |
 | [1753-path-with-minimum-effort](https://github.com/paulranjan694/dsa/tree/master/1753-path-with-minimum-effort) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/paulranjan694/dsa/tree/master/2132-convert-1d-array-into-2d-array) |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/paulranjan694/dsa/tree/master/3415-check-if-grid-satisfies-conditions) |
