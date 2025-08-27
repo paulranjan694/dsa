@@ -23,22 +23,30 @@ class Node {
 
 class Solution {
     public Node connect(Node root) {
-        if(root == null) return null;
-        Node leftmost = root;
-
-        while(leftmost.left != null){
-            Node head = leftmost;
-
-            while(head != null){
-                head.left.next = head.right;
-
-                if(head.next != null){
-                    head.right.next = head.next.left;
-                }
-                head=head.next;
-            }
-            leftmost=leftmost.left;
+        if(root == null){
+            return null;
         }
+        Queue<Node> queue = new LinkedList<>();
+
+        queue.add(root);
+        while(!queue.isEmpty()){
+            int len = queue.size();
+            while(len-- > 0){
+                Node node = queue.poll();
+                if(len>0){
+                    node.next=queue.peek();
+                }
+
+                if(node.left != null){
+                    queue.add(node.left);
+                }
+
+                if(node.right != null){
+                    queue.add(node.right);
+                }
+            }
+        }
+
         return root;
     }
 }
