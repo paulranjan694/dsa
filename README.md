@@ -1670,4 +1670,8 @@ DSA solutions
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/paulranjan694/dsa/tree/master/0146-lru-cache) |
+## Database
+|  |
+| ------- |
+| [0176-second-highest-salary](https://github.com/paulranjan694/dsa/tree/master/0176-second-highest-salary) |
 <!---LeetCode Topics End-->
