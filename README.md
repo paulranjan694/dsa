@@ -371,6 +371,7 @@ DSA solutions
 | [1324-where-will-the-ball-fall](https://github.com/paulranjan694/dsa/tree/master/1324-where-will-the-ball-fall) |
 | [1370-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1370-count-number-of-nice-subarrays) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/paulranjan694/dsa/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/paulranjan694/dsa/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/paulranjan694/dsa/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/paulranjan694/dsa/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/paulranjan694/dsa/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
@@ -802,6 +803,7 @@ DSA solutions
 | [1013-fibonacci-number](https://github.com/paulranjan694/dsa/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1370-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1370-count-number-of-nice-subarrays) |
+| [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/paulranjan694/dsa/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1477-product-of-the-last-k-numbers](https://github.com/paulranjan694/dsa/tree/master/1477-product-of-the-last-k-numbers) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/paulranjan694/dsa/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
