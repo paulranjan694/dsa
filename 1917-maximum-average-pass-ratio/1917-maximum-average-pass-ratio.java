@@ -1,3 +1,8 @@
+/**
+    calculate the max difference in current average and new average(by adding 1 student) and to maximise, always add student to class where diff is max
+
+
+ */
 class Solution {
     public double maxAverageRatio(int[][] classes, int extraStudents) {
         PriorityQueue<double[]> maxheap = new PriorityQueue<double[]>((a, b) -> Double.compare(b[3], a[3]));
