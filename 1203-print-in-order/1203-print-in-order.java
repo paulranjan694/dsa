@@ -1,14 +1,13 @@
 class Foo {
 
-
-    private int step=1;
+    int step=1;
 
     public Foo() {
         
     }
 
     public synchronized void first(Runnable printFirst) throws InterruptedException {
-        
+    
         // printFirst.run() outputs "first". Do not change or remove this line.
         printFirst.run();
         step=2;
@@ -16,7 +15,7 @@ class Foo {
     }
 
     public synchronized void second(Runnable printSecond) throws InterruptedException {
-        while(step<2){
+        while(step < 2){
             wait();
         }
         // printSecond.run() outputs "second". Do not change or remove this line.
@@ -26,12 +25,10 @@ class Foo {
     }
 
     public synchronized void third(Runnable printThird) throws InterruptedException {
-         while(step<3){
+        while(step < 3){
             wait();
         }
         // printThird.run() outputs "third". Do not change or remove this line.
         printThird.run();
-
-        
     }
 }
