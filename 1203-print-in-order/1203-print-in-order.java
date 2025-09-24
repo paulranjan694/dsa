@@ -1,34 +1,51 @@
 class Foo {
 
-    int step=1;
-
+    private final ReentrantLock lock = new ReentrantLock();
+    private final Condition secondCond = lock.newCondition();
+    private final Condition thirdCond = lock.newCondition();
+    private int step=1;
     public Foo() {
         
     }
 
-    public synchronized void first(Runnable printFirst) throws InterruptedException {
-    
-        // printFirst.run() outputs "first". Do not change or remove this line.
-        printFirst.run();
-        step=2;
-        notifyAll();
+    public void first(Runnable printFirst) throws InterruptedException {
+        lock.lock();
+        try{
+            // printFirst.run() outputs "first". Do not change or remove this line.
+            printFirst.run();
+            step=2;
+            secondCond.signal();
+        }finally{
+            lock.unlock();
+        }
     }
 
-    public synchronized void second(Runnable printSecond) throws InterruptedException {
-        while(step < 2){
-            wait();
+    public void second(Runnable printSecond) throws InterruptedException {
+        lock.lock();
+        try{
+            while(step!=2){
+                secondCond.await();
+            }
+           // printSecond.run() outputs "second". Do not change or remove this line.
+            printSecond.run();
+            step=3;
+            thirdCond.signal();
+        }finally{
+            lock.unlock();
         }
-        // printSecond.run() outputs "second". Do not change or remove this line.
-        printSecond.run();
-        step=3;
-        notifyAll();
     }
 
-    public synchronized void third(Runnable printThird) throws InterruptedException {
-        while(step < 3){
-            wait();
+    public void third(Runnable printThird) throws InterruptedException {
+        lock.lock();
+        try{
+            while(step!=3){
+                thirdCond.await();
+            }
+           // printThird.run() outputs "third". Do not change or remove this line.
+            printThird.run();
+        }finally{
+            lock.unlock();
         }
-        // printThird.run() outputs "third". Do not change or remove this line.
-        printThird.run();
+        
     }
 }
