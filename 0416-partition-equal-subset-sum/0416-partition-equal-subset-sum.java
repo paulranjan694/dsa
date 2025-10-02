@@ -10,11 +10,36 @@ class Solution {
 
         int target = sum / 2, n= nums.length;
         Boolean[][] dp = new Boolean[n][target+1];
-        for(Boolean[] d : dp){
-            Arrays.fill(d, null);
+
+        
+        // for(Boolean[] d : dp){
+        //     Arrays.fill(d, null);
+        // }
+
+        
+        for(int s=1;s<=target;s++){
+            if(s-nums[0] == 0) dp[0][s] = true;
+            else dp[0][s] = false; 
         }
 
-        return isSubsetSum(nums, target, n-1, dp);
+        for(int i=0;i<n;i++){
+            dp[i][0] = true;
+        }
+
+        for(int i=1;i<n;i++){
+            for(int s=1;s<=target;s++){
+                boolean taken = false;
+                if(s-nums[i] >= 0){
+                    taken = dp[i-1][s-nums[i]];
+                }
+
+                boolean notTaken = dp[i-1][s];
+
+                dp[i][s] = taken || notTaken;
+            }
+        }
+
+        return dp[n-1][target];
     }
 
     private Boolean isSubsetSum(int arr[], int sum, int idx, Boolean[][] dp) {
