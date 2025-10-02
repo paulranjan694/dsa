@@ -1,4 +1,8 @@
 class Solution {
+
+     
+
+
     public int change(int amount, int[] coins) {
         int n = coins.length;
         int[][] dp = new int[n+1][amount+1];
@@ -10,8 +14,8 @@ class Solution {
 
     private int solve(int amount, int[] coins, int idx, int[][] dp){
 
-        if(idx < 0){
-            if(amount == 0) return 1;
+        if(idx == 0){
+            if(amount % coins[idx] == 0) return 1;
             return 0;
         }
 
