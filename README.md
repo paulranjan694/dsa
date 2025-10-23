@@ -1708,4 +1708,5 @@ DSA solutions
 | [1773-percentage-of-users-attended-a-contest](https://github.com/paulranjan694/dsa/tree/master/1773-percentage-of-users-attended-a-contest) |
 | [1908-recyclable-and-low-fat-products](https://github.com/paulranjan694/dsa/tree/master/1908-recyclable-and-low-fat-products) |
 | [2087-confirmation-rate](https://github.com/paulranjan694/dsa/tree/master/2087-confirmation-rate) |
+| [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/paulranjan694/dsa/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 <!---LeetCode Topics End-->
