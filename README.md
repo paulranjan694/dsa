@@ -1702,6 +1702,7 @@ DSA solutions
 | [1258-article-views-i](https://github.com/paulranjan694/dsa/tree/master/1258-article-views-i) |
 | [1390-average-selling-price](https://github.com/paulranjan694/dsa/tree/master/1390-average-selling-price) |
 | [1415-students-and-examinations](https://github.com/paulranjan694/dsa/tree/master/1415-students-and-examinations) |
+| [1773-percentage-of-users-attended-a-contest](https://github.com/paulranjan694/dsa/tree/master/1773-percentage-of-users-attended-a-contest) |
 | [1908-recyclable-and-low-fat-products](https://github.com/paulranjan694/dsa/tree/master/1908-recyclable-and-low-fat-products) |
 | [2087-confirmation-rate](https://github.com/paulranjan694/dsa/tree/master/2087-confirmation-rate) |
 <!---LeetCode Topics End-->
