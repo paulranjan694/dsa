@@ -1699,6 +1699,7 @@ DSA solutions
 | [0596-classes-with-at-least-5-students](https://github.com/paulranjan694/dsa/tree/master/0596-classes-with-at-least-5-students) |
 | [0620-not-boring-movies](https://github.com/paulranjan694/dsa/tree/master/0620-not-boring-movies) |
 | [1161-project-employees-i](https://github.com/paulranjan694/dsa/tree/master/1161-project-employees-i) |
+| [1182-game-play-analysis-iv](https://github.com/paulranjan694/dsa/tree/master/1182-game-play-analysis-iv) |
 | [1258-article-views-i](https://github.com/paulranjan694/dsa/tree/master/1258-article-views-i) |
 | [1292-immediate-food-delivery-ii](https://github.com/paulranjan694/dsa/tree/master/1292-immediate-food-delivery-ii) |
 | [1317-monthly-transactions-i](https://github.com/paulranjan694/dsa/tree/master/1317-monthly-transactions-i) |
