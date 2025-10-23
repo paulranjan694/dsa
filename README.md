@@ -1699,6 +1699,7 @@ DSA solutions
 | [0596-classes-with-at-least-5-students](https://github.com/paulranjan694/dsa/tree/master/0596-classes-with-at-least-5-students) |
 | [0620-not-boring-movies](https://github.com/paulranjan694/dsa/tree/master/0620-not-boring-movies) |
 | [1258-article-views-i](https://github.com/paulranjan694/dsa/tree/master/1258-article-views-i) |
+| [1390-average-selling-price](https://github.com/paulranjan694/dsa/tree/master/1390-average-selling-price) |
 | [1415-students-and-examinations](https://github.com/paulranjan694/dsa/tree/master/1415-students-and-examinations) |
 | [1908-recyclable-and-low-fat-products](https://github.com/paulranjan694/dsa/tree/master/1908-recyclable-and-low-fat-products) |
 | [2087-confirmation-rate](https://github.com/paulranjan694/dsa/tree/master/2087-confirmation-rate) |
