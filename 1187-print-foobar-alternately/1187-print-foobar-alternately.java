@@ -1,6 +1,6 @@
 class FooBar {
     private int n;
-    private volatile boolean printfoo = true;
+    private boolean printFoo1 = true;
     public FooBar(int n) {
         this.n = n;
     }
@@ -9,15 +9,15 @@ class FooBar {
         
         for (int i = 0; i < n; i++) {
             synchronized(this){
-                while(!printfoo){
+                while(printFoo1 != true){
                     wait();
                 }
-                // printFoo.run() outputs "foo". Do not change or remove this line.
-                printFoo.run();
-                printfoo=false;
-                notify();
 
+        	    printFoo.run();
+                printFoo1 = false;
+                notify();
             }
+        	// printFoo.run() outputs "foo". Do not change or remove this line.
         }
     }
 
@@ -25,15 +25,16 @@ class FooBar {
         
         for (int i = 0; i < n; i++) {
             synchronized(this){
-                while(printfoo){
+                while(printFoo1 != false){
                     wait();
                 }
-                // printBar.run() outputs "bar". Do not change or remove this line.
+
         	    printBar.run();
-                printfoo = true;
+                printFoo1 = true;
                 notify();
             }
-            
+            // printBar.run() outputs "bar". Do not change or remove this line.
+        	
         }
     }
 }
