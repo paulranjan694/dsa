@@ -1710,6 +1710,7 @@ DSA solutions
 | [1390-average-selling-price](https://github.com/paulranjan694/dsa/tree/master/1390-average-selling-price) |
 | [1415-students-and-examinations](https://github.com/paulranjan694/dsa/tree/master/1415-students-and-examinations) |
 | [1773-percentage-of-users-attended-a-contest](https://github.com/paulranjan694/dsa/tree/master/1773-percentage-of-users-attended-a-contest) |
+| [1882-the-number-of-employees-which-report-to-each-employee](https://github.com/paulranjan694/dsa/tree/master/1882-the-number-of-employees-which-report-to-each-employee) |
 | [1908-recyclable-and-low-fat-products](https://github.com/paulranjan694/dsa/tree/master/1908-recyclable-and-low-fat-products) |
 | [2057-count-salary-categories](https://github.com/paulranjan694/dsa/tree/master/2057-count-salary-categories) |
 | [2087-confirmation-rate](https://github.com/paulranjan694/dsa/tree/master/2087-confirmation-rate) |
