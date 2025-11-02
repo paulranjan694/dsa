@@ -434,6 +434,7 @@ DSA solutions
 | [3415-check-if-grid-satisfies-conditions](https://github.com/paulranjan694/dsa/tree/master/3415-check-if-grid-satisfies-conditions) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/paulranjan694/dsa/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/paulranjan694/dsa/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/paulranjan694/dsa/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/paulranjan694/dsa/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/paulranjan694/dsa/tree/master/3759-choose-k-elements-with-maximum-sum) |
 | [3790-fruits-into-baskets-ii](https://github.com/paulranjan694/dsa/tree/master/3790-fruits-into-baskets-ii) |
@@ -555,6 +556,7 @@ DSA solutions
 | [2856-count-complete-subarrays-in-an-array](https://github.com/paulranjan694/dsa/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3034-points-that-intersect-with-cars](https://github.com/paulranjan694/dsa/tree/master/3034-points-that-intersect-with-cars) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/paulranjan694/dsa/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/paulranjan694/dsa/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Stack
 |  |
 | ------- |
@@ -1108,6 +1110,7 @@ DSA solutions
 | [1765-merge-in-between-linked-lists](https://github.com/paulranjan694/dsa/tree/master/1765-merge-in-between-linked-lists) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/paulranjan694/dsa/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2835-split-a-circular-linked-list](https://github.com/paulranjan694/dsa/tree/master/2835-split-a-circular-linked-list) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/paulranjan694/dsa/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Recursion
 |  |
 | ------- |
