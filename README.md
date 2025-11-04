@@ -436,6 +436,7 @@ DSA solutions
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/paulranjan694/dsa/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/paulranjan694/dsa/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/paulranjan694/dsa/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/paulranjan694/dsa/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/paulranjan694/dsa/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/paulranjan694/dsa/tree/master/3759-choose-k-elements-with-maximum-sum) |
 | [3790-fruits-into-baskets-ii](https://github.com/paulranjan694/dsa/tree/master/3790-fruits-into-baskets-ii) |
@@ -558,6 +559,7 @@ DSA solutions
 | [3034-points-that-intersect-with-cars](https://github.com/paulranjan694/dsa/tree/master/3034-points-that-intersect-with-cars) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/paulranjan694/dsa/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/paulranjan694/dsa/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/paulranjan694/dsa/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Stack
 |  |
 | ------- |
@@ -1064,6 +1066,7 @@ DSA solutions
 | [2479-meeting-rooms-iii](https://github.com/paulranjan694/dsa/tree/master/2479-meeting-rooms-iii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/paulranjan694/dsa/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/paulranjan694/dsa/tree/master/2616-maximal-score-after-applying-k-operations) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/paulranjan694/dsa/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/paulranjan694/dsa/tree/master/3759-choose-k-elements-with-maximum-sum) |
 ## Bucket Sort
 |  |
@@ -1531,6 +1534,7 @@ DSA solutions
 | [2856-count-complete-subarrays-in-an-array](https://github.com/paulranjan694/dsa/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/paulranjan694/dsa/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/paulranjan694/dsa/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/paulranjan694/dsa/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Matrix
 |  |
 | ------- |
