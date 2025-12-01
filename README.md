@@ -405,6 +405,7 @@ DSA solutions
 | [2058-concatenation-of-array](https://github.com/paulranjan694/dsa/tree/master/2058-concatenation-of-array) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/paulranjan694/dsa/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/paulranjan694/dsa/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/paulranjan694/dsa/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/paulranjan694/dsa/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2195-time-needed-to-buy-tickets](https://github.com/paulranjan694/dsa/tree/master/2195-time-needed-to-buy-tickets) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/paulranjan694/dsa/tree/master/2210-find-target-indices-after-sorting-array) |
@@ -679,6 +680,7 @@ DSA solutions
 | [2036-count-pairs-in-two-arrays](https://github.com/paulranjan694/dsa/tree/master/2036-count-pairs-in-two-arrays) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/paulranjan694/dsa/tree/master/2042-maximum-product-difference-between-two-pairs) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/paulranjan694/dsa/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/paulranjan694/dsa/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/paulranjan694/dsa/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2327-largest-number-after-digit-swaps-by-parity](https://github.com/paulranjan694/dsa/tree/master/2327-largest-number-after-digit-swaps-by-parity) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/paulranjan694/dsa/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
@@ -892,6 +894,7 @@ DSA solutions
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/paulranjan694/dsa/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1762-furthest-building-you-can-reach](https://github.com/paulranjan694/dsa/tree/master/1762-furthest-building-you-can-reach) |
 | [1917-maximum-average-pass-ratio](https://github.com/paulranjan694/dsa/tree/master/1917-maximum-average-pass-ratio) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/paulranjan694/dsa/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/paulranjan694/dsa/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/paulranjan694/dsa/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/paulranjan694/dsa/tree/master/2469-longest-subsequence-with-limited-sum) |
@@ -1483,6 +1486,7 @@ DSA solutions
 | [1675-magnetic-force-between-two-balls](https://github.com/paulranjan694/dsa/tree/master/1675-magnetic-force-between-two-balls) |
 | [1753-path-with-minimum-effort](https://github.com/paulranjan694/dsa/tree/master/1753-path-with-minimum-effort) |
 | [2036-count-pairs-in-two-arrays](https://github.com/paulranjan694/dsa/tree/master/2036-count-pairs-in-two-arrays) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/paulranjan694/dsa/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/paulranjan694/dsa/tree/master/2210-find-target-indices-after-sorting-array) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/paulranjan694/dsa/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/paulranjan694/dsa/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
