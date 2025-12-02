@@ -438,6 +438,7 @@ DSA solutions
 | [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/paulranjan694/dsa/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/paulranjan694/dsa/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/paulranjan694/dsa/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
+| [3623-count-number-of-trapezoids-i](https://github.com/paulranjan694/dsa/tree/master/3623-count-number-of-trapezoids-i) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/paulranjan694/dsa/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/paulranjan694/dsa/tree/master/3759-choose-k-elements-with-maximum-sum) |
 | [3790-fruits-into-baskets-ii](https://github.com/paulranjan694/dsa/tree/master/3790-fruits-into-baskets-ii) |
@@ -561,6 +562,7 @@ DSA solutions
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/paulranjan694/dsa/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/paulranjan694/dsa/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/paulranjan694/dsa/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
+| [3623-count-number-of-trapezoids-i](https://github.com/paulranjan694/dsa/tree/master/3623-count-number-of-trapezoids-i) |
 ## Stack
 |  |
 | ------- |
@@ -826,6 +828,7 @@ DSA solutions
 | [3030-find-the-k-th-lucky-number](https://github.com/paulranjan694/dsa/tree/master/3030-find-the-k-th-lucky-number) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/paulranjan694/dsa/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/paulranjan694/dsa/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
+| [3623-count-number-of-trapezoids-i](https://github.com/paulranjan694/dsa/tree/master/3623-count-number-of-trapezoids-i) |
 ## Queue
 |  |
 | ------- |
@@ -1505,6 +1508,7 @@ DSA solutions
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
+| [3623-count-number-of-trapezoids-i](https://github.com/paulranjan694/dsa/tree/master/3623-count-number-of-trapezoids-i) |
 ## Sliding Window
 |  |
 | ------- |
