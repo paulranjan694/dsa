@@ -2,18 +2,16 @@ class Solution {
     public long getDescentPeriods(int[] prices) {
         int n = prices.length;
         long ans = (long)n;
-        long[] dp = new long[n];
+        long streak=0;
         for(int i=1;i<n;i++){
-            int t=0;
             if(prices[i]-prices[i-1] == -1){
-                t=1;
+                streak += 1;
+            }else{
+                streak=0;
             }
-            if(t>0)
-                dp[i] = dp[i-1]+t;
+            ans+=streak;
         }
-        for(long e : dp){
-            ans += e;
-        }
+        
         return ans;
     }
 }
