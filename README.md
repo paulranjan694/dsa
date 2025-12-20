@@ -340,6 +340,7 @@ DSA solutions
 | [0921-spiral-matrix-iii](https://github.com/paulranjan694/dsa/tree/master/0921-spiral-matrix-iii) |
 | [0932-monotonic-array](https://github.com/paulranjan694/dsa/tree/master/0932-monotonic-array) |
 | [0940-fruit-into-baskets](https://github.com/paulranjan694/dsa/tree/master/0940-fruit-into-baskets) |
+| [0944-delete-columns-to-make-sorted](https://github.com/paulranjan694/dsa/tree/master/0944-delete-columns-to-make-sorted) |
 | [0958-sort-array-by-parity-ii](https://github.com/paulranjan694/dsa/tree/master/0958-sort-array-by-parity-ii) |
 | [0966-binary-subarrays-with-sum](https://github.com/paulranjan694/dsa/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/paulranjan694/dsa/tree/master/0967-minimum-falling-path-sum) |
@@ -767,6 +768,7 @@ DSA solutions
 | [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
 | [0800-letter-case-permutation](https://github.com/paulranjan694/dsa/tree/master/0800-letter-case-permutation) |
 | [0807-custom-sort-string](https://github.com/paulranjan694/dsa/tree/master/0807-custom-sort-string) |
+| [0944-delete-columns-to-make-sorted](https://github.com/paulranjan694/dsa/tree/master/0944-delete-columns-to-make-sorted) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/paulranjan694/dsa/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1129-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/paulranjan694/dsa/tree/master/1170-shortest-common-supersequence) |
