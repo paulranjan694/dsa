@@ -2,26 +2,19 @@ class Solution {
     public int rob(int[] nums) {
         int n = nums.length;
         int[] dp = new int[n];
-        dp[0] = nums[0];
-        for(int i=1;i<n;i++){
-            int take=nums[i];
-            if(i>1) take += dp[i-2];
-            int nottake = dp[i-1];
-            dp[i] = Math.max(take, nottake);
-        }
-        return dp[n-1];
+        Arrays.fill(dp,-1);
+        return utils(nums, n-1,dp);
     }
 
-    public int rob2(int[] nums) {
-        int n = nums.length;
-        return utils(nums,n-1);
-    }
+    private int utils(int[] nums, int idx, int[] dp){
+        if(idx==0) return nums[0];
+        if(dp[idx] != -1) return dp[idx];
+        int take = nums[idx];
+        if(idx-2 >= 0) take += utils(nums,idx-2,dp);
 
-    private int utils(int[] nums, int idx){
-        if(idx<0) return 0;
-        if(idx==0) return nums[idx];
-        int take = nums[idx] + utils(nums,idx-2);
-        int nottake = utils(nums,idx-1);
-        return Math.max(take,nottake);
+        int nottake = 0;
+        if(idx-1 >= 0) nottake = utils(nums, idx-1,dp);
+
+        return dp[idx]=Math.max(take,nottake);
     }
 }
