@@ -398,6 +398,7 @@ DSA solutions
 | [1753-path-with-minimum-effort](https://github.com/paulranjan694/dsa/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/paulranjan694/dsa/tree/master/1762-furthest-building-you-can-reach) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/paulranjan694/dsa/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [1901-find-a-peak-element-ii](https://github.com/paulranjan694/dsa/tree/master/1901-find-a-peak-element-ii) |
 | [1917-maximum-average-pass-ratio](https://github.com/paulranjan694/dsa/tree/master/1917-maximum-average-pass-ratio) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/paulranjan694/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2036-count-pairs-in-two-arrays](https://github.com/paulranjan694/dsa/tree/master/2036-count-pairs-in-two-arrays) |
@@ -1505,6 +1506,7 @@ DSA solutions
 | [1646-kth-missing-positive-number](https://github.com/paulranjan694/dsa/tree/master/1646-kth-missing-positive-number) |
 | [1675-magnetic-force-between-two-balls](https://github.com/paulranjan694/dsa/tree/master/1675-magnetic-force-between-two-balls) |
 | [1753-path-with-minimum-effort](https://github.com/paulranjan694/dsa/tree/master/1753-path-with-minimum-effort) |
+| [1901-find-a-peak-element-ii](https://github.com/paulranjan694/dsa/tree/master/1901-find-a-peak-element-ii) |
 | [2036-count-pairs-in-two-arrays](https://github.com/paulranjan694/dsa/tree/master/2036-count-pairs-in-two-arrays) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/paulranjan694/dsa/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2210-find-target-indices-after-sorting-array](https://github.com/paulranjan694/dsa/tree/master/2210-find-target-indices-after-sorting-array) |
@@ -1594,6 +1596,7 @@ DSA solutions
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/paulranjan694/dsa/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1628-count-submatrices-with-all-ones](https://github.com/paulranjan694/dsa/tree/master/1628-count-submatrices-with-all-ones) |
 | [1753-path-with-minimum-effort](https://github.com/paulranjan694/dsa/tree/master/1753-path-with-minimum-effort) |
+| [1901-find-a-peak-element-ii](https://github.com/paulranjan694/dsa/tree/master/1901-find-a-peak-element-ii) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/paulranjan694/dsa/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/paulranjan694/dsa/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/paulranjan694/dsa/tree/master/3415-check-if-grid-satisfies-conditions) |
