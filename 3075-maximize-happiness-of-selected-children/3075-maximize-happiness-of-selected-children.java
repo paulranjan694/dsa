@@ -1,21 +1,14 @@
 class Solution {
     public long maximumHappinessSum(int[] happiness, int k) {
         int n = happiness.length;
-        Integer[] arr = new Integer[n];
-
-        for(int i=0;i<n;i++){
-            arr[i] = happiness[i];
-        }
-
-        Arrays.sort(arr, (Integer a, Integer b) -> Integer.compare(b, a));
-
         long ans=0;
         int pick=0;
-        while(k>0){
-            
-            ans += Math.max(arr[pick] - pick,0);
+
+        Arrays.sort(happiness);
+
+        for(int i = n-1;i>=0 && pick < k;i--){
+            ans += Math.max(happiness[i]-pick,0);
             pick++;
-            k--;
         }
 
         
