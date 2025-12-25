@@ -435,6 +435,7 @@ DSA solutions
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/paulranjan694/dsa/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3034-points-that-intersect-with-cars](https://github.com/paulranjan694/dsa/tree/master/3034-points-that-intersect-with-cars) |
 | [3074-apple-redistribution-into-boxes](https://github.com/paulranjan694/dsa/tree/master/3074-apple-redistribution-into-boxes) |
+| [3075-maximize-happiness-of-selected-children](https://github.com/paulranjan694/dsa/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/paulranjan694/dsa/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/paulranjan694/dsa/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/paulranjan694/dsa/tree/master/3415-check-if-grid-satisfies-conditions) |
@@ -702,6 +703,7 @@ DSA solutions
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/paulranjan694/dsa/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/paulranjan694/dsa/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3074-apple-redistribution-into-boxes](https://github.com/paulranjan694/dsa/tree/master/3074-apple-redistribution-into-boxes) |
+| [3075-maximize-happiness-of-selected-children](https://github.com/paulranjan694/dsa/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/paulranjan694/dsa/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/paulranjan694/dsa/tree/master/3759-choose-k-elements-with-maximum-sum) |
 ## Counting
@@ -916,6 +918,7 @@ DSA solutions
 | [2616-maximal-score-after-applying-k-operations](https://github.com/paulranjan694/dsa/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/paulranjan694/dsa/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [3074-apple-redistribution-into-boxes](https://github.com/paulranjan694/dsa/tree/master/3074-apple-redistribution-into-boxes) |
+| [3075-maximize-happiness-of-selected-children](https://github.com/paulranjan694/dsa/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/paulranjan694/dsa/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/paulranjan694/dsa/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/paulranjan694/dsa/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
