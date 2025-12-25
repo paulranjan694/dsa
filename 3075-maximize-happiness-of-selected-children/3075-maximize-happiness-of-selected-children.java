@@ -7,7 +7,9 @@ class Solution {
         Arrays.sort(happiness);
 
         for(int i = n-1;i>=0 && pick < k;i--){
-            ans += Math.max(happiness[i]-pick,0);
+            int val = happiness[i]-pick;
+            if(val <= 0) break;
+            ans += val;
             pick++;
         }
 
