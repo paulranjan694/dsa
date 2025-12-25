@@ -12,12 +12,13 @@ class Solution {
         long ans=0;
         int pick=0;
         while(k>0){
-            if(arr[pick] > 1*pick){
-                ans += (arr[pick] - (1*pick));
-            }
+            
+            ans += Math.max(arr[pick] - pick,0);
             pick++;
             k--;
         }
+
+        
         return ans;
     }
 }
