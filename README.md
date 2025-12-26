@@ -382,6 +382,7 @@ DSA solutions
 | [1483-rank-teams-by-votes](https://github.com/paulranjan694/dsa/tree/master/1483-rank-teams-by-votes) |
 | [1486-find-the-distance-value-between-two-arrays](https://github.com/paulranjan694/dsa/tree/master/1486-find-the-distance-value-between-two-arrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/paulranjan694/dsa/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1539-kth-missing-positive-number](https://github.com/paulranjan694/dsa/tree/master/1539-kth-missing-positive-number) |
 | [1547-destination-city](https://github.com/paulranjan694/dsa/tree/master/1547-destination-city) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/paulranjan694/dsa/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/paulranjan694/dsa/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -1503,6 +1504,7 @@ DSA solutions
 | [1468-check-if-n-and-its-double-exist](https://github.com/paulranjan694/dsa/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/paulranjan694/dsa/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1486-find-the-distance-value-between-two-arrays](https://github.com/paulranjan694/dsa/tree/master/1486-find-the-distance-value-between-two-arrays) |
+| [1539-kth-missing-positive-number](https://github.com/paulranjan694/dsa/tree/master/1539-kth-missing-positive-number) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/paulranjan694/dsa/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/paulranjan694/dsa/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1646-kth-missing-positive-number](https://github.com/paulranjan694/dsa/tree/master/1646-kth-missing-positive-number) |
