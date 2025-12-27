@@ -29,7 +29,7 @@ class Solution {
         }
 
         for(int idx=1;idx<n;idx++){
-            for(int tar = 0;tar <= target;tar++){
+            for(int tar = 1;tar <= target;tar++){
                 boolean take= false;
                 if(nums[idx] <= tar){
                     take = dp[idx-1][tar-nums[idx]];
