@@ -8,8 +8,12 @@ class Solution {
             }else{
                 count += (m-c-1);
                 r++;
-               
+                if(c<0) break;
             }
+        }
+
+        if(c<0){
+            count += (n-r)*m;
         }
         return count;
     }
