@@ -1,33 +1,51 @@
 class Solution {
     public int coinChange(int[] coins, int amount) {
         int n = coins.length;
-        int[][] dp = new int[n+1][amount+1];
+        int[] dp = new int[amount+1];
 
-        //base cond - amount > 0 and no coins left
-        for(int a=1;a<=amount;a++){
-            dp[n][a] = Integer.MAX_VALUE;
-        }
-
-        //base cond - amount = 0
-        for(int i = 0;i<n+1;i++){
-            dp[i][0] = 0;
-        }
-
-        for(int i = n-1;i>=0;i--){
-            for(int a = 1;a<=amount;a++){
-                int taken = Integer.MAX_VALUE;
-                if(a >= coins[i]){
-                    taken = dp[i][a-coins[i]];
-                    if(taken != Integer.MAX_VALUE){
-                        taken += 1;
-                    }
-                }
-                
-                int nottaken = dp[i+1][a];
-                dp[i][a] = Math.min(taken, nottaken);
+        //base
+        for(int i=0;i<=amount;i++){
+            if(i%coins[0]==0){
+                dp[i] = i/coins[0];
+            }else{
+                dp[i] = amount+1;
             }
         }
 
-        return dp[0][amount] == Integer.MAX_VALUE ? -1 : dp[0][amount];
+        for(int i=1;i<n;i++){
+             int[] prev= new int[amount+1];
+            for(int a=0;a<=amount;a++){
+                int take = Integer.MAX_VALUE;
+                if(coins[i] <= a){
+                    take = prev[a - coins[i]] + 1;
+                }
+
+                int notTake = dp[a];
+
+                prev[a] = Math.min(take,notTake);
+            }
+            dp = prev;
+        }
+
+        return dp[amount] > amount ? -1 : dp[amount];
+    }
+
+    private int utils(int[] coins, int amount, int idx){
+        //base
+        if(idx==0){
+            if(amount % coins[0] == 0){
+                return amount/coins[0];
+            }
+            return -1;
+        }
+
+        int take = Integer.MAX_VALUE;
+        if(amount - coins[idx] >= 0){
+            take = utils(coins, amount - coins[idx], idx) + 1;
+        }
+
+        int notTake = utils(coins, amount, idx-1);
+
+        return Math.min(take,notTake);
     }
 }
