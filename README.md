@@ -1013,6 +1013,7 @@ DSA solutions
 | [1236-n-th-tribonacci-number](https://github.com/paulranjan694/dsa/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/paulranjan694/dsa/tree/master/1250-longest-common-subsequence) |
 | [1289-minimum-falling-path-sum-ii](https://github.com/paulranjan694/dsa/tree/master/1289-minimum-falling-path-sum-ii) |
+| [1411-number-of-ways-to-paint-n-3-grid](https://github.com/paulranjan694/dsa/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/paulranjan694/dsa/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1628-count-submatrices-with-all-ones](https://github.com/paulranjan694/dsa/tree/master/1628-count-submatrices-with-all-ones) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/paulranjan694/dsa/tree/master/1700-minimum-time-to-make-rope-colorful) |
