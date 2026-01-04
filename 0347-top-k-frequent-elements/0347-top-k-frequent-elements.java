@@ -1,26 +1,32 @@
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
-        Map<Integer,Integer> frequencyMap = new HashMap<>();
+        Map<Integer,Integer> hash = new HashMap<>();
 
         for(int num : nums){
-            frequencyMap.put(num,frequencyMap.getOrDefault(num,0)+1);
+            hash.put(num, hash.getOrDefault(num,0)+1);
         }
 
-       Queue<int[]> minHeap = new PriorityQueue<>((int[] a, int[] b) -> a[1]-b[1]);
+        PriorityQueue<Pair<Integer,Integer>> heap = new PriorityQueue<>((Pair<Integer,Integer> a, Pair<Integer,Integer> b) -> Integer.compare((int)a.getValue(),(int)b.getValue()));
 
-        for(Map.Entry<Integer,Integer> entry : frequencyMap.entrySet()){
-            int[] pair = new int[]{entry.getKey(),entry.getValue()};
-            minHeap.add(pair);
-            if(minHeap.size()>k){
-                minHeap.poll();
+        for(Map.Entry<Integer,Integer> entry : hash.entrySet()){
+            int key = entry.getKey();
+            int value = entry.getValue();
+
+            Pair<Integer,Integer> p = new Pair<Integer,Integer>(key,value);
+
+            heap.add(p);
+
+            if(heap.size() > k){
+                heap.poll();
             }
         }
 
-        int[] finalResult = new int[k];
-        for(int i=0;i<k;i++){
-            int[] pair = minHeap.poll();
-            finalResult[i] = pair[0];
+        int[] res = new int[k];
+        int idx=0;
+        while(!heap.isEmpty()){
+            Pair<Integer,Integer> pair = heap.poll();
+            res[idx++] = pair.getKey();
         }
-        return finalResult;
+        return res;
     }
 }
