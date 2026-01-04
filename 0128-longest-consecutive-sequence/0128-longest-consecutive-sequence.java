@@ -12,8 +12,8 @@ class Solution {
                 int currentStreak = 0;
                 int currNum = num;
                 while(seen.contains(currNum)){
-                    currentStreak++;
-                    currNum++;
+                    currentStreak += 1;
+                    currNum += 1;
                 }
                 maxSeq = Math.max(currentStreak,maxSeq);
             }
