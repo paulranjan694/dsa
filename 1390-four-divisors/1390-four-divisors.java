@@ -14,6 +14,7 @@ class Solution {
                     }
                     divCount++;
 
+                    if(divCount > 4) break;
                 
                 }
             }
