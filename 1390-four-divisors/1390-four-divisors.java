@@ -4,7 +4,7 @@ class Solution {
 
         for(int num : nums){
             int divSum=0,divCount=0;
-            for(int div = 1; div <= Math.sqrt(num);div++){
+            for(int div = 1; div*div <= num;div++){
                 if(num % div == 0){
                     divSum += div;
                     int q = num/div;
@@ -13,6 +13,8 @@ class Solution {
                         divCount++;
                     }
                     divCount++;
+
+                
                 }
             }
 
