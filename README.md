@@ -407,6 +407,7 @@ DSA solutions
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/paulranjan694/dsa/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1901-find-a-peak-element-ii](https://github.com/paulranjan694/dsa/tree/master/1901-find-a-peak-element-ii) |
 | [1917-maximum-average-pass-ratio](https://github.com/paulranjan694/dsa/tree/master/1917-maximum-average-pass-ratio) |
+| [1975-maximum-matrix-sum](https://github.com/paulranjan694/dsa/tree/master/1975-maximum-matrix-sum) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/paulranjan694/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2036-count-pairs-in-two-arrays](https://github.com/paulranjan694/dsa/tree/master/2036-count-pairs-in-two-arrays) |
 | [2042-maximum-product-difference-between-two-pairs](https://github.com/paulranjan694/dsa/tree/master/2042-maximum-product-difference-between-two-pairs) |
@@ -923,6 +924,7 @@ DSA solutions
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/paulranjan694/dsa/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1762-furthest-building-you-can-reach](https://github.com/paulranjan694/dsa/tree/master/1762-furthest-building-you-can-reach) |
 | [1917-maximum-average-pass-ratio](https://github.com/paulranjan694/dsa/tree/master/1917-maximum-average-pass-ratio) |
+| [1975-maximum-matrix-sum](https://github.com/paulranjan694/dsa/tree/master/1975-maximum-matrix-sum) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/paulranjan694/dsa/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/paulranjan694/dsa/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/paulranjan694/dsa/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
@@ -1617,6 +1619,7 @@ DSA solutions
 | [1628-count-submatrices-with-all-ones](https://github.com/paulranjan694/dsa/tree/master/1628-count-submatrices-with-all-ones) |
 | [1753-path-with-minimum-effort](https://github.com/paulranjan694/dsa/tree/master/1753-path-with-minimum-effort) |
 | [1901-find-a-peak-element-ii](https://github.com/paulranjan694/dsa/tree/master/1901-find-a-peak-element-ii) |
+| [1975-maximum-matrix-sum](https://github.com/paulranjan694/dsa/tree/master/1975-maximum-matrix-sum) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/paulranjan694/dsa/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/paulranjan694/dsa/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/paulranjan694/dsa/tree/master/3415-check-if-grid-satisfies-conditions) |
