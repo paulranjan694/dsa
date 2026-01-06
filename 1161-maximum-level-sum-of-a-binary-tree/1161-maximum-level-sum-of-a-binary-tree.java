@@ -20,7 +20,7 @@ class Solution {
         int currLevel = 1, maxSum=Integer.MIN_VALUE;
 
         Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
+        queue.offer(root);
         while(!queue.isEmpty()){
             int size = queue.size(), sum=0;
             while(size-- > 0){
@@ -28,11 +28,11 @@ class Solution {
                 sum += node.val;
 
                 if(node.left != null){
-                    queue.add(node.left);
+                    queue.offer(node.left);
                 }
 
                 if(node.right != null){
-                    queue.add(node.right);
+                    queue.offer(node.right);
                 }
             }
 
