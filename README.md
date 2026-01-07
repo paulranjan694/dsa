@@ -1295,6 +1295,7 @@ DSA solutions
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/paulranjan694/dsa/tree/master/1207-delete-nodes-and-return-forest) |
 | [1285-balance-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/1285-balance-a-binary-search-tree) |
+| [1339-maximum-product-of-splitted-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1484-linked-list-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/paulranjan694/dsa/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
@@ -1357,6 +1358,7 @@ DSA solutions
 | [1207-delete-nodes-and-return-forest](https://github.com/paulranjan694/dsa/tree/master/1207-delete-nodes-and-return-forest) |
 | [1271-web-crawler](https://github.com/paulranjan694/dsa/tree/master/1271-web-crawler) |
 | [1285-balance-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/1285-balance-a-binary-search-tree) |
+| [1339-maximum-product-of-splitted-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1368-web-crawler-multithreaded](https://github.com/paulranjan694/dsa/tree/master/1368-web-crawler-multithreaded) |
 | [1484-linked-list-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1484-linked-list-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -1412,6 +1414,7 @@ DSA solutions
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1207-delete-nodes-and-return-forest](https://github.com/paulranjan694/dsa/tree/master/1207-delete-nodes-and-return-forest) |
 | [1285-balance-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/1285-balance-a-binary-search-tree) |
+| [1339-maximum-product-of-splitted-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1484-linked-list-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/paulranjan694/dsa/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
