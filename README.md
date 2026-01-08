@@ -381,6 +381,7 @@ DSA solutions
 | [1390-four-divisors](https://github.com/paulranjan694/dsa/tree/master/1390-four-divisors) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/paulranjan694/dsa/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/paulranjan694/dsa/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/paulranjan694/dsa/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/paulranjan694/dsa/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/paulranjan694/dsa/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/paulranjan694/dsa/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
@@ -1019,6 +1020,7 @@ DSA solutions
 | [1289-minimum-falling-path-sum-ii](https://github.com/paulranjan694/dsa/tree/master/1289-minimum-falling-path-sum-ii) |
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/paulranjan694/dsa/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/paulranjan694/dsa/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1458-max-dot-product-of-two-subsequences](https://github.com/paulranjan694/dsa/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1628-count-submatrices-with-all-ones](https://github.com/paulranjan694/dsa/tree/master/1628-count-submatrices-with-all-ones) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/paulranjan694/dsa/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/paulranjan694/dsa/tree/master/2090-number-of-ways-to-arrive-at-destination) |
