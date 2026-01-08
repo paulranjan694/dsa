@@ -1,31 +1,30 @@
 class Solution {
+    private final int NEG = Integer.MIN_VALUE/2;
     public int maxDotProduct(int[] nums1, int[] nums2) {
         int n = nums1.length, m=nums2.length;
-        int[][] dp = new int[n+1][m+1];
-        
-        for(int i=0;i<=n;i++){
-            dp[i][m] = -1_000_000_00;
+        if(m>n){
+            return maxDotProduct(nums2, nums1);
         }
-
+        int[] dp = new int[m+1];
+        
         for(int i=0;i<=m;i++){
-            dp[n][i] = -1_000_000_00;
+            dp[i] = NEG;
         }
 
         for(int i = n-1;i>=0;i--){
+            int[] curr = new int[m+1];
+            curr[m] = NEG;
             for(int j=m-1;j>=0;j--){
-                int max = nums1[i] * nums2[j];
-                int takeBoth =  dp[i+1][j+1];
-                int take_i_j = (nums1[i] * nums2[j]);
-                if(takeBoth != -1_000_000_00){
-                    take_i_j += takeBoth;
-                }
-                int take_i = dp[i][j+1];
-                int take_j = dp[i+1][j];
-                dp[i][j]=Math.max(Math.max(max, take_i_j), Math.max(take_i, take_j));
+                int max = nums1[i] * nums2[j]; 
+                int take_i_j = max + dp[j+1];
+                int take_i = curr[j+1];
+                int take_j = dp[j];
+                curr[j]=Math.max(Math.max(max, take_i_j), Math.max(take_i, take_j));
             }
+            dp = curr;
         }
 
-        return dp[0][0];
+        return dp[0];
     }
 
     private int utils(int[] nums1, int[] nums2, int n, int m, int i, int j, int[][] dp){
