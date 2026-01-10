@@ -372,6 +372,7 @@ DSA solutions
 | [1184-car-pooling](https://github.com/paulranjan694/dsa/tree/master/1184-car-pooling) |
 | [1207-delete-nodes-and-return-forest](https://github.com/paulranjan694/dsa/tree/master/1207-delete-nodes-and-return-forest) |
 | [1232-sum-of-mutated-array-closest-to-target](https://github.com/paulranjan694/dsa/tree/master/1232-sum-of-mutated-array-closest-to-target) |
+| [1248-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1248-count-number-of-nice-subarrays) |
 | [1280-diet-plan-performance](https://github.com/paulranjan694/dsa/tree/master/1280-diet-plan-performance) |
 | [1289-minimum-falling-path-sum-ii](https://github.com/paulranjan694/dsa/tree/master/1289-minimum-falling-path-sum-ii) |
 | [1293-three-consecutive-odds](https://github.com/paulranjan694/dsa/tree/master/1293-three-consecutive-odds) |
@@ -479,6 +480,7 @@ DSA solutions
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/paulranjan694/dsa/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1046-max-consecutive-ones-iii](https://github.com/paulranjan694/dsa/tree/master/1046-max-consecutive-ones-iii) |
 | [1184-car-pooling](https://github.com/paulranjan694/dsa/tree/master/1184-car-pooling) |
+| [1248-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1248-count-number-of-nice-subarrays) |
 | [1370-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1370-count-number-of-nice-subarrays) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/paulranjan694/dsa/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/paulranjan694/dsa/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -563,6 +565,7 @@ DSA solutions
 | [1129-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1129-longest-string-chain) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/paulranjan694/dsa/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1207-delete-nodes-and-return-forest](https://github.com/paulranjan694/dsa/tree/master/1207-delete-nodes-and-return-forest) |
+| [1248-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1248-count-number-of-nice-subarrays) |
 | [1297-maximum-number-of-balloons](https://github.com/paulranjan694/dsa/tree/master/1297-maximum-number-of-balloons) |
 | [1319-unique-number-of-occurrences](https://github.com/paulranjan694/dsa/tree/master/1319-unique-number-of-occurrences) |
 | [1370-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1370-count-number-of-nice-subarrays) |
@@ -849,6 +852,7 @@ DSA solutions
 | [1013-fibonacci-number](https://github.com/paulranjan694/dsa/tree/master/1013-fibonacci-number) |
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1236-n-th-tribonacci-number](https://github.com/paulranjan694/dsa/tree/master/1236-n-th-tribonacci-number) |
+| [1248-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1248-count-number-of-nice-subarrays) |
 | [1370-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1370-count-number-of-nice-subarrays) |
 | [1390-four-divisors](https://github.com/paulranjan694/dsa/tree/master/1390-four-divisors) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/paulranjan694/dsa/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
@@ -1599,6 +1603,7 @@ DSA solutions
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/paulranjan694/dsa/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1046-max-consecutive-ones-iii](https://github.com/paulranjan694/dsa/tree/master/1046-max-consecutive-ones-iii) |
 | [1107-minimum-swaps-to-group-all-1s-together](https://github.com/paulranjan694/dsa/tree/master/1107-minimum-swaps-to-group-all-1s-together) |
+| [1248-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1248-count-number-of-nice-subarrays) |
 | [1280-diet-plan-performance](https://github.com/paulranjan694/dsa/tree/master/1280-diet-plan-performance) |
 | [1370-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/paulranjan694/dsa/tree/master/1460-number-of-substrings-containing-all-three-characters) |
