@@ -798,6 +798,7 @@ DSA solutions
 | [0944-delete-columns-to-make-sorted](https://github.com/paulranjan694/dsa/tree/master/0944-delete-columns-to-make-sorted) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/paulranjan694/dsa/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1129-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1129-longest-string-chain) |
+| [1143-longest-common-subsequence](https://github.com/paulranjan694/dsa/tree/master/1143-longest-common-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/paulranjan694/dsa/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/paulranjan694/dsa/tree/master/1250-longest-common-subsequence) |
 | [1271-web-crawler](https://github.com/paulranjan694/dsa/tree/master/1271-web-crawler) |
@@ -1027,6 +1028,7 @@ DSA solutions
 | [0967-minimum-falling-path-sum](https://github.com/paulranjan694/dsa/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/paulranjan694/dsa/tree/master/1013-fibonacci-number) |
 | [1129-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1129-longest-string-chain) |
+| [1143-longest-common-subsequence](https://github.com/paulranjan694/dsa/tree/master/1143-longest-common-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/paulranjan694/dsa/tree/master/1170-shortest-common-supersequence) |
 | [1236-n-th-tribonacci-number](https://github.com/paulranjan694/dsa/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/paulranjan694/dsa/tree/master/1250-longest-common-subsequence) |
