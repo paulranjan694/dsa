@@ -14,7 +14,7 @@ class Solution {
         if(dp[i][j] != -1) return dp[i][j];
 
         if(text1.charAt(i) == text2.charAt(j)){
-            return utils(text1, text2, i-1, j-1,dp) + 1;
+            return dp[i][j] = utils(text1, text2, i-1, j-1,dp) + 1;
         }
 
         return dp[i][j]=Math.max(utils(text1, text2, i-1, j,dp), utils(text1, text2, i, j-1,dp));
