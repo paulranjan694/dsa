@@ -8,26 +8,18 @@ class Solution {
     }
 
     private void utils(int[] arr, int tar, int idx, List<List<Integer>> res, List<Integer> ds){
-        if(idx<0) return;
-        if(idx==0){
-            if(arr[idx]==tar){
-                List<Integer> list = new ArrayList<>(ds);
-                list.add(arr[idx]);
-                res.add(list);
-                return;
-            }
-        }
+    
 
         if(tar == 0){
-            List<Integer> list = new ArrayList<>(ds);
-            res.add(list);
+            res.add(new ArrayList<>(ds));
             return;
         }
+
+        if(tar < 0 || idx < 0) return;
 
         if(tar-arr[idx] >= 0){
             ds.add(arr[idx]);
             utils(arr, tar-arr[idx], idx, res, ds);
-
             ds.remove(ds.size()-1);
         }
 
