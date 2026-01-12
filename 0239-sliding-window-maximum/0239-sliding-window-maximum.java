@@ -8,7 +8,7 @@ class Solution {
             while(!dq.isEmpty() && arr[i] > arr[dq.peekLast()]){
                 dq.pollLast();
             }
-            dq.addLast(i);
+            dq.add(i);
         }
         
         res.add(arr[dq.peekFirst()]);
