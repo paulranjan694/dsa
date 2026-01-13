@@ -456,6 +456,7 @@ DSA solutions
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/paulranjan694/dsa/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/paulranjan694/dsa/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/paulranjan694/dsa/tree/master/3415-check-if-grid-satisfies-conditions) |
+| [3453-separate-squares-i](https://github.com/paulranjan694/dsa/tree/master/3453-separate-squares-i) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/paulranjan694/dsa/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/paulranjan694/dsa/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/paulranjan694/dsa/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -1580,6 +1581,7 @@ DSA solutions
 | [2699-count-the-number-of-fair-pairs](https://github.com/paulranjan694/dsa/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/paulranjan694/dsa/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/paulranjan694/dsa/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
+| [3453-separate-squares-i](https://github.com/paulranjan694/dsa/tree/master/3453-separate-squares-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/paulranjan694/dsa/tree/master/3790-fruits-into-baskets-ii) |
 ## Data Stream
 |  |
