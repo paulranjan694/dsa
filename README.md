@@ -330,6 +330,7 @@ DSA solutions
 | [0739-daily-temperatures](https://github.com/paulranjan694/dsa/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0747-min-cost-climbing-stairs) |
 | [0797-rabbits-in-forest](https://github.com/paulranjan694/dsa/tree/master/0797-rabbits-in-forest) |
+| [0860-lemonade-change](https://github.com/paulranjan694/dsa/tree/master/0860-lemonade-change) |
 | [0861-flipping-an-image](https://github.com/paulranjan694/dsa/tree/master/0861-flipping-an-image) |
 | [0870-magic-squares-in-grid](https://github.com/paulranjan694/dsa/tree/master/0870-magic-squares-in-grid) |
 | [0876-hand-of-straights](https://github.com/paulranjan694/dsa/tree/master/0876-hand-of-straights) |
@@ -937,6 +938,7 @@ DSA solutions
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/paulranjan694/dsa/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
 | [0797-rabbits-in-forest](https://github.com/paulranjan694/dsa/tree/master/0797-rabbits-in-forest) |
+| [0860-lemonade-change](https://github.com/paulranjan694/dsa/tree/master/0860-lemonade-change) |
 | [0876-hand-of-straights](https://github.com/paulranjan694/dsa/tree/master/0876-hand-of-straights) |
 | [0887-minimum-cost-to-hire-k-workers](https://github.com/paulranjan694/dsa/tree/master/0887-minimum-cost-to-hire-k-workers) |
 | [0890-lemonade-change](https://github.com/paulranjan694/dsa/tree/master/0890-lemonade-change) |
