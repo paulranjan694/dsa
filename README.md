@@ -805,6 +805,7 @@ DSA solutions
 | [0800-letter-case-permutation](https://github.com/paulranjan694/dsa/tree/master/0800-letter-case-permutation) |
 | [0807-custom-sort-string](https://github.com/paulranjan694/dsa/tree/master/0807-custom-sort-string) |
 | [0944-delete-columns-to-make-sorted](https://github.com/paulranjan694/dsa/tree/master/0944-delete-columns-to-make-sorted) |
+| [1092-shortest-common-supersequence](https://github.com/paulranjan694/dsa/tree/master/1092-shortest-common-supersequence) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/paulranjan694/dsa/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1129-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1129-longest-string-chain) |
 | [1143-longest-common-subsequence](https://github.com/paulranjan694/dsa/tree/master/1143-longest-common-subsequence) |
@@ -1040,6 +1041,7 @@ DSA solutions
 | [0931-minimum-falling-path-sum](https://github.com/paulranjan694/dsa/tree/master/0931-minimum-falling-path-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/paulranjan694/dsa/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/paulranjan694/dsa/tree/master/1013-fibonacci-number) |
+| [1092-shortest-common-supersequence](https://github.com/paulranjan694/dsa/tree/master/1092-shortest-common-supersequence) |
 | [1129-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1129-longest-string-chain) |
 | [1143-longest-common-subsequence](https://github.com/paulranjan694/dsa/tree/master/1143-longest-common-subsequence) |
 | [1170-shortest-common-supersequence](https://github.com/paulranjan694/dsa/tree/master/1170-shortest-common-supersequence) |
