@@ -1,11 +1,14 @@
 class Solution {
-
     public int numDistinct(String s, String t) {
         int n = s.length(), m = t.length();
         int[][] dp = new int[n+1][m+1];
-        //base case 
-        for(int i=0;i<=n;i++) dp[i][0] = 1;//0th col
-        for(int i=1;i<=m;i++) dp[0][i] = 0;//0th row
+
+        for(int i=0;i<=n;i++){
+            dp[i][0]=1;
+            // if(s.charAt(i-1) == t.charAt(0)){
+            //     dp[i][0] = 1;
+            // }
+        }
 
         for(int i=1;i<=n;i++){
             for(int j=1;j<=m;j++){
@@ -20,22 +23,15 @@ class Solution {
         return dp[n][m];
     }
 
-    //memoization
-    public int numDistinct2(String s, String t) {
-        int n = s.length(), m = t.length();
-        int[][] dp = new int[n+1][m+1];
-        for(int[] row:dp) Arrays.fill(row,-1);
-        return utils(s,t,n,m,dp);
-    }
-
-    private int utils(String s, String t, int n, int m, int[][] dp){
+    private int solve(String s, String t, int i, int j){
         //base case
-        if(m <= 0) return 1; //exhausted string t
-        if(n<=0) return 0; // string s exhausted
-        if(dp[n][m] != -1) return dp[n][m];
-        if(s.charAt(n-1) == t.charAt(m-1)){
-            return dp[n][m] = utils(s,t,n-1,m-1,dp) + utils(s,t,n-1,m,dp);
+        if(j<0) return 1;
+        if(i<0) return 0;
+
+        if(s.charAt(i) == t.charAt(j)){
+            return solve(s, t, i-1, j-1) + solve(s, t, i-1, j);
         }
-        return dp[n][m] = utils(s,t,n-1,m,dp);
+        return solve(s, t, i-1, j);
+        
     }
 }
