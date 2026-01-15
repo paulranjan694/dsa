@@ -451,6 +451,7 @@ DSA solutions
 | [2727-number-of-senior-citizens](https://github.com/paulranjan694/dsa/tree/master/2727-number-of-senior-citizens) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/paulranjan694/dsa/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/paulranjan694/dsa/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
+| [2943-maximize-area-of-square-hole-in-grid](https://github.com/paulranjan694/dsa/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [3034-points-that-intersect-with-cars](https://github.com/paulranjan694/dsa/tree/master/3034-points-that-intersect-with-cars) |
 | [3074-apple-redistribution-into-boxes](https://github.com/paulranjan694/dsa/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/paulranjan694/dsa/tree/master/3075-maximize-happiness-of-selected-children) |
@@ -733,6 +734,7 @@ DSA solutions
 | [2699-count-the-number-of-fair-pairs](https://github.com/paulranjan694/dsa/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/paulranjan694/dsa/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/paulranjan694/dsa/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
+| [2943-maximize-area-of-square-hole-in-grid](https://github.com/paulranjan694/dsa/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [3074-apple-redistribution-into-boxes](https://github.com/paulranjan694/dsa/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/paulranjan694/dsa/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/paulranjan694/dsa/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
