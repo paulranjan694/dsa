@@ -17,7 +17,6 @@ class Solution {
 
         tempLen=1;
         for(int i=1;i<vBars.length;i++){
-            System.out.println(i);
             if(vBars[i] == vBars[i-1] + 1){
                 tempLen++;
             }else{
