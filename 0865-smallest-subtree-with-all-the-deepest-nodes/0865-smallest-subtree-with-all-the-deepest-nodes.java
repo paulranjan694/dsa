@@ -13,26 +13,42 @@
  *     }
  * }
  */
+
+class Result{
+    int depth;
+    TreeNode node;
+    Result(int d, TreeNode n){
+        this.depth = d;
+        this.node = n;
+    }
+}
+
 class Solution {
     public TreeNode subtreeWithAllDeepest(TreeNode root) {
-        Pair<TreeNode, Integer> pair = dfs(root);
-        return pair.getKey();
+        if(root == null) return root;
+
+        Result res = dfs(root);
+
+        return res.node;
     }
 
-    private Pair<TreeNode,Integer> dfs(TreeNode root){
+    private Result dfs(TreeNode root){
         if(root == null){
-            return new Pair<TreeNode, Integer>(null,0);
+            return new Result(-1, null);
         }
 
-        Pair<TreeNode, Integer> left = dfs(root.left);
-        Pair<TreeNode, Integer> right = dfs(root.right);
+        Result left = dfs(root.left);
+        Result right = dfs(root.right);
 
-        if(left.getValue() == right.getValue()){
-            return new Pair<TreeNode, Integer>(root, left.getValue()+1);
-        }else if(left.getValue() > right.getValue()){
-            return new Pair<TreeNode, Integer>(left.getKey(), left.getValue()+1);
+        if(left.depth == right.depth){
+            int depth = left.depth == -1 ? 1 : left.depth + 1;
+            return new Result(depth, root);
+        }else if(left.depth > right.depth){
+            int depth = left.depth + 1;
+            return new Result(depth, left.node);
         }else{
-            return new Pair<TreeNode, Integer>(right.getKey(), right.getValue()+1);
+            int depth = right.depth + 1;
+            return new Result(depth, right.node);
         }
     }
 }
