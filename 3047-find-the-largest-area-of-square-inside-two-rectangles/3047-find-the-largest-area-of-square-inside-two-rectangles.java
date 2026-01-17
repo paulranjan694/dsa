@@ -23,19 +23,4 @@ class Solution {
 
         return maxSide*maxSide;
     }
-
-    private long findMaxLength(int x1,int y1, int x2, int y2, int x3, int y3, int x4, int y4){
-        int top_x2 = Math.min(x2,x4);
-        int bottom_x1 = Math.max(x1,x3);
-        int top_y2 = Math.min(y2,y4);
-        int bottom_y1 = Math.max(y1,y3);
-
-        int w = top_x2 - bottom_x1;
-        int h = top_y2 - bottom_y1;
-
-        long len = Math.min((long)w,h);
-
-        return len;
-
-    }
 }
