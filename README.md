@@ -454,6 +454,7 @@ DSA solutions
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/paulranjan694/dsa/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/paulranjan694/dsa/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3034-points-that-intersect-with-cars](https://github.com/paulranjan694/dsa/tree/master/3034-points-that-intersect-with-cars) |
+| [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/paulranjan694/dsa/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3074-apple-redistribution-into-boxes](https://github.com/paulranjan694/dsa/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/paulranjan694/dsa/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/paulranjan694/dsa/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
@@ -885,6 +886,7 @@ DSA solutions
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/paulranjan694/dsa/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2348-number-of-zero-filled-subarrays](https://github.com/paulranjan694/dsa/tree/master/2348-number-of-zero-filled-subarrays) |
 | [3030-find-the-k-th-lucky-number](https://github.com/paulranjan694/dsa/tree/master/3030-find-the-k-th-lucky-number) |
+| [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/paulranjan694/dsa/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/paulranjan694/dsa/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/paulranjan694/dsa/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/paulranjan694/dsa/tree/master/3623-count-number-of-trapezoids-i) |
@@ -1606,6 +1608,7 @@ DSA solutions
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1266-minimum-time-visiting-all-points](https://github.com/paulranjan694/dsa/tree/master/1266-minimum-time-visiting-all-points) |
+| [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/paulranjan694/dsa/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3623-count-number-of-trapezoids-i](https://github.com/paulranjan694/dsa/tree/master/3623-count-number-of-trapezoids-i) |
 ## Sliding Window
 |  |
