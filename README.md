@@ -789,6 +789,7 @@ DSA solutions
 | [0271-encode-and-decode-strings](https://github.com/paulranjan694/dsa/tree/master/0271-encode-and-decode-strings) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0299-bulls-and-cows](https://github.com/paulranjan694/dsa/tree/master/0299-bulls-and-cows) |
+| [0301-remove-invalid-parentheses](https://github.com/paulranjan694/dsa/tree/master/0301-remove-invalid-parentheses) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/paulranjan694/dsa/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0383-ransom-note](https://github.com/paulranjan694/dsa/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0387-first-unique-character-in-a-string) |
@@ -1081,6 +1082,7 @@ DSA solutions
 | [0131-palindrome-partitioning](https://github.com/paulranjan694/dsa/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/paulranjan694/dsa/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/paulranjan694/dsa/tree/master/0257-binary-tree-paths) |
+| [0301-remove-invalid-parentheses](https://github.com/paulranjan694/dsa/tree/master/0301-remove-invalid-parentheses) |
 | [0494-target-sum](https://github.com/paulranjan694/dsa/tree/master/0494-target-sum) |
 | [0800-letter-case-permutation](https://github.com/paulranjan694/dsa/tree/master/0800-letter-case-permutation) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/paulranjan694/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -1484,6 +1486,7 @@ DSA solutions
 | [0226-invert-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0226-invert-binary-tree) |
 | [0269-alien-dictionary](https://github.com/paulranjan694/dsa/tree/master/0269-alien-dictionary) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [0301-remove-invalid-parentheses](https://github.com/paulranjan694/dsa/tree/master/0301-remove-invalid-parentheses) |
 | [0322-coin-change](https://github.com/paulranjan694/dsa/tree/master/0322-coin-change) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/paulranjan694/dsa/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0513-find-bottom-left-tree-value](https://github.com/paulranjan694/dsa/tree/master/0513-find-bottom-left-tree-value) |
