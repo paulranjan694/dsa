@@ -16,9 +16,9 @@ class Solution {
     }
 
     private void solve(String s, Set<String> set, int mra, Set<String> vis){
+        if(mra < 0) return;
         if(vis.contains(s)) return;
         vis.add(s);
-        if(mra < 0) return;
         if(mra==0){
             int mr = getMinRemoval(s);
             if(mr==0){
