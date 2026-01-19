@@ -380,6 +380,7 @@ DSA solutions
 | [1266-minimum-time-visiting-all-points](https://github.com/paulranjan694/dsa/tree/master/1266-minimum-time-visiting-all-points) |
 | [1280-diet-plan-performance](https://github.com/paulranjan694/dsa/tree/master/1280-diet-plan-performance) |
 | [1289-minimum-falling-path-sum-ii](https://github.com/paulranjan694/dsa/tree/master/1289-minimum-falling-path-sum-ii) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/paulranjan694/dsa/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1293-three-consecutive-odds](https://github.com/paulranjan694/dsa/tree/master/1293-three-consecutive-odds) |
 | [1319-unique-number-of-occurrences](https://github.com/paulranjan694/dsa/tree/master/1319-unique-number-of-occurrences) |
 | [1324-where-will-the-ball-fall](https://github.com/paulranjan694/dsa/tree/master/1324-where-will-the-ball-fall) |
@@ -491,6 +492,7 @@ DSA solutions
 | [1046-max-consecutive-ones-iii](https://github.com/paulranjan694/dsa/tree/master/1046-max-consecutive-ones-iii) |
 | [1184-car-pooling](https://github.com/paulranjan694/dsa/tree/master/1184-car-pooling) |
 | [1248-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1248-count-number-of-nice-subarrays) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/paulranjan694/dsa/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1370-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1370-count-number-of-nice-subarrays) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/paulranjan694/dsa/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/paulranjan694/dsa/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -1578,6 +1580,7 @@ DSA solutions
 | [1083-two-sum-less-than-k](https://github.com/paulranjan694/dsa/tree/master/1083-two-sum-less-than-k) |
 | [1232-sum-of-mutated-array-closest-to-target](https://github.com/paulranjan694/dsa/tree/master/1232-sum-of-mutated-array-closest-to-target) |
 | [1285-balance-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/1285-balance-a-binary-search-tree) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/paulranjan694/dsa/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/paulranjan694/dsa/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/paulranjan694/dsa/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/paulranjan694/dsa/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -1685,6 +1688,7 @@ DSA solutions
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/paulranjan694/dsa/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/paulranjan694/dsa/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1289-minimum-falling-path-sum-ii](https://github.com/paulranjan694/dsa/tree/master/1289-minimum-falling-path-sum-ii) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/paulranjan694/dsa/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1324-where-will-the-ball-fall](https://github.com/paulranjan694/dsa/tree/master/1324-where-will-the-ball-fall) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/paulranjan694/dsa/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/paulranjan694/dsa/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
