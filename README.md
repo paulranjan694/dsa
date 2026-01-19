@@ -624,6 +624,7 @@ DSA solutions
 | [0234-palindrome-linked-list](https://github.com/paulranjan694/dsa/tree/master/0234-palindrome-linked-list) |
 | [0341-flatten-nested-list-iterator](https://github.com/paulranjan694/dsa/tree/master/0341-flatten-nested-list-iterator) |
 | [0394-decode-string](https://github.com/paulranjan694/dsa/tree/master/0394-decode-string) |
+| [0402-remove-k-digits](https://github.com/paulranjan694/dsa/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/paulranjan694/dsa/tree/master/0503-next-greater-element-ii) |
 | [0636-exclusive-time-of-functions](https://github.com/paulranjan694/dsa/tree/master/0636-exclusive-time-of-functions) |
@@ -646,6 +647,7 @@ DSA solutions
 | [0042-trapping-rain-water](https://github.com/paulranjan694/dsa/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/paulranjan694/dsa/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/paulranjan694/dsa/tree/master/0085-maximal-rectangle) |
+| [0402-remove-k-digits](https://github.com/paulranjan694/dsa/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/paulranjan694/dsa/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/paulranjan694/dsa/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/paulranjan694/dsa/tree/master/0739-daily-temperatures) |
@@ -798,6 +800,7 @@ DSA solutions
 | [0387-first-unique-character-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/paulranjan694/dsa/tree/master/0389-find-the-difference) |
 | [0394-decode-string](https://github.com/paulranjan694/dsa/tree/master/0394-decode-string) |
+| [0402-remove-k-digits](https://github.com/paulranjan694/dsa/tree/master/0402-remove-k-digits) |
 | [0409-longest-palindrome](https://github.com/paulranjan694/dsa/tree/master/0409-longest-palindrome) |
 | [0424-longest-repeating-character-replacement](https://github.com/paulranjan694/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -940,6 +943,7 @@ DSA solutions
 | [0134-gas-station](https://github.com/paulranjan694/dsa/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/paulranjan694/dsa/tree/master/0135-candy) |
 | [0253-meeting-rooms-ii](https://github.com/paulranjan694/dsa/tree/master/0253-meeting-rooms-ii) |
+| [0402-remove-k-digits](https://github.com/paulranjan694/dsa/tree/master/0402-remove-k-digits) |
 | [0409-longest-palindrome](https://github.com/paulranjan694/dsa/tree/master/0409-longest-palindrome) |
 | [0410-split-array-largest-sum](https://github.com/paulranjan694/dsa/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/paulranjan694/dsa/tree/master/0435-non-overlapping-intervals) |
