@@ -285,6 +285,7 @@ DSA solutions
 | [0303-range-sum-query-immutable](https://github.com/paulranjan694/dsa/tree/master/0303-range-sum-query-immutable) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/paulranjan694/dsa/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/paulranjan694/dsa/tree/master/0322-coin-change) |
+| [0336-palindrome-pairs](https://github.com/paulranjan694/dsa/tree/master/0336-palindrome-pairs) |
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/paulranjan694/dsa/tree/master/0348-design-tic-tac-toe) |
 | [0368-largest-divisible-subset](https://github.com/paulranjan694/dsa/tree/master/0368-largest-divisible-subset) |
@@ -534,6 +535,7 @@ DSA solutions
 | [0266-palindrome-permutation](https://github.com/paulranjan694/dsa/tree/master/0266-palindrome-permutation) |
 | [0268-missing-number](https://github.com/paulranjan694/dsa/tree/master/0268-missing-number) |
 | [0299-bulls-and-cows](https://github.com/paulranjan694/dsa/tree/master/0299-bulls-and-cows) |
+| [0336-palindrome-pairs](https://github.com/paulranjan694/dsa/tree/master/0336-palindrome-pairs) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/paulranjan694/dsa/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0347-top-k-frequent-elements](https://github.com/paulranjan694/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0348-design-tic-tac-toe](https://github.com/paulranjan694/dsa/tree/master/0348-design-tic-tac-toe) |
@@ -797,6 +799,7 @@ DSA solutions
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/paulranjan694/dsa/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0299-bulls-and-cows](https://github.com/paulranjan694/dsa/tree/master/0299-bulls-and-cows) |
 | [0301-remove-invalid-parentheses](https://github.com/paulranjan694/dsa/tree/master/0301-remove-invalid-parentheses) |
+| [0336-palindrome-pairs](https://github.com/paulranjan694/dsa/tree/master/0336-palindrome-pairs) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/paulranjan694/dsa/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0383-ransom-note](https://github.com/paulranjan694/dsa/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0387-first-unique-character-in-a-string) |
@@ -1860,4 +1863,8 @@ DSA solutions
 | [2057-count-salary-categories](https://github.com/paulranjan694/dsa/tree/master/2057-count-salary-categories) |
 | [2087-confirmation-rate](https://github.com/paulranjan694/dsa/tree/master/2087-confirmation-rate) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/paulranjan694/dsa/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
+## Trie
+|  |
+| ------- |
+| [0336-palindrome-pairs](https://github.com/paulranjan694/dsa/tree/master/0336-palindrome-pairs) |
 <!---LeetCode Topics End-->
