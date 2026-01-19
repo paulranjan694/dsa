@@ -12,8 +12,8 @@ class Solution {
             for(int i=0;i<=word.length();i++){
                 String prefix = word.substring(0,i);
                 String suffix = word.substring(i);
-                String revSuffix = new StringBuilder(suffix).reverse().toString();
                 if(isPalindrome(prefix)){
+                    String revSuffix = new StringBuilder(suffix).reverse().toString();
                     if(mp.containsKey(revSuffix)){
                         int idx = mp.get(revSuffix);
                         if(w!=idx)
@@ -21,8 +21,8 @@ class Solution {
                     }
                 }
 
-                String revPrefix = new StringBuilder(prefix).reverse().toString();
                 if(i != word.length() && isPalindrome(suffix)){
+                    String revPrefix = new StringBuilder(prefix).reverse().toString();
                     if(mp.containsKey(revPrefix)){
                         int idx = mp.get(revPrefix);
                         if(w!=idx)
