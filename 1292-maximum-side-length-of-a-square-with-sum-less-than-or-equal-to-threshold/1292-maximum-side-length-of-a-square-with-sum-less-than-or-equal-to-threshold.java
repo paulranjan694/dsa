@@ -3,34 +3,59 @@ class Solution {
         int m = mat.length, n = mat[0].length;
         int[][] prefixSum = new int[m][n];
 
-        boolean oneLength = false;
         for(int i=0;i<m;i++){
-            prefixSum[i][0] = mat[i][0];
-            if(mat[i][0] <= threshold){
-                oneLength = true;
-            }
-            for(int j=1;j<n;j++){
-                prefixSum[i][j] = prefixSum[i][j-1] + mat[i][j];
-                if(mat[i][j] <= threshold){
-                    oneLength = true;
+            for(int j=0;j<n;j++){
+                prefixSum[i][j] = mat[i][j];
+                if(i>0){
+                    prefixSum[i][j] += prefixSum[i-1][j];
+                }
+
+                if(j>0){
+                    prefixSum[i][j] += prefixSum[i][j-1];
+                }
+
+                if(i>0 && j>0){
+                    prefixSum[i][j] -= prefixSum[i-1][j-1];
                 }
             }
         }
 
-        for(int edge = Math.min(m,n);edge>=2;edge--){
-            for(int i=0;i+edge<=m;i++){
-                for(int j=0;j+edge<=n;j++){
-                    int sum=0;
-                    for(int k = i;k<i+edge;k++){
-                        sum += prefixSum[k][j+edge-1] - (j>0 ? prefixSum[k][j-1] : 0);
-                        if(sum > threshold)break;
+        int best = 0;
+
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                int limit = Math.min(m-i,n-j);
+        
+                for(int k = 0;k<limit;k++){
+                    int r = i+k,c=j+k;
+                    int sum = squareSum(i,j,r,c, prefixSum);
+                    if(sum <= threshold){
+                        best = Math.max(best,k+1);
+                    }else{
+                        break;
                     }
-                    if(sum > threshold) continue;
-                    if(sum <= threshold) return edge;
                 }
             }
         }
-
-        return oneLength ? 1 : 0;
+        return best;
     }
+
+    private int squareSum(int i, int j, int r, int c, int[][] prefixSum){
+        int sum = prefixSum[r][c];
+
+        if(i>0){
+            sum -= prefixSum[i-1][c];
+        }
+
+        if(j > 0){
+            sum -= prefixSum[r][j-1];
+        }
+
+        if(i>0 && j>0){
+            sum += prefixSum[i-1][j-1];
+        }
+
+        return sum;
+    }
+
 }
