@@ -26,7 +26,7 @@ class Solution {
             for(int j=0;j<n;j++){
                 int limit = Math.min(m-i,n-j);
         
-                for(int k = 0;k<limit;k++){
+                for(int k = best;k<limit;k++){
                     int r = i+k,c=j+k;
                     int sum = squareSum(i,j,r,c, prefixSum);
                     if(sum <= threshold){
