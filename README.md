@@ -900,6 +900,7 @@ DSA solutions
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/paulranjan694/dsa/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/paulranjan694/dsa/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/paulranjan694/dsa/tree/master/3623-count-number-of-trapezoids-i) |
+| [3733-minimum-time-to-complete-all-deliveries](https://github.com/paulranjan694/dsa/tree/master/3733-minimum-time-to-complete-all-deliveries) |
 ## Queue
 |  |
 | ------- |
@@ -1607,6 +1608,7 @@ DSA solutions
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/paulranjan694/dsa/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 | [2917-count-pairs-whose-sum-is-less-than-target](https://github.com/paulranjan694/dsa/tree/master/2917-count-pairs-whose-sum-is-less-than-target) |
 | [3453-separate-squares-i](https://github.com/paulranjan694/dsa/tree/master/3453-separate-squares-i) |
+| [3733-minimum-time-to-complete-all-deliveries](https://github.com/paulranjan694/dsa/tree/master/3733-minimum-time-to-complete-all-deliveries) |
 | [3790-fruits-into-baskets-ii](https://github.com/paulranjan694/dsa/tree/master/3790-fruits-into-baskets-ii) |
 ## Data Stream
 |  |
