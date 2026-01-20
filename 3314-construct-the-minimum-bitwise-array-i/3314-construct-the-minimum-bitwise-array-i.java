@@ -3,18 +3,15 @@ class Solution {
         int n = nums.size();
         int[] ans = new int[n];
 
-        for(int i=0;i<n;i++){
-            boolean found=false;
-            for(int j=1;j<nums.get(i);j++){
-                if((j | (j+1)) == nums.get(i)){
-                    ans[i]=j;
-                    found=true;
-                    break;
-                }
-            }
+        for (int i = 0; i < n; i++) {
+            int x = nums.get(i);
 
-            if(!found){
-                ans[i]=-1;
+            // j | (j+1) is always odd
+            if ((x & 1) == 0) {
+                ans[i] = -1;
+            } else {
+                int lowestZeroBit = (~x) & (x + 1); // gives 2^p
+                ans[i] = x - (lowestZeroBit >> 1);
             }
         }
 
