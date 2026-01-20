@@ -6,13 +6,13 @@ class Solution {
         for (int i = 0; i < n; i++) {
             int x = nums.get(i);
 
-            // j | (j+1) is always odd
-            if ((x & 1) == 0) {
-                ans[i] = -1;
-            } else {
-                int lowestZeroBit = (~x) & (x + 1); // gives 2^p
-                ans[i] = x - (lowestZeroBit >> 1);
+            int res = -1;
+            int d = 1;
+            while ((x & d) != 0) {
+                res = x - d;
+                d <<= 1;
             }
+            ans[i] = res;
         }
 
         return ans;
