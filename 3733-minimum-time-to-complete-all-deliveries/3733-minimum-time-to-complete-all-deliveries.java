@@ -5,7 +5,7 @@ class Solution {
 
         long lcm = lcm(r1, r2);
 
-        long low = 0, high = (long) 2e18;
+        long low = 0, high = 2L * (d1 + d2);
         long ans = high;
 
         while (low <= high) {
