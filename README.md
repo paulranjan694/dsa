@@ -464,6 +464,7 @@ DSA solutions
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/paulranjan694/dsa/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/paulranjan694/dsa/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/paulranjan694/dsa/tree/master/3314-construct-the-minimum-bitwise-array-i) |
+| [3315-construct-the-minimum-bitwise-array-ii](https://github.com/paulranjan694/dsa/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 | [3415-check-if-grid-satisfies-conditions](https://github.com/paulranjan694/dsa/tree/master/3415-check-if-grid-satisfies-conditions) |
 | [3453-separate-squares-i](https://github.com/paulranjan694/dsa/tree/master/3453-separate-squares-i) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/paulranjan694/dsa/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -1132,6 +1133,7 @@ DSA solutions
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/paulranjan694/dsa/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [3030-find-the-k-th-lucky-number](https://github.com/paulranjan694/dsa/tree/master/3030-find-the-k-th-lucky-number) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/paulranjan694/dsa/tree/master/3314-construct-the-minimum-bitwise-array-i) |
+| [3315-construct-the-minimum-bitwise-array-ii](https://github.com/paulranjan694/dsa/tree/master/3315-construct-the-minimum-bitwise-array-ii) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/paulranjan694/dsa/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Heap (Priority Queue)
 |  |
