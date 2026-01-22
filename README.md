@@ -401,6 +401,7 @@ DSA solutions
 | [1477-product-of-the-last-k-numbers](https://github.com/paulranjan694/dsa/tree/master/1477-product-of-the-last-k-numbers) |
 | [1483-rank-teams-by-votes](https://github.com/paulranjan694/dsa/tree/master/1483-rank-teams-by-votes) |
 | [1486-find-the-distance-value-between-two-arrays](https://github.com/paulranjan694/dsa/tree/master/1486-find-the-distance-value-between-two-arrays) |
+| [1512-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1512-number-of-good-pairs) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/paulranjan694/dsa/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1539-kth-missing-positive-number](https://github.com/paulranjan694/dsa/tree/master/1539-kth-missing-positive-number) |
 | [1547-destination-city](https://github.com/paulranjan694/dsa/tree/master/1547-destination-city) |
@@ -594,6 +595,7 @@ DSA solutions
 | [1468-check-if-n-and-its-double-exist](https://github.com/paulranjan694/dsa/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/paulranjan694/dsa/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1483-rank-teams-by-votes](https://github.com/paulranjan694/dsa/tree/master/1483-rank-teams-by-votes) |
+| [1512-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1512-number-of-good-pairs) |
 | [1547-destination-city](https://github.com/paulranjan694/dsa/tree/master/1547-destination-city) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/paulranjan694/dsa/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/paulranjan694/dsa/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -779,6 +781,7 @@ DSA solutions
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/paulranjan694/dsa/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1297-maximum-number-of-balloons](https://github.com/paulranjan694/dsa/tree/master/1297-maximum-number-of-balloons) |
 | [1483-rank-teams-by-votes](https://github.com/paulranjan694/dsa/tree/master/1483-rank-teams-by-votes) |
+| [1512-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1512-number-of-good-pairs) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/paulranjan694/dsa/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/paulranjan694/dsa/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -901,6 +904,7 @@ DSA solutions
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/paulranjan694/dsa/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/paulranjan694/dsa/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1477-product-of-the-last-k-numbers](https://github.com/paulranjan694/dsa/tree/master/1477-product-of-the-last-k-numbers) |
+| [1512-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1512-number-of-good-pairs) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/paulranjan694/dsa/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/paulranjan694/dsa/tree/master/1817-calculate-money-in-leetcode-bank) |
