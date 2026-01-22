@@ -474,6 +474,7 @@ DSA solutions
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/paulranjan694/dsa/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii](https://github.com/paulranjan694/dsa/tree/master/3477-minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/paulranjan694/dsa/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/paulranjan694/dsa/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/paulranjan694/dsa/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/paulranjan694/dsa/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/paulranjan694/dsa/tree/master/3623-count-number-of-trapezoids-i) |
@@ -614,6 +615,7 @@ DSA solutions
 | [3034-points-that-intersect-with-cars](https://github.com/paulranjan694/dsa/tree/master/3034-points-that-intersect-with-cars) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/paulranjan694/dsa/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/paulranjan694/dsa/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/paulranjan694/dsa/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/paulranjan694/dsa/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/paulranjan694/dsa/tree/master/3623-count-number-of-trapezoids-i) |
 ## Stack
@@ -955,6 +957,7 @@ DSA solutions
 | [2470-removing-stars-from-a-string](https://github.com/paulranjan694/dsa/tree/master/2470-removing-stars-from-a-string) |
 | [2479-meeting-rooms-iii](https://github.com/paulranjan694/dsa/tree/master/2479-meeting-rooms-iii) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/paulranjan694/dsa/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/paulranjan694/dsa/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/paulranjan694/dsa/tree/master/3790-fruits-into-baskets-ii) |
 ## Greedy
 |  |
@@ -1185,6 +1188,7 @@ DSA solutions
 | [2479-meeting-rooms-iii](https://github.com/paulranjan694/dsa/tree/master/2479-meeting-rooms-iii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/paulranjan694/dsa/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/paulranjan694/dsa/tree/master/2616-maximal-score-after-applying-k-operations) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/paulranjan694/dsa/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/paulranjan694/dsa/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/paulranjan694/dsa/tree/master/3759-choose-k-elements-with-maximum-sum) |
 ## Bucket Sort
@@ -1235,6 +1239,7 @@ DSA solutions
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/paulranjan694/dsa/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2835-split-a-circular-linked-list](https://github.com/paulranjan694/dsa/tree/master/2835-split-a-circular-linked-list) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/paulranjan694/dsa/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/paulranjan694/dsa/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Recursion
 |  |
 | ------- |
@@ -1804,6 +1809,7 @@ DSA solutions
 | ------- |
 | [0493-reverse-pairs](https://github.com/paulranjan694/dsa/tree/master/0493-reverse-pairs) |
 | [0931-maximum-frequency-stack](https://github.com/paulranjan694/dsa/tree/master/0931-maximum-frequency-stack) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/paulranjan694/dsa/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## String Matching
 |  |
 | ------- |
@@ -1857,6 +1863,7 @@ DSA solutions
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/paulranjan694/dsa/tree/master/0146-lru-cache) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/paulranjan694/dsa/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Database
 |  |
 | ------- |
