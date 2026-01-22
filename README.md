@@ -320,6 +320,7 @@ DSA solutions
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
 | [0636-exclusive-time-of-functions](https://github.com/paulranjan694/dsa/tree/master/0636-exclusive-time-of-functions) |
 | [0643-maximum-average-subarray-i](https://github.com/paulranjan694/dsa/tree/master/0643-maximum-average-subarray-i) |
+| [0646-maximum-length-of-pair-chain](https://github.com/paulranjan694/dsa/tree/master/0646-maximum-length-of-pair-chain) |
 | [0658-find-k-closest-elements](https://github.com/paulranjan694/dsa/tree/master/0658-find-k-closest-elements) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/paulranjan694/dsa/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0682-baseball-game](https://github.com/paulranjan694/dsa/tree/master/0682-baseball-game) |
@@ -723,6 +724,7 @@ DSA solutions
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
 | [0611-valid-triangle-number](https://github.com/paulranjan694/dsa/tree/master/0611-valid-triangle-number) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
+| [0646-maximum-length-of-pair-chain](https://github.com/paulranjan694/dsa/tree/master/0646-maximum-length-of-pair-chain) |
 | [0658-find-k-closest-elements](https://github.com/paulranjan694/dsa/tree/master/0658-find-k-closest-elements) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/paulranjan694/dsa/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
@@ -977,6 +979,7 @@ DSA solutions
 | [0605-can-place-flowers](https://github.com/paulranjan694/dsa/tree/master/0605-can-place-flowers) |
 | [0611-valid-triangle-number](https://github.com/paulranjan694/dsa/tree/master/0611-valid-triangle-number) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
+| [0646-maximum-length-of-pair-chain](https://github.com/paulranjan694/dsa/tree/master/0646-maximum-length-of-pair-chain) |
 | [0678-valid-parenthesis-string](https://github.com/paulranjan694/dsa/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/paulranjan694/dsa/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
@@ -1073,6 +1076,7 @@ DSA solutions
 | [0518-coin-change-ii](https://github.com/paulranjan694/dsa/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/paulranjan694/dsa/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/paulranjan694/dsa/tree/master/0583-delete-operation-for-two-strings) |
+| [0646-maximum-length-of-pair-chain](https://github.com/paulranjan694/dsa/tree/master/0646-maximum-length-of-pair-chain) |
 | [0647-palindromic-substrings](https://github.com/paulranjan694/dsa/tree/master/0647-palindromic-substrings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/paulranjan694/dsa/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/paulranjan694/dsa/tree/master/0678-valid-parenthesis-string) |
