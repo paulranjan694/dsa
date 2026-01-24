@@ -1,5 +1,5 @@
 class Solution {
-    public boolean isMatch2(String s, String p) {
+    public boolean isMatch(String s, String p) {
         int n = s.length(), m = p.length();
         Boolean[][] dp = new Boolean[n+1][m+1];
 
@@ -11,7 +11,7 @@ class Solution {
 
         for(int j=1;j<=m;j++){
             if(p.charAt(j-1) == '*'){
-                dp[0][j] = true;
+                dp[0][j] = true && dp[0][j-1];
             }else{
                 dp[0][j] = false;
             }
@@ -36,7 +36,7 @@ class Solution {
         return dp[n][m];
     }
 
-    public boolean isMatch(String s, String p) {
+    public boolean isMatch2(String s, String p) {
         int n = s.length(), m = p.length();
         Boolean[][] dp = new Boolean[n+1][m+1];
         return utils(s,p,n-1,m-1, dp);
