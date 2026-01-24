@@ -420,6 +420,7 @@ DSA solutions
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/paulranjan694/dsa/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1753-path-with-minimum-effort](https://github.com/paulranjan694/dsa/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/paulranjan694/dsa/tree/master/1762-furthest-building-you-can-reach) |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/paulranjan694/dsa/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/paulranjan694/dsa/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/paulranjan694/dsa/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-largest-magic-square](https://github.com/paulranjan694/dsa/tree/master/1895-largest-magic-square) |
@@ -914,6 +915,7 @@ DSA solutions
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/paulranjan694/dsa/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/paulranjan694/dsa/tree/master/1817-calculate-money-in-leetcode-bank) |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/paulranjan694/dsa/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/paulranjan694/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2050-count-good-numbers](https://github.com/paulranjan694/dsa/tree/master/2050-count-good-numbers) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/paulranjan694/dsa/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
@@ -934,6 +936,7 @@ DSA solutions
 | [0387-first-unique-character-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0387-first-unique-character-in-a-string) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/paulranjan694/dsa/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1477-product-of-the-last-k-numbers](https://github.com/paulranjan694/dsa/tree/master/1477-product-of-the-last-k-numbers) |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/paulranjan694/dsa/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [2195-time-needed-to-buy-tickets](https://github.com/paulranjan694/dsa/tree/master/2195-time-needed-to-buy-tickets) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/paulranjan694/dsa/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/paulranjan694/dsa/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
@@ -951,6 +954,7 @@ DSA solutions
 | [0983-validate-stack-sequences](https://github.com/paulranjan694/dsa/tree/master/0983-validate-stack-sequences) |
 | [1184-car-pooling](https://github.com/paulranjan694/dsa/tree/master/1184-car-pooling) |
 | [1324-where-will-the-ball-fall](https://github.com/paulranjan694/dsa/tree/master/1324-where-will-the-ball-fall) |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/paulranjan694/dsa/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [2058-concatenation-of-array](https://github.com/paulranjan694/dsa/tree/master/2058-concatenation-of-array) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/paulranjan694/dsa/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2195-time-needed-to-buy-tickets](https://github.com/paulranjan694/dsa/tree/master/2195-time-needed-to-buy-tickets) |
@@ -1264,6 +1268,7 @@ DSA solutions
 | [0342-power-of-four](https://github.com/paulranjan694/dsa/tree/master/0342-power-of-four) |
 | [0394-decode-string](https://github.com/paulranjan694/dsa/tree/master/0394-decode-string) |
 | [1013-fibonacci-number](https://github.com/paulranjan694/dsa/tree/master/1013-fibonacci-number) |
+| [1823-find-the-winner-of-the-circular-game](https://github.com/paulranjan694/dsa/tree/master/1823-find-the-winner-of-the-circular-game) |
 | [2050-count-good-numbers](https://github.com/paulranjan694/dsa/tree/master/2050-count-good-numbers) |
 ## Two Pointers
 |  |
