@@ -34,10 +34,7 @@ class Solution {
                 return dp[i+1][j+1] = utils(s,p,i-1,j-1, dp);
             }else if(p.charAt(j) == '*'){
                 boolean res = false;
-                for(int k=i;k>=0;k--){
-                    res |= utils(s,p,k-1, j-1, dp) | utils(s,p,k, j-1, dp);
-                    if(res == true) return dp[i+1][j+1] = res;
-                }
+                res |= utils(s,p,i-1, j, dp) | utils(s,p,i, j-1, dp);
                 return dp[i+1][j+1] = res;
             }else{
                 return dp[i+1][j+1]=false;
