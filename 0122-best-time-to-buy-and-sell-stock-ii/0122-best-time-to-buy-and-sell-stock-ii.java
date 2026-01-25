@@ -3,18 +3,21 @@ class Solution {
         int n = prices.length;
         int[][] dp = new int[n+1][2];
         //base case
-        dp[n][0]=dp[n][1] = 0;
+        
+        int[] next=new int[2];
 
         for(int day = n-1;day>=0;day--){
+            int[] curr = new int[2];
             for(int buy=0;buy<2;buy++){
                 if(buy == 0){
-                    dp[day][buy] =  Math.max(-prices[day]+dp[day+1][1], dp[day+1][0]);
+                    curr[buy] =  Math.max(-prices[day]+next[1], next[0]);
                 }else{
-                    dp[day][buy] = Math.max(prices[day]+dp[day+1][0], dp[day+1][1]);
+                    curr[buy] = Math.max(prices[day]+next[0], next[1]);
                 }
             }
+            next = curr;
         }
-        return dp[0][0];
+        return next[0];
     }
 
     private int solve(int[] prices, int idx,int buy){
