@@ -1,21 +1,48 @@
 class Solution {
     public int maxProfit(int[] prices) {
         int n = prices.length;
-        int[][] dp = new int[n+2][2];
-        
-        //base case
-        dp[n][0] = dp[n][1] = 0;
+        int[][][] dp = new int[n+1][2][3];
 
-        for(int day=n-1;day>=0;day--){
-            for(int buy = 0;buy<2;buy++){
-                if(buy==1){
-                    dp[day][buy] = Math.max(-prices[day] + dp[day+1][0], dp[day+1][1]);
-                }else{
-                    dp[day][buy] = Math.max(prices[day] + dp[day+2][1], dp[day+1][0]);
+        for(int i=0;i<2;i++){
+            for(int j= 1;j<3;j++){
+                dp[n][i][j]=0;
+            }
+        }
+
+        for(int idx=n-1;idx>=0;idx--){
+            for(int buy=0;buy<2;buy++){
+                for(int cooldown=1;cooldown<3;cooldown++){
+                    int profit = 0;
+                    if(buy==0){
+                        if(cooldown==1){
+                            profit = Math.max(-prices[idx] + dp[idx+1][1][1], dp[idx+1][0][1]);
+                        }else{
+                            profit = Math.max(0, dp[idx+1][0][1]);
+                        }
+                    }else{
+                        profit = Math.max(prices[idx] + dp[idx+1][0][2], dp[idx+1][1][1]);
+                    }
+                    dp[idx][buy][cooldown] = profit;
                 }
             }
         }
-        return dp[0][1];
+
+        return dp[0][0][1];
     }
 
+    private int solve(int[] prices, int idx, int buy, int cooldown){
+        if(idx==prices.length) return 0;
+
+        int profit = 0;
+        if(buy==0){
+            if(cooldown==1){
+                profit = Math.max(-prices[idx] + solve(prices, idx+1, 1, 1), solve(prices, idx+1,0, 1));
+            }else{
+                profit = Math.max(0, solve(prices, idx+1,0, 1));
+            }
+        }else{
+            profit = Math.max(prices[idx] + solve(prices, idx+1, 0, 2), solve(prices, idx+1,1, 1));
+        }
+        return profit;
+    }
 }
