@@ -1,28 +1,32 @@
 class Solution {
     public int lengthOfLIS(int[] nums) {
-        int n = nums.length;
-        int[][] dp = new int[n+1][n+1];
+       int n = nums.length;
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        list.add(nums[0]);
 
-        
-        for(int idx = n-1; idx>=0;idx--){
-            for(int prevIdx = idx-1;prevIdx>=-1;prevIdx--){
-                int len = dp[idx+1][prevIdx+1];
-                if(prevIdx == -1 || nums[idx]>nums[prevIdx]){
-                    len = Math.max(len, 1 + dp[idx+1][idx+1]);
-                }
-                dp[idx][prevIdx+1]=len;
+        for(int i = 1; i < n; i++){
+            if(nums[i]>list.get(list.size()-1)){
+                list.add(nums[i]);
+            }else{
+                int idx = lowerBound(nums[i],list,0, list.size()-1);
+                list.set(idx,nums[i]);
             }
         }
-        return dp[0][0];
+        return list.size();
     }
 
-    private int solve(int[] nums, int idx, int prevIdx){
-        if(idx==nums.length) return 0;
-
-        int len = solve(nums, idx+1, prevIdx);
-        if(prevIdx == -1 || nums[idx]>nums[prevIdx]){
-            len = Math.max(len, 1 + solve(nums,idx+1, idx));
+    private int lowerBound(int ele, ArrayList<Integer> list, int s, int e){
+        while(s<e){
+            int mid = (s+e) / 2;
+            if(list.get(mid)== ele){
+                return mid;
+            }
+            if(list.get(mid)> ele){
+                e = mid;
+            }else{
+                s = mid+1;
+            }
         }
-        return len;
+        return s;
     }
 }
