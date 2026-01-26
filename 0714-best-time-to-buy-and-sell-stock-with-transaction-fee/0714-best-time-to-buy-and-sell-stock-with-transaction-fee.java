@@ -9,15 +9,13 @@ class Solution {
 
         for(int idx=n-1;idx>=0;idx--){
             for(int buy=0;buy<2;buy++){
-                for(int cooldown=1;cooldown<3;cooldown++){
-                    int profit = 0;
-                    if(buy==0){
-                        profit = Math.max(-prices[idx] + dp[idx+1][1], dp[idx+1][0]);
-                    }else{
-                        profit = Math.max(prices[idx] + dp[idx+1][0] - fee, dp[idx+1][1]);
-                    }
-                    dp[idx][buy] = profit;
+                int profit = 0;
+                if(buy==0){
+                    profit = Math.max(-prices[idx] + dp[idx+1][1], dp[idx+1][0]);
+                }else{
+                    profit = Math.max(prices[idx] + dp[idx+1][0] - fee, dp[idx+1][1]);
                 }
+                dp[idx][buy] = profit;
             }
         }
 
