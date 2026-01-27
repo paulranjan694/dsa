@@ -18,13 +18,13 @@ class Solution {
 
     private boolean solve_tab(int[] nums, int target){
         int n = nums.length;
-        boolean[][] dp = new boolean[n+1][target+1];
+        boolean[][] dp = new boolean[n][target+1];
 
         for(int tar=0;tar<=target;tar++){
             if(tar==0 || nums[0] == tar) dp[0][tar] = true;
         }
 
-        for(int i=1;i<=n;i++){
+        for(int i=1;i<n;i++){
             dp[i][0] = true;
         }
 
