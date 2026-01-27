@@ -1,45 +1,35 @@
 class Solution {
+    Boolean[][] memo;
     public boolean canPartition(int[] nums) {
-        int sum = 0;
+        int totalSum = 0, n=nums.length;
+      
 
-        for(int num : nums){
-            sum += num;
+        for(int e:nums){
+            totalSum += e;
         }
 
-        if(sum % 2 != 0){
+        if(totalSum % 2 != 0) return false;
+
+        int target = totalSum/2;
+        memo = new Boolean[n][target+1];
+
+        return solve(nums, target,n-1);
+    }
+
+    private boolean solve(int[] nums, int target, int idx){
+        if(idx==0){
+            if(target == 0 || nums[0] == target) return true;
             return false;
         }
 
-        int target = sum/2;
+        if(memo[idx][target] != null) return memo[idx][target]; 
 
-        return isTargetPresent(nums,target);
-    }
+        boolean notPick = solve(nums, target, idx-1);
 
-    private boolean isTargetPresent(int[] nums, int target){
-        int n = nums.length;
-
-        boolean[][] dp = new boolean[n][target+1];
-
-        for(int i=0;i<n;i++){
-            dp[i][0] = true;
+        boolean pick = false;
+        if(nums[idx] <= target){
+            pick = solve(nums, target-nums[idx], idx-1);
         }
-
-        if(nums[0]<=target){
-            dp[0][nums[0]] = true;
-        }
-
-        for(int idx=1;idx<n;idx++){
-            for(int tar = 1;tar <= target;tar++){
-                boolean take= false;
-                if(nums[idx] <= tar){
-                    take = dp[idx-1][tar-nums[idx]];
-                }
-
-                boolean notTake = dp[idx-1][tar];
-
-                dp[idx][tar] = take || notTake;
-            }
-        }
-        return dp[n-1][target];
+        return memo[idx][target] = pick || notPick;
     }
 }
