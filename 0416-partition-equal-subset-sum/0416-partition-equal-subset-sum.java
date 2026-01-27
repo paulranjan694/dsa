@@ -13,7 +13,33 @@ class Solution {
         int target = totalSum/2;
         memo = new Boolean[n][target+1];
 
-        return solve(nums, target,n-1);
+        return solve_tab(nums, target);
+    }
+
+    private boolean solve_tab(int[] nums, int target){
+        int n = nums.length;
+        boolean[][] dp = new boolean[n+1][target+1];
+
+        for(int tar=0;tar<=target;tar++){
+            if(tar==0 || nums[0] == tar) dp[0][tar] = true;
+        }
+
+        for(int i=1;i<=n;i++){
+            dp[i][0] = true;
+        }
+
+        for(int idx=1;idx<n;idx++){
+            for(int tar = 1; tar<=target;tar++){
+                boolean notPick = dp[idx-1][tar];
+
+                boolean pick = false;
+                if(nums[idx] <= tar){
+                    pick = dp[idx-1][tar-nums[idx]];
+                }
+                dp[idx][tar] = pick || notPick;
+            }
+        }
+        return dp[n-1][target];
     }
 
     private boolean solve(int[] nums, int target, int idx){
