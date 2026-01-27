@@ -1213,6 +1213,7 @@ DSA solutions
 | [2616-maximal-score-after-applying-k-operations](https://github.com/paulranjan694/dsa/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/paulranjan694/dsa/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/paulranjan694/dsa/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/paulranjan694/dsa/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/paulranjan694/dsa/tree/master/3759-choose-k-elements-with-maximum-sum) |
 ## Bucket Sort
 |  |
@@ -1877,6 +1878,7 @@ DSA solutions
 | [0744-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/paulranjan694/dsa/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/paulranjan694/dsa/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/paulranjan694/dsa/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Concurrency
 |  |
 | ------- |
@@ -1929,4 +1931,8 @@ DSA solutions
 |  |
 | ------- |
 | [0336-palindrome-pairs](https://github.com/paulranjan694/dsa/tree/master/0336-palindrome-pairs) |
+## Graph Theory
+|  |
+| ------- |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/paulranjan694/dsa/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 <!---LeetCode Topics End-->
