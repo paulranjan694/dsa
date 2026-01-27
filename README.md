@@ -366,6 +366,7 @@ DSA solutions
 | [1036-rotting-oranges](https://github.com/paulranjan694/dsa/tree/master/1036-rotting-oranges) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/paulranjan694/dsa/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1046-max-consecutive-ones-iii](https://github.com/paulranjan694/dsa/tree/master/1046-max-consecutive-ones-iii) |
+| [1048-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1048-longest-string-chain) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/paulranjan694/dsa/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/paulranjan694/dsa/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/paulranjan694/dsa/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -587,6 +588,7 @@ DSA solutions
 | [1016-subarray-sums-divisible-by-k](https://github.com/paulranjan694/dsa/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/paulranjan694/dsa/tree/master/1034-subarrays-with-k-different-integers) |
+| [1048-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1048-longest-string-chain) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/paulranjan694/dsa/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1074-high-five](https://github.com/paulranjan694/dsa/tree/master/1074-high-five) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/paulranjan694/dsa/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
@@ -740,6 +742,7 @@ DSA solutions
 | [1014-k-closest-points-to-origin](https://github.com/paulranjan694/dsa/tree/master/1014-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1029-two-city-scheduling](https://github.com/paulranjan694/dsa/tree/master/1029-two-city-scheduling) |
+| [1048-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1048-longest-string-chain) |
 | [1074-high-five](https://github.com/paulranjan694/dsa/tree/master/1074-high-five) |
 | [1083-two-sum-less-than-k](https://github.com/paulranjan694/dsa/tree/master/1083-two-sum-less-than-k) |
 | [1129-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1129-longest-string-chain) |
@@ -850,6 +853,7 @@ DSA solutions
 | [0800-letter-case-permutation](https://github.com/paulranjan694/dsa/tree/master/0800-letter-case-permutation) |
 | [0807-custom-sort-string](https://github.com/paulranjan694/dsa/tree/master/0807-custom-sort-string) |
 | [0944-delete-columns-to-make-sorted](https://github.com/paulranjan694/dsa/tree/master/0944-delete-columns-to-make-sorted) |
+| [1048-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/paulranjan694/dsa/tree/master/1092-shortest-common-supersequence) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/paulranjan694/dsa/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1129-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1129-longest-string-chain) |
@@ -1103,6 +1107,7 @@ DSA solutions
 | [0931-minimum-falling-path-sum](https://github.com/paulranjan694/dsa/tree/master/0931-minimum-falling-path-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/paulranjan694/dsa/tree/master/0967-minimum-falling-path-sum) |
 | [1013-fibonacci-number](https://github.com/paulranjan694/dsa/tree/master/1013-fibonacci-number) |
+| [1048-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/paulranjan694/dsa/tree/master/1092-shortest-common-supersequence) |
 | [1129-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1129-longest-string-chain) |
 | [1143-longest-common-subsequence](https://github.com/paulranjan694/dsa/tree/master/1143-longest-common-subsequence) |
@@ -1321,6 +1326,7 @@ DSA solutions
 | [0917-boats-to-save-people](https://github.com/paulranjan694/dsa/tree/master/0917-boats-to-save-people) |
 | [0958-sort-array-by-parity-ii](https://github.com/paulranjan694/dsa/tree/master/0958-sort-array-by-parity-ii) |
 | [1028-interval-list-intersections](https://github.com/paulranjan694/dsa/tree/master/1028-interval-list-intersections) |
+| [1048-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1048-longest-string-chain) |
 | [1083-two-sum-less-than-k](https://github.com/paulranjan694/dsa/tree/master/1083-two-sum-less-than-k) |
 | [1129-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1129-longest-string-chain) |
 | [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/paulranjan694/dsa/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
