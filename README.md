@@ -251,6 +251,7 @@ DSA solutions
 | [0135-candy](https://github.com/paulranjan694/dsa/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/paulranjan694/dsa/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/paulranjan694/dsa/tree/master/0137-single-number-ii) |
+| [0139-word-break](https://github.com/paulranjan694/dsa/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/paulranjan694/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/paulranjan694/dsa/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/paulranjan694/dsa/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -535,6 +536,7 @@ DSA solutions
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/paulranjan694/dsa/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/paulranjan694/dsa/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/paulranjan694/dsa/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/paulranjan694/dsa/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/paulranjan694/dsa/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/paulranjan694/dsa/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/paulranjan694/dsa/tree/master/0146-lru-cache) |
@@ -820,6 +822,7 @@ DSA solutions
 | [0125-valid-palindrome](https://github.com/paulranjan694/dsa/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/paulranjan694/dsa/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/paulranjan694/dsa/tree/master/0132-palindrome-partitioning-ii) |
+| [0139-word-break](https://github.com/paulranjan694/dsa/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0166-fraction-to-recurring-decimal](https://github.com/paulranjan694/dsa/tree/master/0166-fraction-to-recurring-decimal) |
 | [0205-isomorphic-strings](https://github.com/paulranjan694/dsa/tree/master/0205-isomorphic-strings) |
@@ -1075,6 +1078,7 @@ DSA solutions
 | [0124-binary-tree-maximum-path-sum](https://github.com/paulranjan694/dsa/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/paulranjan694/dsa/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/paulranjan694/dsa/tree/master/0132-palindrome-partitioning-ii) |
+| [0139-word-break](https://github.com/paulranjan694/dsa/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/paulranjan694/dsa/tree/master/0152-maximum-product-subarray) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/paulranjan694/dsa/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/paulranjan694/dsa/tree/master/0198-house-robber) |
@@ -1812,6 +1816,7 @@ DSA solutions
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/paulranjan694/dsa/tree/master/0139-word-break) |
 | [1013-fibonacci-number](https://github.com/paulranjan694/dsa/tree/master/1013-fibonacci-number) |
 | [1236-n-th-tribonacci-number](https://github.com/paulranjan694/dsa/tree/master/1236-n-th-tribonacci-number) |
 ## Combinatorics
@@ -1933,6 +1938,7 @@ DSA solutions
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/paulranjan694/dsa/tree/master/0139-word-break) |
 | [0336-palindrome-pairs](https://github.com/paulranjan694/dsa/tree/master/0336-palindrome-pairs) |
 ## Graph Theory
 |  |
