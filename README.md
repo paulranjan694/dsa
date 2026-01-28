@@ -332,6 +332,7 @@ DSA solutions
 | [0733-flood-fill](https://github.com/paulranjan694/dsa/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/paulranjan694/dsa/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/paulranjan694/dsa/tree/master/0739-daily-temperatures) |
+| [0746-min-cost-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0746-min-cost-climbing-stairs) |
 | [0747-min-cost-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0747-min-cost-climbing-stairs) |
 | [0797-rabbits-in-forest](https://github.com/paulranjan694/dsa/tree/master/0797-rabbits-in-forest) |
 | [0860-lemonade-change](https://github.com/paulranjan694/dsa/tree/master/0860-lemonade-change) |
@@ -1108,6 +1109,7 @@ DSA solutions
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/paulranjan694/dsa/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/paulranjan694/dsa/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0727-minimum-window-subsequence](https://github.com/paulranjan694/dsa/tree/master/0727-minimum-window-subsequence) |
+| [0746-min-cost-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0746-min-cost-climbing-stairs) |
 | [0747-min-cost-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/paulranjan694/dsa/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0907-sum-of-subarray-minimums](https://github.com/paulranjan694/dsa/tree/master/0907-sum-of-subarray-minimums) |
