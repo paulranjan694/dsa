@@ -8,7 +8,6 @@ class Solution {
 
     private int solve(int n){
         if(n==0) return 0;
-        if(n<0) return Integer.MAX_VALUE-1000;
         if(memo[n] != -1) return memo[n];
         int limit = (int)Math.sqrt(n);
         int min = Integer.MAX_VALUE;
