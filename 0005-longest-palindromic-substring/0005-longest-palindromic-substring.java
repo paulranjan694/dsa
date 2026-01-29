@@ -1,34 +1,41 @@
 class Solution {
+    int len=0,start=0;
+    Boolean[][] memo;
     public String longestPalindrome(String s) {
-        char[] arr = s.toCharArray();
-        int start=0,end=0,n=arr.length;
-        if(n==1) return s;
-        int[][] dp = new int[n+1][n+1];
+        int n = s.length();
+        memo = new Boolean[n+1][n+1];
+        solve(s.toCharArray(), 0,n-1);
+        return s.substring(start, start+len+1);
+    }
 
-        for(int i=0;i<n;i++){
-            Arrays.fill(dp[i],-1);
-        }
-
-        for(int i=0;i<n;i++){
-            for(int j=i;j<n;j++){
-                if(isPalindrome(arr,i,j,dp) == 1){
-                    if(end-start < j-i){
-                        start = i;
-                        end = j;
-                    }
+    private boolean solve(char[] arr, int i, int j){
+        //base case
+        if(i>=j) return true;
+        if(memo[i][j] != null) return memo[i][j];
+        if(arr[i]==arr[j]){
+            if(isPalindrome(arr,i,j)){
+                if(len < j-i){
+                    len=j-i;
+                    start=i;
                 }
+                return memo[i][j]=true;
             }
         }
 
-        return s.substring(start,end+1);
+        boolean first = solve(arr,i,j-1);
+        boolean second = solve(arr,i+1,j);
+
+        return memo[i][j] = first || second;
+        
     }
 
-    private int isPalindrome(char[] arr, int s, int e, int[][] dp){
-        if(s>=e) return 1;
-        if(dp[s][e] != -1) return dp[s][e];
-        if(arr[s]==arr[e]){
-            return dp[s][e] = isPalindrome(arr, s+1, e-1,dp);
+    private boolean isPalindrome(char[] arr, int i, int j){
+        while(i<=j){
+            if(arr[i]!=arr[j]){
+                return false;
+            }
+            i++;j--;
         }
-        else return dp[s][e] = 0;
+        return true;
     }
 }
