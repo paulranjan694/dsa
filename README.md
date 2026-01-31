@@ -912,6 +912,7 @@ DSA solutions
 | [0279-perfect-squares](https://github.com/paulranjan694/dsa/tree/master/0279-perfect-squares) |
 | [0326-power-of-three](https://github.com/paulranjan694/dsa/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/paulranjan694/dsa/tree/master/0342-power-of-four) |
+| [0343-integer-break](https://github.com/paulranjan694/dsa/tree/master/0343-integer-break) |
 | [0368-largest-divisible-subset](https://github.com/paulranjan694/dsa/tree/master/0368-largest-divisible-subset) |
 | [0523-continuous-subarray-sum](https://github.com/paulranjan694/dsa/tree/master/0523-continuous-subarray-sum) |
 | [0797-rabbits-in-forest](https://github.com/paulranjan694/dsa/tree/master/0797-rabbits-in-forest) |
@@ -1093,6 +1094,7 @@ DSA solutions
 | [0322-coin-change](https://github.com/paulranjan694/dsa/tree/master/0322-coin-change) |
 | [0333-largest-bst-subtree](https://github.com/paulranjan694/dsa/tree/master/0333-largest-bst-subtree) |
 | [0338-counting-bits](https://github.com/paulranjan694/dsa/tree/master/0338-counting-bits) |
+| [0343-integer-break](https://github.com/paulranjan694/dsa/tree/master/0343-integer-break) |
 | [0368-largest-divisible-subset](https://github.com/paulranjan694/dsa/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/paulranjan694/dsa/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/paulranjan694/dsa/tree/master/0416-partition-equal-subset-sum) |
