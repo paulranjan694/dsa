@@ -5,22 +5,17 @@ class Solution {
             adj.add(new ArrayList<>());
         }
         
+        int[] indegree = new int[numCourses];
         for(int i=0;i<prerequisites.length;i++){
            int u = prerequisites[i][1];
            int v = prerequisites[i][0];
            
            adj.get(u).add(v);
+            indegree[v]++;
         }
         
-        int[] indegree = new int[numCourses];
-        for(List<Integer> list: adj){
-            for(int v: list){
-                indegree[v]++;
-            }
-        }
         
         boolean[] visited = new boolean[numCourses];
-        //ArrayList<Integer> res = new ArrayList<>();
         int[] res = new int[numCourses];
         int count=0;
         
