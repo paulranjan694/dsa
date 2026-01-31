@@ -13,12 +13,12 @@ class Solution {
 
         while(leftCh<rightCh){
             char left = arr[leftCh], right = arr[rightCh];
-            if(left >= 'a' && left <= 'z' && right >= 'a' && right <= 'z'){
+            if(left - 'a' >= 0 && left-'z' < 26 && right - 'a' >= 0 && right -'z' < 26){
                 arr[leftCh] = right;
                 arr[rightCh] = left;
                 leftCh++;
                 rightCh--;
-            }else if(left >= 'a' && left <= 'z'){
+            }else if(left-'a'>=0 && left-'z'<26){
                 rightCh--;
             }else{
                 leftCh++;
