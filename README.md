@@ -1955,6 +1955,7 @@ DSA solutions
 ## Graph Theory
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/paulranjan694/dsa/tree/master/0207-course-schedule) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/paulranjan694/dsa/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0547-number-of-provinces](https://github.com/paulranjan694/dsa/tree/master/0547-number-of-provinces) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/paulranjan694/dsa/tree/master/3650-minimum-cost-path-with-edge-reversals) |
