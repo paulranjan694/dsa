@@ -332,6 +332,7 @@ DSA solutions
 | [0733-flood-fill](https://github.com/paulranjan694/dsa/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/paulranjan694/dsa/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/paulranjan694/dsa/tree/master/0739-daily-temperatures) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/paulranjan694/dsa/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0746-min-cost-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0746-min-cost-climbing-stairs) |
 | [0747-min-cost-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0747-min-cost-climbing-stairs) |
 | [0797-rabbits-in-forest](https://github.com/paulranjan694/dsa/tree/master/0797-rabbits-in-forest) |
@@ -1640,6 +1641,7 @@ DSA solutions
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/paulranjan694/dsa/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/paulranjan694/dsa/tree/master/0658-find-k-closest-elements) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/paulranjan694/dsa/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/paulranjan694/dsa/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0783-search-in-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/paulranjan694/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
