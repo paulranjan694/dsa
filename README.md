@@ -638,6 +638,7 @@ DSA solutions
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/paulranjan694/dsa/tree/master/0020-valid-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/paulranjan694/dsa/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/paulranjan694/dsa/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/paulranjan694/dsa/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/paulranjan694/dsa/tree/master/0085-maximal-rectangle) |
@@ -820,6 +821,7 @@ DSA solutions
 | [0017-letter-combinations-of-a-phone-number](https://github.com/paulranjan694/dsa/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/paulranjan694/dsa/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/paulranjan694/dsa/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/paulranjan694/dsa/tree/master/0032-longest-valid-parentheses) |
 | [0044-wildcard-matching](https://github.com/paulranjan694/dsa/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/paulranjan694/dsa/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/paulranjan694/dsa/tree/master/0072-edit-distance) |
@@ -1069,6 +1071,7 @@ DSA solutions
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/paulranjan694/dsa/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/paulranjan694/dsa/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/paulranjan694/dsa/tree/master/0032-longest-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/paulranjan694/dsa/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/paulranjan694/dsa/tree/master/0044-wildcard-matching) |
 | [0045-jump-game-ii](https://github.com/paulranjan694/dsa/tree/master/0045-jump-game-ii) |
