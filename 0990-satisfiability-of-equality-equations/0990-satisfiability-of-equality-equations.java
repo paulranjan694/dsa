@@ -18,7 +18,6 @@ class Solution {
 
         for(String eq : processLater){
             char a = eq.charAt(0), b = eq.charAt(3);
-            System.out.println(a+"  --  parent: "+find(a-'a')+ " || "+b+"  --  parent :"+find(b-'a'));
             if(find(a-'a') == find(b-'a')){
                 return false;
             }
