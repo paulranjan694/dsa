@@ -491,6 +491,7 @@ DSA solutions
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/paulranjan694/dsa/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/paulranjan694/dsa/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/paulranjan694/dsa/tree/master/3623-count-number-of-trapezoids-i) |
+| [3637-trionic-array-i](https://github.com/paulranjan694/dsa/tree/master/3637-trionic-array-i) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/paulranjan694/dsa/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/paulranjan694/dsa/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/paulranjan694/dsa/tree/master/3759-choose-k-elements-with-maximum-sum) |
