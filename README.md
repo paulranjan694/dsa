@@ -359,6 +359,7 @@ DSA solutions
 | [0966-binary-subarrays-with-sum](https://github.com/paulranjan694/dsa/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/paulranjan694/dsa/tree/master/0967-minimum-falling-path-sum) |
 | [0983-validate-stack-sequences](https://github.com/paulranjan694/dsa/tree/master/0983-validate-stack-sequences) |
+| [0990-satisfiability-of-equality-equations](https://github.com/paulranjan694/dsa/tree/master/0990-satisfiability-of-equality-equations) |
 | [0992-subarrays-with-k-different-integers](https://github.com/paulranjan694/dsa/tree/master/0992-subarrays-with-k-different-integers) |
 | [1002-maximum-width-ramp](https://github.com/paulranjan694/dsa/tree/master/1002-maximum-width-ramp) |
 | [1004-max-consecutive-ones-iii](https://github.com/paulranjan694/dsa/tree/master/1004-max-consecutive-ones-iii) |
@@ -868,6 +869,7 @@ DSA solutions
 | [0800-letter-case-permutation](https://github.com/paulranjan694/dsa/tree/master/0800-letter-case-permutation) |
 | [0807-custom-sort-string](https://github.com/paulranjan694/dsa/tree/master/0807-custom-sort-string) |
 | [0944-delete-columns-to-make-sorted](https://github.com/paulranjan694/dsa/tree/master/0944-delete-columns-to-make-sorted) |
+| [0990-satisfiability-of-equality-equations](https://github.com/paulranjan694/dsa/tree/master/0990-satisfiability-of-equality-equations) |
 | [1048-longest-string-chain](https://github.com/paulranjan694/dsa/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/paulranjan694/dsa/tree/master/1092-shortest-common-supersequence) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/paulranjan694/dsa/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
@@ -1978,6 +1980,7 @@ DSA solutions
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/paulranjan694/dsa/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0547-number-of-provinces](https://github.com/paulranjan694/dsa/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0785-is-graph-bipartite) |
+| [0990-satisfiability-of-equality-equations](https://github.com/paulranjan694/dsa/tree/master/0990-satisfiability-of-equality-equations) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/paulranjan694/dsa/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Union-Find
 |  |
@@ -1985,4 +1988,5 @@ DSA solutions
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/paulranjan694/dsa/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0547-number-of-provinces](https://github.com/paulranjan694/dsa/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0785-is-graph-bipartite) |
+| [0990-satisfiability-of-equality-equations](https://github.com/paulranjan694/dsa/tree/master/0990-satisfiability-of-equality-equations) |
 <!---LeetCode Topics End-->
