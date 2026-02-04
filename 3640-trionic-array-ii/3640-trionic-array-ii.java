@@ -18,7 +18,7 @@ class Solution {
                 long skip = Long.MIN_VALUE/2;
 
                 if(trend==0){
-                    skip = solve(idx+1, trend, nums);
+                    skip = memo[idx+1][trend];
                 }
 
                 if(trend==3){
