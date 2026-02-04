@@ -1512,6 +1512,7 @@ DSA solutions
 | [1484-linked-list-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1484-linked-list-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/paulranjan694/dsa/tree/master/1753-path-with-minimum-effort) |
+| [2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/paulranjan694/dsa/tree/master/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/paulranjan694/dsa/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 ## Binary Tree
 |  |
@@ -1623,6 +1624,7 @@ DSA solutions
 | [1484-linked-list-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1484-linked-list-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/paulranjan694/dsa/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1753-path-with-minimum-effort](https://github.com/paulranjan694/dsa/tree/master/1753-path-with-minimum-effort) |
+| [2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/paulranjan694/dsa/tree/master/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/paulranjan694/dsa/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/paulranjan694/dsa/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Binary Search Tree
@@ -1986,6 +1988,7 @@ DSA solutions
 | [0785-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0785-is-graph-bipartite) |
 | [0990-satisfiability-of-equality-equations](https://github.com/paulranjan694/dsa/tree/master/0990-satisfiability-of-equality-equations) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/paulranjan694/dsa/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/paulranjan694/dsa/tree/master/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/paulranjan694/dsa/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Union-Find
 |  |
@@ -1995,4 +1998,5 @@ DSA solutions
 | [0785-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0785-is-graph-bipartite) |
 | [0990-satisfiability-of-equality-equations](https://github.com/paulranjan694/dsa/tree/master/0990-satisfiability-of-equality-equations) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/paulranjan694/dsa/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/paulranjan694/dsa/tree/master/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 <!---LeetCode Topics End-->
