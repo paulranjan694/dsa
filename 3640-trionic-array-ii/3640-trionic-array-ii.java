@@ -4,9 +4,9 @@ class Solution {
     public long maxSumTrionic(int[] nums) {
         n = nums.length;
         memo = new long[n+1][4];
-        for(long[] a : memo){
-            Arrays.fill(a,Long.MIN_VALUE);
-        }
+        // for(long[] a : memo){
+        //     Arrays.fill(a,Long.MIN_VALUE);
+        // }
 
         for(int trend=0;trend<4;trend++){
             memo[n][trend] = trend==3 ? 0 : Long.MIN_VALUE/2;
