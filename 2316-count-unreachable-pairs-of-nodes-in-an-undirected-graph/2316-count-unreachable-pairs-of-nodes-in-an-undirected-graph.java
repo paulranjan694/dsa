@@ -23,8 +23,7 @@ class Solution {
             map.put(parent, map.getOrDefault(parent, 0L)+1L);
         }
 
-        int remaining = n;
-        long result=0;
+        long remaining = n, result=0;
 
         for(long size : map.values()){
             result += size * (remaining - size);
