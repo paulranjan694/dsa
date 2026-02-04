@@ -5,7 +5,7 @@ class Solution {
         n = nums.length;
         memo = new long[n+1][4];
         for(long[] a : memo){
-            Arrays.fill(a,-1);
+            Arrays.fill(a,Long.MIN_VALUE);
         }
         return solve(0,0, nums); //solve(i, trend=0)
     }
@@ -20,7 +20,7 @@ class Solution {
             }
         }
 
-        if(memo[idx][trend] != -1) return memo[idx][trend];
+        if(memo[idx][trend] != Long.MIN_VALUE) return memo[idx][trend];
 
         long take = Long.MIN_VALUE/2;
         long skip = Long.MIN_VALUE/2;
