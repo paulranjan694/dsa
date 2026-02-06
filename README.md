@@ -493,6 +493,7 @@ DSA solutions
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/paulranjan694/dsa/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/paulranjan694/dsa/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/paulranjan694/dsa/tree/master/3623-count-number-of-trapezoids-i) |
+| [3634-minimum-removals-to-balance-array](https://github.com/paulranjan694/dsa/tree/master/3634-minimum-removals-to-balance-array) |
 | [3637-trionic-array-i](https://github.com/paulranjan694/dsa/tree/master/3637-trionic-array-i) |
 | [3640-trionic-array-ii](https://github.com/paulranjan694/dsa/tree/master/3640-trionic-array-ii) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/paulranjan694/dsa/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
@@ -794,6 +795,7 @@ DSA solutions
 | [3074-apple-redistribution-into-boxes](https://github.com/paulranjan694/dsa/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/paulranjan694/dsa/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/paulranjan694/dsa/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3634-minimum-removals-to-balance-array](https://github.com/paulranjan694/dsa/tree/master/3634-minimum-removals-to-balance-array) |
 | [3759-choose-k-elements-with-maximum-sum](https://github.com/paulranjan694/dsa/tree/master/3759-choose-k-elements-with-maximum-sum) |
 ## Counting
 |  |
@@ -1762,6 +1764,7 @@ DSA solutions
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/paulranjan694/dsa/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/paulranjan694/dsa/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/paulranjan694/dsa/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
+| [3634-minimum-removals-to-balance-array](https://github.com/paulranjan694/dsa/tree/master/3634-minimum-removals-to-balance-array) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/paulranjan694/dsa/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 ## Matrix
 |  |
