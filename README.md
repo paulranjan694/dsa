@@ -1227,6 +1227,7 @@ DSA solutions
 | [0480-sliding-window-median](https://github.com/paulranjan694/dsa/tree/master/0480-sliding-window-median) |
 | [0621-task-scheduler](https://github.com/paulranjan694/dsa/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/paulranjan694/dsa/tree/master/0658-find-k-closest-elements) |
+| [0743-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0744-network-delay-time) |
 | [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/paulranjan694/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -1495,6 +1496,7 @@ DSA solutions
 | [0694-number-of-distinct-islands](https://github.com/paulranjan694/dsa/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/paulranjan694/dsa/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/paulranjan694/dsa/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0744-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0785-is-graph-bipartite) |
 | [0801-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0801-is-graph-bipartite) |
@@ -1608,6 +1610,7 @@ DSA solutions
 | [0694-number-of-distinct-islands](https://github.com/paulranjan694/dsa/tree/master/0694-number-of-distinct-islands) |
 | [0695-max-area-of-island](https://github.com/paulranjan694/dsa/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/paulranjan694/dsa/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0744-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0785-is-graph-bipartite) |
 | [0801-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0801-is-graph-bipartite) |
@@ -1926,6 +1929,7 @@ DSA solutions
 ## Shortest Path
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/paulranjan694/dsa/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/paulranjan694/dsa/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -1990,6 +1994,7 @@ DSA solutions
 | [0210-course-schedule-ii](https://github.com/paulranjan694/dsa/tree/master/0210-course-schedule-ii) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/paulranjan694/dsa/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0547-number-of-provinces](https://github.com/paulranjan694/dsa/tree/master/0547-number-of-provinces) |
+| [0743-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0785-is-graph-bipartite) |
 | [0990-satisfiability-of-equality-equations](https://github.com/paulranjan694/dsa/tree/master/0990-satisfiability-of-equality-equations) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/paulranjan694/dsa/tree/master/1319-number-of-operations-to-make-network-connected) |
