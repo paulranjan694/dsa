@@ -1,29 +1,16 @@
 class Solution {
     public int minimumDeletions(String s) {
-        int n = s.length(), countA=0,countB=0;
-        int[] prefixB = new int[n], suffixA = new int[n];
-        char[] arr = s.toCharArray();
-        for(int i=0;i<n;i++){
-            // prefixB[i] = countB;
-            if(arr[i] == 'b') countB++;
+        Stack<Character> st = new Stack<>();
+        int minDeletions=0;
+
+        for(char c : s.toCharArray()){
+            if(!st.isEmpty() && st.peek() == 'b' && c == 'a'){
+                st.pop();
+                minDeletions++;
+            }else{
+                st.push(c);
+            }
         }
-
-        // for(int i=n-1;i>=0;i--){
-        //     suffixA[i] = countA;
-        //     if(arr[i] == 'a') countA++;
-        // }
-
-        int min = Integer.MAX_VALUE;
-        // for(int i=n-1;i>=0;i--){
-        //     min = Math.min(min, prefixB[i]+countA);
-        //     if(arr[i] == 'a') countA++;
-        // }
-
-        for(int i=n-1;i>=0;i--){
-            if(arr[i] == 'b') countB--;
-            min = Math.min(min, countB+countA);
-            if(arr[i] == 'a') countA++;
-        }
-        return min;
+        return minDeletions;
     }
 }
