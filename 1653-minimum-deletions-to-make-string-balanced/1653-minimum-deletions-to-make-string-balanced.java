@@ -4,7 +4,7 @@ class Solution {
         int[] prefixB = new int[n], suffixA = new int[n];
         char[] arr = s.toCharArray();
         for(int i=0;i<n;i++){
-            prefixB[i] = countB;
+            // prefixB[i] = countB;
             if(arr[i] == 'b') countB++;
         }
 
@@ -14,8 +14,14 @@ class Solution {
         // }
 
         int min = Integer.MAX_VALUE;
+        // for(int i=n-1;i>=0;i--){
+        //     min = Math.min(min, prefixB[i]+countA);
+        //     if(arr[i] == 'a') countA++;
+        // }
+
         for(int i=n-1;i>=0;i--){
-            min = Math.min(min, prefixB[i]+countA);
+            if(arr[i] == 'b') countB--;
+            min = Math.min(min, countB+countA);
             if(arr[i] == 'a') countA++;
         }
         return min;
