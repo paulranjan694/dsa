@@ -677,6 +677,7 @@ DSA solutions
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/paulranjan694/dsa/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/paulranjan694/dsa/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1628-count-submatrices-with-all-ones](https://github.com/paulranjan694/dsa/tree/master/1628-count-submatrices-with-all-ones) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/paulranjan694/dsa/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [2104-sum-of-subarray-ranges](https://github.com/paulranjan694/dsa/tree/master/2104-sum-of-subarray-ranges) |
 | [2470-removing-stars-from-a-string](https://github.com/paulranjan694/dsa/tree/master/2470-removing-stars-from-a-string) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/paulranjan694/dsa/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -892,6 +893,7 @@ DSA solutions
 | [1483-rank-teams-by-votes](https://github.com/paulranjan694/dsa/tree/master/1483-rank-teams-by-votes) |
 | [1547-destination-city](https://github.com/paulranjan694/dsa/tree/master/1547-destination-city) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/paulranjan694/dsa/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/paulranjan694/dsa/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/paulranjan694/dsa/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1997-next-palindrome-using-same-digits](https://github.com/paulranjan694/dsa/tree/master/1997-next-palindrome-using-same-digits) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/paulranjan694/dsa/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
@@ -1154,6 +1156,7 @@ DSA solutions
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/paulranjan694/dsa/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/paulranjan694/dsa/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1628-count-submatrices-with-all-ones](https://github.com/paulranjan694/dsa/tree/master/1628-count-submatrices-with-all-ones) |
+| [1653-minimum-deletions-to-make-string-balanced](https://github.com/paulranjan694/dsa/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/paulranjan694/dsa/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/paulranjan694/dsa/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/paulranjan694/dsa/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
