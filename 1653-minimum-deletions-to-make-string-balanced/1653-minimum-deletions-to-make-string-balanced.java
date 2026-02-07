@@ -8,14 +8,15 @@ class Solution {
             if(arr[i] == 'b') countB++;
         }
 
-        for(int i=n-1;i>=0;i--){
-            suffixA[i] = countA;
-            if(arr[i] == 'a') countA++;
-        }
+        // for(int i=n-1;i>=0;i--){
+        //     suffixA[i] = countA;
+        //     if(arr[i] == 'a') countA++;
+        // }
 
         int min = Integer.MAX_VALUE;
-        for(int i=0;i<n;i++){
-            min = Math.min(min, prefixB[i]+suffixA[i]);
+        for(int i=n-1;i>=0;i--){
+            min = Math.min(min, prefixB[i]+countA);
+            if(arr[i] == 'a') countA++;
         }
         return min;
     }
