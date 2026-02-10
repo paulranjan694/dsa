@@ -339,6 +339,7 @@ DSA solutions
 | [0860-lemonade-change](https://github.com/paulranjan694/dsa/tree/master/0860-lemonade-change) |
 | [0861-flipping-an-image](https://github.com/paulranjan694/dsa/tree/master/0861-flipping-an-image) |
 | [0870-magic-squares-in-grid](https://github.com/paulranjan694/dsa/tree/master/0870-magic-squares-in-grid) |
+| [0875-koko-eating-bananas](https://github.com/paulranjan694/dsa/tree/master/0875-koko-eating-bananas) |
 | [0876-hand-of-straights](https://github.com/paulranjan694/dsa/tree/master/0876-hand-of-straights) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/paulranjan694/dsa/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0887-minimum-cost-to-hire-k-workers](https://github.com/paulranjan694/dsa/tree/master/0887-minimum-cost-to-hire-k-workers) |
@@ -1685,6 +1686,7 @@ DSA solutions
 | [0783-search-in-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/paulranjan694/dsa/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/paulranjan694/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0875-koko-eating-bananas](https://github.com/paulranjan694/dsa/tree/master/0875-koko-eating-bananas) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/paulranjan694/dsa/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0907-koko-eating-bananas](https://github.com/paulranjan694/dsa/tree/master/0907-koko-eating-bananas) |
 | [0912-random-pick-with-weight](https://github.com/paulranjan694/dsa/tree/master/0912-random-pick-with-weight) |
