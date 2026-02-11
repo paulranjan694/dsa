@@ -1995,6 +1995,7 @@ DSA solutions
 | [1258-article-views-i](https://github.com/paulranjan694/dsa/tree/master/1258-article-views-i) |
 | [1292-immediate-food-delivery-ii](https://github.com/paulranjan694/dsa/tree/master/1292-immediate-food-delivery-ii) |
 | [1317-monthly-transactions-i](https://github.com/paulranjan694/dsa/tree/master/1317-monthly-transactions-i) |
+| [1378-replace-employee-id-with-the-unique-identifier](https://github.com/paulranjan694/dsa/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 | [1390-average-selling-price](https://github.com/paulranjan694/dsa/tree/master/1390-average-selling-price) |
 | [1415-students-and-examinations](https://github.com/paulranjan694/dsa/tree/master/1415-students-and-examinations) |
 | [1773-percentage-of-users-attended-a-contest](https://github.com/paulranjan694/dsa/tree/master/1773-percentage-of-users-attended-a-contest) |
