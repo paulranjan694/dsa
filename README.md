@@ -644,6 +644,7 @@ DSA solutions
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/paulranjan694/dsa/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/paulranjan694/dsa/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3623-count-number-of-trapezoids-i](https://github.com/paulranjan694/dsa/tree/master/3623-count-number-of-trapezoids-i) |
+| [3713-longest-balanced-substring-i](https://github.com/paulranjan694/dsa/tree/master/3713-longest-balanced-substring-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/paulranjan694/dsa/tree/master/3719-longest-balanced-subarray-i) |
 | [3721-longest-balanced-subarray-ii](https://github.com/paulranjan694/dsa/tree/master/3721-longest-balanced-subarray-ii) |
 ## Stack
@@ -830,6 +831,7 @@ DSA solutions
 | [2163-kth-distinct-string-in-an-array](https://github.com/paulranjan694/dsa/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/paulranjan694/dsa/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/paulranjan694/dsa/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3713-longest-balanced-substring-i](https://github.com/paulranjan694/dsa/tree/master/3713-longest-balanced-substring-i) |
 ## String
 |  |
 | ------- |
@@ -920,6 +922,7 @@ DSA solutions
 | [3030-find-the-k-th-lucky-number](https://github.com/paulranjan694/dsa/tree/master/3030-find-the-k-th-lucky-number) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/paulranjan694/dsa/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/paulranjan694/dsa/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3713-longest-balanced-substring-i](https://github.com/paulranjan694/dsa/tree/master/3713-longest-balanced-substring-i) |
 ## Math
 |  |
 | ------- |
@@ -1943,6 +1946,7 @@ DSA solutions
 | [1993-sum-of-all-subset-xor-totals](https://github.com/paulranjan694/dsa/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/paulranjan694/dsa/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/paulranjan694/dsa/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
+| [3713-longest-balanced-substring-i](https://github.com/paulranjan694/dsa/tree/master/3713-longest-balanced-substring-i) |
 ## Brainteaser
 |  |
 | ------- |
