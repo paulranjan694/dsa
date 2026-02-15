@@ -845,6 +845,7 @@ DSA solutions
 | [0032-longest-valid-parentheses](https://github.com/paulranjan694/dsa/tree/master/0032-longest-valid-parentheses) |
 | [0044-wildcard-matching](https://github.com/paulranjan694/dsa/tree/master/0044-wildcard-matching) |
 | [0049-group-anagrams](https://github.com/paulranjan694/dsa/tree/master/0049-group-anagrams) |
+| [0067-add-binary](https://github.com/paulranjan694/dsa/tree/master/0067-add-binary) |
 | [0072-edit-distance](https://github.com/paulranjan694/dsa/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/paulranjan694/dsa/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/paulranjan694/dsa/tree/master/0079-word-search) |
@@ -934,6 +935,7 @@ DSA solutions
 | [0050-powx-n](https://github.com/paulranjan694/dsa/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/paulranjan694/dsa/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/paulranjan694/dsa/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/paulranjan694/dsa/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/paulranjan694/dsa/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/paulranjan694/dsa/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -997,6 +999,7 @@ DSA solutions
 | ------- |
 | [0054-spiral-matrix](https://github.com/paulranjan694/dsa/tree/master/0054-spiral-matrix) |
 | [0059-spiral-matrix-ii](https://github.com/paulranjan694/dsa/tree/master/0059-spiral-matrix-ii) |
+| [0067-add-binary](https://github.com/paulranjan694/dsa/tree/master/0067-add-binary) |
 | [0348-design-tic-tac-toe](https://github.com/paulranjan694/dsa/tree/master/0348-design-tic-tac-toe) |
 | [0682-baseball-game](https://github.com/paulranjan694/dsa/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/paulranjan694/dsa/tree/master/0735-asteroid-collision) |
@@ -1206,6 +1209,7 @@ DSA solutions
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/paulranjan694/dsa/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/paulranjan694/dsa/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/paulranjan694/dsa/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/paulranjan694/dsa/tree/master/0136-single-number) |
