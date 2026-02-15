@@ -6,77 +6,22 @@ class Solution {
 
         int i=arr1.length-1, j=arr2.length-1, carry=0;
 
-        while(i>=0 && j>=0){
-            if(arr1[i]=='1' && arr2[j]=='1'){
-                if(carry==1){
-                    sb.append(1);
-                    carry=1;
-                }else{
-                    sb.append(0);
-                    carry=1;
-                }
-            }else if(arr1[i]=='1' || arr2[j]=='1'){
-                if(carry==1){
-                    sb.append(0);
-                    carry=1;
-                }else{
-                    sb.append(1);
-                    carry=0;               
-                }
-            }else{
-                if(carry==1){
-                    sb.append(1);
-                }else{
-                    sb.append(0);
-                }
-                carry=0;               
+        while(i>=0 || j>=0 || carry==1){
+            int sum = carry;
+
+            if(i>=0){
+                sum += arr1[i]-'0';
+                i--;
             }
-            i--;j--;
-        }
 
-        while(i>=0){
-            if(arr1[i]=='1'){
-                if(carry==1){
-                    sb.append(0);
-                    carry=1;
-                }else{
-                    sb.append(1);
-                    carry=0;
-                }
-            }else{
-                if(carry==1){
-                    sb.append(1);
-                }else{
-                    sb.append(0);
-                }
-                carry=0;               
+            if(j>=0){
+                sum += arr2[j]-'0';
+                j--;
             }
-            i--;
+
+            sb.append(sum%2);
+            carry = sum / 2;
         }
-
-        while(j>=0){
-            if(arr2[j]=='1'){
-                if(carry==1){
-                    sb.append(0);
-                    carry=1;
-                }else{
-                    sb.append(1);
-                    carry=0;
-                }
-            }else{
-                if(carry==1){
-                    sb.append(1);
-                }else{
-                    sb.append(0);
-                }
-                carry=0;               
-            }
-            j--;
-        }
-
-
-        if(carry == 1)
-            sb.append(carry);
 
         return sb.reverse().toString();
     }
