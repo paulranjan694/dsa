@@ -1202,6 +1202,7 @@ DSA solutions
 | [0216-combination-sum-iii](https://github.com/paulranjan694/dsa/tree/master/0216-combination-sum-iii) |
 | [0257-binary-tree-paths](https://github.com/paulranjan694/dsa/tree/master/0257-binary-tree-paths) |
 | [0301-remove-invalid-parentheses](https://github.com/paulranjan694/dsa/tree/master/0301-remove-invalid-parentheses) |
+| [0401-binary-watch](https://github.com/paulranjan694/dsa/tree/master/0401-binary-watch) |
 | [0494-target-sum](https://github.com/paulranjan694/dsa/tree/master/0494-target-sum) |
 | [0800-letter-case-permutation](https://github.com/paulranjan694/dsa/tree/master/0800-letter-case-permutation) |
 | [1219-path-with-maximum-gold](https://github.com/paulranjan694/dsa/tree/master/1219-path-with-maximum-gold) |
@@ -1224,6 +1225,7 @@ DSA solutions
 | [0338-counting-bits](https://github.com/paulranjan694/dsa/tree/master/0338-counting-bits) |
 | [0342-power-of-four](https://github.com/paulranjan694/dsa/tree/master/0342-power-of-four) |
 | [0389-find-the-difference](https://github.com/paulranjan694/dsa/tree/master/0389-find-the-difference) |
+| [0401-binary-watch](https://github.com/paulranjan694/dsa/tree/master/0401-binary-watch) |
 | [0476-number-complement](https://github.com/paulranjan694/dsa/tree/master/0476-number-complement) |
 | [0800-letter-case-permutation](https://github.com/paulranjan694/dsa/tree/master/0800-letter-case-permutation) |
 | [0861-flipping-an-image](https://github.com/paulranjan694/dsa/tree/master/0861-flipping-an-image) |
