@@ -1227,6 +1227,7 @@ DSA solutions
 | [0389-find-the-difference](https://github.com/paulranjan694/dsa/tree/master/0389-find-the-difference) |
 | [0401-binary-watch](https://github.com/paulranjan694/dsa/tree/master/0401-binary-watch) |
 | [0476-number-complement](https://github.com/paulranjan694/dsa/tree/master/0476-number-complement) |
+| [0693-binary-number-with-alternating-bits](https://github.com/paulranjan694/dsa/tree/master/0693-binary-number-with-alternating-bits) |
 | [0800-letter-case-permutation](https://github.com/paulranjan694/dsa/tree/master/0800-letter-case-permutation) |
 | [0861-flipping-an-image](https://github.com/paulranjan694/dsa/tree/master/0861-flipping-an-image) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/paulranjan694/dsa/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
