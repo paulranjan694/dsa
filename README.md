@@ -883,6 +883,7 @@ DSA solutions
 | [0609-find-duplicate-file-in-system](https://github.com/paulranjan694/dsa/tree/master/0609-find-duplicate-file-in-system) |
 | [0647-palindromic-substrings](https://github.com/paulranjan694/dsa/tree/master/0647-palindromic-substrings) |
 | [0678-valid-parenthesis-string](https://github.com/paulranjan694/dsa/tree/master/0678-valid-parenthesis-string) |
+| [0696-count-binary-substrings](https://github.com/paulranjan694/dsa/tree/master/0696-count-binary-substrings) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/paulranjan694/dsa/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0727-minimum-window-subsequence](https://github.com/paulranjan694/dsa/tree/master/0727-minimum-window-subsequence) |
 | [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
@@ -1386,6 +1387,7 @@ DSA solutions
 | [0647-palindromic-substrings](https://github.com/paulranjan694/dsa/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/paulranjan694/dsa/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/paulranjan694/dsa/tree/master/0658-find-k-closest-elements) |
+| [0696-count-binary-substrings](https://github.com/paulranjan694/dsa/tree/master/0696-count-binary-substrings) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/paulranjan694/dsa/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0861-flipping-an-image](https://github.com/paulranjan694/dsa/tree/master/0861-flipping-an-image) |
 | [0908-middle-of-the-linked-list](https://github.com/paulranjan694/dsa/tree/master/0908-middle-of-the-linked-list) |
