@@ -954,6 +954,7 @@ DSA solutions
 | [0343-integer-break](https://github.com/paulranjan694/dsa/tree/master/0343-integer-break) |
 | [0368-largest-divisible-subset](https://github.com/paulranjan694/dsa/tree/master/0368-largest-divisible-subset) |
 | [0523-continuous-subarray-sum](https://github.com/paulranjan694/dsa/tree/master/0523-continuous-subarray-sum) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/paulranjan694/dsa/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0797-rabbits-in-forest](https://github.com/paulranjan694/dsa/tree/master/0797-rabbits-in-forest) |
 | [0870-magic-squares-in-grid](https://github.com/paulranjan694/dsa/tree/master/0870-magic-squares-in-grid) |
 | [0912-random-pick-with-weight](https://github.com/paulranjan694/dsa/tree/master/0912-random-pick-with-weight) |
@@ -1232,6 +1233,7 @@ DSA solutions
 | [0401-binary-watch](https://github.com/paulranjan694/dsa/tree/master/0401-binary-watch) |
 | [0476-number-complement](https://github.com/paulranjan694/dsa/tree/master/0476-number-complement) |
 | [0693-binary-number-with-alternating-bits](https://github.com/paulranjan694/dsa/tree/master/0693-binary-number-with-alternating-bits) |
+| [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/paulranjan694/dsa/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0800-letter-case-permutation](https://github.com/paulranjan694/dsa/tree/master/0800-letter-case-permutation) |
 | [0861-flipping-an-image](https://github.com/paulranjan694/dsa/tree/master/0861-flipping-an-image) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/paulranjan694/dsa/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
