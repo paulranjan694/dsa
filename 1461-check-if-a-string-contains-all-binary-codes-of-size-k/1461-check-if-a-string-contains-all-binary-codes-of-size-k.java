@@ -1,13 +1,11 @@
 class Solution {
     public boolean hasAllCodes(String s, int k) {
         if(s.length() < k) return false;
-        Set<String> binStr = new HashSet<>();
         StringBuilder sb = new StringBuilder();
-        //generateBinaryString(sb, k, binStr); 
+        int reqSubArrays = (int)Math.pow(2,k);
         
         Set<String> generatedSubString = new HashSet<>();
 
-        //sb = new StringBuilder();
         for(int i=0;i<k;i++){
             sb.append(s.charAt(i));
         }
@@ -17,30 +15,13 @@ class Solution {
             sb.deleteCharAt(sb.length()-k);
             sb.append(s.charAt(i));
             generatedSubString.add(sb.toString());
+
+            if(generatedSubString.size() == reqSubArrays){
+                return true;
+            }
         }
 
-        
-        return generatedSubString.size() == (int)Math.pow(2,k);
+        return generatedSubString.size() == reqSubArrays;
     }
-
-    private void generateBinaryString(StringBuilder sb, int k, Set<String> bin){
-        if(sb.length() == k){
-            bin.add(sb.toString());
-            return;
-        }
-
-        if(sb.length() > k){
-            return;
-        }
-
-        sb.append(0);
-        generateBinaryString(sb, k, bin);
-        sb.deleteCharAt(sb.length()-1);
-        sb.append(1);
-        generateBinaryString(sb, k, bin);
-
-        sb.deleteCharAt(sb.length()-1);
-    }
-
 
 }
