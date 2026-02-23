@@ -2,7 +2,7 @@ class Solution {
     public boolean hasAllCodes(String s, int k) {
         if(s.length() < k) return false;
         StringBuilder sb = new StringBuilder();
-        int reqSubArrays = (int)Math.pow(2,k);
+        int reqSubArrays = 1 << k;
         
         Set<String> generatedSubString = new HashSet<>();
 
