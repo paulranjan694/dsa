@@ -400,6 +400,7 @@ DSA solutions
 | [1324-where-will-the-ball-fall](https://github.com/paulranjan694/dsa/tree/master/1324-where-will-the-ball-fall) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/paulranjan694/dsa/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/paulranjan694/dsa/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/paulranjan694/dsa/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1370-count-number-of-nice-subarrays](https://github.com/paulranjan694/dsa/tree/master/1370-count-number-of-nice-subarrays) |
 | [1390-four-divisors](https://github.com/paulranjan694/dsa/tree/master/1390-four-divisors) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/paulranjan694/dsa/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -782,6 +783,7 @@ DSA solutions
 | [1184-car-pooling](https://github.com/paulranjan694/dsa/tree/master/1184-car-pooling) |
 | [1200-minimum-absolute-difference](https://github.com/paulranjan694/dsa/tree/master/1200-minimum-absolute-difference) |
 | [1232-sum-of-mutated-array-closest-to-target](https://github.com/paulranjan694/dsa/tree/master/1232-sum-of-mutated-array-closest-to-target) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/paulranjan694/dsa/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/paulranjan694/dsa/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/paulranjan694/dsa/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1483-rank-teams-by-votes](https://github.com/paulranjan694/dsa/tree/master/1483-rank-teams-by-votes) |
@@ -829,6 +831,7 @@ DSA solutions
 | [1034-subarrays-with-k-different-integers](https://github.com/paulranjan694/dsa/tree/master/1034-subarrays-with-k-different-integers) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/paulranjan694/dsa/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1297-maximum-number-of-balloons](https://github.com/paulranjan694/dsa/tree/master/1297-maximum-number-of-balloons) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/paulranjan694/dsa/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1483-rank-teams-by-votes](https://github.com/paulranjan694/dsa/tree/master/1483-rank-teams-by-votes) |
 | [1512-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1512-number-of-good-pairs) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/paulranjan694/dsa/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
@@ -1240,6 +1243,7 @@ DSA solutions
 | [0861-flipping-an-image](https://github.com/paulranjan694/dsa/tree/master/0861-flipping-an-image) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/paulranjan694/dsa/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 | [1054-complement-of-base-10-integer](https://github.com/paulranjan694/dsa/tree/master/1054-complement-of-base-10-integer) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/paulranjan694/dsa/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/paulranjan694/dsa/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/paulranjan694/dsa/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/paulranjan694/dsa/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
