@@ -1,45 +1,43 @@
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         List<List<Integer>> adj = new ArrayList<>();
+
         for(int i=0;i<numCourses;i++){
-            adj.add(new ArrayList<>());
+            List<Integer> list = new ArrayList<>();
+            adj.add(list);
         }
-        
+
         int[] indegree = new int[numCourses];
         for(int i=0;i<prerequisites.length;i++){
-           int u = prerequisites[i][1];
-           int v = prerequisites[i][0];
-           
-           adj.get(u).add(v);
+            int u = prerequisites[i][1];
+            int v = prerequisites[i][0];
+
+            adj.get(u).add(v);
             indegree[v]++;
         }
-        
-        
-        boolean[] visited = new boolean[numCourses];
-        int[] res = new int[numCourses];
-        int count=0;
-        
-       Queue<Integer> queue = new LinkedList<>();
-        for(int i =0; i< numCourses;i++){
-            if(indegree[i]== 0){
+
+        Queue<Integer> queue = new LinkedList<>();
+        List<Integer> topo = new ArrayList<>();
+        for(int i=0;i<numCourses;i++){
+            if(indegree[i] == 0){
                 queue.add(i);
-                count++;
             }
         }
-        int idx=0;
+
         while(!queue.isEmpty()){
-            int node = queue.poll();
-            res[idx++]=node;
-            
-            for(int v: adj.get(node)){
-                indegree[v]--;
-                if(indegree[v] == 0){
-                    queue.add(v);
-                    count++;
+            int u = queue.poll();
+            topo.add(u);
+            for(int nbr : adj.get(u)){
+                indegree[nbr]--;
+                if(indegree[nbr] == 0){
+                    queue.add(nbr);
                 }
             }
         }
-       
-        return count == numCourses ? res : new int[0];
+        int[] res = new int[topo.size()];
+        for(int i=0;i<res.length;i++){
+            res[i] = topo.get(i);
+        }
+        return topo.size() == numCourses? res : new int[0];
     }
 }
