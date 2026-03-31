@@ -2066,6 +2066,7 @@ DSA solutions
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/paulranjan694/dsa/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/paulranjan694/dsa/tree/master/0200-number-of-islands) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/paulranjan694/dsa/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0547-number-of-provinces](https://github.com/paulranjan694/dsa/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0785-is-graph-bipartite) |
