@@ -1171,6 +1171,7 @@ DSA solutions
 | [0727-minimum-window-subsequence](https://github.com/paulranjan694/dsa/tree/master/0727-minimum-window-subsequence) |
 | [0746-min-cost-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0746-min-cost-climbing-stairs) |
 | [0747-min-cost-climbing-stairs](https://github.com/paulranjan694/dsa/tree/master/0747-min-cost-climbing-stairs) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/paulranjan694/dsa/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0799-champagne-tower](https://github.com/paulranjan694/dsa/tree/master/0799-champagne-tower) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/paulranjan694/dsa/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0907-sum-of-subarray-minimums](https://github.com/paulranjan694/dsa/tree/master/0907-sum-of-subarray-minimums) |
@@ -1279,6 +1280,7 @@ DSA solutions
 | [0743-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0744-network-delay-time) |
 | [0778-reorganize-string](https://github.com/paulranjan694/dsa/tree/master/0778-reorganize-string) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/paulranjan694/dsa/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/paulranjan694/dsa/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/paulranjan694/dsa/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0887-minimum-cost-to-hire-k-workers](https://github.com/paulranjan694/dsa/tree/master/0887-minimum-cost-to-hire-k-workers) |
@@ -1551,6 +1553,7 @@ DSA solutions
 | [0743-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0744-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/paulranjan694/dsa/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0801-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/paulranjan694/dsa/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/paulranjan694/dsa/tree/master/0820-find-eventual-safe-states) |
@@ -1670,6 +1673,7 @@ DSA solutions
 | [0743-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0744-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/paulranjan694/dsa/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0801-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/paulranjan694/dsa/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/paulranjan694/dsa/tree/master/0820-find-eventual-safe-states) |
@@ -1994,6 +1998,7 @@ DSA solutions
 | ------- |
 | [0743-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/paulranjan694/dsa/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/paulranjan694/dsa/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/paulranjan694/dsa/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/paulranjan694/dsa/tree/master/3650-minimum-cost-path-with-edge-reversals) |
@@ -2062,6 +2067,7 @@ DSA solutions
 | [0684-redundant-connection](https://github.com/paulranjan694/dsa/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/paulranjan694/dsa/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/paulranjan694/dsa/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/paulranjan694/dsa/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0990-satisfiability-of-equality-equations](https://github.com/paulranjan694/dsa/tree/master/0990-satisfiability-of-equality-equations) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/paulranjan694/dsa/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/paulranjan694/dsa/tree/master/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
