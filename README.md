@@ -877,6 +877,7 @@ DSA solutions
 | [0301-remove-invalid-parentheses](https://github.com/paulranjan694/dsa/tree/master/0301-remove-invalid-parentheses) |
 | [0336-palindrome-pairs](https://github.com/paulranjan694/dsa/tree/master/0336-palindrome-pairs) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/paulranjan694/dsa/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
+| [0344-reverse-string](https://github.com/paulranjan694/dsa/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/paulranjan694/dsa/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/paulranjan694/dsa/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/paulranjan694/dsa/tree/master/0389-find-the-difference) |
@@ -1404,6 +1405,7 @@ DSA solutions
 | [0283-move-zeroes](https://github.com/paulranjan694/dsa/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/paulranjan694/dsa/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/paulranjan694/dsa/tree/master/0295-find-median-from-data-stream) |
+| [0344-reverse-string](https://github.com/paulranjan694/dsa/tree/master/0344-reverse-string) |
 | [0455-assign-cookies](https://github.com/paulranjan694/dsa/tree/master/0455-assign-cookies) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/paulranjan694/dsa/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0567-permutation-in-string](https://github.com/paulranjan694/dsa/tree/master/0567-permutation-in-string) |
