@@ -633,6 +633,7 @@ DSA solutions
 | [1635-number-of-good-pairs](https://github.com/paulranjan694/dsa/tree/master/1635-number-of-good-pairs) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/paulranjan694/dsa/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/paulranjan694/dsa/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [1796-second-largest-digit-in-a-string](https://github.com/paulranjan694/dsa/tree/master/1796-second-largest-digit-in-a-string) |
 | [2054-the-number-of-the-smallest-unoccupied-chair](https://github.com/paulranjan694/dsa/tree/master/2054-the-number-of-the-smallest-unoccupied-chair) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/paulranjan694/dsa/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/paulranjan694/dsa/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -922,6 +923,7 @@ DSA solutions
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/paulranjan694/dsa/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/paulranjan694/dsa/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/paulranjan694/dsa/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [1796-second-largest-digit-in-a-string](https://github.com/paulranjan694/dsa/tree/master/1796-second-largest-digit-in-a-string) |
 | [1997-next-palindrome-using-same-digits](https://github.com/paulranjan694/dsa/tree/master/1997-next-palindrome-using-same-digits) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/paulranjan694/dsa/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/paulranjan694/dsa/tree/master/2163-kth-distinct-string-in-an-array) |
